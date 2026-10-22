@@ -16,6 +16,7 @@
   const lang = () => document.documentElement.lang === 'ar' ? 'ar':'en';
   const tr = (en,ar) => lang()==='ar'?ar:en;
   const money = value => Number(value).toFixed(2) + tr(' DH',' درهم');
+  const sizeLabel = size => lang()==='en'?size:String(size).replace(/\bml\b/gi,'مل').replace(/\bkg\b/gi,'كغ').replace(/\bg\b/g,'غ').replace(/\bcm\b/gi,'سم').replace(/\bmm\b/gi,'مم').replace(/\bcarton A\b/gi,'الكرتون أ').replace(/\bcarton B\b/gi,'الكرتون ب').replace(/\bcarton\b/gi,'كرتون').replace(/\bpalette\b/gi,'منصة');
   const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let products=[],active='all',limit=12,selected=null,previousFocus=null;
   const priceOf = p => p.variants.length ? Math.min(...p.variants.map(v=>v.price)) : null;
@@ -47,7 +48,7 @@
   function updateDetailPrice(){
     if(!selected)return;
     const v=selected.variants[Number($('detail-variant').value)];
-    $('detail-price').textContent=v?money(v.price):tr('Price on request','السعر عند الطلب');
+    $('detail-price').textContent=v?tr('Unit price: ','ثمن القطعة: ')+money(v.price):tr('Price on request','السعر عند الطلب');
     const packaging=document.getElementById('detail-packaging');if(packaging)packaging.textContent=[v?.cartonQuantity?tr('Pieces per carton: ','عدد القطع في الكرتون: ')+v.cartonQuantity:'',v?.supplierReference?tr('Supplier reference: ','مرجع المورّد: ')+v.supplierReference:''].filter(Boolean).join(' · ');
 
   }
@@ -57,7 +58,7 @@
     $('detail-category').textContent=categories[p.category][lang()];$('detail-reference').textContent=tr('Reference: ','المرجع: ')+p.id;
     $('detail-description').textContent=p.photoPlaceholder?tr('Product specifications and prices are taken from our price list. A product photograph is not available yet.','مواصفات المنتج وأسعاره من قائمة الأسعار المعتمدة. صورة المنتج غير متاحة حاليًا.'):tr('Product visual supplied by SM Royale. Tell us which model, colour and quantity you need.','صورة المنتج مقدمة من SM Royale. يُرجى تحديد الطراز واللون والكمية المطلوبة.');
     const selectedIndex=$('detail-variant').value;
-    $('detail-variant').innerHTML=p.variants.map((v,i)=>`<option value="${i}">${escape(v.size)} — ${money(v.price)}</option>`).join('');
+    $('detail-variant').innerHTML=p.variants.map((v,i)=>`<option value="${i}">${escape(sizeLabel(v.size))}</option>`).join('');
     if(selectedIndex&&p.variants[Number(selectedIndex)])$('detail-variant').value=selectedIndex;
     $('variant-label').hidden=$('detail-variant').hidden=!p.variants.length;
     $('detail-add-to-cart').disabled=p.available===false;$('detail-full-image').href=p.image;$('close-product').setAttribute('aria-label',tr('Close product','إغلاق تفاصيل المنتج'));updateDetailPrice();
