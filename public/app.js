@@ -1,4 +1,6 @@
 const translations = {
+  "socialHeading": "تابعوا SM Royale",
+  "whatsappChannel": "قناتنا على واتساب",
   "navCollection": "المجموعات",
   "navAbout": "عن الشركة",
   "navContact": "تواصل معنا",
