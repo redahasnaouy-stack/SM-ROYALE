@@ -108,3 +108,11 @@ test('Netlify owner signs in with a private environment password; password rotat
   assert.equal((await fetch(base+'/api/admin/session',{headers:{Cookie:cookie}})).status,200);
   process.env.SM_ADMIN_PASSWORD=randomBytes(24).toString('hex');assert.equal((await fetch(base+'/api/admin/session',{headers:{Cookie:cookie}})).status,401);
 });
+test('missing or short Netlify owner credentials report configuration failure without disclosing values',async t=>{
+  const previous={email:process.env.SM_ADMIN_EMAIL,password:process.env.SM_ADMIN_PASSWORD,hash:process.env.SM_ADMIN_PASSWORD_HASH};
+  t.after(()=>{for(const [key,value]of [['SM_ADMIN_EMAIL',previous.email],['SM_ADMIN_PASSWORD',previous.password],['SM_ADMIN_PASSWORD_HASH',previous.hash]]){if(value===undefined)delete process.env[key];else process.env[key]=value;}});
+  process.env.SM_ADMIN_EMAIL='owner@example.test';process.env.SM_ADMIN_PASSWORD='short-test';delete process.env.SM_ADMIN_PASSWORD_HASH;
+  const app=await createApp({databasePath:':memory:',secureCookies:false});await new Promise(r=>app.server.listen(0,'127.0.0.1',r));t.after(async()=>{await new Promise(r=>app.server.close(r));app.db.close();});
+  const response=await fetch('http://127.0.0.1:'+app.server.address().port+'/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:'owner@example.test',password:'not-the-owner-password'})});
+  assert.equal(response.status,503);const text=await response.text();assert.match(text,/إعداد حساب الإدارة غير مكتمل/);assert(!text.includes(process.env.SM_ADMIN_PASSWORD));assert(!text.includes(process.env.SM_ADMIN_EMAIL));
+});

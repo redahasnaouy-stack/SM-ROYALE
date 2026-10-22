@@ -42,6 +42,7 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
       if(route==='/api/admin/login'&&method==='POST'){
         await throttle('login:'+req.socket.remoteAddress,10,15*60*1000);const data=await body(req);
         if(typeof data.email!=='string'||data.email.length>150||typeof data.password!=='string'||data.password.length>200)throw Object.assign(new Error('بيانات الدخول غير صحيحة.'),{status:400});
+        if(!environmentOwner()&&!(await db.list('admins')).length)throw Object.assign(new Error('إعداد حساب الإدارة غير مكتمل. يُرجى مراجعة إعدادات الموقع وإعادة النشر.'),{status:503});
         const admin=await verifyAdmin(db,data.email.trim(),data.password);if(!admin)throw Object.assign(new Error('البريد الإلكتروني أو كلمة المرور غير صحيحة.'),{status:401});
         const token=randomBytes(32).toString('hex'),csrf=randomBytes(32).toString('hex');await db.put('sessions',digest(token),{token_hash:digest(token),admin_id:admin.id,email:admin.email,credential:digest(admin.password_hash),csrf,expires_at:Date.now()+8*60*60*1000});res.setHeader('Set-Cookie',cookie(token,8*60*60));return json(res,200,{email:admin.email,csrf});
       }
