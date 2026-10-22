@@ -11,7 +11,7 @@ A royal black-and-gold storefront in Modern Standard Arabic and English, with a 
 3. In **Project configuration → Environment variables**, add the following with **Functions** scope, mark the password as a secret, and redeploy:
    - `SM_ADMIN_EMAIL`: your administrator email.
    - `SM_ADMIN_PASSWORD`: your own strong password of 14–200 characters. Never put it in GitHub, frontend code or chat.
-4. Visit `/admin` on the deployed Netlify domain and sign in using those values.
+4. Visit `/admin/` on the deployed Netlify domain and sign in using those values.
 5. Submit a test checkout and verify it appears in the administration dashboard before accepting customer orders.
 
 Netlify Functions automatically supply the authentication context for **Netlify Blobs**. The site-wide store `sm-royale-store-v1` retains orders, product overrides, audit records and hashed sessions across deployments. Do not use a deploy-scoped store or the function's temporary filesystem for order data. No separate database API key is required. Netlify service availability, account permissions and usage charges are managed in your Netlify account; production connectivity must be verified there.
@@ -59,7 +59,7 @@ npm run build
 
 ## Administration
 
-The protected `/admin` interface provides actual order counts and amounts collected, a seven-day order chart, status breakdowns, searchable/filterable orders, order details, delivery charges, editable unit prices, payment/status tracking, internal notes, catalogue price/availability management, a customer summary and CSV export. It refreshes every 30 seconds when visible and no editor is open.
+The protected `/admin/` interface provides actual order counts and amounts collected, a seven-day order chart, status breakdowns, searchable/filterable orders, order details, delivery charges, editable unit prices, payment/status tracking, internal notes, catalogue price/availability management, a customer summary and CSV export. It refreshes every 30 seconds when visible and no editor is open.
 
 Sessions expire after eight hours. Production cookies use Secure, HttpOnly and SameSite=Strict. Mutations require the session's CSRF token, JSON content and same-origin requests. Passwords are never sent to the frontend. Login and checkout have durable per-IP request limits. Conditional storage writes protect against duplicate order submissions and conflicting administration updates. Customer CSV files contain personal data and must be handled privately.
 
@@ -86,3 +86,5 @@ Key files:
 `npm test` exercises authoritative pricing, order validation, unknown prices, delivery confirmation, duplicate retries, authentication/CSRF/origin protections, logout, catalogue updates, persistence and concurrent duplicates, the Netlify request adapter and owner password rotation. The Blobs adapter is tested against Netlify's official local emulator; the fixture restores its missing GET ETag from its LIST response so actual conditional PUT checks are exercised. This does not establish live Netlify account connectivity.
 
 Real Chromium checks cover cart quantities and variants, persisted baskets, bilingual checkout, server order creation, admin login, dashboard visibility, shipping/status changes, catalogue price changes, customer summaries, unknown-price handling, mobile layouts and logout. Only synthetic customer data and temporary test administrator credentials are used; no demo orders or accounts are shipped.
+
+Administration uses the canonical `/admin/` directory route (`dist/admin/index.html`). Its assets and API URLs resolve from the site root. Do not add a redirect from `/admin/` back to `/admin`: that can conflict with Netlify pretty-URL canonicalisation.

@@ -76,7 +76,7 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
       }
       if(route.startsWith('/api/'))return json(res,404,{error:'المسار غير موجود.'});
       if(!['GET','HEAD'].includes(method))return json(res,405,{error:'طريقة الطلب غير مسموح بها.'});
-      if(route==='/admin/'){res.writeHead(301,{Location:'/admin'});return res.end();}
+      if(route==='/admin'){res.writeHead(301,{Location:'/admin/'});return res.end();}
       const resource=route==='/'?'/index.html':route==='/admin'||route==='/admin/'?'/admin.html':route;
       const root=path.join(moduleRoot,'public'),file=path.resolve(root,'.'+resource);if(!file.startsWith(root+path.sep)||resource.includes('/.'))return json(res,403,{error:'غير مسموح.'});
       const data=await readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':resource.endsWith('.html')?'no-store':'public, max-age=300'});res.end(method==='HEAD'?undefined:data);
