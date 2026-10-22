@@ -1,17 +1,17 @@
 (() => {
   const $ = id => document.getElementById(id);
   const categories = {
-    all: {en:'All products', ar:'جميع المنتجات'}, bottles:{en:'Bottles & pumps',ar:'قنينات ومضخات'},
-    jars:{en:'Jars & containers',ar:'علب وبرطمانات'}, perfume:{en:'Perfume & roll-ons',ar:'عطر ورول أون'},
-    pouches:{en:'Pouches',ar:'أكياس التغليف'}, accessories:{en:'Caps & accessories',ar:'أغطية وإكسسوارات'},wellness:{en:'Hijama & massage',ar:'حجامة ومساج'}
+    all: {en:'All products', ar:'جميع المنتجات'}, bottles:{en:'Bottles & pumps',ar:'قوارير ومضخات'},
+    jars:{en:'Jars & containers',ar:'علب ومرطبانات'}, perfume:{en:'Perfume & roll-ons',ar:'عبوات عطر ذات كرة دوارة'},
+    pouches:{en:'Pouches',ar:'أكياس التغليف'}, accessories:{en:'Caps & accessories',ar:'أغطية وإكسسوارات'},wellness:{en:'Hijama & massage',ar:'الحجامة والتدليك'}
   };
   const wellness = [
     ['Cupping cups','كؤوس حجامة','4 / 5 / 6 / 7',1.50],['Hopi candles','شمع الهوبي','—',8.05],
-    ['Bulb cupping cup','حجامة بواطة','—',16.10],['4D cupping tool','أداة حجامة 4D','4D',40.25],
+    ['Bulb cupping cup','كأس حجامة بمضخة مطاطية','—',16.10],['4D cupping tool','أداة حجامة 4D','4D',40.25],
     ['Cupping suction pump','شفاط حجامة','—',5.75],['Glass cupping cup','كأس حجامة زجاجي','No2–c44',5.18],
     ['Glass cupping cup','كأس حجامة زجاجي','No3–c57',5.18],['Glass cupping cup','كأس حجامة زجاجي','No4–c67',5.18],
     ['Glass cupping cup','كأس حجامة زجاجي','No5–c70',5.18],['Cupping flame tool','شعلة','—',11.50],
-    ['Oil dispenser','كأس باميو','250 ml',4.60],['Oil bottle','زيتة','500 ml',6.33],['Oil bottle','قنينة زيت','1 L',11.50]
+    ['Oil dispenser','موزّع زيت','250 ml',4.60],['Oil bottle','قارورة زيت','500 ml',6.33],['Oil bottle','قارورة زيت','1 L',11.50]
   ];
   const lang = () => document.documentElement.lang === 'ar' ? 'ar':'en';
   const tr = (en,ar) => lang()==='ar'?ar:en;
@@ -19,7 +19,7 @@
   const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let products=[],active='all',limit=12,selected=null,previousFocus=null;
   const priceOf = p => p.variants.length ? Math.min(...p.variants.map(v=>v.price)) : null;
-  function priceText(p){const min=priceOf(p);return min===null?tr('Ask for a price','طلب الثمن'): (p.variants.length>1?tr('From ','ابتداءً من '):'')+money(min);}
+  function priceText(p){const min=priceOf(p);return min===null?tr('Ask for a price','استفسر عن السعر'): (p.variants.length>1?tr('From ','ابتداءً من '):'')+money(min);}
   function filterProducts(){
     const query=$('product-search').value.trim().toLocaleLowerCase().normalize('NFKC');
     const result=products.filter(p=>(active==='all'||p.category===active)&&[p.name.ar,p.name.en,p.id,...p.variants.map(v=>v.size)].join(' ').toLocaleLowerCase().normalize('NFKC').includes(query));
@@ -35,10 +35,10 @@
   }
   function render(){
     const filtered=filterProducts(),visible=filtered.slice(0,limit);
-    $('product-grid').innerHTML=visible.map(p=>`<article class="product-card"><div class="product-card-top"><span class="product-category">${escape(categories[p.category][lang()])}</span><span class="product-ref" dir="ltr">${p.id}</span></div><button type="button" class="product-image-button" data-product="${p.id}" aria-label="${escape(tr('View ','شوف ')+p.name[lang()])}"><span class="product-photo-shell"><img src="${p.image}" alt="${escape(p.name[lang()])}" loading="lazy" decoding="async" width="800" height="800"></span><span class="product-image-action">${tr('Discover the details','اكتشف التفاصيل')}</span><span class="product-zoom" aria-hidden="true">+</span></button><div class="product-info"><span class="product-signature" aria-hidden="true"><i></i> SM ROYALE <i></i></span><h3><button type="button" data-product="${p.id}">${escape(p.name[lang()])}</button></h3><div class="product-size-preview">${p.variants.length?escape(p.variants.map(v=>v.size).join(' · ')):tr('Ask us about available models','اسألنا عن الموديلات المتوفرة')}</div><div class="product-bottom"><div class="product-price-wrap"><span class="product-price-label">${p.variants.length?tr('LISTED PRICE','الثمن فاللائحة'):tr('PERSONALISED ENQUIRY','استفسار على المنتوج')}</span><span class="product-price ${p.variants.length?'has-price':''}">${priceText(p)}</span></div><button type="button" class="product-arrow" data-product="${p.id}" aria-label="${escape(tr('Enquire about ','سولنا على ')+p.name[lang()])}"><span class="sr-only">${tr('View product','تفاصيل المنتوج')}</span></button></div></div></article>`).join('');
-    $('product-count').textContent=tr(`${filtered.length} products · showing ${visible.length}`,`${filtered.length} منتوج · عرض ${visible.length}`);
+    $('product-grid').innerHTML=visible.map(p=>`<article class="product-card"><div class="product-card-top"><span class="product-category">${escape(categories[p.category][lang()])}</span><span class="product-ref" dir="ltr">${p.id}</span></div><button type="button" class="product-image-button" data-product="${p.id}" aria-label="${escape(tr('View ','عرض ')+p.name[lang()])}"><span class="product-photo-shell"><img src="${p.image}" alt="${escape(p.name[lang()])}" loading="lazy" decoding="async" width="800" height="800"></span><span class="product-image-action">${tr('Discover the details','اكتشف التفاصيل')}</span><span class="product-zoom" aria-hidden="true">+</span></button><div class="product-info"><span class="product-signature" aria-hidden="true"><i></i> SM ROYALE <i></i></span><h3><button type="button" data-product="${p.id}">${escape(p.name[lang()])}</button></h3><div class="product-size-preview">${p.variants.length?escape(p.variants.map(v=>v.size).join(' · ')):tr('Ask us about available models','استفسر عن الطرازات المتاحة')}</div><div class="product-bottom"><div class="product-price-wrap"><span class="product-price-label">${p.variants.length?tr('LISTED PRICE','السعر المدرج'):tr('PERSONALISED ENQUIRY','استفسار عن المنتج')}</span><span class="product-price ${p.variants.length?'has-price':''}">${priceText(p)}</span></div><button type="button" class="product-arrow" data-product="${p.id}" aria-label="${escape(tr('Enquire about ','استفسر عن ')+p.name[lang()])}"><span class="sr-only">${tr('View product','تفاصيل المنتج')}</span></button></div></div></article>`).join('');
+    $('product-count').textContent=tr(`${filtered.length} products · showing ${visible.length}`,`${filtered.length} منتجًا · المعروض: ${visible.length}`);
     $('load-more').hidden=visible.length>=filtered.length;$('catalogue-empty').hidden=filtered.length!==0;
-    $('product-search').placeholder=tr('Search products, sizes, references…','قلب بالاسم، المقاس أو المرجع…');
+    $('product-search').placeholder=tr('Search products, sizes, references…','ابحث بالاسم أو المقاس أو الرقم المرجعي…');
     $('product-grid').setAttribute('aria-busy','false');
   }
   function renderWellness(){
@@ -47,20 +47,20 @@
   function updateDetailPrice(){
     if(!selected)return;
     const v=selected.variants[Number($('detail-variant').value)];
-    $('detail-price').textContent=v?money(v.price):tr('Price on request','الثمن عند الطلب');
-    const message=lang()==='ar'?`السلام عليكم، بغيت معلومات على ${selected.name.ar}، المرجع ${selected.id}${v?'، المقاس '+v.size+'، الثمن فالكاتالوغ '+money(v.price):''}. واش متوفر وشنو شروط الطلب؟`:`Hello, I would like information about ${selected.name.en}, reference ${selected.id}${v?', size '+v.size+', listed price '+money(v.price):''}. Please confirm availability and order conditions.`;
+    $('detail-price').textContent=v?money(v.price):tr('Price on request','السعر عند الطلب');
+    const message=lang()==='ar'?`السلام عليكم، أود الاستفسار عن ${selected.name.ar}، المرجع ${selected.id}${v?'، المقاس '+v.size+'، السعر المدرج في الدليل '+money(v.price):''}. يُرجى تأكيد التوافر وشروط الطلب.`:`Hello, I would like information about ${selected.name.en}, reference ${selected.id}${v?', size '+v.size+', listed price '+money(v.price):''}. Please confirm availability and order conditions.`;
     $('detail-whatsapp').href='https://wa.me/212600326082?text='+encodeURIComponent(message);
   }
   function populateDetails(){
     const p=selected;if(!p)return;
     $('detail-image').src=p.image;$('detail-image').alt=p.name[lang()];$('detail-name').textContent=p.name[lang()];
     $('detail-category').textContent=categories[p.category][lang()];$('detail-reference').textContent=tr('Reference: ','المرجع: ')+p.id;
-    $('detail-description').textContent=tr('Product visual supplied by SM Royale. Tell us which model, colour and quantity you need.','صورة المنتوج من SM Royale. قول لينا شنو الموديل واللون والكمية اللي بغيتي.');
+    $('detail-description').textContent=tr('Product visual supplied by SM Royale. Tell us which model, colour and quantity you need.','صورة المنتج مقدمة من SM Royale. يُرجى تحديد الطراز واللون والكمية المطلوبة.');
     const selectedIndex=$('detail-variant').value;
     $('detail-variant').innerHTML=p.variants.map((v,i)=>`<option value="${i}">${escape(v.size)} — ${money(v.price)}</option>`).join('');
     if(selectedIndex&&p.variants[Number(selectedIndex)])$('detail-variant').value=selectedIndex;
     $('variant-label').hidden=$('detail-variant').hidden=!p.variants.length;
-    $('detail-full-image').href=p.image;$('close-product').setAttribute('aria-label',tr('Close product','سد تفاصيل المنتوج'));updateDetailPrice();
+    $('detail-full-image').href=p.image;$('close-product').setAttribute('aria-label',tr('Close product','إغلاق تفاصيل المنتج'));updateDetailPrice();
   }
   function openProduct(id){
     selected=products.find(p=>p.id===id);if(!selected)return;

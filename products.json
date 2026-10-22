@@ -4,7 +4,7 @@
     "image": "./images/products/001.webp",
     "name": {
       "en": "Purple airless bottles",
-      "ar": "عبوات إيرلس بنفسجية"
+      "ar": "عبوات بمضخة دون هواء بنفسجية"
     },
     "category": "bottles",
     "variants": []
@@ -14,7 +14,7 @@
     "image": "./images/products/002.webp",
     "name": {
       "en": "Orange airless bottles",
-      "ar": "عبوات إيرلس برتقالية"
+      "ar": "عبوات بمضخة دون هواء برتقالية"
     },
     "category": "bottles",
     "variants": []
@@ -24,7 +24,7 @@
     "image": "./images/products/003.webp",
     "name": {
       "en": "Silver airless bottles",
-      "ar": "عبوات إيرلس فضية"
+      "ar": "عبوات بمضخة دون هواء فضية"
     },
     "category": "bottles",
     "variants": []
@@ -34,7 +34,7 @@
     "image": "./images/products/004.webp",
     "name": {
       "en": "Frosted blue dropper bottles",
-      "ar": "قنينات قطارة زرقاء مطفية"
+      "ar": "قوارير قطارة زرقاء غير لامعة"
     },
     "category": "bottles",
     "variants": []
@@ -44,7 +44,7 @@
     "image": "./images/products/005.webp",
     "name": {
       "en": "Reed diffuser bottles",
-      "ar": "قنينات معطر الأعواد"
+      "ar": "قوارير معطر الأعواد"
     },
     "category": "bottles",
     "variants": []
@@ -54,7 +54,7 @@
     "image": "./images/products/006.webp",
     "name": {
       "en": "Clear spray bottles",
-      "ar": "قنينات بخاخ شفافة"
+      "ar": "قوارير بخاخ شفافة"
     },
     "category": "bottles",
     "variants": []
@@ -64,7 +64,7 @@
     "image": "./images/products/007.webp",
     "name": {
       "en": "Clear dropper bottles",
-      "ar": "قنينات قطارة شفافة"
+      "ar": "قوارير قطارة شفافة"
     },
     "category": "bottles",
     "variants": [
@@ -95,7 +95,7 @@
     "image": "./images/products/008.webp",
     "name": {
       "en": "Amber dropper bottles",
-      "ar": "قنينات قطارة بنية"
+      "ar": "قوارير قطارة بنية"
     },
     "category": "bottles",
     "variants": [
@@ -126,7 +126,7 @@
     "image": "./images/products/009.webp",
     "name": {
       "en": "Green dropper bottles",
-      "ar": "قنينات قطارة خضراء"
+      "ar": "قوارير قطارة خضراء"
     },
     "category": "bottles",
     "variants": []
@@ -136,7 +136,7 @@
     "image": "./images/products/010.webp",
     "name": {
       "en": "Matte black dropper bottles",
-      "ar": "قنينات قطارة سوداء مطفية"
+      "ar": "قوارير قطارة سوداء غير لامعة"
     },
     "category": "bottles",
     "variants": [
@@ -167,7 +167,7 @@
     "image": "./images/products/011.webp",
     "name": {
       "en": "Glossy black dropper bottles",
-      "ar": "قنينات قطارة سوداء لامعة"
+      "ar": "قوارير قطارة سوداء لامعة"
     },
     "category": "bottles",
     "variants": [
@@ -198,7 +198,7 @@
     "image": "./images/products/012.webp",
     "name": {
       "en": "Blue dropper bottles",
-      "ar": "قنينات قطارة زرقاء"
+      "ar": "قوارير قطارة زرقاء"
     },
     "category": "bottles",
     "variants": [
@@ -229,7 +229,7 @@
     "image": "./images/products/013.webp",
     "name": {
       "en": "Clear jars with gold lids",
-      "ar": "برطمانات شفافة بغطاء ذهبي"
+      "ar": "مرطبانات شفافة بغطاء ذهبي"
     },
     "category": "jars",
     "variants": []
@@ -239,7 +239,7 @@
     "image": "./images/products/014.webp",
     "name": {
       "en": "Frosted clear dropper bottles",
-      "ar": "قنينات قطارة شفافة مطفية"
+      "ar": "قوارير قطارة شفافة غير لامعة"
     },
     "category": "bottles",
     "variants": []
@@ -249,7 +249,7 @@
     "image": "./images/products/015.webp",
     "name": {
       "en": "White dropper bottles",
-      "ar": "قنينات قطارة بيضاء"
+      "ar": "قوارير قطارة بيضاء"
     },
     "category": "bottles",
     "variants": [
@@ -290,7 +290,7 @@
     "image": "./images/products/017.webp",
     "name": {
       "en": "Flip-top caps · 28 mm",
-      "ar": "أغطية فليب توب · 28 مم"
+      "ar": "أغطية مفصلية · 28 مم"
     },
     "category": "accessories",
     "variants": []
@@ -310,7 +310,7 @@
     "image": "./images/products/019.webp",
     "name": {
       "en": "Jar lids",
-      "ar": "أغطية البرطمانات"
+      "ar": "أغطية المرطبانات"
     },
     "category": "accessories",
     "variants": []
@@ -320,7 +320,7 @@
     "image": "./images/products/020.webp",
     "name": {
       "en": "Glass bottle · 50 ml",
-      "ar": "قنينة زجاجية · 50 مل"
+      "ar": "قارورة زجاجية · 50 مل"
     },
     "category": "perfume",
     "variants": []
@@ -330,7 +330,7 @@
     "image": "./images/products/021.webp",
     "name": {
       "en": "Clear jars with coloured lids",
-      "ar": "برطمانات شفافة بأغطية ملونة"
+      "ar": "مرطبانات شفافة بأغطية ملونة"
     },
     "category": "jars",
     "variants": []
@@ -340,7 +340,7 @@
     "image": "./images/products/022.webp",
     "name": {
       "en": "Clear screw-cap bottles",
-      "ar": "قنينات شفافة بغطاء لولبي"
+      "ar": "قوارير شفافة بغطاء لولبي"
     },
     "category": "bottles",
     "variants": []
@@ -350,7 +350,7 @@
     "image": "./images/products/023.webp",
     "name": {
       "en": "Small amber bottles",
-      "ar": "قنينات بنية صغيرة"
+      "ar": "قوارير بنية صغيرة"
     },
     "category": "bottles",
     "variants": []
@@ -360,7 +360,7 @@
     "image": "./images/products/024.webp",
     "name": {
       "en": "Metallic spray bottles",
-      "ar": "قنينات بخاخ معدنية"
+      "ar": "قوارير بخاخ معدنية"
     },
     "category": "perfume",
     "variants": []
@@ -370,7 +370,7 @@
     "image": "./images/products/025.webp",
     "name": {
       "en": "Pocket spray bottle · 6 ml",
-      "ar": "قنينة عطر صغيرة · 6 مل"
+      "ar": "قارورة عطر صغيرة · 6 مل"
     },
     "category": "perfume",
     "variants": []
@@ -380,7 +380,7 @@
     "image": "./images/products/026.webp",
     "name": {
       "en": "Small dropper bottles",
-      "ar": "قنينات قطارة صغيرة"
+      "ar": "قوارير قطارة صغيرة"
     },
     "category": "bottles",
     "variants": []
@@ -390,7 +390,7 @@
     "image": "./images/products/027.webp",
     "name": {
       "en": "Gold pump bottles",
-      "ar": "قنينات بمضخة ذهبية"
+      "ar": "قوارير بمضخة ذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -400,7 +400,7 @@
     "image": "./images/products/028.webp",
     "name": {
       "en": "Curved glass roll-on bottles",
-      "ar": "قنينات رول أون زجاجية مموجة"
+      "ar": "قوارير ذات كرة دوارة زجاجية مموجة"
     },
     "category": "perfume",
     "variants": []
@@ -410,7 +410,7 @@
     "image": "./images/products/029.webp",
     "name": {
       "en": "Silver dropper bottles",
-      "ar": "قنينات قطارة فضية"
+      "ar": "قوارير قطارة فضية"
     },
     "category": "bottles",
     "variants": []
@@ -420,7 +420,7 @@
     "image": "./images/products/030.webp",
     "name": {
       "en": "Clear jars · 100–200 ml",
-      "ar": "برطمانات شفافة · 100–200 مل"
+      "ar": "مرطبانات شفافة · 100–200 مل"
     },
     "category": "jars",
     "variants": []
@@ -430,7 +430,7 @@
     "image": "./images/products/031.webp",
     "name": {
       "en": "Clear perfume bottles · 20 ml",
-      "ar": "قنينات عطر شفافة · 20 مل"
+      "ar": "قوارير عطر شفافة · 20 مل"
     },
     "category": "perfume",
     "variants": []
@@ -440,7 +440,7 @@
     "image": "./images/products/032.webp",
     "name": {
       "en": "Clear spray bottles · 60–100 ml",
-      "ar": "قنينات بخاخ شفافة · 60–100 مل"
+      "ar": "قوارير بخاخ شفافة · 60–100 مل"
     },
     "category": "bottles",
     "variants": []
@@ -450,7 +450,7 @@
     "image": "./images/products/033.webp",
     "name": {
       "en": "Aluminium bottles",
-      "ar": "قنينات ألمنيوم"
+      "ar": "قوارير ألمنيوم"
     },
     "category": "bottles",
     "variants": []
@@ -460,7 +460,7 @@
     "image": "./images/products/034.webp",
     "name": {
       "en": "Coloured spray bottles · 30 ml",
-      "ar": "قنينات بخاخ ملونة · 30 مل"
+      "ar": "قوارير بخاخ ملونة · 30 مل"
     },
     "category": "perfume",
     "variants": []
@@ -470,7 +470,7 @@
     "image": "./images/products/035.webp",
     "name": {
       "en": "Decorative perfume bottles · 16 ml",
-      "ar": "قنينات عطر مزخرفة · 16 مل"
+      "ar": "قوارير عطر مزخرفة · 16 مل"
     },
     "category": "perfume",
     "variants": []
@@ -480,7 +480,7 @@
     "image": "./images/products/036.webp",
     "name": {
       "en": "Coloured spray bottles · 20 ml",
-      "ar": "قنينات بخاخ ملونة · 20 مل"
+      "ar": "قوارير بخاخ ملونة · 20 مل"
     },
     "category": "perfume",
     "variants": []
@@ -510,7 +510,7 @@
     "image": "./images/products/039.webp",
     "name": {
       "en": "Glass vials · 5 ml",
-      "ar": "قنينات زجاجية صغيرة · 5 مل"
+      "ar": "قوارير زجاجية صغيرة · 5 مل"
     },
     "category": "perfume",
     "variants": []
@@ -520,7 +520,7 @@
     "image": "./images/products/040.webp",
     "name": {
       "en": "Clear pump bottles · 60–100 ml",
-      "ar": "قنينات بمضخة · 60–100 مل"
+      "ar": "قوارير بمضخة · 60–100 مل"
     },
     "category": "bottles",
     "variants": []
@@ -530,7 +530,7 @@
     "image": "./images/products/041.webp",
     "name": {
       "en": "Decorative perfume bottle · 6 ml",
-      "ar": "قنينة عطر مزخرفة · 6 مل"
+      "ar": "قارورة عطر مزخرفة · 6 مل"
     },
     "category": "perfume",
     "variants": []
@@ -550,7 +550,7 @@
     "image": "./images/products/043.webp",
     "name": {
       "en": "White airless bottles",
-      "ar": "عبوات إيرلس بيضاء"
+      "ar": "عبوات بمضخة دون هواء بيضاء"
     },
     "category": "bottles",
     "variants": []
@@ -560,7 +560,7 @@
     "image": "./images/products/044.webp",
     "name": {
       "en": "Black pump bottles",
-      "ar": "قنينات بمضخة سوداء"
+      "ar": "قوارير بمضخة سوداء"
     },
     "category": "bottles",
     "variants": []
@@ -570,7 +570,7 @@
     "image": "./images/products/045.webp",
     "name": {
       "en": "White pump bottles",
-      "ar": "قنينات بمضخة بيضاء"
+      "ar": "قوارير بمضخة بيضاء"
     },
     "category": "bottles",
     "variants": []
@@ -580,7 +580,7 @@
     "image": "./images/products/046.webp",
     "name": {
       "en": "Amber jars with gold lids",
-      "ar": "برطمانات بنية بغطاء ذهبي"
+      "ar": "مرطبانات بنية بغطاء ذهبي"
     },
     "category": "jars",
     "variants": []
@@ -590,7 +590,7 @@
     "image": "./images/products/047.webp",
     "name": {
       "en": "Decorative perfume bottle · 12 ml",
-      "ar": "قنينة عطر مزخرفة · 12 مل"
+      "ar": "قارورة عطر مزخرفة · 12 مل"
     },
     "category": "perfume",
     "variants": [
@@ -605,7 +605,7 @@
     "image": "./images/products/048.webp",
     "name": {
       "en": "Textured perfume bottles",
-      "ar": "قنينات عطر مزخرفة"
+      "ar": "قوارير عطر مزخرفة"
     },
     "category": "perfume",
     "variants": []
@@ -635,7 +635,7 @@
     "image": "./images/products/051.webp",
     "name": {
       "en": "Curved perfume bottles",
-      "ar": "قنينات عطر مموجة"
+      "ar": "قوارير عطر مموجة"
     },
     "category": "perfume",
     "variants": []
@@ -645,7 +645,7 @@
     "image": "./images/products/052.webp",
     "name": {
       "en": "Decorative gold perfume bottles",
-      "ar": "قنينات عطر ذهبية مزخرفة"
+      "ar": "قوارير عطر ذهبية مزخرفة"
     },
     "category": "perfume",
     "variants": [
@@ -668,7 +668,7 @@
     "image": "./images/products/053.webp",
     "name": {
       "en": "Pink spray bottles",
-      "ar": "قنينات بخاخ وردية"
+      "ar": "قوارير بخاخ وردية"
     },
     "category": "bottles",
     "variants": []
@@ -678,7 +678,7 @@
     "image": "./images/products/054.webp",
     "name": {
       "en": "Coloured dropper bottles",
-      "ar": "قنينات قطارة ملونة"
+      "ar": "قوارير قطارة ملونة"
     },
     "category": "bottles",
     "variants": []
@@ -688,7 +688,7 @@
     "image": "./images/products/055.webp",
     "name": {
       "en": "Frosted blue dropper collection",
-      "ar": "مجموعة قطارات زرقاء مطفية"
+      "ar": "مجموعة قطارات زرقاء غير لامعة"
     },
     "category": "bottles",
     "variants": []
@@ -708,7 +708,7 @@
     "image": "./images/products/057.webp",
     "name": {
       "en": "Glass storage jars",
-      "ar": "برطمانات تخزين زجاجية"
+      "ar": "مرطبانات تخزين زجاجية"
     },
     "category": "jars",
     "variants": []
@@ -728,7 +728,7 @@
     "image": "./images/products/059.webp",
     "name": {
       "en": "Amber glass bottle · 125 ml",
-      "ar": "قنينة زجاجية بنية · 125 مل"
+      "ar": "قارورة زجاجية بنية · 125 مل"
     },
     "category": "perfume",
     "variants": []
@@ -738,7 +738,7 @@
     "image": "./images/products/060.webp",
     "name": {
       "en": "Amber cosmetic jars",
-      "ar": "برطمانات مستحضرات تجميل بنية"
+      "ar": "مرطبانات مستحضرات تجميل بنية"
     },
     "category": "jars",
     "variants": []
@@ -748,7 +748,7 @@
     "image": "./images/products/061.webp",
     "name": {
       "en": "Frosted green dropper collection",
-      "ar": "مجموعة قطارات خضراء مطفية"
+      "ar": "مجموعة قطارات خضراء غير لامعة"
     },
     "category": "bottles",
     "variants": []
@@ -768,7 +768,7 @@
     "image": "./images/products/063.webp",
     "name": {
       "en": "Massage chair",
-      "ar": "كرسي المساج"
+      "ar": "كرسي التدليك"
     },
     "category": "wellness",
     "variants": []
@@ -778,7 +778,7 @@
     "image": "./images/products/064.webp",
     "name": {
       "en": "Laura black & gold pump bottles",
-      "ar": "قنينات لورا سوداء وذهبية"
+      "ar": "قوارير لورا سوداء وذهبية"
     },
     "category": "bottles",
     "variants": [
@@ -801,7 +801,7 @@
     "image": "./images/products/065.webp",
     "name": {
       "en": "Laura white & gold pump bottles",
-      "ar": "قنينات لورا بيضاء وذهبية"
+      "ar": "قوارير لورا بيضاء وذهبية"
     },
     "category": "bottles",
     "variants": [
@@ -886,7 +886,7 @@
     "image": "./images/products/068.webp",
     "name": {
       "en": "Frosted pump bottles with gold trim",
-      "ar": "قنينات مطفية بمضخة ذهبية"
+      "ar": "قوارير غير لامعة بمضخة ذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -896,7 +896,7 @@
     "image": "./images/products/069.webp",
     "name": {
       "en": "Frosted pump bottles with silver trim",
-      "ar": "قنينات مطفية بمضخة فضية"
+      "ar": "قوارير غير لامعة بمضخة فضية"
     },
     "category": "bottles",
     "variants": []
@@ -906,7 +906,7 @@
     "image": "./images/products/070.webp",
     "name": {
       "en": "White pump bottles with gold trim",
-      "ar": "قنينات بيضاء بمضخة ذهبية"
+      "ar": "قوارير بيضاء بمضخة ذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -916,7 +916,7 @@
     "image": "./images/products/071.webp",
     "name": {
       "en": "Laura pink & gold pump bottles",
-      "ar": "قنينات لورا وردية وذهبية"
+      "ar": "قوارير لورا وردية وذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -936,7 +936,7 @@
     "image": "./images/products/073.webp",
     "name": {
       "en": "White pump bottles with silver trim",
-      "ar": "قنينات بيضاء بمضخة فضية"
+      "ar": "قوارير بيضاء بمضخة فضية"
     },
     "category": "bottles",
     "variants": []
@@ -946,7 +946,7 @@
     "image": "./images/products/074.webp",
     "name": {
       "en": "Clear airless pump bottles · 50 ml",
-      "ar": "عبوات إيرلس شفافة · 50 مل"
+      "ar": "عبوات بمضخة دون هواء شفافة · 50 مل"
     },
     "category": "bottles",
     "variants": []
@@ -956,7 +956,7 @@
     "image": "./images/products/075.webp",
     "name": {
       "en": "Pocket perfume spray bottles",
-      "ar": "قنينات بخاخ عطر صغيرة"
+      "ar": "قوارير بخاخ عطر صغيرة"
     },
     "category": "perfume",
     "variants": []
@@ -966,7 +966,7 @@
     "image": "./images/products/076.webp",
     "name": {
       "en": "Clear glass bottles · 30–60 ml",
-      "ar": "قنينات زجاجية شفافة · 30–60 مل"
+      "ar": "قوارير زجاجية شفافة · 30–60 مل"
     },
     "category": "bottles",
     "variants": []
@@ -976,7 +976,7 @@
     "image": "./images/products/077.webp",
     "name": {
       "en": "Glass jar · 212 ml",
-      "ar": "برطمان زجاجي · 212 مل"
+      "ar": "مرطبان زجاجي · 212 مل"
     },
     "category": "jars",
     "variants": [
@@ -991,7 +991,7 @@
     "image": "./images/products/078.webp",
     "name": {
       "en": "Clear pump bottle collection",
-      "ar": "مجموعة قنينات شفافة بمضخة"
+      "ar": "مجموعة قوارير شفافة بمضخة"
     },
     "category": "bottles",
     "variants": []
@@ -1001,7 +1001,7 @@
     "image": "./images/products/079.webp",
     "name": {
       "en": "Round glass jars",
-      "ar": "برطمانات زجاجية مدورة"
+      "ar": "مرطبانات زجاجية مستديرة"
     },
     "category": "jars",
     "variants": []
@@ -1021,7 +1021,7 @@
     "image": "./images/products/081.webp",
     "name": {
       "en": "Gold pocket perfume bottles",
-      "ar": "قنينات عطر صغيرة ذهبية"
+      "ar": "قوارير عطر صغيرة ذهبية"
     },
     "category": "perfume",
     "variants": []
@@ -1031,7 +1031,7 @@
     "image": "./images/products/082.webp",
     "name": {
       "en": "Black airless bottles",
-      "ar": "عبوات إيرلس سوداء"
+      "ar": "عبوات بمضخة دون هواء سوداء"
     },
     "category": "bottles",
     "variants": []
@@ -1041,7 +1041,7 @@
     "image": "./images/products/083.webp",
     "name": {
       "en": "Blue airless bottles",
-      "ar": "عبوات إيرلس زرقاء"
+      "ar": "عبوات بمضخة دون هواء زرقاء"
     },
     "category": "bottles",
     "variants": []
@@ -1051,7 +1051,7 @@
     "image": "./images/products/084.webp",
     "name": {
       "en": "Lotion pumps · 28 mm",
-      "ar": "مضخات لوشن · 28 مم"
+      "ar": "مضخات مستحضرات العناية · 28 مم"
     },
     "category": "accessories",
     "variants": []
@@ -1071,7 +1071,7 @@
     "image": "./images/products/086.webp",
     "name": {
       "en": "Textured glass spray bottles",
-      "ar": "قنينات بخاخ زجاجية مزخرفة"
+      "ar": "قوارير بخاخ زجاجية مزخرفة"
     },
     "category": "perfume",
     "variants": []
@@ -1091,7 +1091,7 @@
     "image": "./images/products/088.webp",
     "name": {
       "en": "Slim spray bottle collection",
-      "ar": "مجموعة قنينات بخاخ رفيعة"
+      "ar": "مجموعة قوارير بخاخ رفيعة"
     },
     "category": "perfume",
     "variants": []
@@ -1101,7 +1101,7 @@
     "image": "./images/products/089.webp",
     "name": {
       "en": "White & gold pump collection",
-      "ar": "مجموعة قنينات بيضاء وذهبية"
+      "ar": "مجموعة قوارير بيضاء وذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -1111,7 +1111,7 @@
     "image": "./images/products/090.webp",
     "name": {
       "en": "Glass jar · 100 ml",
-      "ar": "برطمان زجاجي · 100 مل"
+      "ar": "مرطبان زجاجي · 100 مل"
     },
     "category": "jars",
     "variants": []
@@ -1131,7 +1131,7 @@
     "image": "./images/products/092.webp",
     "name": {
       "en": "Glass bottles with handles",
-      "ar": "قنينات زجاجية بمقبض"
+      "ar": "قوارير زجاجية بمقبض"
     },
     "category": "perfume",
     "variants": []
@@ -1141,7 +1141,7 @@
     "image": "./images/products/093.webp",
     "name": {
       "en": "Square dropper bottles · 30–50 ml",
-      "ar": "قنينات قطارة مربعة · 30–50 مل"
+      "ar": "قوارير قطارة مربعة · 30–50 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1151,7 +1151,7 @@
     "image": "./images/products/094.webp",
     "name": {
       "en": "White airless pump bottle",
-      "ar": "عبوة إيرلس بيضاء"
+      "ar": "عبوة بمضخة دون هواء بيضاء"
     },
     "category": "bottles",
     "variants": []
@@ -1161,7 +1161,7 @@
     "image": "./images/products/095.webp",
     "name": {
       "en": "Small glass jars · 25–35 g",
-      "ar": "برطمانات زجاجية صغيرة · 25–35 غ"
+      "ar": "مرطبانات زجاجية صغيرة · 25–35 غ"
     },
     "category": "jars",
     "variants": []
@@ -1171,7 +1171,7 @@
     "image": "./images/products/096.webp",
     "name": {
       "en": "Frosted cosmetic jars",
-      "ar": "علب مستحضرات تجميل مطفية"
+      "ar": "علب مستحضرات تجميل غير لامعة"
     },
     "category": "jars",
     "variants": []
@@ -1201,7 +1201,7 @@
     "image": "./images/products/099.webp",
     "name": {
       "en": "Gold pump bottle collection",
-      "ar": "مجموعة قنينات بمضخة ذهبية"
+      "ar": "مجموعة قوارير بمضخة ذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -1211,7 +1211,7 @@
     "image": "./images/products/100.webp",
     "name": {
       "en": "Silver pump bottle collection",
-      "ar": "مجموعة قنينات بمضخة فضية"
+      "ar": "مجموعة قوارير بمضخة فضية"
     },
     "category": "bottles",
     "variants": []
@@ -1231,7 +1231,7 @@
     "image": "./images/products/102.webp",
     "name": {
       "en": "Glass bottle · 100 ml",
-      "ar": "قنينة زجاجية · 100 مل"
+      "ar": "قارورة زجاجية · 100 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1261,7 +1261,7 @@
     "image": "./images/products/105.webp",
     "name": {
       "en": "Wooden massage sticks",
-      "ar": "أدوات مساج خشبية"
+      "ar": "أدوات تدليك خشبية"
     },
     "category": "wellness",
     "variants": []
@@ -1271,7 +1271,7 @@
     "image": "./images/products/106.webp",
     "name": {
       "en": "Amber glass bottle · 30 ml",
-      "ar": "قنينة زجاجية بنية · 30 مل"
+      "ar": "قارورة زجاجية بنية · 30 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1281,7 +1281,7 @@
     "image": "./images/products/107.webp",
     "name": {
       "en": "Glass jar with gold lid · 100 g",
-      "ar": "برطمان بغطاء ذهبي · 100 غ"
+      "ar": "مرطبان بغطاء ذهبي · 100 غ"
     },
     "category": "jars",
     "variants": []
@@ -1291,7 +1291,7 @@
     "image": "./images/products/108.webp",
     "name": {
       "en": "Spiky massage balls",
-      "ar": "كرات المساج"
+      "ar": "كرات التدليك"
     },
     "category": "wellness",
     "variants": []
@@ -1301,7 +1301,7 @@
     "image": "./images/products/109.webp",
     "name": {
       "en": "Frosted spray bottles",
-      "ar": "قنينات بخاخ مطفية"
+      "ar": "قوارير بخاخ غير لامعة"
     },
     "category": "bottles",
     "variants": []
@@ -1311,7 +1311,7 @@
     "image": "./images/products/110.webp",
     "name": {
       "en": "Clear spray bottles with gold trim",
-      "ar": "قنينات بخاخ شفافة وذهبية"
+      "ar": "قوارير بخاخ شفافة وذهبية"
     },
     "category": "bottles",
     "variants": []
@@ -1321,7 +1321,7 @@
     "image": "./images/products/111.webp",
     "name": {
       "en": "Foam pump bottles · 100–150 ml",
-      "ar": "قنينات مضخة رغوة · 100–150 مل"
+      "ar": "قوارير مضخة رغوة · 100–150 مل"
     },
     "category": "bottles",
     "variants": []
@@ -1341,7 +1341,7 @@
     "image": "./images/products/113.webp",
     "name": {
       "en": "Textured glass storage jars",
-      "ar": "برطمانات تخزين زجاجية مزخرفة"
+      "ar": "مرطبانات تخزين زجاجية مزخرفة"
     },
     "category": "jars",
     "variants": []
@@ -1351,7 +1351,7 @@
     "image": "./images/products/114.webp",
     "name": {
       "en": "Pink airless bottles",
-      "ar": "عبوات إيرلس وردية"
+      "ar": "عبوات بمضخة دون هواء وردية"
     },
     "category": "bottles",
     "variants": []
@@ -1361,7 +1361,7 @@
     "image": "./images/products/115.webp",
     "name": {
       "en": "Peach airless bottles",
-      "ar": "عبوات إيرلس بلون خوخي"
+      "ar": "عبوات بمضخة دون هواء بلون خوخي"
     },
     "category": "bottles",
     "variants": []
@@ -1371,7 +1371,7 @@
     "image": "./images/products/116.webp",
     "name": {
       "en": "Mint airless bottles",
-      "ar": "عبوات إيرلس بلون نعناعي"
+      "ar": "عبوات بمضخة دون هواء بلون نعناعي"
     },
     "category": "bottles",
     "variants": []
@@ -1381,7 +1381,7 @@
     "image": "./images/products/117.webp",
     "name": {
       "en": "Stand-up storage pouches",
-      "ar": "أكياس تغليف واقفة"
+      "ar": "أكياس تغليف قائمة"
     },
     "category": "pouches",
     "variants": []
@@ -1576,7 +1576,7 @@
     "image": "./images/products/126.webp",
     "name": {
       "en": "Clear spray bottle · 50 ml",
-      "ar": "قنينة بخاخ شفافة · 50 مل"
+      "ar": "قارورة بخاخ شفافة · 50 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1586,7 +1586,7 @@
     "image": "./images/products/127.webp",
     "name": {
       "en": "Pink dropper bottles",
-      "ar": "قنينات قطارة وردية"
+      "ar": "قوارير قطارة وردية"
     },
     "category": "bottles",
     "variants": [
@@ -1627,7 +1627,7 @@
     "image": "./images/products/129.webp",
     "name": {
       "en": "Clear pump bottles · 30–100 ml",
-      "ar": "قنينات شفافة بمضخة · 30–100 مل"
+      "ar": "قوارير شفافة بمضخة · 30–100 مل"
     },
     "category": "bottles",
     "variants": []
@@ -1637,7 +1637,7 @@
     "image": "./images/products/130.webp",
     "name": {
       "en": "Glass bottle · 250 ml",
-      "ar": "قنينة زجاجية · 250 مل"
+      "ar": "قارورة زجاجية · 250 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1657,7 +1657,7 @@
     "image": "./images/products/132.webp",
     "name": {
       "en": "Roll-on bottle · 50 ml",
-      "ar": "قنينة رول أون · 50 مل"
+      "ar": "قارورة ذات كرة دوارة · 50 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1687,7 +1687,7 @@
     "image": "./images/products/135.webp",
     "name": {
       "en": "Oval dropper bottles · 50 ml",
-      "ar": "قنينات قطارة بيضاوية · 50 مل"
+      "ar": "قوارير قطارة بيضاوية · 50 مل"
     },
     "category": "perfume",
     "variants": []
@@ -1697,7 +1697,7 @@
     "image": "./images/products/136.webp",
     "name": {
       "en": "Small glass cosmetic jars",
-      "ar": "برطمانات تجميل زجاجية صغيرة"
+      "ar": "مرطبانات تجميل زجاجية صغيرة"
     },
     "category": "jars",
     "variants": []
@@ -1727,7 +1727,7 @@
     "image": "./images/products/139.webp",
     "name": {
       "en": "Clear jars with gold lids collection",
-      "ar": "مجموعة برطمانات شفافة وذهبية"
+      "ar": "مجموعة مرطبانات شفافة وذهبية"
     },
     "category": "jars",
     "variants": []
@@ -1737,7 +1737,7 @@
     "image": "./images/products/140.webp",
     "name": {
       "en": "Clear jars with silver lids",
-      "ar": "برطمانات شفافة بغطاء فضي"
+      "ar": "مرطبانات شفافة بغطاء فضي"
     },
     "category": "jars",
     "variants": []
@@ -1793,7 +1793,7 @@
     "image": "./images/products/143.webp",
     "name": {
       "en": "Amber jars with gold lids collection",
-      "ar": "مجموعة برطمانات بنية بغطاء ذهبي"
+      "ar": "مجموعة مرطبانات بنية بغطاء ذهبي"
     },
     "category": "jars",
     "variants": []
@@ -1803,7 +1803,7 @@
     "image": "./images/products/144.webp",
     "name": {
       "en": "Clear jars with silver lids collection",
-      "ar": "مجموعة برطمانات شفافة بغطاء فضي"
+      "ar": "مجموعة مرطبانات شفافة بغطاء فضي"
     },
     "category": "jars",
     "variants": []
@@ -1836,7 +1836,7 @@
     "image": "./images/products/146.webp",
     "name": {
       "en": "Matte black jars with gold lids",
-      "ar": "علب سوداء مطفية بغطاء ذهبي"
+      "ar": "علب سوداء غير لامعة بغطاء ذهبي"
     },
     "category": "jars",
     "variants": []
@@ -1902,7 +1902,7 @@
     "image": "./images/products/150.webp",
     "name": {
       "en": "Laura matte black & gold collection",
-      "ar": "مجموعة لورا سوداء مطفية وذهبية"
+      "ar": "مجموعة لورا سوداء غير لامعة وذهبية"
     },
     "category": "bottles",
     "variants": [
@@ -2017,7 +2017,7 @@
     "image": "./images/products/155.webp",
     "name": {
       "en": "Black pump bottle collection",
-      "ar": "مجموعة قنينات بمضخة سوداء"
+      "ar": "مجموعة قوارير بمضخة سوداء"
     },
     "category": "bottles",
     "variants": []
@@ -2027,7 +2027,7 @@
     "image": "./images/products/156.webp",
     "name": {
       "en": "White spray bottle collection",
-      "ar": "مجموعة قنينات بخاخ بيضاء"
+      "ar": "مجموعة قوارير بخاخ بيضاء"
     },
     "category": "bottles",
     "variants": []
