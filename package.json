@@ -1,1 +1,19 @@
-{"name":"sm-royale","version":"1.0.0","private":true,"scripts":{"dev":"node server.mjs","start":"node server.mjs","build":"node build.mjs"},"engines":{"node":">=20"}}
+{
+  "name": "sm-royale",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "admin:create": "node scripts/create-admin.mjs",
+    "admin:hash": "node scripts/admin-hash.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.6"
+  }
+}
