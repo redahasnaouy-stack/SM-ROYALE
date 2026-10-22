@@ -8,7 +8,7 @@
     "Sheet 14 duplicates sheet 13.",
     "Red stock quantities are not published; carton quantities are packaging information only.",
     "Unpriced source rows remain null, not zero.",
-    "Owner supplied transcription is authoritative for details; prior explicit Pharma clarification remains authoritative. Laura duplicate labels are offered separately by supplier reference, without guessing photographs. Uncertain 3.26 price is withheld."
+    "Owner supplied transcription is authoritative for details; latest owner instruction confirms Pharma clear 30 ml at 80.00 MAD and clear 60 ml at 90.00 MAD per unit. Laura duplicate labels are offered separately by supplier reference, without guessing photographs. Uncertain 3.26 price is withheld."
   ],
   "groups": [
     {
@@ -6833,7 +6833,7 @@
         {
           "key": "S11-G02-V01",
           "size": "30 ml",
-          "priceCents": 80,
+          "priceCents": 8000,
           "cartonQuantity": 312,
           "supplierReference": null,
           "originalPrintedPriceCents": 8000,
@@ -6848,7 +6848,7 @@
       ],
       "matchedProductIds": [],
       "requiresReview": false,
-      "ownerClarification": "Owner confirmed on 2026-10-22: intended unit price is 0.80 / 0.90 MAD, not the printed 80.00 / 90.00."
+      "ownerClarification": "Latest owner instruction on 2026-10-22 supersedes the earlier decimal correction: clear 30 ml costs 80.00 MAD and clear 60 ml costs 90.00 MAD per unit, exactly as printed."
     },
     {
       "id": "S11-G03",
@@ -6920,7 +6920,7 @@
         {
           "key": "S11-G04-V01",
           "size": "60 ml",
-          "priceCents": 90,
+          "priceCents": 9000,
           "cartonQuantity": "240/176",
           "supplierReference": null,
           "originalPrintedPriceCents": 9000,
@@ -6935,7 +6935,7 @@
       ],
       "matchedProductIds": [],
       "requiresReview": false,
-      "ownerClarification": "Owner confirmed on 2026-10-22: intended unit price is 0.80 / 0.90 MAD, not the printed 80.00 / 90.00."
+      "ownerClarification": "Latest owner instruction on 2026-10-22 supersedes the earlier decimal correction: clear 30 ml costs 80.00 MAD and clear 60 ml costs 90.00 MAD per unit, exactly as printed."
     },
     {
       "id": "S11-G05",

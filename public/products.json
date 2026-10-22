@@ -7338,13 +7338,13 @@
       {
         "key": "S11-G02-V01",
         "size": "30 ml",
-        "price": 0.8,
+        "price": 80,
         "cartonQuantity": 312,
         "supplierReference": null,
         "sourceGroup": "S11-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-transcription-v2-0a6cd4c69ec9599b",
+    "pricingRevision": "2026-10-22-transcription-v2-8425dcb037635d7e",
     "priceSource": {
       "group": "S11-G02",
       "sheet": 11,
@@ -7364,13 +7364,13 @@
       {
         "key": "S11-G04-V01",
         "size": "60 ml",
-        "price": 0.9,
+        "price": 90,
         "cartonQuantity": "240/176",
         "supplierReference": null,
         "sourceGroup": "S11-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-transcription-v2-6b93306e4d8c660b",
+    "pricingRevision": "2026-10-22-transcription-v2-0a051e5a8845a956",
     "priceSource": {
       "group": "S11-G04",
       "sheet": 11,

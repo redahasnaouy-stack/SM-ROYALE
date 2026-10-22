@@ -19,7 +19,7 @@ test('representative prices from every source table retain exact decimals, capac
  assert.equal(value('SUP-S05-G01','200 ml'),3.40);assert.equal(value('SMR-146','20 ml'),2.50);
  assert.equal(value('SMR-140','100 ml'),3.75);assert.equal(value('SMR-141','20 ml'),2.30);assert.equal(value('SMR-142','20 ml'),2.40);
  assert.equal(value('SMR-009','10 ml'),1.80);assert.equal(value('SMR-008','15 ml'),1.50);
- assert.equal(value('SUP-S11-G02','30 ml'),0.80);assert.equal(value('SUP-S11-G04','60 ml'),0.90);
+ assert.equal(value('SUP-S11-G02','30 ml'),80.00);assert.equal(value('SUP-S11-G04','60 ml'),90.00);
  assert.equal(value('SUP-S10-G13','30 ml'),3.00);assert.equal(value('SMR-019','43 mm'),0.36);
  assert.equal(value('SMR-161','500 g · 17×24+4 cm'),0.68);assert.equal(value('SUP-S13-G01','250 g · 14×22+4 cm'),0.50);
  assert.equal(value('SMR-152','100 ml'),6.38);
