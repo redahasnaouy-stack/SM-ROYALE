@@ -41,3 +41,9 @@ The production build and JavaScript syntax checks passed. Chromium browser check
 The `gh-pages` branch contains the deployable contents of `public/`. In repository Settings → Pages, choose “Deploy from a branch”, `gh-pages`, and `/(root)`. Product assets use relative paths so the site works under `/SM-ROYALE/`.
 
 To update the website after source changes, publish the contents of `public/` to `gh-pages`, preserving the branch history and without force-pushing.
+
+## Royal visual identity
+
+The interface follows the supplied SM Royale card: black leather, warm metallic gold, ornamental corners and the original crown/SM mark. `public/images/logo.svg` displays the original mark via an embedded image viewport; it is not a redrawn substitute. `public/images/royal-hero.png` is a generated brand illustration, not a promise of exact catalogue models. Actual product visuals remain in the catalogue.
+
+Fonts are served locally from `public/fonts/`: Cairo for Arabic, Manrope for interface text and Cormorant Garamond for English display headings. Their license notices are retained alongside the fonts. No external font service is required.
