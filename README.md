@@ -100,3 +100,7 @@ A `pricingRevision` invalidates stale stored price overrides once when a new sup
 Imported variants have stable keys. Checkout validates the chosen key as well as its index, preventing an old browser basket from silently becoming a different size after a price-list update. Older baskets with unverifiable selections ask the customer to remove and reselect the model.
 
 The owner confirmed Pharma clear 30 ml at 80.00 DH and 60 ml at 90.00 DH; both corrections are applied. The owner-supplied `catalogue/Infos_Produits_Transcription.txt` now provides detailed provenance for all 474 rows. Duplicate Laura designations are published separately by supplier reference using photo placeholders. Their association with original photos remains unconfirmed. Yellow Laura 100 ml is 6.38 DH; the uncertain frosted 50 ml reading is withheld.
+
+## Customer reviews
+
+The homepage uses the original company artwork as a complete, uncropped hero. Visitors can submit a display name, 1–5 rating and review after consenting to publication. New reviews are stored privately as `pending` in the same persistent repository as orders. In **تقييمات العملاء**, an authenticated administrator can publish or hide each review. Public averages and counts include approved reviews only; no sample testimonials or ratings are shipped. These are moderated visitor reviews and are not labelled as verified purchases. Public submissions are validated, origin checked and rate limited; moderation requires CSRF protection and a matching record version.

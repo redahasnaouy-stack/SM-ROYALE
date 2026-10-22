@@ -39,6 +39,23 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
         const key=req.headers['idempotency-key'];if(typeof key!=='string'||!/^[a-zA-Z0-9-]{16,80}$/.test(key))throw Object.assign(new Error('معرّف الطلب غير صالح.'),{status:400});
         const result=await saveOrder(db,await body(req),key);return json(res,result.replayed?200:201,{order:receipt(result.row)});
       }
+      if(route==='/api/reviews'&&method==='GET'){
+        const reviews=(await db.list('reviews')).filter(r=>r.status==='approved').sort((a,b)=>b.createdAt.localeCompare(a.createdAt));
+        return json(res,200,{reviews:reviews.slice(0,100).map(({id,name,rating,message,createdAt})=>({id,name,rating,message,createdAt})),count:reviews.length,average:reviews.length?reviews.reduce((sum,r)=>sum+r.rating,0)/reviews.length:null});
+      }
+      if(route==='/api/reviews'&&method==='POST'){
+        await throttle('review:'+req.socket.remoteAddress,5,60*60*1000);const data=await body(req);
+        if(typeof data.name!=='string'||data.name.trim().length<2||data.name.trim().length>60||typeof data.message!=='string'||data.message.trim().length<10||data.message.trim().length>800||!Number.isInteger(data.rating)||data.rating<1||data.rating>5||data.consent!==true)throw Object.assign(new Error('يُرجى إدخال اسم وتقييم من 1 إلى 5 ورأي بين 10 و800 حرف، والموافقة على النشر.'),{status:400});
+        const id=randomBytes(16).toString('hex');await db.put('reviews',id,{id,name:data.name.trim(),rating:data.rating,message:data.message.trim(),createdAt:new Date().toISOString(),status:'pending'},{ifNew:true});return json(res,201,{ok:true});
+      }
+      if(route==='/api/admin/reviews'&&method==='GET'){await authenticated(req);return json(res,200,{reviews:(await db.list('reviews')).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).map(r=>({...r,version:r._version}))});}
+      if(/^\/api\/admin\/reviews\/[a-f0-9]{32}$/.test(route)&&method==='PATCH'){
+        const user=await authenticated(req,true),id=route.split('/').at(-1),data=await body(req),row=await db.get('reviews',id);
+        if(!row)throw Object.assign(new Error('التقييم غير موجود.'),{status:404});
+        if(!['approved','rejected','pending'].includes(data.status))throw Object.assign(new Error('حالة التقييم غير صالحة.'),{status:400});
+        if(data.version!==row._version||!await db.put('reviews',id,{...row,status:data.status},{version:row._version}))throw Object.assign(new Error('عُدّل التقييم. حدّث الصفحة.'),{status:409});
+        await audit(user,'moderate_review',id);return json(res,200,{ok:true});
+      }
       if(route==='/api/admin/login'&&method==='POST'){
         await throttle('login:'+req.socket.remoteAddress,10,15*60*1000);const data=await body(req);
         if(typeof data.email!=='string'||data.email.length>150||typeof data.password!=='string'||data.password.length>200)throw Object.assign(new Error('بيانات الدخول غير صحيحة.'),{status:400});
