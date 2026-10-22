@@ -1,0 +1,2127 @@
+[
+  {
+    "id": "SMR-001",
+    "image": "./images/products/001.webp",
+    "name": {
+      "en": "Purple airless bottles",
+      "ar": "عبوات إيرلس بنفسجية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-002",
+    "image": "./images/products/002.webp",
+    "name": {
+      "en": "Orange airless bottles",
+      "ar": "عبوات إيرلس برتقالية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-003",
+    "image": "./images/products/003.webp",
+    "name": {
+      "en": "Silver airless bottles",
+      "ar": "عبوات إيرلس فضية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-004",
+    "image": "./images/products/004.webp",
+    "name": {
+      "en": "Frosted blue dropper bottles",
+      "ar": "قنينات قطارة زرقاء مطفية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-005",
+    "image": "./images/products/005.webp",
+    "name": {
+      "en": "Reed diffuser bottles",
+      "ar": "قنينات معطر الأعواد"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-006",
+    "image": "./images/products/006.webp",
+    "name": {
+      "en": "Clear spray bottles",
+      "ar": "قنينات بخاخ شفافة"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-007",
+    "image": "./images/products/007.webp",
+    "name": {
+      "en": "Clear dropper bottles",
+      "ar": "قنينات قطارة شفافة"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.35
+      },
+      {
+        "size": "15 ml",
+        "price": 1.5
+      },
+      {
+        "size": "30 ml",
+        "price": 2
+      },
+      {
+        "size": "50 ml",
+        "price": 2.2
+      },
+      {
+        "size": "100 ml",
+        "price": 2.9
+      }
+    ]
+  },
+  {
+    "id": "SMR-008",
+    "image": "./images/products/008.webp",
+    "name": {
+      "en": "Amber dropper bottles",
+      "ar": "قنينات قطارة بنية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.35
+      },
+      {
+        "size": "15 ml",
+        "price": 1.5
+      },
+      {
+        "size": "30 ml",
+        "price": 2
+      },
+      {
+        "size": "50 ml",
+        "price": 2.2
+      },
+      {
+        "size": "100 ml",
+        "price": 2.9
+      }
+    ]
+  },
+  {
+    "id": "SMR-009",
+    "image": "./images/products/009.webp",
+    "name": {
+      "en": "Green dropper bottles",
+      "ar": "قنينات قطارة خضراء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-010",
+    "image": "./images/products/010.webp",
+    "name": {
+      "en": "Matte black dropper bottles",
+      "ar": "قنينات قطارة سوداء مطفية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.8
+      },
+      {
+        "size": "15 ml",
+        "price": 2
+      },
+      {
+        "size": "30 ml",
+        "price": 2.5
+      },
+      {
+        "size": "50 ml",
+        "price": 3
+      },
+      {
+        "size": "100 ml",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "SMR-011",
+    "image": "./images/products/011.webp",
+    "name": {
+      "en": "Glossy black dropper bottles",
+      "ar": "قنينات قطارة سوداء لامعة"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.8
+      },
+      {
+        "size": "15 ml",
+        "price": 2
+      },
+      {
+        "size": "30 ml",
+        "price": 2.5
+      },
+      {
+        "size": "50 ml",
+        "price": 3
+      },
+      {
+        "size": "100 ml",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "SMR-012",
+    "image": "./images/products/012.webp",
+    "name": {
+      "en": "Blue dropper bottles",
+      "ar": "قنينات قطارة زرقاء"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.8
+      },
+      {
+        "size": "15 ml",
+        "price": 2.2
+      },
+      {
+        "size": "30 ml",
+        "price": 2.7
+      },
+      {
+        "size": "50 ml",
+        "price": 3
+      },
+      {
+        "size": "100 ml",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "SMR-013",
+    "image": "./images/products/013.webp",
+    "name": {
+      "en": "Clear jars with gold lids",
+      "ar": "برطمانات شفافة بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-014",
+    "image": "./images/products/014.webp",
+    "name": {
+      "en": "Frosted clear dropper bottles",
+      "ar": "قنينات قطارة شفافة مطفية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-015",
+    "image": "./images/products/015.webp",
+    "name": {
+      "en": "White dropper bottles",
+      "ar": "قنينات قطارة بيضاء"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 2
+      },
+      {
+        "size": "15 ml",
+        "price": 2.3
+      },
+      {
+        "size": "30 ml",
+        "price": 2.8
+      },
+      {
+        "size": "50 ml",
+        "price": 3.3
+      },
+      {
+        "size": "100 ml",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "SMR-016",
+    "image": "./images/products/016.webp",
+    "name": {
+      "en": "Metallic caps · 24 mm",
+      "ar": "أغطية معدنية · 24 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-017",
+    "image": "./images/products/017.webp",
+    "name": {
+      "en": "Flip-top caps · 28 mm",
+      "ar": "أغطية فليب توب · 28 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-018",
+    "image": "./images/products/018.webp",
+    "name": {
+      "en": "Trigger sprayers · 28 mm",
+      "ar": "بخاخات زناد · 28 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-019",
+    "image": "./images/products/019.webp",
+    "name": {
+      "en": "Jar lids",
+      "ar": "أغطية البرطمانات"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-020",
+    "image": "./images/products/020.webp",
+    "name": {
+      "en": "Glass bottle · 50 ml",
+      "ar": "قنينة زجاجية · 50 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-021",
+    "image": "./images/products/021.webp",
+    "name": {
+      "en": "Clear jars with coloured lids",
+      "ar": "برطمانات شفافة بأغطية ملونة"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-022",
+    "image": "./images/products/022.webp",
+    "name": {
+      "en": "Clear screw-cap bottles",
+      "ar": "قنينات شفافة بغطاء لولبي"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-023",
+    "image": "./images/products/023.webp",
+    "name": {
+      "en": "Small amber bottles",
+      "ar": "قنينات بنية صغيرة"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-024",
+    "image": "./images/products/024.webp",
+    "name": {
+      "en": "Metallic spray bottles",
+      "ar": "قنينات بخاخ معدنية"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-025",
+    "image": "./images/products/025.webp",
+    "name": {
+      "en": "Pocket spray bottle · 6 ml",
+      "ar": "قنينة عطر صغيرة · 6 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-026",
+    "image": "./images/products/026.webp",
+    "name": {
+      "en": "Small dropper bottles",
+      "ar": "قنينات قطارة صغيرة"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-027",
+    "image": "./images/products/027.webp",
+    "name": {
+      "en": "Gold pump bottles",
+      "ar": "قنينات بمضخة ذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-028",
+    "image": "./images/products/028.webp",
+    "name": {
+      "en": "Curved glass roll-on bottles",
+      "ar": "قنينات رول أون زجاجية مموجة"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-029",
+    "image": "./images/products/029.webp",
+    "name": {
+      "en": "Silver dropper bottles",
+      "ar": "قنينات قطارة فضية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-030",
+    "image": "./images/products/030.webp",
+    "name": {
+      "en": "Clear jars · 100–200 ml",
+      "ar": "برطمانات شفافة · 100–200 مل"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-031",
+    "image": "./images/products/031.webp",
+    "name": {
+      "en": "Clear perfume bottles · 20 ml",
+      "ar": "قنينات عطر شفافة · 20 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-032",
+    "image": "./images/products/032.webp",
+    "name": {
+      "en": "Clear spray bottles · 60–100 ml",
+      "ar": "قنينات بخاخ شفافة · 60–100 مل"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-033",
+    "image": "./images/products/033.webp",
+    "name": {
+      "en": "Aluminium bottles",
+      "ar": "قنينات ألمنيوم"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-034",
+    "image": "./images/products/034.webp",
+    "name": {
+      "en": "Coloured spray bottles · 30 ml",
+      "ar": "قنينات بخاخ ملونة · 30 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-035",
+    "image": "./images/products/035.webp",
+    "name": {
+      "en": "Decorative perfume bottles · 16 ml",
+      "ar": "قنينات عطر مزخرفة · 16 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-036",
+    "image": "./images/products/036.webp",
+    "name": {
+      "en": "Coloured spray bottles · 20 ml",
+      "ar": "قنينات بخاخ ملونة · 20 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-037",
+    "image": "./images/products/037.webp",
+    "name": {
+      "en": "Cosmetic jars · 50 g",
+      "ar": "علب مستحضرات التجميل · 50 غ"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-038",
+    "image": "./images/products/038.webp",
+    "name": {
+      "en": "Perfume atomiser heads · 18 mm",
+      "ar": "رؤوس بخاخ عطر · 18 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-039",
+    "image": "./images/products/039.webp",
+    "name": {
+      "en": "Glass vials · 5 ml",
+      "ar": "قنينات زجاجية صغيرة · 5 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-040",
+    "image": "./images/products/040.webp",
+    "name": {
+      "en": "Clear pump bottles · 60–100 ml",
+      "ar": "قنينات بمضخة · 60–100 مل"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-041",
+    "image": "./images/products/041.webp",
+    "name": {
+      "en": "Decorative perfume bottle · 6 ml",
+      "ar": "قنينة عطر مزخرفة · 6 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-042",
+    "image": "./images/products/042.webp",
+    "name": {
+      "en": "Sprayer heads · 24 mm",
+      "ar": "رؤوس بخاخ · 24 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-043",
+    "image": "./images/products/043.webp",
+    "name": {
+      "en": "White airless bottles",
+      "ar": "عبوات إيرلس بيضاء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-044",
+    "image": "./images/products/044.webp",
+    "name": {
+      "en": "Black pump bottles",
+      "ar": "قنينات بمضخة سوداء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-045",
+    "image": "./images/products/045.webp",
+    "name": {
+      "en": "White pump bottles",
+      "ar": "قنينات بمضخة بيضاء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-046",
+    "image": "./images/products/046.webp",
+    "name": {
+      "en": "Amber jars with gold lids",
+      "ar": "برطمانات بنية بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-047",
+    "image": "./images/products/047.webp",
+    "name": {
+      "en": "Decorative perfume bottle · 12 ml",
+      "ar": "قنينة عطر مزخرفة · 12 مل"
+    },
+    "category": "perfume",
+    "variants": [
+      {
+        "size": "12 ml",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "SMR-048",
+    "image": "./images/products/048.webp",
+    "name": {
+      "en": "Textured perfume bottles",
+      "ar": "قنينات عطر مزخرفة"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-049",
+    "image": "./images/products/049.webp",
+    "name": {
+      "en": "Black cosmetic jars",
+      "ar": "علب مستحضرات تجميل سوداء"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-050",
+    "image": "./images/products/050.webp",
+    "name": {
+      "en": "Dropper caps · 10–15 ml",
+      "ar": "أغطية قطارة · 10–15 مل"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-051",
+    "image": "./images/products/051.webp",
+    "name": {
+      "en": "Curved perfume bottles",
+      "ar": "قنينات عطر مموجة"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-052",
+    "image": "./images/products/052.webp",
+    "name": {
+      "en": "Decorative gold perfume bottles",
+      "ar": "قنينات عطر ذهبية مزخرفة"
+    },
+    "category": "perfume",
+    "variants": [
+      {
+        "size": "3 ml",
+        "price": 2.3
+      },
+      {
+        "size": "6 ml",
+        "price": 2.5
+      },
+      {
+        "size": "12 ml",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "SMR-053",
+    "image": "./images/products/053.webp",
+    "name": {
+      "en": "Pink spray bottles",
+      "ar": "قنينات بخاخ وردية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-054",
+    "image": "./images/products/054.webp",
+    "name": {
+      "en": "Coloured dropper bottles",
+      "ar": "قنينات قطارة ملونة"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-055",
+    "image": "./images/products/055.webp",
+    "name": {
+      "en": "Frosted blue dropper collection",
+      "ar": "مجموعة قطارات زرقاء مطفية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-056",
+    "image": "./images/products/056.webp",
+    "name": {
+      "en": "Dropper caps with metallic collars",
+      "ar": "أغطية قطارة بحلقة معدنية"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-057",
+    "image": "./images/products/057.webp",
+    "name": {
+      "en": "Glass storage jars",
+      "ar": "برطمانات تخزين زجاجية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-058",
+    "image": "./images/products/058.webp",
+    "name": {
+      "en": "White jars with silver lids",
+      "ar": "علب بيضاء بغطاء فضي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-059",
+    "image": "./images/products/059.webp",
+    "name": {
+      "en": "Amber glass bottle · 125 ml",
+      "ar": "قنينة زجاجية بنية · 125 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-060",
+    "image": "./images/products/060.webp",
+    "name": {
+      "en": "Amber cosmetic jars",
+      "ar": "برطمانات مستحضرات تجميل بنية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-061",
+    "image": "./images/products/061.webp",
+    "name": {
+      "en": "Frosted green dropper collection",
+      "ar": "مجموعة قطارات خضراء مطفية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-062",
+    "image": "./images/products/062.webp",
+    "name": {
+      "en": "Cupping accessories",
+      "ar": "أدوات الحجامة"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-063",
+    "image": "./images/products/063.webp",
+    "name": {
+      "en": "Massage chair",
+      "ar": "كرسي المساج"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-064",
+    "image": "./images/products/064.webp",
+    "name": {
+      "en": "Laura black & gold pump bottles",
+      "ar": "قنينات لورا سوداء وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4
+      },
+      {
+        "size": "50 ml",
+        "price": 4.5
+      },
+      {
+        "size": "100 ml",
+        "price": 5.5
+      }
+    ]
+  },
+  {
+    "id": "SMR-065",
+    "image": "./images/products/065.webp",
+    "name": {
+      "en": "Laura white & gold pump bottles",
+      "ar": "قنينات لورا بيضاء وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4
+      },
+      {
+        "size": "50 ml",
+        "price": 4.5
+      },
+      {
+        "size": "100 ml",
+        "price": 5.5
+      }
+    ]
+  },
+  {
+    "id": "SMR-066",
+    "image": "./images/products/066.webp",
+    "name": {
+      "en": "Blue glass dropper collection",
+      "ar": "مجموعة قطارات زجاجية زرقاء"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.8
+      },
+      {
+        "size": "15 ml",
+        "price": 2.2
+      },
+      {
+        "size": "30 ml",
+        "price": 2.7
+      },
+      {
+        "size": "50 ml",
+        "price": 3
+      },
+      {
+        "size": "100 ml",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "SMR-067",
+    "image": "./images/products/067.webp",
+    "name": {
+      "en": "Clear glass dropper collection",
+      "ar": "مجموعة قطارات زجاجية شفافة"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 1.35
+      },
+      {
+        "size": "15 ml",
+        "price": 1.5
+      },
+      {
+        "size": "30 ml",
+        "price": 2
+      },
+      {
+        "size": "50 ml",
+        "price": 2.2
+      },
+      {
+        "size": "100 ml",
+        "price": 2.9
+      }
+    ]
+  },
+  {
+    "id": "SMR-068",
+    "image": "./images/products/068.webp",
+    "name": {
+      "en": "Frosted pump bottles with gold trim",
+      "ar": "قنينات مطفية بمضخة ذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-069",
+    "image": "./images/products/069.webp",
+    "name": {
+      "en": "Frosted pump bottles with silver trim",
+      "ar": "قنينات مطفية بمضخة فضية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-070",
+    "image": "./images/products/070.webp",
+    "name": {
+      "en": "White pump bottles with gold trim",
+      "ar": "قنينات بيضاء بمضخة ذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-071",
+    "image": "./images/products/071.webp",
+    "name": {
+      "en": "Laura pink & gold pump bottles",
+      "ar": "قنينات لورا وردية وذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-072",
+    "image": "./images/products/072.webp",
+    "name": {
+      "en": "White cosmetic tubes",
+      "ar": "أنابيب مستحضرات تجميل بيضاء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-073",
+    "image": "./images/products/073.webp",
+    "name": {
+      "en": "White pump bottles with silver trim",
+      "ar": "قنينات بيضاء بمضخة فضية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-074",
+    "image": "./images/products/074.webp",
+    "name": {
+      "en": "Clear airless pump bottles · 50 ml",
+      "ar": "عبوات إيرلس شفافة · 50 مل"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-075",
+    "image": "./images/products/075.webp",
+    "name": {
+      "en": "Pocket perfume spray bottles",
+      "ar": "قنينات بخاخ عطر صغيرة"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-076",
+    "image": "./images/products/076.webp",
+    "name": {
+      "en": "Clear glass bottles · 30–60 ml",
+      "ar": "قنينات زجاجية شفافة · 30–60 مل"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-077",
+    "image": "./images/products/077.webp",
+    "name": {
+      "en": "Glass jar · 212 ml",
+      "ar": "برطمان زجاجي · 212 مل"
+    },
+    "category": "jars",
+    "variants": [
+      {
+        "size": "212 ml",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "id": "SMR-078",
+    "image": "./images/products/078.webp",
+    "name": {
+      "en": "Clear pump bottle collection",
+      "ar": "مجموعة قنينات شفافة بمضخة"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-079",
+    "image": "./images/products/079.webp",
+    "name": {
+      "en": "Round glass jars",
+      "ar": "برطمانات زجاجية مدورة"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-080",
+    "image": "./images/products/080.webp",
+    "name": {
+      "en": "Screw caps · 31 mm",
+      "ar": "أغطية لولبية · 31 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-081",
+    "image": "./images/products/081.webp",
+    "name": {
+      "en": "Gold pocket perfume bottles",
+      "ar": "قنينات عطر صغيرة ذهبية"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-082",
+    "image": "./images/products/082.webp",
+    "name": {
+      "en": "Black airless bottles",
+      "ar": "عبوات إيرلس سوداء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-083",
+    "image": "./images/products/083.webp",
+    "name": {
+      "en": "Blue airless bottles",
+      "ar": "عبوات إيرلس زرقاء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-084",
+    "image": "./images/products/084.webp",
+    "name": {
+      "en": "Lotion pumps · 28 mm",
+      "ar": "مضخات لوشن · 28 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-085",
+    "image": "./images/products/085.webp",
+    "name": {
+      "en": "White cosmetic jars · silver trim",
+      "ar": "علب تجميل بيضاء بحافة فضية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-086",
+    "image": "./images/products/086.webp",
+    "name": {
+      "en": "Textured glass spray bottles",
+      "ar": "قنينات بخاخ زجاجية مزخرفة"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-087",
+    "image": "./images/products/087.webp",
+    "name": {
+      "en": "White cosmetic jars · gold trim",
+      "ar": "علب تجميل بيضاء بحافة ذهبية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-088",
+    "image": "./images/products/088.webp",
+    "name": {
+      "en": "Slim spray bottle collection",
+      "ar": "مجموعة قنينات بخاخ رفيعة"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-089",
+    "image": "./images/products/089.webp",
+    "name": {
+      "en": "White & gold pump collection",
+      "ar": "مجموعة قنينات بيضاء وذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-090",
+    "image": "./images/products/090.webp",
+    "name": {
+      "en": "Glass jar · 100 ml",
+      "ar": "برطمان زجاجي · 100 مل"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-091",
+    "image": "./images/products/091.webp",
+    "name": {
+      "en": "Mascara tubes · 10 ml",
+      "ar": "عبوات ماسكارا · 10 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-092",
+    "image": "./images/products/092.webp",
+    "name": {
+      "en": "Glass bottles with handles",
+      "ar": "قنينات زجاجية بمقبض"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-093",
+    "image": "./images/products/093.webp",
+    "name": {
+      "en": "Square dropper bottles · 30–50 ml",
+      "ar": "قنينات قطارة مربعة · 30–50 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-094",
+    "image": "./images/products/094.webp",
+    "name": {
+      "en": "White airless pump bottle",
+      "ar": "عبوة إيرلس بيضاء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-095",
+    "image": "./images/products/095.webp",
+    "name": {
+      "en": "Small glass jars · 25–35 g",
+      "ar": "برطمانات زجاجية صغيرة · 25–35 غ"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-096",
+    "image": "./images/products/096.webp",
+    "name": {
+      "en": "Frosted cosmetic jars",
+      "ar": "علب مستحضرات تجميل مطفية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-097",
+    "image": "./images/products/097.webp",
+    "name": {
+      "en": "Black cosmetic jars with silver trim",
+      "ar": "علب تجميل سوداء بحافة فضية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-098",
+    "image": "./images/products/098.webp",
+    "name": {
+      "en": "Silicone cupping cup",
+      "ar": "كأس حجامة سيليكون"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-099",
+    "image": "./images/products/099.webp",
+    "name": {
+      "en": "Gold pump bottle collection",
+      "ar": "مجموعة قنينات بمضخة ذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-100",
+    "image": "./images/products/100.webp",
+    "name": {
+      "en": "Silver pump bottle collection",
+      "ar": "مجموعة قنينات بمضخة فضية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-101",
+    "image": "./images/products/101.webp",
+    "name": {
+      "en": "Decorative metallic jars",
+      "ar": "علب معدنية مزخرفة"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-102",
+    "image": "./images/products/102.webp",
+    "name": {
+      "en": "Glass bottle · 100 ml",
+      "ar": "قنينة زجاجية · 100 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-103",
+    "image": "./images/products/103.webp",
+    "name": {
+      "en": "Cupping kit",
+      "ar": "طقم الحجامة"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-104",
+    "image": "./images/products/104.webp",
+    "name": {
+      "en": "Coloured silicone cupping cups",
+      "ar": "كؤوس حجامة سيليكون ملونة"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-105",
+    "image": "./images/products/105.webp",
+    "name": {
+      "en": "Wooden massage sticks",
+      "ar": "أدوات مساج خشبية"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-106",
+    "image": "./images/products/106.webp",
+    "name": {
+      "en": "Amber glass bottle · 30 ml",
+      "ar": "قنينة زجاجية بنية · 30 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-107",
+    "image": "./images/products/107.webp",
+    "name": {
+      "en": "Glass jar with gold lid · 100 g",
+      "ar": "برطمان بغطاء ذهبي · 100 غ"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-108",
+    "image": "./images/products/108.webp",
+    "name": {
+      "en": "Spiky massage balls",
+      "ar": "كرات المساج"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-109",
+    "image": "./images/products/109.webp",
+    "name": {
+      "en": "Frosted spray bottles",
+      "ar": "قنينات بخاخ مطفية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-110",
+    "image": "./images/products/110.webp",
+    "name": {
+      "en": "Clear spray bottles with gold trim",
+      "ar": "قنينات بخاخ شفافة وذهبية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-111",
+    "image": "./images/products/111.webp",
+    "name": {
+      "en": "Foam pump bottles · 100–150 ml",
+      "ar": "قنينات مضخة رغوة · 100–150 مل"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-112",
+    "image": "./images/products/112.webp",
+    "name": {
+      "en": "White cosmetic jars · 30–50 g",
+      "ar": "علب مستحضرات تجميل بيضاء · 30–50 غ"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-113",
+    "image": "./images/products/113.webp",
+    "name": {
+      "en": "Textured glass storage jars",
+      "ar": "برطمانات تخزين زجاجية مزخرفة"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-114",
+    "image": "./images/products/114.webp",
+    "name": {
+      "en": "Pink airless bottles",
+      "ar": "عبوات إيرلس وردية"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-115",
+    "image": "./images/products/115.webp",
+    "name": {
+      "en": "Peach airless bottles",
+      "ar": "عبوات إيرلس بلون خوخي"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-116",
+    "image": "./images/products/116.webp",
+    "name": {
+      "en": "Mint airless bottles",
+      "ar": "عبوات إيرلس بلون نعناعي"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-117",
+    "image": "./images/products/117.webp",
+    "name": {
+      "en": "Stand-up storage pouches",
+      "ar": "أكياس تغليف واقفة"
+    },
+    "category": "pouches",
+    "variants": []
+  },
+  {
+    "id": "SMR-118",
+    "image": "./images/products/118.webp",
+    "name": {
+      "en": "Pink pouches",
+      "ar": "أكياس تغليف وردية"
+    },
+    "category": "pouches",
+    "variants": []
+  },
+  {
+    "id": "SMR-119",
+    "image": "./images/products/119.webp",
+    "name": {
+      "en": "Red aluminium pouches",
+      "ar": "أكياس ألمنيوم حمراء"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.38
+      },
+      {
+        "size": "125 g",
+        "price": 0.5
+      },
+      {
+        "size": "250 g",
+        "price": 0.65
+      },
+      {
+        "size": "500 g",
+        "price": 0.78
+      },
+      {
+        "size": "1 kg",
+        "price": 1.05
+      }
+    ]
+  },
+  {
+    "id": "SMR-120",
+    "image": "./images/products/120.webp",
+    "name": {
+      "en": "Light blue aluminium pouches",
+      "ar": "أكياس ألمنيوم زرقاء فاتحة"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.38
+      },
+      {
+        "size": "125 g",
+        "price": 0.5
+      },
+      {
+        "size": "250 g",
+        "price": 0.65
+      },
+      {
+        "size": "500 g",
+        "price": 0.78
+      },
+      {
+        "size": "1 kg",
+        "price": 1.05
+      }
+    ]
+  },
+  {
+    "id": "SMR-121",
+    "image": "./images/products/121.webp",
+    "name": {
+      "en": "Yellow pouches",
+      "ar": "أكياس تغليف صفراء"
+    },
+    "category": "pouches",
+    "variants": []
+  },
+  {
+    "id": "SMR-122",
+    "image": "./images/products/122.webp",
+    "name": {
+      "en": "Turquoise aluminium pouches",
+      "ar": "أكياس ألمنيوم فيروزية"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.38
+      },
+      {
+        "size": "125 g",
+        "price": 0.5
+      },
+      {
+        "size": "250 g",
+        "price": 0.65
+      },
+      {
+        "size": "500 g",
+        "price": 0.78
+      },
+      {
+        "size": "1 kg",
+        "price": 1.05
+      }
+    ]
+  },
+  {
+    "id": "SMR-123",
+    "image": "./images/products/123.webp",
+    "name": {
+      "en": "Green aluminium pouches",
+      "ar": "أكياس ألمنيوم خضراء"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.38
+      },
+      {
+        "size": "125 g",
+        "price": 0.5
+      },
+      {
+        "size": "250 g",
+        "price": 0.65
+      },
+      {
+        "size": "500 g",
+        "price": 0.78
+      },
+      {
+        "size": "1 kg",
+        "price": 1.05
+      }
+    ]
+  },
+  {
+    "id": "SMR-124",
+    "image": "./images/products/124.webp",
+    "name": {
+      "en": "Blue aluminium pouches",
+      "ar": "أكياس ألمنيوم زرقاء"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.38
+      },
+      {
+        "size": "125 g",
+        "price": 0.5
+      },
+      {
+        "size": "250 g",
+        "price": 0.65
+      },
+      {
+        "size": "500 g",
+        "price": 0.78
+      },
+      {
+        "size": "1 kg",
+        "price": 1.05
+      }
+    ]
+  },
+  {
+    "id": "SMR-125",
+    "image": "./images/products/125.webp",
+    "name": {
+      "en": "White screw caps",
+      "ar": "أغطية لولبية بيضاء"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-126",
+    "image": "./images/products/126.webp",
+    "name": {
+      "en": "Clear spray bottle · 50 ml",
+      "ar": "قنينة بخاخ شفافة · 50 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-127",
+    "image": "./images/products/127.webp",
+    "name": {
+      "en": "Pink dropper bottles",
+      "ar": "قنينات قطارة وردية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "10 ml",
+        "price": 2.3
+      },
+      {
+        "size": "15 ml",
+        "price": 2.4
+      },
+      {
+        "size": "30 ml",
+        "price": 3
+      },
+      {
+        "size": "50 ml",
+        "price": 3.3
+      },
+      {
+        "size": "100 ml",
+        "price": 4.5
+      }
+    ]
+  },
+  {
+    "id": "SMR-128",
+    "image": "./images/products/128.webp",
+    "name": {
+      "en": "Gold screw caps · 31 mm",
+      "ar": "أغطية لولبية ذهبية · 31 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-129",
+    "image": "./images/products/129.webp",
+    "name": {
+      "en": "Clear pump bottles · 30–100 ml",
+      "ar": "قنينات شفافة بمضخة · 30–100 مل"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-130",
+    "image": "./images/products/130.webp",
+    "name": {
+      "en": "Glass bottle · 250 ml",
+      "ar": "قنينة زجاجية · 250 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-131",
+    "image": "./images/products/131.webp",
+    "name": {
+      "en": "Manual cupping pump",
+      "ar": "مضخة حجامة يدوية"
+    },
+    "category": "wellness",
+    "variants": []
+  },
+  {
+    "id": "SMR-132",
+    "image": "./images/products/132.webp",
+    "name": {
+      "en": "Roll-on bottle · 50 ml",
+      "ar": "قنينة رول أون · 50 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-133",
+    "image": "./images/products/133.webp",
+    "name": {
+      "en": "Decorative cylindrical caps",
+      "ar": "أغطية أسطوانية مزخرفة"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-134",
+    "image": "./images/products/134.webp",
+    "name": {
+      "en": "Gold & black decorative caps",
+      "ar": "أغطية مزخرفة ذهبية وسوداء"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-135",
+    "image": "./images/products/135.webp",
+    "name": {
+      "en": "Oval dropper bottles · 50 ml",
+      "ar": "قنينات قطارة بيضاوية · 50 مل"
+    },
+    "category": "perfume",
+    "variants": []
+  },
+  {
+    "id": "SMR-136",
+    "image": "./images/products/136.webp",
+    "name": {
+      "en": "Small glass cosmetic jars",
+      "ar": "برطمانات تجميل زجاجية صغيرة"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-137",
+    "image": "./images/products/137.webp",
+    "name": {
+      "en": "Dropper closure collection",
+      "ar": "مجموعة أغطية قطارة"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-138",
+    "image": "./images/products/138.webp",
+    "name": {
+      "en": "Gold screw caps · 24 mm",
+      "ar": "أغطية لولبية ذهبية · 24 مم"
+    },
+    "category": "accessories",
+    "variants": []
+  },
+  {
+    "id": "SMR-139",
+    "image": "./images/products/139.webp",
+    "name": {
+      "en": "Clear jars with gold lids collection",
+      "ar": "مجموعة برطمانات شفافة وذهبية"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-140",
+    "image": "./images/products/140.webp",
+    "name": {
+      "en": "Clear jars with silver lids",
+      "ar": "برطمانات شفافة بغطاء فضي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-141",
+    "image": "./images/products/141.webp",
+    "name": {
+      "en": "White jars with gold lids",
+      "ar": "علب بيضاء بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 2.8
+      },
+      {
+        "size": "50 ml",
+        "price": 3.4
+      },
+      {
+        "size": "100 ml",
+        "price": 4.2
+      }
+    ]
+  },
+  {
+    "id": "SMR-142",
+    "image": "./images/products/142.webp",
+    "name": {
+      "en": "White jars with silver lids collection",
+      "ar": "مجموعة علب بيضاء بغطاء فضي"
+    },
+    "category": "jars",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 2.8
+      },
+      {
+        "size": "50 ml",
+        "price": 3.4
+      },
+      {
+        "size": "100 ml",
+        "price": 4.2
+      }
+    ]
+  },
+  {
+    "id": "SMR-143",
+    "image": "./images/products/143.webp",
+    "name": {
+      "en": "Amber jars with gold lids collection",
+      "ar": "مجموعة برطمانات بنية بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-144",
+    "image": "./images/products/144.webp",
+    "name": {
+      "en": "Clear jars with silver lids collection",
+      "ar": "مجموعة برطمانات شفافة بغطاء فضي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-145",
+    "image": "./images/products/145.webp",
+    "name": {
+      "en": "Glossy black jars with gold lids",
+      "ar": "علب سوداء لامعة بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 2.8
+      },
+      {
+        "size": "50 ml",
+        "price": 3.5
+      },
+      {
+        "size": "100 ml",
+        "price": 4.3
+      }
+    ]
+  },
+  {
+    "id": "SMR-146",
+    "image": "./images/products/146.webp",
+    "name": {
+      "en": "Matte black jars with gold lids",
+      "ar": "علب سوداء مطفية بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-147",
+    "image": "./images/products/147.webp",
+    "name": {
+      "en": "Glossy white jars with gold lids",
+      "ar": "علب بيضاء لامعة بغطاء ذهبي"
+    },
+    "category": "jars",
+    "variants": []
+  },
+  {
+    "id": "SMR-148",
+    "image": "./images/products/148.webp",
+    "name": {
+      "en": "Laura white & silver pump collection",
+      "ar": "مجموعة لورا بيضاء وفضية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4
+      },
+      {
+        "size": "50 ml",
+        "price": 4.6
+      },
+      {
+        "size": "100 ml",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "SMR-149",
+    "image": "./images/products/149.webp",
+    "name": {
+      "en": "Laura amber & gold pump collection",
+      "ar": "مجموعة لورا بنية وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4
+      },
+      {
+        "size": "50 ml",
+        "price": 4.5
+      },
+      {
+        "size": "100 ml",
+        "price": 5.5
+      }
+    ]
+  },
+  {
+    "id": "SMR-150",
+    "image": "./images/products/150.webp",
+    "name": {
+      "en": "Laura matte black & gold collection",
+      "ar": "مجموعة لورا سوداء مطفية وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4.3
+      },
+      {
+        "size": "50 ml",
+        "price": 4.7
+      },
+      {
+        "size": "100 ml",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "SMR-151",
+    "image": "./images/products/151.webp",
+    "name": {
+      "en": "Laura blue & gold pump collection",
+      "ar": "مجموعة لورا زرقاء وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4.3
+      },
+      {
+        "size": "50 ml",
+        "price": 4.7
+      },
+      {
+        "size": "100 ml",
+        "price": 6.3
+      }
+    ]
+  },
+  {
+    "id": "SMR-152",
+    "image": "./images/products/152.webp",
+    "name": {
+      "en": "Laura yellow & gold pump collection",
+      "ar": "مجموعة لورا صفراء وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4.3
+      },
+      {
+        "size": "50 ml",
+        "price": 4.7
+      },
+      {
+        "size": "100 ml",
+        "price": 6.3
+      }
+    ]
+  },
+  {
+    "id": "SMR-153",
+    "image": "./images/products/153.webp",
+    "name": {
+      "en": "Laura purple & gold pump collection",
+      "ar": "مجموعة لورا بنفسجية وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4.3
+      },
+      {
+        "size": "50 ml",
+        "price": 4.7
+      },
+      {
+        "size": "100 ml",
+        "price": 6.3
+      }
+    ]
+  },
+  {
+    "id": "SMR-154",
+    "image": "./images/products/154.webp",
+    "name": {
+      "en": "Laura aqua & gold pump collection",
+      "ar": "مجموعة لورا فيروزية وذهبية"
+    },
+    "category": "bottles",
+    "variants": [
+      {
+        "size": "30 ml",
+        "price": 4.3
+      },
+      {
+        "size": "50 ml",
+        "price": 4.7
+      },
+      {
+        "size": "100 ml",
+        "price": 6.3
+      }
+    ]
+  },
+  {
+    "id": "SMR-155",
+    "image": "./images/products/155.webp",
+    "name": {
+      "en": "Black pump bottle collection",
+      "ar": "مجموعة قنينات بمضخة سوداء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-156",
+    "image": "./images/products/156.webp",
+    "name": {
+      "en": "White spray bottle collection",
+      "ar": "مجموعة قنينات بخاخ بيضاء"
+    },
+    "category": "bottles",
+    "variants": []
+  },
+  {
+    "id": "SMR-157",
+    "image": "./images/products/157.webp",
+    "name": {
+      "en": "White storage pouches",
+      "ar": "أكياس تغليف بيضاء"
+    },
+    "category": "pouches",
+    "variants": []
+  },
+  {
+    "id": "SMR-158",
+    "image": "./images/products/158.webp",
+    "name": {
+      "en": "Black kraft pouches",
+      "ar": "أكياس كرافت سوداء"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.35
+      },
+      {
+        "size": "125 g",
+        "price": 0.45
+      },
+      {
+        "size": "250 g",
+        "price": 0.55
+      },
+      {
+        "size": "500 g",
+        "price": 0.65
+      },
+      {
+        "size": "1 kg",
+        "price": 0.95
+      }
+    ]
+  },
+  {
+    "id": "SMR-159",
+    "image": "./images/products/159.webp",
+    "name": {
+      "en": "Gold aluminium pouches",
+      "ar": "أكياس ألمنيوم ذهبية"
+    },
+    "category": "pouches",
+    "variants": [
+      {
+        "size": "100 g",
+        "price": 0.38
+      },
+      {
+        "size": "125 g",
+        "price": 0.5
+      },
+      {
+        "size": "250 g",
+        "price": 0.65
+      },
+      {
+        "size": "500 g",
+        "price": 0.78
+      },
+      {
+        "size": "1 kg",
+        "price": 1.05
+      }
+    ]
+  },
+  {
+    "id": "SMR-160",
+    "image": "./images/products/160.webp",
+    "name": {
+      "en": "Glossy gold pouches",
+      "ar": "أكياس تغليف ذهبية لامعة"
+    },
+    "category": "pouches",
+    "variants": []
+  },
+  {
+    "id": "SMR-161",
+    "image": "./images/products/161.webp",
+    "name": {
+      "en": "Clear storage pouches",
+      "ar": "أكياس تغليف شفافة"
+    },
+    "category": "pouches",
+    "variants": []
+  }
+]
