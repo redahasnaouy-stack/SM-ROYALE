@@ -44,6 +44,8 @@ To update the website after source changes, publish the contents of `public/` to
 
 ## Royal visual identity
 
-The interface follows the supplied SM Royale card: black leather, warm metallic gold, ornamental corners and the original crown/SM mark. `public/images/logo.svg` displays the original mark via an embedded image viewport; it is not a redrawn substitute. `public/images/royal-hero.png` is a generated brand illustration, not a promise of exact catalogue models. Actual product visuals remain in the catalogue.
+The interface follows the supplied SM Royale card: black leather, warm metallic gold, ornamental corners and the original crown/SM mark. `public/images/logo-transparent.png` is a transparent-background extraction of the supplied gold crown/SM emblem, prepared with the image tool. `public/images/royal-hero.png` is a generated brand illustration, not a promise of exact catalogue models. Actual product visuals remain in the catalogue.
 
 Fonts are served locally from `public/fonts/`: Cairo for Arabic, Manrope for interface text and Cormorant Garamond for English display headings. Their license notices are retained alongside the fonts. No external font service is required.
+
+Catalogue and collection panels use inset photographic mats, gold double borders, ornamental corners, reference badges and dedicated size/price areas. Product imagery remains uncropped in catalogue cards.
