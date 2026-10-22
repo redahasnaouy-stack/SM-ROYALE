@@ -20,7 +20,7 @@ Deploy the generated `dist/` directory to a static hosting provider, or run `npm
 
 ## Catalogue and content
 
-Arabic opens by default, with English switching and saved language preference. The catalogue contains 161 supplied product visuals across bottles, jars, perfume packaging, pouches, closures and wellness tools. Visitors can search in either language or by reference, filter categories, sort, load more products and open an accessible product dialog. WhatsApp enquiries include the reference, chosen size and listed price when present.
+Modern Standard Arabic opens by default, with English switching and saved language preference. The catalogue contains 161 supplied product visuals across bottles, jars, perfume packaging, pouches, closures and wellness tools. Visitors can search in either language or by reference, filter categories, sort, load more products and open an accessible product dialog. WhatsApp enquiries include the reference, chosen size and listed price when present.
 
 `public/products.json` contains bilingual names and 121 priced variants for 31 matched catalogue entries. Another 13 hijama prices appear in the expandable price guide. Prices are reproduced from the supplied sheets; ambiguous product/price matches remain “Price on request.” Quantities, minimum orders, taxes and live availability require confirmation. No inventory counts from the source sheets are published.
 
@@ -49,3 +49,5 @@ The interface follows the supplied SM Royale card: black leather, warm metallic 
 Fonts are served locally from `public/fonts/`: Cairo for Arabic, Manrope for interface text and Cormorant Garamond for English display headings. Their license notices are retained alongside the fonts. No external font service is required.
 
 Catalogue and collection panels use inset photographic mats, gold double borders, ornamental corners, reference badges and dedicated size/price areas. Product imagery remains uncropped in catalogue cards.
+
+The Arabic interface, product names, accessibility descriptions, metadata and prefilled WhatsApp enquiries use Modern Standard Arabic.
