@@ -1,0 +1,576 @@
+{
+  "revision": "2026-10-22-supplier-sheet-v1",
+  "sourceSha256": "18021509e3ce73f3381982d7c7ccf4292fb7b5934717d1933a31515d2552c23a",
+  "sourceGroups": 150,
+  "sourceVariants": 474,
+  "pricedSourceRows": 454,
+  "blankSourceRows": [
+    {
+      "group": "S03-G03",
+      "key": "S03-G03-V02",
+      "size": "6 ml",
+      "priceCents": null,
+      "cartonQuantity": null,
+      "supplierReference": null
+    },
+    {
+      "group": "S05-G08",
+      "key": "S05-G08-V01",
+      "size": "30 ml",
+      "priceCents": null,
+      "cartonQuantity": null,
+      "supplierReference": null
+    },
+    {
+      "group": "S05-G08",
+      "key": "S05-G08-V02",
+      "size": "50 ml",
+      "priceCents": null,
+      "cartonQuantity": null,
+      "supplierReference": null
+    },
+    {
+      "group": "S10-G03",
+      "key": "S10-G03-V01",
+      "size": "5 ml",
+      "priceCents": null,
+      "cartonQuantity": 1330,
+      "supplierReference": null
+    },
+    {
+      "group": "S10-G04",
+      "key": "S10-G04-V01",
+      "size": "212 ml / palette",
+      "priceCents": null,
+      "cartonQuantity": null,
+      "supplierReference": null
+    },
+    {
+      "group": "S11-G08",
+      "key": "S11-G08-V02",
+      "size": "53 mm",
+      "priceCents": null,
+      "cartonQuantity": 1500,
+      "supplierReference": null
+    },
+    {
+      "group": "S11-G09",
+      "key": "S11-G09-V01",
+      "size": "30 ml",
+      "priceCents": null,
+      "cartonQuantity": null,
+      "supplierReference": null
+    },
+    {
+      "group": "S11-G09",
+      "key": "S11-G09-V05",
+      "size": "100 ml",
+      "priceCents": null,
+      "cartonQuantity": null,
+      "supplierReference": null
+    }
+  ],
+  "pendingGroups": [
+    {
+      "id": "S01-G01",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الثانية",
+        "en": "Laura white shining + gold · second designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G01-V01",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G10",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أسود غير لامع بغطاء ذهبي · التسمية الأولى",
+        "en": "Laura black mat + gold · first designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G10-V01",
+          "size": "30 ml",
+          "priceCents": 420,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G10-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G10-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-064",
+        "SMR-150"
+      ],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G11",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أسود غير لامع بغطاء ذهبي · التسمية الثانية",
+        "en": "Laura black mat + gold · second designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G11-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G11-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G11-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G13",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الأولى",
+        "en": "Laura white shining + gold · first designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G13-V01",
+          "size": "30 ml",
+          "priceCents": 420,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G13-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G13-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-065",
+        "SMR-070",
+        "SMR-089"
+      ],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G14",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الثانية",
+        "en": "Laura white shining + gold · second designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G14-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G14-V02",
+          "size": "50 ml",
+          "priceCents": 460,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": true
+    }
+  ],
+  "mappedImageProducts": [
+    {
+      "id": "SMR-148",
+      "group": "S01-G02"
+    },
+    {
+      "id": "SMR-153",
+      "group": "S01-G04"
+    },
+    {
+      "id": "SMR-071",
+      "group": "S01-G05"
+    },
+    {
+      "id": "SMR-152",
+      "group": "S01-G06"
+    },
+    {
+      "id": "SMR-154",
+      "group": "S01-G07"
+    },
+    {
+      "id": "SMR-151",
+      "group": "S01-G08"
+    },
+    {
+      "id": "SMR-078",
+      "group": "S02-G01"
+    },
+    {
+      "id": "SMR-129",
+      "group": "S02-G01"
+    },
+    {
+      "id": "SMR-068",
+      "group": "S02-G04"
+    },
+    {
+      "id": "SMR-069",
+      "group": "S02-G06"
+    },
+    {
+      "id": "SMR-149",
+      "group": "S02-G08"
+    },
+    {
+      "id": "SMR-155",
+      "group": "S02-G12"
+    },
+    {
+      "id": "SMR-031",
+      "group": "S03-G01"
+    },
+    {
+      "id": "SMR-034",
+      "group": "S03-G02"
+    },
+    {
+      "id": "SMR-036",
+      "group": "S03-G02"
+    },
+    {
+      "id": "SMR-028",
+      "group": "S03-G04"
+    },
+    {
+      "id": "SMR-035",
+      "group": "S03-G05"
+    },
+    {
+      "id": "SMR-033",
+      "group": "S03-G07"
+    },
+    {
+      "id": "SMR-038",
+      "group": "S03-G10"
+    },
+    {
+      "id": "SMR-048",
+      "group": "S03-G11"
+    },
+    {
+      "id": "SMR-052",
+      "group": "S03-G13"
+    },
+    {
+      "id": "SMR-041",
+      "group": "S03-G14"
+    },
+    {
+      "id": "SMR-001",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-002",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-003",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-043",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-082",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-083",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-094",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-114",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-115",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-116",
+      "group": "S04-G01"
+    },
+    {
+      "id": "SMR-042",
+      "group": "S04-G02"
+    },
+    {
+      "id": "SMR-026",
+      "group": "S04-G08"
+    },
+    {
+      "id": "SMR-037",
+      "group": "S04-G09"
+    },
+    {
+      "id": "SMR-111",
+      "group": "S04-G10"
+    },
+    {
+      "id": "SMR-053",
+      "group": "S05-G05"
+    },
+    {
+      "id": "SMR-146",
+      "group": "S06-G01"
+    },
+    {
+      "id": "SMR-049",
+      "group": "S06-G03"
+    },
+    {
+      "id": "SMR-145",
+      "group": "S06-G05"
+    },
+    {
+      "id": "SMR-139",
+      "group": "S07-G01"
+    },
+    {
+      "id": "SMR-140",
+      "group": "S07-G02"
+    },
+    {
+      "id": "SMR-144",
+      "group": "S07-G02"
+    },
+    {
+      "id": "SMR-046",
+      "group": "S07-G04"
+    },
+    {
+      "id": "SMR-060",
+      "group": "S07-G04"
+    },
+    {
+      "id": "SMR-143",
+      "group": "S07-G04"
+    },
+    {
+      "id": "SMR-141",
+      "group": "S07-G05"
+    },
+    {
+      "id": "SMR-058",
+      "group": "S07-G06"
+    },
+    {
+      "id": "SMR-142",
+      "group": "S07-G06"
+    },
+    {
+      "id": "SMR-009",
+      "group": "S08-G01"
+    },
+    {
+      "id": "SMR-061",
+      "group": "S08-G01"
+    },
+    {
+      "id": "SMR-012",
+      "group": "S08-G02"
+    },
+    {
+      "id": "SMR-066",
+      "group": "S08-G02"
+    },
+    {
+      "id": "SMR-007",
+      "group": "S08-G03"
+    },
+    {
+      "id": "SMR-067",
+      "group": "S08-G03"
+    },
+    {
+      "id": "SMR-014",
+      "group": "S08-G04"
+    },
+    {
+      "id": "SMR-127",
+      "group": "S08-G05"
+    },
+    {
+      "id": "SMR-015",
+      "group": "S08-G06"
+    },
+    {
+      "id": "SMR-056",
+      "group": "S08-G09"
+    },
+    {
+      "id": "SMR-137",
+      "group": "S08-G09"
+    },
+    {
+      "id": "SMR-008",
+      "group": "S09-G01"
+    },
+    {
+      "id": "SMR-011",
+      "group": "S09-G03"
+    },
+    {
+      "id": "SMR-010",
+      "group": "S09-G04"
+    },
+    {
+      "id": "SMR-029",
+      "group": "S09-G06"
+    },
+    {
+      "id": "SMR-095",
+      "group": "S10-G01"
+    },
+    {
+      "id": "SMR-039",
+      "group": "S10-G03"
+    },
+    {
+      "id": "SMR-077",
+      "group": "S10-G04"
+    },
+    {
+      "id": "SMR-107",
+      "group": "S10-G07"
+    },
+    {
+      "id": "SMR-020",
+      "group": "S11-G01"
+    },
+    {
+      "id": "SMR-102",
+      "group": "S11-G01"
+    },
+    {
+      "id": "SMR-130",
+      "group": "S11-G01"
+    },
+    {
+      "id": "SMR-059",
+      "group": "S11-G03"
+    },
+    {
+      "id": "SMR-106",
+      "group": "S11-G03"
+    },
+    {
+      "id": "SMR-019",
+      "group": "S11-G08"
+    },
+    {
+      "id": "SMR-125",
+      "group": "S11-G10"
+    },
+    {
+      "id": "SMR-158",
+      "group": "S12-G02"
+    },
+    {
+      "id": "SMR-159",
+      "group": "S12-G04"
+    },
+    {
+      "id": "SMR-123",
+      "group": "S12-G05"
+    },
+    {
+      "id": "SMR-120",
+      "group": "S12-G06"
+    },
+    {
+      "id": "SMR-119",
+      "group": "S12-G07"
+    },
+    {
+      "id": "SMR-161",
+      "group": "S12-G08"
+    },
+    {
+      "id": "SMR-157",
+      "group": "S13-G02"
+    },
+    {
+      "id": "SMR-124",
+      "group": "S13-G03"
+    },
+    {
+      "id": "SMR-118",
+      "group": "S13-G04"
+    },
+    {
+      "id": "SMR-122",
+      "group": "S13-G05"
+    }
+  ],
+  "totalProducts": 245,
+  "pricedProducts": 169,
+  "pricedVariants": 519
+}

@@ -7,7 +7,38 @@
       "ar": "عبوات بمضخة دون هواء بنفسجية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-002",
@@ -17,7 +48,38 @@
       "ar": "عبوات بمضخة دون هواء برتقالية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-003",
@@ -27,7 +89,38 @@
       "ar": "عبوات بمضخة دون هواء فضية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-004",
@@ -69,26 +162,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S08-G03-V01",
         "size": "10 ml",
-        "price": 1.35
+        "price": 1.35,
+        "cartonQuantity": 640,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V02",
         "size": "15 ml",
-        "price": 1.5
+        "price": 1.5,
+        "cartonQuantity": 495,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V03",
         "size": "30 ml",
-        "price": 2
+        "price": 2,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V04",
         "size": "50 ml",
-        "price": 2.2
+        "price": 2.2,
+        "cartonQuantity": 260,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V05",
         "size": "100 ml",
-        "price": 2.9
+        "price": 2.9,
+        "cartonQuantity": 168,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-beb3b87e4381c122",
+    "priceSource": {
+      "group": "S08-G03",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-008",
@@ -100,26 +219,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S09-G01-V01",
         "size": "10 ml",
-        "price": 1.35
+        "price": 1.35,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S09-G01"
       },
       {
+        "key": "S09-G01-V02",
         "size": "15 ml",
-        "price": 1.5
+        "price": 1.5,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S09-G01"
       },
       {
+        "key": "S09-G01-V03",
         "size": "30 ml",
-        "price": 2
+        "price": 2,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S09-G01"
       },
       {
+        "key": "S09-G01-V04",
         "size": "50 ml",
-        "price": 2.2
+        "price": 2.2,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S09-G01"
       },
       {
+        "key": "S09-G01-V05",
         "size": "100 ml",
-        "price": 2.9
+        "price": 2.9,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S09-G01"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-a394bb77ee07e1c5",
+    "priceSource": {
+      "group": "S09-G01",
+      "sheet": 9,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-009",
@@ -129,7 +274,54 @@
       "ar": "قوارير قطارة خضراء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S08-G01-V01",
+        "size": "10 ml",
+        "price": 1.8,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V02",
+        "size": "15 ml",
+        "price": 2.2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V03",
+        "size": "30 ml",
+        "price": 2.7,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V04",
+        "size": "50 ml",
+        "price": 3,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V05",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-485202bd3d9ada8b",
+    "priceSource": {
+      "group": "S08-G01",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-010",
@@ -141,26 +333,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S09-G04-V01",
         "size": "10 ml",
-        "price": 1.8
+        "price": 1.8,
+        "cartonQuantity": 640,
+        "supplierReference": null,
+        "sourceGroup": "S09-G04"
       },
       {
+        "key": "S09-G04-V02",
         "size": "15 ml",
-        "price": 2
+        "price": 2,
+        "cartonQuantity": "468/405",
+        "supplierReference": null,
+        "sourceGroup": "S09-G04"
       },
       {
+        "key": "S09-G04-V03",
         "size": "30 ml",
-        "price": 2.5
+        "price": 2.5,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S09-G04"
       },
       {
+        "key": "S09-G04-V04",
         "size": "50 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 260,
+        "supplierReference": null,
+        "sourceGroup": "S09-G04"
       },
       {
+        "key": "S09-G04-V05",
         "size": "100 ml",
-        "price": 3.5
+        "price": 3.5,
+        "cartonQuantity": 168,
+        "supplierReference": null,
+        "sourceGroup": "S09-G04"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6a5c80961cb904e2",
+    "priceSource": {
+      "group": "S09-G04",
+      "sheet": 9,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-011",
@@ -172,26 +390,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S09-G03-V01",
         "size": "10 ml",
-        "price": 1.8
+        "price": 1.8,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S09-G03"
       },
       {
+        "key": "S09-G03-V02",
         "size": "15 ml",
-        "price": 2
+        "price": 2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S09-G03"
       },
       {
+        "key": "S09-G03-V03",
         "size": "30 ml",
-        "price": 2.5
+        "price": 2.5,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S09-G03"
       },
       {
+        "key": "S09-G03-V04",
         "size": "50 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S09-G03"
       },
       {
+        "key": "S09-G03-V05",
         "size": "100 ml",
-        "price": 3.5
+        "price": 3.5,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S09-G03"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-f070ddba006508ff",
+    "priceSource": {
+      "group": "S09-G03",
+      "sheet": 9,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-012",
@@ -203,26 +447,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S08-G02-V01",
         "size": "10 ml",
-        "price": 1.8
+        "price": 1.8,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V02",
         "size": "15 ml",
-        "price": 2.2
+        "price": 2.2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V03",
         "size": "30 ml",
-        "price": 2.7
+        "price": 2.7,
+        "cartonQuantity": 350,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V04",
         "size": "50 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V05",
         "size": "100 ml",
-        "price": 4
+        "price": 4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-1f4e6f76d6848fee",
+    "priceSource": {
+      "group": "S08-G02",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-013",
@@ -242,7 +512,54 @@
       "ar": "قوارير قطارة شفافة غير لامعة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S08-G04-V01",
+        "size": "10 ml",
+        "price": 1.8,
+        "cartonQuantity": 640,
+        "supplierReference": null,
+        "sourceGroup": "S08-G04"
+      },
+      {
+        "key": "S08-G04-V02",
+        "size": "15 ml",
+        "price": 2.2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S08-G04"
+      },
+      {
+        "key": "S08-G04-V03",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S08-G04"
+      },
+      {
+        "key": "S08-G04-V04",
+        "size": "50 ml",
+        "price": 3,
+        "cartonQuantity": "260/264",
+        "supplierReference": null,
+        "sourceGroup": "S08-G04"
+      },
+      {
+        "key": "S08-G04-V05",
+        "size": "100 ml",
+        "price": 3.8,
+        "cartonQuantity": 168,
+        "supplierReference": null,
+        "sourceGroup": "S08-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-b9601347623a82d0",
+    "priceSource": {
+      "group": "S08-G04",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-015",
@@ -254,26 +571,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S08-G06-V01",
         "size": "10 ml",
-        "price": 2
+        "price": 2,
+        "cartonQuantity": 640,
+        "supplierReference": null,
+        "sourceGroup": "S08-G06"
       },
       {
+        "key": "S08-G06-V02",
         "size": "15 ml",
-        "price": 2.3
+        "price": 2.3,
+        "cartonQuantity": 405,
+        "supplierReference": null,
+        "sourceGroup": "S08-G06"
       },
       {
+        "key": "S08-G06-V03",
         "size": "30 ml",
-        "price": 2.8
+        "price": 2.8,
+        "cartonQuantity": "297/330",
+        "supplierReference": null,
+        "sourceGroup": "S08-G06"
       },
       {
+        "key": "S08-G06-V04",
         "size": "50 ml",
-        "price": 3.3
+        "price": 3.3,
+        "cartonQuantity": "288/260",
+        "supplierReference": null,
+        "sourceGroup": "S08-G06"
       },
       {
+        "key": "S08-G06-V05",
         "size": "100 ml",
-        "price": 4
+        "price": 4,
+        "cartonQuantity": "140/168",
+        "supplierReference": null,
+        "sourceGroup": "S08-G06"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-700e6b68e9fa4e6d",
+    "priceSource": {
+      "group": "S08-G06",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-016",
@@ -313,7 +656,62 @@
       "ar": "أغطية المرطبانات"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G08-V01",
+        "size": "43 mm",
+        "price": 0.36,
+        "cartonQuantity": 2400,
+        "supplierReference": null,
+        "sourceGroup": "S11-G08"
+      },
+      {
+        "key": "S11-G08-V03",
+        "size": "58 mm",
+        "price": 0.57,
+        "cartonQuantity": 1250,
+        "supplierReference": null,
+        "sourceGroup": "S11-G08"
+      },
+      {
+        "key": "S11-G08-V04",
+        "size": "63 mm",
+        "price": 0.63,
+        "cartonQuantity": 900,
+        "supplierReference": null,
+        "sourceGroup": "S11-G08"
+      },
+      {
+        "key": "S11-G08-V05",
+        "size": "66 mm",
+        "price": 0.7,
+        "cartonQuantity": 1100,
+        "supplierReference": null,
+        "sourceGroup": "S11-G08"
+      },
+      {
+        "key": "S11-G08-V06",
+        "size": "70 mm",
+        "price": 0.72,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S11-G08"
+      },
+      {
+        "key": "S11-G08-V07",
+        "size": "82 mm",
+        "price": 0.83,
+        "cartonQuantity": 600,
+        "supplierReference": null,
+        "sourceGroup": "S11-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-d64d0782d94ac0db",
+    "priceSource": {
+      "group": "S11-G08",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-020",
@@ -323,7 +721,22 @@
       "ar": "قارورة زجاجية · 50 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G01-V05",
+        "size": "50 ml",
+        "price": 2.5,
+        "cartonQuantity": 210,
+        "supplierReference": null,
+        "sourceGroup": "S11-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-bbc4d2aa1dcc77e6",
+    "priceSource": {
+      "group": "S11-G01",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-021",
@@ -383,7 +796,38 @@
       "ar": "قوارير قطارة صغيرة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G08-V01",
+        "size": "5 ml",
+        "price": 0.4,
+        "cartonQuantity": 10000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G08"
+      },
+      {
+        "key": "S04-G08-V02",
+        "size": "10 ml",
+        "price": 0.45,
+        "cartonQuantity": 5000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G08"
+      },
+      {
+        "key": "S04-G08-V03",
+        "size": "15 ml",
+        "price": 0.5,
+        "cartonQuantity": 5000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-24d89300b2b4ac93",
+    "priceSource": {
+      "group": "S04-G08",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-027",
@@ -403,7 +847,22 @@
       "ar": "قوارير ذات كرة دوارة زجاجية مموجة"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G04-V01",
+        "size": "50 ml",
+        "price": 3.25,
+        "cartonQuantity": 359,
+        "supplierReference": null,
+        "sourceGroup": "S03-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-63511ee0251087b6",
+    "priceSource": {
+      "group": "S03-G04",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-029",
@@ -413,7 +872,54 @@
       "ar": "قوارير قطارة فضية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S09-G06-V01",
+        "size": "10 ml",
+        "price": 2.2,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S09-G06"
+      },
+      {
+        "key": "S09-G06-V02",
+        "size": "15 ml",
+        "price": 2.8,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S09-G06"
+      },
+      {
+        "key": "S09-G06-V03",
+        "size": "30 ml",
+        "price": 3.2,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S09-G06"
+      },
+      {
+        "key": "S09-G06-V04",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": "256/264/156/195",
+        "supplierReference": null,
+        "sourceGroup": "S09-G06"
+      },
+      {
+        "key": "S09-G06-V05",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": "140/126/100",
+        "supplierReference": null,
+        "sourceGroup": "S09-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-cd7e7fae6ad23b33",
+    "priceSource": {
+      "group": "S09-G06",
+      "sheet": 9,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-030",
@@ -433,7 +939,30 @@
       "ar": "قوارير عطر شفافة · 20 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G01-V01",
+        "size": "20 ml",
+        "price": 2.4,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S03-G01"
+      },
+      {
+        "key": "S03-G01-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S03-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0a70872d36f2666a",
+    "priceSource": {
+      "group": "S03-G01",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-032",
@@ -453,7 +982,30 @@
       "ar": "قوارير ألمنيوم"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G07-V01",
+        "size": "1 kg",
+        "price": 20,
+        "cartonQuantity": 40,
+        "supplierReference": null,
+        "sourceGroup": "S03-G07"
+      },
+      {
+        "key": "S03-G07-V02",
+        "size": "500 g",
+        "price": 17,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S03-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-fb54b8df604e5dd7",
+    "priceSource": {
+      "group": "S03-G07",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-034",
@@ -463,7 +1015,30 @@
       "ar": "قوارير بخاخ ملونة · 30 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G02-V01",
+        "size": "20 ml",
+        "price": 2.5,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S03-G02"
+      },
+      {
+        "key": "S03-G02-V02",
+        "size": "30 ml",
+        "price": 2.9,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S03-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-82c614684b99209c",
+    "priceSource": {
+      "group": "S03-G02",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-035",
@@ -473,7 +1048,22 @@
       "ar": "قوارير عطر مزخرفة · 16 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G05-V01",
+        "size": "16 ml",
+        "price": 2,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S03-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-a2d42bb3c5209d10",
+    "priceSource": {
+      "group": "S03-G05",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-036",
@@ -483,7 +1073,30 @@
       "ar": "قوارير بخاخ ملونة · 20 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G02-V01",
+        "size": "20 ml",
+        "price": 2.5,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S03-G02"
+      },
+      {
+        "key": "S03-G02-V02",
+        "size": "30 ml",
+        "price": 2.9,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S03-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-82c614684b99209c",
+    "priceSource": {
+      "group": "S03-G02",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-037",
@@ -493,7 +1106,30 @@
       "ar": "علب مستحضرات التجميل · 50 غ"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G09-V01",
+        "size": "أبيض / white",
+        "price": 2,
+        "cartonQuantity": 544,
+        "supplierReference": "0391-6",
+        "sourceGroup": "S04-G09"
+      },
+      {
+        "key": "S04-G09-V02",
+        "size": "أسود / black",
+        "price": 2,
+        "cartonQuantity": 544,
+        "supplierReference": "0391-7",
+        "sourceGroup": "S04-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-7fdd65bf982b5d79",
+    "priceSource": {
+      "group": "S04-G09",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-038",
@@ -503,7 +1139,22 @@
       "ar": "رؤوس بخاخ عطر · 18 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G10-V01",
+        "size": "قطعة / piece",
+        "price": 3.5,
+        "cartonQuantity": 2,
+        "supplierReference": null,
+        "sourceGroup": "S03-G10"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-fd1d28a2b83bfa5a",
+    "priceSource": {
+      "group": "S03-G10",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-039",
@@ -513,7 +1164,13 @@
       "ar": "قوارير زجاجية صغيرة · 5 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "priceSource": {
+      "group": "S10-G03",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-040",
@@ -533,7 +1190,22 @@
       "ar": "قارورة عطر مزخرفة · 6 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G14-V01",
+        "size": "6 ml",
+        "price": 3,
+        "cartonQuantity": 600,
+        "supplierReference": "0396-13",
+        "sourceGroup": "S03-G14"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4c3db513703bdc86",
+    "priceSource": {
+      "group": "S03-G14",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-042",
@@ -543,7 +1215,70 @@
       "ar": "رؤوس بخاخ · 24 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G02-V01",
+        "size": "20/410 pink",
+        "price": 0.4,
+        "cartonQuantity": "3000/2000",
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      },
+      {
+        "key": "S04-G02-V02",
+        "size": "24/410 pink",
+        "price": 0.53,
+        "cartonQuantity": "2000/3000",
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      },
+      {
+        "key": "S04-G02-V03",
+        "size": "24/410 white · carton 3000",
+        "price": 0.53,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      },
+      {
+        "key": "S04-G02-V04",
+        "size": "28/410 pink",
+        "price": 0.56,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      },
+      {
+        "key": "S04-G02-V05",
+        "size": "24/410 white · carton 2000",
+        "price": 0.53,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      },
+      {
+        "key": "S04-G02-V06",
+        "size": "20/410 white",
+        "price": 0.4,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      },
+      {
+        "key": "S04-G02-V07",
+        "size": "28/410 white",
+        "price": 0.56,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S04-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-2013b875915cb6ae",
+    "priceSource": {
+      "group": "S04-G02",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-043",
@@ -553,7 +1288,38 @@
       "ar": "عبوات بمضخة دون هواء بيضاء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-044",
@@ -583,7 +1349,46 @@
       "ar": "مرطبانات بنية بغطاء ذهبي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G04-V01",
+        "size": "20 ml",
+        "price": 2.2,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V03",
+        "size": "50 ml",
+        "price": 3.2,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V04",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-8e434397b02c9767",
+    "priceSource": {
+      "group": "S07-G04",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-047",
@@ -595,10 +1400,20 @@
     "category": "perfume",
     "variants": [
       {
+        "key": "S03-G13-V03",
         "size": "12 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 480,
+        "supplierReference": "0394-21",
+        "sourceGroup": "S03-G13"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-a9b2e3e0239ceee6",
+    "priceSource": {
+      "group": "S03-G13",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-048",
@@ -608,7 +1423,38 @@
       "ar": "قوارير عطر مزخرفة"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S03-G11-V01",
+        "size": "3 ml",
+        "price": 2.2,
+        "cartonQuantity": 720,
+        "supplierReference": null,
+        "sourceGroup": "S03-G11"
+      },
+      {
+        "key": "S03-G11-V02",
+        "size": "6 ml",
+        "price": 2.5,
+        "cartonQuantity": 600,
+        "supplierReference": null,
+        "sourceGroup": "S03-G11"
+      },
+      {
+        "key": "S03-G11-V03",
+        "size": "12 ml",
+        "price": 2.8,
+        "cartonQuantity": 480,
+        "supplierReference": null,
+        "sourceGroup": "S03-G11"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-85c70c213fc182fa",
+    "priceSource": {
+      "group": "S03-G11",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-049",
@@ -618,7 +1464,46 @@
       "ar": "علب مستحضرات تجميل سوداء"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S06-G03-V01",
+        "size": "20 ml",
+        "price": 2.6,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G03"
+      },
+      {
+        "key": "S06-G03-V02",
+        "size": "30 ml",
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G03"
+      },
+      {
+        "key": "S06-G03-V03",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G03"
+      },
+      {
+        "key": "S06-G03-V04",
+        "size": "100 ml",
+        "price": 4.3,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-77a59842a39628b4",
+    "priceSource": {
+      "group": "S06-G03",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-050",
@@ -650,18 +1535,36 @@
     "category": "perfume",
     "variants": [
       {
+        "key": "S03-G13-V01",
         "size": "3 ml",
-        "price": 2.3
+        "price": 2.3,
+        "cartonQuantity": 960,
+        "supplierReference": "0394-19",
+        "sourceGroup": "S03-G13"
       },
       {
+        "key": "S03-G13-V02",
         "size": "6 ml",
-        "price": 2.5
+        "price": 2.5,
+        "cartonQuantity": 600,
+        "supplierReference": "0394-20",
+        "sourceGroup": "S03-G13"
       },
       {
+        "key": "S03-G13-V03",
         "size": "12 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 480,
+        "supplierReference": "0394-21",
+        "sourceGroup": "S03-G13"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-136a2942673ed0b5",
+    "priceSource": {
+      "group": "S03-G13",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-053",
@@ -671,7 +1574,46 @@
       "ar": "قوارير بخاخ وردية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S05-G05-V01",
+        "size": "100 ml",
+        "price": 1.8,
+        "cartonQuantity": 1008,
+        "supplierReference": null,
+        "sourceGroup": "S05-G05"
+      },
+      {
+        "key": "S05-G05-V02",
+        "size": "125 ml",
+        "price": 2,
+        "cartonQuantity": 1128,
+        "supplierReference": null,
+        "sourceGroup": "S05-G05"
+      },
+      {
+        "key": "S05-G05-V03",
+        "size": "200 ml",
+        "price": 2.3,
+        "cartonQuantity": 296,
+        "supplierReference": null,
+        "sourceGroup": "S05-G05"
+      },
+      {
+        "key": "S05-G05-V04",
+        "size": "250 ml",
+        "price": 2.5,
+        "cartonQuantity": 234,
+        "supplierReference": null,
+        "sourceGroup": "S05-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c7bd419f16a72636",
+    "priceSource": {
+      "group": "S05-G05",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-054",
@@ -701,7 +1643,22 @@
       "ar": "أغطية قطارة بحلقة معدنية"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "S08-G09-V01",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S08-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-83ecbe506ddcd79b",
+    "priceSource": {
+      "group": "S08-G09",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-057",
@@ -721,7 +1678,46 @@
       "ar": "علب بيضاء بغطاء فضي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G06-V01",
+        "size": "20 ml",
+        "price": 2.4,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
+      },
+      {
+        "key": "S07-G06-V02",
+        "size": "30 ml",
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
+      },
+      {
+        "key": "S07-G06-V03",
+        "size": "50 ml",
+        "price": 3.4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
+      },
+      {
+        "key": "S07-G06-V04",
+        "size": "100 ml",
+        "price": 4.2,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-92a074ce712d1232",
+    "priceSource": {
+      "group": "S07-G06",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-059",
@@ -731,7 +1727,22 @@
       "ar": "قارورة زجاجية بنية · 125 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G03-V03",
+        "size": "125 ml",
+        "price": 1.1,
+        "cartonQuantity": 210,
+        "supplierReference": null,
+        "sourceGroup": "S11-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4df070d6880697c4",
+    "priceSource": {
+      "group": "S11-G03",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-060",
@@ -741,7 +1752,46 @@
       "ar": "مرطبانات مستحضرات تجميل بنية"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G04-V01",
+        "size": "20 ml",
+        "price": 2.2,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V03",
+        "size": "50 ml",
+        "price": 3.2,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V04",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-8e434397b02c9767",
+    "priceSource": {
+      "group": "S07-G04",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-061",
@@ -751,7 +1801,54 @@
       "ar": "مجموعة قطارات خضراء غير لامعة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S08-G01-V01",
+        "size": "10 ml",
+        "price": 1.8,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V02",
+        "size": "15 ml",
+        "price": 2.2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V03",
+        "size": "30 ml",
+        "price": 2.7,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V04",
+        "size": "50 ml",
+        "price": 3,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      },
+      {
+        "key": "S08-G01-V05",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S08-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-485202bd3d9ada8b",
+    "priceSource": {
+      "group": "S08-G01",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-062",
@@ -781,20 +1878,14 @@
       "ar": "قوارير لورا سوداء وذهبية"
     },
     "category": "bottles",
-    "variants": [
-      {
-        "size": "30 ml",
-        "price": 4
-      },
-      {
-        "size": "50 ml",
-        "price": 4.5
-      },
-      {
-        "size": "100 ml",
-        "price": 5.5
-      }
-    ]
+    "variants": [],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "priceSource": {
+      "group": "S02-G10",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    },
+    "priceReviewRequired": true
   },
   {
     "id": "SMR-065",
@@ -804,20 +1895,14 @@
       "ar": "قوارير لورا بيضاء وذهبية"
     },
     "category": "bottles",
-    "variants": [
-      {
-        "size": "30 ml",
-        "price": 4
-      },
-      {
-        "size": "50 ml",
-        "price": 4.5
-      },
-      {
-        "size": "100 ml",
-        "price": 5.5
-      }
-    ]
+    "variants": [],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "priceSource": {
+      "group": "S02-G13",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    },
+    "priceReviewRequired": true
   },
   {
     "id": "SMR-066",
@@ -829,26 +1914,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S08-G02-V01",
         "size": "10 ml",
-        "price": 1.8
+        "price": 1.8,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V02",
         "size": "15 ml",
-        "price": 2.2
+        "price": 2.2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V03",
         "size": "30 ml",
-        "price": 2.7
+        "price": 2.7,
+        "cartonQuantity": 350,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V04",
         "size": "50 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       },
       {
+        "key": "S08-G02-V05",
         "size": "100 ml",
-        "price": 4
+        "price": 4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S08-G02"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-1f4e6f76d6848fee",
+    "priceSource": {
+      "group": "S08-G02",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-067",
@@ -860,26 +1971,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S08-G03-V01",
         "size": "10 ml",
-        "price": 1.35
+        "price": 1.35,
+        "cartonQuantity": 640,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V02",
         "size": "15 ml",
-        "price": 1.5
+        "price": 1.5,
+        "cartonQuantity": 495,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V03",
         "size": "30 ml",
-        "price": 2
+        "price": 2,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V04",
         "size": "50 ml",
-        "price": 2.2
+        "price": 2.2,
+        "cartonQuantity": 260,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       },
       {
+        "key": "S08-G03-V05",
         "size": "100 ml",
-        "price": 2.9
+        "price": 2.9,
+        "cartonQuantity": 168,
+        "supplierReference": null,
+        "sourceGroup": "S08-G03"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-beb3b87e4381c122",
+    "priceSource": {
+      "group": "S08-G03",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-068",
@@ -889,7 +2026,38 @@
       "ar": "قوارير غير لامعة بمضخة ذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S02-G04-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G04"
+      },
+      {
+        "key": "S02-G04-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G04"
+      },
+      {
+        "key": "S02-G04-V03",
+        "size": "100 ml",
+        "price": 5.7,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-914615bc4ace680e",
+    "priceSource": {
+      "group": "S02-G04",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-069",
@@ -899,7 +2067,38 @@
       "ar": "قوارير غير لامعة بمضخة فضية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S02-G06-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G06"
+      },
+      {
+        "key": "S02-G06-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G06"
+      },
+      {
+        "key": "S02-G06-V03",
+        "size": "100 ml",
+        "price": 5.7,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-58c9713c1bcb1dfc",
+    "priceSource": {
+      "group": "S02-G06",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-070",
@@ -909,7 +2108,14 @@
       "ar": "قوارير بيضاء بمضخة ذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "priceSource": {
+      "group": "S02-G13",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    },
+    "priceReviewRequired": true
   },
   {
     "id": "SMR-071",
@@ -919,7 +2125,38 @@
       "ar": "قوارير لورا وردية وذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S01-G05-V01",
+        "size": "30 ml",
+        "price": 4.3,
+        "cartonQuantity": 180,
+        "supplierReference": "1-99",
+        "sourceGroup": "S01-G05"
+      },
+      {
+        "key": "S01-G05-V02",
+        "size": "50 ml",
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-100",
+        "sourceGroup": "S01-G05"
+      },
+      {
+        "key": "S01-G05-V03",
+        "size": "100 ml",
+        "price": 6.3,
+        "cartonQuantity": 120,
+        "supplierReference": "1-101",
+        "sourceGroup": "S01-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-34ea5ebe845399fc",
+    "priceSource": {
+      "group": "S01-G05",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-072",
@@ -981,10 +2218,20 @@
     "category": "jars",
     "variants": [
       {
-        "size": "212 ml",
-        "price": 2
+        "key": "S10-G04-V02",
+        "size": "212 ml / carton",
+        "price": 2,
+        "cartonQuantity": 33,
+        "supplierReference": null,
+        "sourceGroup": "S10-G04"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-744d7c344070cdae",
+    "priceSource": {
+      "group": "S10-G04",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-078",
@@ -994,7 +2241,38 @@
       "ar": "مجموعة قوارير شفافة بمضخة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S02-G01-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G01"
+      },
+      {
+        "key": "S02-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G01"
+      },
+      {
+        "key": "S02-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-e4aa1a54550c9c1d",
+    "priceSource": {
+      "group": "S02-G01",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-079",
@@ -1034,7 +2312,38 @@
       "ar": "عبوات بمضخة دون هواء سوداء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-083",
@@ -1044,7 +2353,38 @@
       "ar": "عبوات بمضخة دون هواء زرقاء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-084",
@@ -1104,7 +2444,14 @@
       "ar": "مجموعة قوارير بيضاء وذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "priceSource": {
+      "group": "S02-G13",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    },
+    "priceReviewRequired": true
   },
   {
     "id": "SMR-090",
@@ -1154,7 +2501,38 @@
       "ar": "عبوة بمضخة دون هواء بيضاء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-095",
@@ -1164,7 +2542,30 @@
       "ar": "مرطبانات زجاجية صغيرة · 25–35 غ"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S10-G01-V01",
+        "size": "25 ml",
+        "price": 1.2,
+        "cartonQuantity": 304,
+        "supplierReference": null,
+        "sourceGroup": "S10-G01"
+      },
+      {
+        "key": "S10-G01-V02",
+        "size": "35 ml",
+        "price": 1.3,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S10-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0e1695ff379934e2",
+    "priceSource": {
+      "group": "S10-G01",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-096",
@@ -1234,7 +2635,22 @@
       "ar": "قارورة زجاجية · 100 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G01-V02",
+        "size": "100 ml / carton A",
+        "price": 3.2,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S11-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0f82ee81785b8d6c",
+    "priceSource": {
+      "group": "S11-G01",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-103",
@@ -1274,7 +2690,22 @@
       "ar": "قارورة زجاجية بنية · 30 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G03-V01",
+        "size": "30 ml",
+        "price": 0.75,
+        "cartonQuantity": 324,
+        "supplierReference": null,
+        "sourceGroup": "S11-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-76c9b5556ed3e6c4",
+    "priceSource": {
+      "group": "S11-G03",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-107",
@@ -1284,7 +2715,22 @@
       "ar": "مرطبان بغطاء ذهبي · 100 غ"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S10-G07-V01",
+        "size": "100 g",
+        "price": 3.5,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S10-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0dce4232e4f86fb8",
+    "priceSource": {
+      "group": "S10-G07",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-108",
@@ -1324,7 +2770,30 @@
       "ar": "قوارير مضخة رغوة · 100–150 مل"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G10-V01",
+        "size": "100 ml",
+        "price": 3.5,
+        "cartonQuantity": 350,
+        "supplierReference": "0395-11",
+        "sourceGroup": "S04-G10"
+      },
+      {
+        "key": "S04-G10-V02",
+        "size": "150 ml",
+        "price": 4,
+        "cartonQuantity": 350,
+        "supplierReference": "0395-10",
+        "sourceGroup": "S04-G10"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-dc70a480c21744b5",
+    "priceSource": {
+      "group": "S04-G10",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-112",
@@ -1354,7 +2823,38 @@
       "ar": "عبوات بمضخة دون هواء وردية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-115",
@@ -1364,7 +2864,38 @@
       "ar": "عبوات بمضخة دون هواء بلون خوخي"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-116",
@@ -1374,7 +2905,38 @@
       "ar": "عبوات بمضخة دون هواء بلون نعناعي"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S04-G01-V01",
+        "size": "30 ml",
+        "price": 3.5,
+        "cartonQuantity": 416,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 308,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      },
+      {
+        "key": "S04-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S04-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "priceSource": {
+      "group": "S04-G01",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-117",
@@ -1394,7 +2956,54 @@
       "ar": "أكياس تغليف وردية"
     },
     "category": "pouches",
-    "variants": []
+    "variants": [
+      {
+        "key": "S13-G04-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G04"
+      },
+      {
+        "key": "S13-G04-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G04"
+      },
+      {
+        "key": "S13-G04-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G04"
+      },
+      {
+        "key": "S13-G04-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G04"
+      },
+      {
+        "key": "S13-G04-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c1a9a9233701358d",
+    "priceSource": {
+      "group": "S13-G04",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-119",
@@ -1406,26 +3015,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.38
+        "key": "S12-G07-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G07"
       },
       {
-        "size": "125 g",
-        "price": 0.5
+        "key": "S12-G07-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G07"
       },
       {
-        "size": "250 g",
-        "price": 0.65
+        "key": "S12-G07-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G07"
       },
       {
-        "size": "500 g",
-        "price": 0.78
+        "key": "S12-G07-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G07"
       },
       {
-        "size": "1 kg",
-        "price": 1.05
+        "key": "S12-G07-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G07"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-af607159a854037b",
+    "priceSource": {
+      "group": "S12-G07",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-120",
@@ -1437,26 +3072,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.38
+        "key": "S12-G06-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G06"
       },
       {
-        "size": "125 g",
-        "price": 0.5
+        "key": "S12-G06-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G06"
       },
       {
-        "size": "250 g",
-        "price": 0.65
+        "key": "S12-G06-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G06"
       },
       {
-        "size": "500 g",
-        "price": 0.78
+        "key": "S12-G06-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G06"
       },
       {
-        "size": "1 kg",
-        "price": 1.05
+        "key": "S12-G06-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G06"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-2719ad8879f329eb",
+    "priceSource": {
+      "group": "S12-G06",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-121",
@@ -1478,26 +3139,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.38
+        "key": "S13-G05-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G05"
       },
       {
-        "size": "125 g",
-        "price": 0.5
+        "key": "S13-G05-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G05"
       },
       {
-        "size": "250 g",
-        "price": 0.65
+        "key": "S13-G05-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G05"
       },
       {
-        "size": "500 g",
-        "price": 0.78
+        "key": "S13-G05-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G05"
       },
       {
-        "size": "1 kg",
-        "price": 1.05
+        "key": "S13-G05-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G05"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-35af5738febda429",
+    "priceSource": {
+      "group": "S13-G05",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-123",
@@ -1509,26 +3196,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.38
+        "key": "S12-G05-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G05"
       },
       {
-        "size": "125 g",
-        "price": 0.5
+        "key": "S12-G05-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G05"
       },
       {
-        "size": "250 g",
-        "price": 0.65
+        "key": "S12-G05-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G05"
       },
       {
-        "size": "500 g",
-        "price": 0.78
+        "key": "S12-G05-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G05"
       },
       {
-        "size": "1 kg",
-        "price": 1.05
+        "key": "S12-G05-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G05"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-a14100328ec2f97a",
+    "priceSource": {
+      "group": "S12-G05",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-124",
@@ -1540,26 +3253,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.38
+        "key": "S13-G03-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G03"
       },
       {
-        "size": "125 g",
-        "price": 0.5
+        "key": "S13-G03-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G03"
       },
       {
-        "size": "250 g",
-        "price": 0.65
+        "key": "S13-G03-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G03"
       },
       {
-        "size": "500 g",
-        "price": 0.78
+        "key": "S13-G03-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G03"
       },
       {
-        "size": "1 kg",
-        "price": 1.05
+        "key": "S13-G03-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G03"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-ac7299198d9d35d9",
+    "priceSource": {
+      "group": "S13-G03",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-125",
@@ -1569,7 +3308,22 @@
       "ar": "أغطية لولبية بيضاء"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G10-V01",
+        "size": "قطعة / piece",
+        "price": 0.17,
+        "cartonQuantity": 4300,
+        "supplierReference": null,
+        "sourceGroup": "S11-G10"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-e7fdc1e10308431b",
+    "priceSource": {
+      "group": "S11-G10",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-126",
@@ -1591,26 +3345,52 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S08-G05-V01",
         "size": "10 ml",
-        "price": 2.3
+        "price": 2.3,
+        "cartonQuantity": 640,
+        "supplierReference": null,
+        "sourceGroup": "S08-G05"
       },
       {
+        "key": "S08-G05-V02",
         "size": "15 ml",
-        "price": 2.4
+        "price": 2.4,
+        "cartonQuantity": 405,
+        "supplierReference": null,
+        "sourceGroup": "S08-G05"
       },
       {
+        "key": "S08-G05-V03",
         "size": "30 ml",
-        "price": 3
+        "price": 3,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S08-G05"
       },
       {
+        "key": "S08-G05-V04",
         "size": "50 ml",
-        "price": 3.3
+        "price": 3.3,
+        "cartonQuantity": 260,
+        "supplierReference": null,
+        "sourceGroup": "S08-G05"
       },
       {
+        "key": "S08-G05-V05",
         "size": "100 ml",
-        "price": 4.5
+        "price": 4.5,
+        "cartonQuantity": 168,
+        "supplierReference": null,
+        "sourceGroup": "S08-G05"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-327ab2ff35b60591",
+    "priceSource": {
+      "group": "S08-G05",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-128",
@@ -1630,7 +3410,38 @@
       "ar": "قوارير شفافة بمضخة · 30–100 مل"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S02-G01-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G01"
+      },
+      {
+        "key": "S02-G01-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G01"
+      },
+      {
+        "key": "S02-G01-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-e4aa1a54550c9c1d",
+    "priceSource": {
+      "group": "S02-G01",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-130",
@@ -1640,7 +3451,22 @@
       "ar": "قارورة زجاجية · 250 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "S11-G01-V01",
+        "size": "250 ml / carton",
+        "price": 3.5,
+        "cartonQuantity": 96,
+        "supplierReference": null,
+        "sourceGroup": "S11-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-926ed34a3deff896",
+    "priceSource": {
+      "group": "S11-G01",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-131",
@@ -1710,7 +3536,22 @@
       "ar": "مجموعة أغطية قطارة"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "S08-G09-V01",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S08-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-83ecbe506ddcd79b",
+    "priceSource": {
+      "group": "S08-G09",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-138",
@@ -1730,7 +3571,46 @@
       "ar": "مجموعة مرطبانات شفافة وذهبية"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G01-V01",
+        "size": "20 ml",
+        "price": 2.2,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G01"
+      },
+      {
+        "key": "S07-G01-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G01"
+      },
+      {
+        "key": "S07-G01-V03",
+        "size": "50 ml",
+        "price": 3.2,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G01"
+      },
+      {
+        "key": "S07-G01-V04",
+        "size": "100 ml",
+        "price": 3.75,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-a116f630fcab3d7d",
+    "priceSource": {
+      "group": "S07-G01",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-140",
@@ -1740,7 +3620,46 @@
       "ar": "مرطبانات شفافة بغطاء فضي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G02-V01",
+        "size": "20 ml",
+        "price": 2.2,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      },
+      {
+        "key": "S07-G02-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      },
+      {
+        "key": "S07-G02-V03",
+        "size": "50 ml",
+        "price": 3.2,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      },
+      {
+        "key": "S07-G02-V04",
+        "size": "100 ml",
+        "price": 3.75,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-dec34c7426fb9722",
+    "priceSource": {
+      "group": "S07-G02",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-141",
@@ -1752,18 +3671,44 @@
     "category": "jars",
     "variants": [
       {
+        "key": "S07-G05-V01",
+        "size": "20 ml",
+        "price": 2.3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G05"
+      },
+      {
+        "key": "S07-G05-V02",
         "size": "30 ml",
-        "price": 2.8
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G05"
       },
       {
+        "key": "S07-G05-V03",
         "size": "50 ml",
-        "price": 3.4
+        "price": 3.4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G05"
       },
       {
+        "key": "S07-G05-V04",
         "size": "100 ml",
-        "price": 4.2
+        "price": 4.2,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G05"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0a93802146aa5007",
+    "priceSource": {
+      "group": "S07-G05",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-142",
@@ -1775,18 +3720,44 @@
     "category": "jars",
     "variants": [
       {
+        "key": "S07-G06-V01",
+        "size": "20 ml",
+        "price": 2.4,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
+      },
+      {
+        "key": "S07-G06-V02",
         "size": "30 ml",
-        "price": 2.8
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
       },
       {
+        "key": "S07-G06-V03",
         "size": "50 ml",
-        "price": 3.4
+        "price": 3.4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
       },
       {
+        "key": "S07-G06-V04",
         "size": "100 ml",
-        "price": 4.2
+        "price": 4.2,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G06"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-92a074ce712d1232",
+    "priceSource": {
+      "group": "S07-G06",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-143",
@@ -1796,7 +3767,46 @@
       "ar": "مجموعة مرطبانات بنية بغطاء ذهبي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G04-V01",
+        "size": "20 ml",
+        "price": 2.2,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V03",
+        "size": "50 ml",
+        "price": 3.2,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      },
+      {
+        "key": "S07-G04-V04",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-8e434397b02c9767",
+    "priceSource": {
+      "group": "S07-G04",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-144",
@@ -1806,7 +3816,46 @@
       "ar": "مجموعة مرطبانات شفافة بغطاء فضي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S07-G02-V01",
+        "size": "20 ml",
+        "price": 2.2,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      },
+      {
+        "key": "S07-G02-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      },
+      {
+        "key": "S07-G02-V03",
+        "size": "50 ml",
+        "price": 3.2,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      },
+      {
+        "key": "S07-G02-V04",
+        "size": "100 ml",
+        "price": 3.75,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-dec34c7426fb9722",
+    "priceSource": {
+      "group": "S07-G02",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-145",
@@ -1818,18 +3867,44 @@
     "category": "jars",
     "variants": [
       {
+        "key": "S06-G05-V01",
+        "size": "20 ml",
+        "price": 2.6,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G05"
+      },
+      {
+        "key": "S06-G05-V02",
         "size": "30 ml",
-        "price": 2.8
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G05"
       },
       {
+        "key": "S06-G05-V03",
         "size": "50 ml",
-        "price": 3.5
+        "price": 3.5,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G05"
       },
       {
+        "key": "S06-G05-V04",
         "size": "100 ml",
-        "price": 4.3
+        "price": 4.3,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G05"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-3056847cb3fd7183",
+    "priceSource": {
+      "group": "S06-G05",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-146",
@@ -1839,7 +3914,46 @@
       "ar": "علب سوداء غير لامعة بغطاء ذهبي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "S06-G01-V01",
+        "size": "20 ml",
+        "price": 2.5,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G01"
+      },
+      {
+        "key": "S06-G01-V02",
+        "size": "30 ml",
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G01"
+      },
+      {
+        "key": "S06-G01-V03",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G01"
+      },
+      {
+        "key": "S06-G01-V04",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-97bf39f7efa675d7",
+    "priceSource": {
+      "group": "S06-G01",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-147",
@@ -1861,18 +3975,36 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S01-G02-V01",
         "size": "30 ml",
-        "price": 4
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": "1-90",
+        "sourceGroup": "S01-G02"
       },
       {
+        "key": "S01-G02-V02",
         "size": "50 ml",
-        "price": 4.6
+        "price": 4.6,
+        "cartonQuantity": 160,
+        "supplierReference": "1-91",
+        "sourceGroup": "S01-G02"
       },
       {
+        "key": "S01-G02-V03",
         "size": "100 ml",
-        "price": 6
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": "1-92",
+        "sourceGroup": "S01-G02"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-34ac7964de3cca55",
+    "priceSource": {
+      "group": "S01-G02",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-149",
@@ -1884,18 +4016,36 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S02-G08-V01",
         "size": "30 ml",
-        "price": 4
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G08"
       },
       {
+        "key": "S02-G08-V02",
         "size": "50 ml",
-        "price": 4.5
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G08"
       },
       {
+        "key": "S02-G08-V03",
         "size": "100 ml",
-        "price": 5.5
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G08"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-9e041d6f8ca83c0a",
+    "priceSource": {
+      "group": "S02-G08",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-150",
@@ -1905,20 +4055,14 @@
       "ar": "مجموعة لورا سوداء غير لامعة وذهبية"
     },
     "category": "bottles",
-    "variants": [
-      {
-        "size": "30 ml",
-        "price": 4.3
-      },
-      {
-        "size": "50 ml",
-        "price": 4.7
-      },
-      {
-        "size": "100 ml",
-        "price": 6
-      }
-    ]
+    "variants": [],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "priceSource": {
+      "group": "S02-G10",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    },
+    "priceReviewRequired": true
   },
   {
     "id": "SMR-151",
@@ -1930,18 +4074,36 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S01-G08-V01",
         "size": "30 ml",
-        "price": 4.3
+        "price": 4.3,
+        "cartonQuantity": 180,
+        "supplierReference": "1-108",
+        "sourceGroup": "S01-G08"
       },
       {
+        "key": "S01-G08-V02",
         "size": "50 ml",
-        "price": 4.7
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-109",
+        "sourceGroup": "S01-G08"
       },
       {
+        "key": "S01-G08-V03",
         "size": "100 ml",
-        "price": 6.3
+        "price": 6.3,
+        "cartonQuantity": 120,
+        "supplierReference": "1-110",
+        "sourceGroup": "S01-G08"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-ac861436fa0f5957",
+    "priceSource": {
+      "group": "S01-G08",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-152",
@@ -1953,18 +4115,36 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S01-G06-V01",
         "size": "30 ml",
-        "price": 4.3
+        "price": 4.3,
+        "cartonQuantity": 180,
+        "supplierReference": "1-102",
+        "sourceGroup": "S01-G06"
       },
       {
+        "key": "S01-G06-V02",
         "size": "50 ml",
-        "price": 4.7
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-103",
+        "sourceGroup": "S01-G06"
       },
       {
+        "key": "S01-G06-V03",
         "size": "100 ml",
-        "price": 6.3
+        "price": 6.3,
+        "cartonQuantity": 120,
+        "supplierReference": "1-104",
+        "sourceGroup": "S01-G06"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-19c1c4a7c949f743",
+    "priceSource": {
+      "group": "S01-G06",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-153",
@@ -1976,18 +4156,36 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S01-G04-V01",
         "size": "30 ml",
-        "price": 4.3
+        "price": 4.3,
+        "cartonQuantity": 180,
+        "supplierReference": "1-96",
+        "sourceGroup": "S01-G04"
       },
       {
+        "key": "S01-G04-V02",
         "size": "50 ml",
-        "price": 4.7
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-97",
+        "sourceGroup": "S01-G04"
       },
       {
+        "key": "S01-G04-V03",
         "size": "100 ml",
-        "price": 6.3
+        "price": 6.3,
+        "cartonQuantity": 120,
+        "supplierReference": "1-98",
+        "sourceGroup": "S01-G04"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-5f167f44d2ec1f15",
+    "priceSource": {
+      "group": "S01-G04",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-154",
@@ -1999,18 +4197,36 @@
     "category": "bottles",
     "variants": [
       {
+        "key": "S01-G07-V01",
         "size": "30 ml",
-        "price": 4.3
+        "price": 4.3,
+        "cartonQuantity": 180,
+        "supplierReference": "1-105",
+        "sourceGroup": "S01-G07"
       },
       {
+        "key": "S01-G07-V02",
         "size": "50 ml",
-        "price": 4.7
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-106",
+        "sourceGroup": "S01-G07"
       },
       {
+        "key": "S01-G07-V03",
         "size": "100 ml",
-        "price": 6.3
+        "price": 6.3,
+        "cartonQuantity": 120,
+        "supplierReference": "1-107",
+        "sourceGroup": "S01-G07"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-fe30173283c3c31b",
+    "priceSource": {
+      "group": "S01-G07",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-155",
@@ -2020,7 +4236,38 @@
       "ar": "مجموعة قوارير بمضخة سوداء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "S02-G12-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G12"
+      },
+      {
+        "key": "S02-G12-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G12"
+      },
+      {
+        "key": "S02-G12-V03",
+        "size": "100 ml",
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G12"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6bc9b869f8f18b6f",
+    "priceSource": {
+      "group": "S02-G12",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-156",
@@ -2040,7 +4287,54 @@
       "ar": "أكياس تغليف بيضاء"
     },
     "category": "pouches",
-    "variants": []
+    "variants": [
+      {
+        "key": "S13-G02-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.4,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G02"
+      },
+      {
+        "key": "S13-G02-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G02"
+      },
+      {
+        "key": "S13-G02-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.6,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G02"
+      },
+      {
+        "key": "S13-G02-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.75,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G02"
+      },
+      {
+        "key": "S13-G02-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.1,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-a3bb74740ac4b56d",
+    "priceSource": {
+      "group": "S13-G02",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-158",
@@ -2052,26 +4346,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.35
+        "key": "S12-G02-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G02"
       },
       {
-        "size": "125 g",
-        "price": 0.45
+        "key": "S12-G02-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G02"
       },
       {
-        "size": "250 g",
-        "price": 0.55
+        "key": "S12-G02-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.55,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G02"
       },
       {
-        "size": "500 g",
-        "price": 0.65
+        "key": "S12-G02-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G02"
       },
       {
-        "size": "1 kg",
-        "price": 0.95
+        "key": "S12-G02-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.95,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G02"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-ce805a7a4a99bbf8",
+    "priceSource": {
+      "group": "S12-G02",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-159",
@@ -2083,26 +4403,52 @@
     "category": "pouches",
     "variants": [
       {
-        "size": "100 g",
-        "price": 0.38
+        "key": "S12-G04-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G04"
       },
       {
-        "size": "125 g",
-        "price": 0.5
+        "key": "S12-G04-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G04"
       },
       {
-        "size": "250 g",
-        "price": 0.65
+        "key": "S12-G04-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G04"
       },
       {
-        "size": "500 g",
-        "price": 0.78
+        "key": "S12-G04-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G04"
       },
       {
-        "size": "1 kg",
-        "price": 1.05
+        "key": "S12-G04-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G04"
       }
-    ]
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-7820aaa0b241a949",
+    "priceSource": {
+      "group": "S12-G04",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   },
   {
     "id": "SMR-160",
@@ -2122,6 +4468,3445 @@
       "ar": "أكياس تغليف شفافة"
     },
     "category": "pouches",
-    "variants": []
+    "variants": [
+      {
+        "key": "S12-G08-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G08"
+      },
+      {
+        "key": "S12-G08-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G08"
+      },
+      {
+        "key": "S12-G08-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.6,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G08"
+      },
+      {
+        "key": "S12-G08-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.68,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G08"
+      },
+      {
+        "key": "S12-G08-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.9,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-e65a2afad3436c38",
+    "priceSource": {
+      "group": "S12-G08",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G03",
+    "name": {
+      "ar": "لورا أبيض لامع بغطاء أبيض",
+      "en": "Laura white shining + white"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G03-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": "1-93",
+        "sourceGroup": "S01-G03"
+      },
+      {
+        "key": "S01-G03-V02",
+        "size": "50 ml",
+        "price": 4.6,
+        "cartonQuantity": 160,
+        "supplierReference": "1-94",
+        "sourceGroup": "S01-G03"
+      },
+      {
+        "key": "S01-G03-V03",
+        "size": "100 ml",
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": "1-95",
+        "sourceGroup": "S01-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-762cc2767cbe2361",
+    "priceSource": {
+      "group": "S01-G03",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G09",
+    "name": {
+      "ar": "كوبرا شفاف بغطاء ذهبي",
+      "en": "Kobra clear + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G09-V01",
+        "size": "30 ml",
+        "price": 4.75,
+        "cartonQuantity": 180,
+        "supplierReference": "1-111",
+        "sourceGroup": "S01-G09"
+      },
+      {
+        "key": "S01-G09-V02",
+        "size": "50 ml",
+        "price": 5.3,
+        "cartonQuantity": 160,
+        "supplierReference": "1-112",
+        "sourceGroup": "S01-G09"
+      },
+      {
+        "key": "S01-G09-V03",
+        "size": "100 ml",
+        "price": 6.3,
+        "cartonQuantity": 120,
+        "supplierReference": "1-113",
+        "sourceGroup": "S01-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-3639960ec8dbc6b7",
+    "priceSource": {
+      "group": "S01-G09",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G10",
+    "name": {
+      "ar": "كوبرا شفاف غير لامع بغطاء ذهبي",
+      "en": "Kobra clear frosted + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G10-V01",
+        "size": "30 ml",
+        "price": 5,
+        "cartonQuantity": 180,
+        "supplierReference": "1-114",
+        "sourceGroup": "S01-G10"
+      },
+      {
+        "key": "S01-G10-V02",
+        "size": "50 ml",
+        "price": 5.5,
+        "cartonQuantity": 160,
+        "supplierReference": "1-115",
+        "sourceGroup": "S01-G10"
+      },
+      {
+        "key": "S01-G10-V03",
+        "size": "100 ml",
+        "price": 6.5,
+        "cartonQuantity": 120,
+        "supplierReference": "1-116",
+        "sourceGroup": "S01-G10"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-dc013b821538d675",
+    "priceSource": {
+      "group": "S01-G10",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G11",
+    "name": {
+      "ar": "كوبرا شفاف غير لامع بغطاء فضي",
+      "en": "Kobra clear frosted + silver"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G11-V01",
+        "size": "30 ml",
+        "price": 5,
+        "cartonQuantity": 180,
+        "supplierReference": "1-117",
+        "sourceGroup": "S01-G11"
+      },
+      {
+        "key": "S01-G11-V02",
+        "size": "50 ml",
+        "price": 5.5,
+        "cartonQuantity": 160,
+        "supplierReference": "1-118",
+        "sourceGroup": "S01-G11"
+      },
+      {
+        "key": "S01-G11-V03",
+        "size": "100 ml",
+        "price": 6.5,
+        "cartonQuantity": 120,
+        "supplierReference": "1-119",
+        "sourceGroup": "S01-G11"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-9dd2376fd02fb67d",
+    "priceSource": {
+      "group": "S01-G11",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G12",
+    "name": {
+      "ar": "كوبرا أسود غير لامع بغطاء ذهبي",
+      "en": "Kobra black frosted + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G12-V01",
+        "size": "30 ml",
+        "price": 5,
+        "cartonQuantity": 180,
+        "supplierReference": "1-120",
+        "sourceGroup": "S01-G12"
+      },
+      {
+        "key": "S01-G12-V02",
+        "size": "50 ml",
+        "price": 5.5,
+        "cartonQuantity": 160,
+        "supplierReference": "1-121",
+        "sourceGroup": "S01-G12"
+      },
+      {
+        "key": "S01-G12-V03",
+        "size": "100 ml",
+        "price": 6.5,
+        "cartonQuantity": 120,
+        "supplierReference": "1-122",
+        "sourceGroup": "S01-G12"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0c9ebb747ee9eba9",
+    "priceSource": {
+      "group": "S01-G12",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G13",
+    "name": {
+      "ar": "كوبرا أبيض لامع بغطاء ذهبي",
+      "en": "Kobra glossy white + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G13-V01",
+        "size": "30 ml",
+        "price": 5,
+        "cartonQuantity": 180,
+        "supplierReference": "1-123",
+        "sourceGroup": "S01-G13"
+      },
+      {
+        "key": "S01-G13-V02",
+        "size": "50 ml",
+        "price": 5.5,
+        "cartonQuantity": 160,
+        "supplierReference": "1-124",
+        "sourceGroup": "S01-G13"
+      },
+      {
+        "key": "S01-G13-V03",
+        "size": "100 ml",
+        "price": 6.5,
+        "cartonQuantity": 120,
+        "supplierReference": "1-125",
+        "sourceGroup": "S01-G13"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-966683bd5b05f35f",
+    "priceSource": {
+      "group": "S01-G13",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G14",
+    "name": {
+      "ar": "بخاخ لورا بغطاء ذهبي",
+      "en": "Laura sprayer + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G14-V01",
+        "size": "30 ml",
+        "price": 4.3,
+        "cartonQuantity": 180,
+        "supplierReference": "1-137",
+        "sourceGroup": "S01-G14"
+      },
+      {
+        "key": "S01-G14-V02",
+        "size": "50 ml",
+        "price": 5,
+        "cartonQuantity": 160,
+        "supplierReference": "1-138",
+        "sourceGroup": "S01-G14"
+      },
+      {
+        "key": "S01-G14-V03",
+        "size": "100 ml",
+        "price": 5.8,
+        "cartonQuantity": 120,
+        "supplierReference": "1-139",
+        "sourceGroup": "S01-G14"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c59339c8c40ef0df",
+    "priceSource": {
+      "group": "S01-G14",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G15",
+    "name": {
+      "ar": "لورا كوبرا بلاستيكي",
+      "en": "Laura Kobra plastic"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G15-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 192,
+        "supplierReference": "0394-22",
+        "sourceGroup": "S01-G15"
+      },
+      {
+        "key": "S01-G15-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 140,
+        "supplierReference": "0394-23",
+        "sourceGroup": "S01-G15"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-57448ab49a30cdec",
+    "priceSource": {
+      "group": "S01-G15",
+      "sheet": 1,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G02",
+    "name": {
+      "ar": "لورا شفاف بغطاء ذهبي وأبيض",
+      "en": "Laura clear + gold + white"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G02-V01",
+        "size": "30 ml",
+        "price": 3.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G02"
+      },
+      {
+        "key": "S02-G02-V02",
+        "size": "50 ml",
+        "price": 4.1,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G02"
+      },
+      {
+        "key": "S02-G02-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-b94669de4e5a8030",
+    "priceSource": {
+      "group": "S02-G02",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G03",
+    "name": {
+      "ar": "لورا شفاف بغطاء بلاستيكي",
+      "en": "Laura clear + plastic"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G03-V01",
+        "size": "30 ml",
+        "price": 3.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G03"
+      },
+      {
+        "key": "S02-G03-V02",
+        "size": "50 ml",
+        "price": 4.1,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G03"
+      },
+      {
+        "key": "S02-G03-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-fc239a238f43d493",
+    "priceSource": {
+      "group": "S02-G03",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G05",
+    "name": {
+      "ar": "لورا شفاف غير لامع بغطاء ذهبي وأبيض",
+      "en": "Laura clear frosted + gold + white"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G05-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G05"
+      },
+      {
+        "key": "S02-G05-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G05"
+      },
+      {
+        "key": "S02-G05-V03",
+        "size": "100 ml",
+        "price": 5.7,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-7974db706d4d7ba8",
+    "priceSource": {
+      "group": "S02-G05",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G07",
+    "name": {
+      "ar": "لورا شفاف غير لامع بغطاء شفاف",
+      "en": "Laura clear frosted + transparent"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G07-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G07"
+      },
+      {
+        "key": "S02-G07-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G07"
+      },
+      {
+        "key": "S02-G07-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-855387bf3102da61",
+    "priceSource": {
+      "group": "S02-G07",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G09",
+    "name": {
+      "ar": "لورا بني بغطاء ذهبي وأبيض",
+      "en": "Laura amber + gold + white"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G09-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S02-G09"
+      },
+      {
+        "key": "S02-G09-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S02-G09"
+      },
+      {
+        "key": "S02-G09-V03",
+        "size": "100 ml",
+        "price": 5.5,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S02-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-8d4486cbc78cf770",
+    "priceSource": {
+      "group": "S02-G09",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S03-G03",
+    "name": {
+      "ar": "قوارير عطر فارغة",
+      "en": "Empty perfume bottles"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S03-G03-V01",
+        "size": "3 ml",
+        "price": 0.65,
+        "cartonQuantity": 960,
+        "supplierReference": null,
+        "sourceGroup": "S03-G03"
+      },
+      {
+        "key": "S03-G03-V03",
+        "size": "8 ml",
+        "price": 0.85,
+        "cartonQuantity": 600,
+        "supplierReference": null,
+        "sourceGroup": "S03-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-99bef12f60b59c4c",
+    "priceSource": {
+      "group": "S03-G03",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S03-G06",
+    "name": {
+      "ar": "Granada بعود زجاجي",
+      "en": "Granada with glass stick"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S03-G06-V01",
+        "size": "12 ml",
+        "price": 3,
+        "cartonQuantity": 480,
+        "supplierReference": null,
+        "sourceGroup": "S03-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-f3ecbee201687e7b",
+    "priceSource": {
+      "group": "S03-G06",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S03-G08",
+    "name": {
+      "ar": "عبوات مسك الطهارة القصيرة",
+      "en": "Short musk containers"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S03-G08-V01",
+        "size": "3 ml",
+        "price": 0.85,
+        "cartonQuantity": 960,
+        "supplierReference": null,
+        "sourceGroup": "S03-G08"
+      },
+      {
+        "key": "S03-G08-V02",
+        "size": "6 ml",
+        "price": 1.05,
+        "cartonQuantity": 678,
+        "supplierReference": null,
+        "sourceGroup": "S03-G08"
+      },
+      {
+        "key": "S03-G08-V03",
+        "size": "12 ml",
+        "price": 1.5,
+        "cartonQuantity": 480,
+        "supplierReference": null,
+        "sourceGroup": "S03-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-2716b531627119da",
+    "priceSource": {
+      "group": "S03-G08",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S03-G09",
+    "name": {
+      "ar": "عبوات مسك الطهارة الطويلة",
+      "en": "Tall musk containers"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S03-G09-V01",
+        "size": "3 ml",
+        "price": 0.9,
+        "cartonQuantity": 960,
+        "supplierReference": null,
+        "sourceGroup": "S03-G09"
+      },
+      {
+        "key": "S03-G09-V02",
+        "size": "6 ml",
+        "price": 1.1,
+        "cartonQuantity": 678,
+        "supplierReference": null,
+        "sourceGroup": "S03-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-e16a0b0bd9145bbc",
+    "priceSource": {
+      "group": "S03-G09",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S03-G12",
+    "name": {
+      "ar": "قارورة عطر مربعة",
+      "en": "Square perfume bottle"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S03-G12-V01",
+        "size": "3 ml",
+        "price": 0.65,
+        "cartonQuantity": 864,
+        "supplierReference": "0393-11",
+        "sourceGroup": "S03-G12"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-744a1a5b412fd49b",
+    "priceSource": {
+      "group": "S03-G12",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S03-G15",
+    "name": {
+      "ar": "عبوات عطر ذهبية · طراز ثانٍ",
+      "en": "Gold perfume containers · second model"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S03-G15-V01",
+        "size": "3 ml",
+        "price": 2.3,
+        "cartonQuantity": 720,
+        "supplierReference": "2-6",
+        "sourceGroup": "S03-G15"
+      },
+      {
+        "key": "S03-G15-V02",
+        "size": "6 ml",
+        "price": 2.5,
+        "cartonQuantity": 600,
+        "supplierReference": "2-7",
+        "sourceGroup": "S03-G15"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c550c75180de6bca",
+    "priceSource": {
+      "group": "S03-G15",
+      "sheet": 3,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G03",
+    "name": {
+      "ar": "علب كريم بيضاء",
+      "en": "White cream containers"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G03-V01",
+        "size": "20 ml",
+        "price": 1.2,
+        "cartonQuantity": 625,
+        "supplierReference": null,
+        "sourceGroup": "S04-G03"
+      },
+      {
+        "key": "S04-G03-V02",
+        "size": "30 ml",
+        "price": 1.5,
+        "cartonQuantity": 625,
+        "supplierReference": null,
+        "sourceGroup": "S04-G03"
+      },
+      {
+        "key": "S04-G03-V03",
+        "size": "50 ml",
+        "price": 2.3,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G03"
+      },
+      {
+        "key": "S04-G03-V04",
+        "size": "100 ml",
+        "price": 3.4,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G03"
+      },
+      {
+        "key": "S04-G03-V05",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-fa4721aa6b8b55ab",
+    "priceSource": {
+      "group": "S04-G03",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G04",
+    "name": {
+      "ar": "علب كريم سوداء",
+      "en": "Black cream containers"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G04-V01",
+        "size": "20 ml",
+        "price": 1.2,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      },
+      {
+        "key": "S04-G04-V02",
+        "size": "30 ml",
+        "price": 1.5,
+        "cartonQuantity": 232,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      },
+      {
+        "key": "S04-G04-V03",
+        "size": "50 ml",
+        "price": 2,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      },
+      {
+        "key": "S04-G04-V04",
+        "size": "100 ml",
+        "price": 3,
+        "cartonQuantity": 232,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      },
+      {
+        "key": "S04-G04-V05",
+        "size": "150 ml",
+        "price": 3.2,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      },
+      {
+        "key": "S04-G04-V06",
+        "size": "200 ml",
+        "price": 3.75,
+        "cartonQuantity": 232,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      },
+      {
+        "key": "S04-G04-V07",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-9fca6bc91d4a0db3",
+    "priceSource": {
+      "group": "S04-G04",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G05",
+    "name": {
+      "ar": "علب كريم شفافة غير لامعة",
+      "en": "Frosted clear cream containers"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G05-V01",
+        "size": "20 ml",
+        "price": 1.2,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      },
+      {
+        "key": "S04-G05-V02",
+        "size": "30 ml",
+        "price": 1.5,
+        "cartonQuantity": 232,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      },
+      {
+        "key": "S04-G05-V03",
+        "size": "50 ml",
+        "price": 2,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      },
+      {
+        "key": "S04-G05-V04",
+        "size": "100 ml",
+        "price": 3,
+        "cartonQuantity": 232,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      },
+      {
+        "key": "S04-G05-V05",
+        "size": "150 ml",
+        "price": 3.2,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      },
+      {
+        "key": "S04-G05-V06",
+        "size": "200 ml",
+        "price": 3.75,
+        "cartonQuantity": 232,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      },
+      {
+        "key": "S04-G05-V07",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-aecec8632df137f1",
+    "priceSource": {
+      "group": "S04-G05",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G06",
+    "name": {
+      "ar": "عبوة شينوية · 0394-9",
+      "en": "Chinouia container · 0394-9"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G06-V01",
+        "size": "100 ml",
+        "price": 30,
+        "cartonQuantity": 1224,
+        "supplierReference": "0394-9",
+        "sourceGroup": "S04-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6ce2737d90059ab9",
+    "priceSource": {
+      "group": "S04-G06",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G07",
+    "name": {
+      "ar": "عبوة شينوية · 0394-10",
+      "en": "Chinouia container · 0394-10"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G07-V01",
+        "size": "100 ml",
+        "price": 30,
+        "cartonQuantity": 1008,
+        "supplierReference": "0394-10",
+        "sourceGroup": "S04-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-de3ecbfb1dee63a0",
+    "priceSource": {
+      "group": "S04-G07",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G11",
+    "name": {
+      "ar": "عبوة رغوة بيضاء",
+      "en": "White foam pump bottle"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G11-V01",
+        "size": "50 ml",
+        "price": 4,
+        "cartonQuantity": 600,
+        "supplierReference": "0396-16",
+        "sourceGroup": "S04-G11"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c99a80e5ea7a1cf7",
+    "priceSource": {
+      "group": "S04-G11",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G12",
+    "name": {
+      "ar": "بخاخ تريسور",
+      "en": "Tresor sprayer"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G12-V01",
+        "size": "10 ml",
+        "price": 5,
+        "cartonQuantity": 290,
+        "supplierReference": "0395-13",
+        "sourceGroup": "S04-G12"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-802ff8d94d469844",
+    "priceSource": {
+      "group": "S04-G12",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G13",
+    "name": {
+      "ar": "قارورة بيضاء · المسمى سيليك",
+      "en": "White bottle · source designation Silik"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G13-V01",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": 600,
+        "supplierReference": "0395-16",
+        "sourceGroup": "S04-G13"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6dc129bdda375534",
+    "priceSource": {
+      "group": "S04-G13",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G14",
+    "name": {
+      "ar": "بخاخ عطر للعروس",
+      "en": "Bridal perfume sprayer"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G14-V01",
+        "size": "30 ml",
+        "price": 12,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S04-G14"
+      },
+      {
+        "key": "S04-G14-V02",
+        "size": "60 ml",
+        "price": 12,
+        "cartonQuantity": 142,
+        "supplierReference": null,
+        "sourceGroup": "S04-G14"
+      },
+      {
+        "key": "S04-G14-V03",
+        "size": "100 ml",
+        "price": 14,
+        "cartonQuantity": 85,
+        "supplierReference": null,
+        "sourceGroup": "S04-G14"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6afef6dfe9469893",
+    "priceSource": {
+      "group": "S04-G14",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G15",
+    "name": {
+      "ar": "عبوات كريستال",
+      "en": "Crystal containers"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G15-V01",
+        "size": "5 g",
+        "price": 4.75,
+        "cartonQuantity": 200,
+        "supplierReference": "1,4",
+        "sourceGroup": "S04-G15"
+      },
+      {
+        "key": "S04-G15-V02",
+        "size": "10 g",
+        "price": 6.75,
+        "cartonQuantity": 100,
+        "supplierReference": "1,5",
+        "sourceGroup": "S04-G15"
+      },
+      {
+        "key": "S04-G15-V03",
+        "size": "20 g",
+        "price": 10,
+        "cartonQuantity": 100,
+        "supplierReference": "1,6",
+        "sourceGroup": "S04-G15"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-68d9df9467e6a393",
+    "priceSource": {
+      "group": "S04-G15",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S04-G16",
+    "name": {
+      "ar": "عبوة كريستال مربعة",
+      "en": "Square crystal container"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S04-G16-V01",
+        "size": "10 g",
+        "price": 10,
+        "cartonQuantity": 100,
+        "supplierReference": "1,7",
+        "sourceGroup": "S04-G16"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-1e4f42591d967a8e",
+    "priceSource": {
+      "group": "S04-G16",
+      "sheet": 4,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G01",
+    "name": {
+      "ar": "علب بلاستيكية بغطاء ذهبي",
+      "en": "Plastic jars with gold lids"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G01-V01",
+        "size": "30 ml",
+        "price": 1.7,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      },
+      {
+        "key": "S05-G01-V02",
+        "size": "50 ml",
+        "price": 2,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      },
+      {
+        "key": "S05-G01-V03",
+        "size": "100 ml",
+        "price": 2.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      },
+      {
+        "key": "S05-G01-V04",
+        "size": "150 ml",
+        "price": 3,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      },
+      {
+        "key": "S05-G01-V05",
+        "size": "200 ml",
+        "price": 3.4,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      },
+      {
+        "key": "S05-G01-V06",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      },
+      {
+        "key": "S05-G01-V07",
+        "size": "500 ml",
+        "price": 5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-714748526436eeaf",
+    "priceSource": {
+      "group": "S05-G01",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G02",
+    "name": {
+      "ar": "علب بلاستيكية بغطاء فضي",
+      "en": "Plastic jars with silver lids"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G02-V01",
+        "size": "30 ml",
+        "price": 1.7,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      },
+      {
+        "key": "S05-G02-V02",
+        "size": "50 ml",
+        "price": 2,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      },
+      {
+        "key": "S05-G02-V03",
+        "size": "100 ml",
+        "price": 2.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      },
+      {
+        "key": "S05-G02-V04",
+        "size": "150 ml",
+        "price": 3,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      },
+      {
+        "key": "S05-G02-V05",
+        "size": "200 ml",
+        "price": 3.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      },
+      {
+        "key": "S05-G02-V06",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      },
+      {
+        "key": "S05-G02-V07",
+        "size": "500 ml",
+        "price": 5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-3285c11ed2844bbf",
+    "priceSource": {
+      "group": "S05-G02",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G03",
+    "name": {
+      "ar": "علب بلاستيكية بغطاء وردي",
+      "en": "Plastic jars with pink lids"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G03-V01",
+        "size": "30 ml",
+        "price": 1.7,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      },
+      {
+        "key": "S05-G03-V02",
+        "size": "50 ml",
+        "price": 2,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      },
+      {
+        "key": "S05-G03-V03",
+        "size": "100 ml",
+        "price": 2.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      },
+      {
+        "key": "S05-G03-V04",
+        "size": "150 ml",
+        "price": 3,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      },
+      {
+        "key": "S05-G03-V05",
+        "size": "200 ml",
+        "price": 3.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      },
+      {
+        "key": "S05-G03-V06",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      },
+      {
+        "key": "S05-G03-V07",
+        "size": "500 ml",
+        "price": 5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-32464e9337ee2727",
+    "priceSource": {
+      "group": "S05-G03",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G04",
+    "name": {
+      "ar": "علب بلاستيكية بغطاء أسود",
+      "en": "Plastic jars with black lids"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G04-V01",
+        "size": "30 ml",
+        "price": 1.7,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      },
+      {
+        "key": "S05-G04-V02",
+        "size": "50 ml",
+        "price": 2,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      },
+      {
+        "key": "S05-G04-V03",
+        "size": "100 ml",
+        "price": 2.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      },
+      {
+        "key": "S05-G04-V04",
+        "size": "150 ml",
+        "price": 3,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      },
+      {
+        "key": "S05-G04-V05",
+        "size": "200 ml",
+        "price": 3.5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      },
+      {
+        "key": "S05-G04-V06",
+        "size": "250 ml",
+        "price": 4,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      },
+      {
+        "key": "S05-G04-V07",
+        "size": "500 ml",
+        "price": 5,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S05-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-36fa9a6a4b288255",
+    "priceSource": {
+      "group": "S05-G04",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G06",
+    "name": {
+      "ar": "أنبوب صغير للمسك",
+      "en": "Small musk tube"
+    },
+    "category": "perfume",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G06-V01",
+        "size": "5 g",
+        "price": 0.3,
+        "cartonQuantity": 5000,
+        "supplierReference": null,
+        "sourceGroup": "S05-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-ff7965de5dcb6ed9",
+    "priceSource": {
+      "group": "S05-G06",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G07",
+    "name": {
+      "ar": "بخاخات بلاستيكية",
+      "en": "Plastic sprayers"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G07-V01",
+        "size": "30 ml",
+        "price": 11.75,
+        "cartonQuantity": 100,
+        "supplierReference": "0391-11",
+        "sourceGroup": "S05-G07"
+      },
+      {
+        "key": "S05-G07-V02",
+        "size": "50 ml",
+        "price": 11.75,
+        "cartonQuantity": 60,
+        "supplierReference": "0391-12",
+        "sourceGroup": "S05-G07"
+      },
+      {
+        "key": "S05-G07-V03",
+        "size": "60 ml",
+        "price": 11.75,
+        "cartonQuantity": 60,
+        "supplierReference": "0391-13",
+        "sourceGroup": "S05-G07"
+      },
+      {
+        "key": "S05-G07-V04",
+        "size": "100 ml",
+        "price": 13.75,
+        "cartonQuantity": 84,
+        "supplierReference": "0391-14",
+        "sourceGroup": "S05-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-23f57644e0354ef8",
+    "priceSource": {
+      "group": "S05-G07",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S05-G08",
+    "name": {
+      "ar": "بخاخ ذهبي",
+      "en": "Gold sprayer"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S05-G08-V03",
+        "size": "60 ml",
+        "price": 18,
+        "cartonQuantity": 102,
+        "supplierReference": "0395-8",
+        "sourceGroup": "S05-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-9cdde3978fa94a65",
+    "priceSource": {
+      "group": "S05-G08",
+      "sheet": 5,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S06-G02",
+    "name": {
+      "ar": "مرطبانات أسود غير لامع بغطاء بامبو",
+      "en": "Black frosted + bamboo jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S06-G02-V01",
+        "size": "20 ml",
+        "price": 3.3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G02"
+      },
+      {
+        "key": "S06-G02-V02",
+        "size": "30 ml",
+        "price": 3.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G02"
+      },
+      {
+        "key": "S06-G02-V03",
+        "size": "50 ml",
+        "price": 4.4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G02"
+      },
+      {
+        "key": "S06-G02-V04",
+        "size": "100 ml",
+        "price": 5.2,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-72662ae50e0f36d3",
+    "priceSource": {
+      "group": "S06-G02",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S06-G04",
+    "name": {
+      "ar": "مرطبانات شفاف غير لامع بغطاء بامبو",
+      "en": "Clear frosted + bamboo jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S06-G04-V01",
+        "size": "20 ml",
+        "price": 3.3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G04"
+      },
+      {
+        "key": "S06-G04-V02",
+        "size": "30 ml",
+        "price": 3.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G04"
+      },
+      {
+        "key": "S06-G04-V03",
+        "size": "50 ml",
+        "price": 4.4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G04"
+      },
+      {
+        "key": "S06-G04-V04",
+        "size": "100 ml",
+        "price": 5,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6437ac543b9eabfa",
+    "priceSource": {
+      "group": "S06-G04",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S06-G06",
+    "name": {
+      "ar": "مرطبانات أسود لامع بغطاء أسود",
+      "en": "Black glossy + black jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S06-G06-V01",
+        "size": "20 ml",
+        "price": 2.5,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G06"
+      },
+      {
+        "key": "S06-G06-V02",
+        "size": "30 ml",
+        "price": 2.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G06"
+      },
+      {
+        "key": "S06-G06-V03",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G06"
+      },
+      {
+        "key": "S06-G06-V04",
+        "size": "100 ml",
+        "price": 4.3,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-23a5793be99a732f",
+    "priceSource": {
+      "group": "S06-G06",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S06-G07",
+    "name": {
+      "ar": "مرطبانات شفاف غير لامع بغطاء ذهبي",
+      "en": "Clear frosted + gold jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S06-G07-V01",
+        "size": "20 ml",
+        "price": 2.3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G07"
+      },
+      {
+        "key": "S06-G07-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G07"
+      },
+      {
+        "key": "S06-G07-V03",
+        "size": "50 ml",
+        "price": 3.25,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G07"
+      },
+      {
+        "key": "S06-G07-V04",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-289aa63582883377",
+    "priceSource": {
+      "group": "S06-G07",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S06-G08",
+    "name": {
+      "ar": "مرطبانات شفاف غير لامع بغطاء فضي",
+      "en": "Clear frosted + silver jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S06-G08-V01",
+        "size": "20 ml",
+        "price": 2.3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S06-G08"
+      },
+      {
+        "key": "S06-G08-V02",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S06-G08"
+      },
+      {
+        "key": "S06-G08-V03",
+        "size": "50 ml",
+        "price": 3.25,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S06-G08"
+      },
+      {
+        "key": "S06-G08-V04",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S06-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6222f0465bf4d538",
+    "priceSource": {
+      "group": "S06-G08",
+      "sheet": 6,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S07-G03",
+    "name": {
+      "ar": "مرطبانات شفافة بغطاء بامبو",
+      "en": "Clear + bamboo jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S07-G03-V01",
+        "size": "20 ml",
+        "price": 3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G03"
+      },
+      {
+        "key": "S07-G03-V02",
+        "size": "30 ml",
+        "price": 3.3,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G03"
+      },
+      {
+        "key": "S07-G03-V03",
+        "size": "50 ml",
+        "price": 3.8,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G03"
+      },
+      {
+        "key": "S07-G03-V04",
+        "size": "100 ml",
+        "price": 4.75,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-91a433b135d72cb2",
+    "priceSource": {
+      "group": "S07-G03",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S07-G07",
+    "name": {
+      "ar": "مرطبانات بيضاء بغطاء بامبو",
+      "en": "White + bamboo jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S07-G07-V01",
+        "size": "20 ml",
+        "price": 3.3,
+        "cartonQuantity": 280,
+        "supplierReference": null,
+        "sourceGroup": "S07-G07"
+      },
+      {
+        "key": "S07-G07-V02",
+        "size": "30 ml",
+        "price": 3.8,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S07-G07"
+      },
+      {
+        "key": "S07-G07-V03",
+        "size": "50 ml",
+        "price": 4.4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S07-G07"
+      },
+      {
+        "key": "S07-G07-V04",
+        "size": "100 ml",
+        "price": 5.2,
+        "cartonQuantity": 105,
+        "supplierReference": null,
+        "sourceGroup": "S07-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-b902b6cfd12f9272",
+    "priceSource": {
+      "group": "S07-G07",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S07-G08",
+    "name": {
+      "ar": "علب كريم بمضخة ذهبية",
+      "en": "Cream containers with gold lotion pumps"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S07-G08-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 200,
+        "supplierReference": "0394-12",
+        "sourceGroup": "S07-G08"
+      },
+      {
+        "key": "S07-G08-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 140,
+        "supplierReference": "0394-13",
+        "sourceGroup": "S07-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-1e339447919efd5e",
+    "priceSource": {
+      "group": "S07-G08",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S07-G09",
+    "name": {
+      "ar": "علب كريم بمضخة فضية",
+      "en": "Cream containers with silver lotion pumps"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S07-G09-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 200,
+        "supplierReference": "0394-14",
+        "sourceGroup": "S07-G09"
+      },
+      {
+        "key": "S07-G09-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 140,
+        "supplierReference": "0394-15",
+        "sourceGroup": "S07-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-fd964b64f13aef69",
+    "priceSource": {
+      "group": "S07-G09",
+      "sheet": 7,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S08-G07",
+    "name": {
+      "ar": "قارورة شيبة",
+      "en": "Chiba bottle"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S08-G07-V01",
+        "size": "10 ml",
+        "price": 1.35,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S08-G07"
+      },
+      {
+        "key": "S08-G07-V02",
+        "size": "15 ml",
+        "price": 1.5,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S08-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-bda1caaa21ae86f7",
+    "priceSource": {
+      "group": "S08-G07",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S08-G08",
+    "name": {
+      "ar": "قارورة كونت كوت",
+      "en": "Cont-cout bottle"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S08-G08-V01",
+        "size": "5 ml",
+        "price": 0.8,
+        "cartonQuantity": 765,
+        "supplierReference": null,
+        "sourceGroup": "S08-G08"
+      },
+      {
+        "key": "S08-G08-V02",
+        "size": "10 ml",
+        "price": 0.85,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S08-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0f145577ef732aa6",
+    "priceSource": {
+      "group": "S08-G08",
+      "sheet": 8,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S09-G02",
+    "name": {
+      "ar": "قوارير قطارة بنية غير لامعة",
+      "en": "Frosted amber dropper bottles"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S09-G02-V01",
+        "size": "10 ml",
+        "price": 1.8,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S09-G02"
+      },
+      {
+        "key": "S09-G02-V02",
+        "size": "15 ml",
+        "price": 2.2,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S09-G02"
+      },
+      {
+        "key": "S09-G02-V03",
+        "size": "30 ml",
+        "price": 2.5,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S09-G02"
+      },
+      {
+        "key": "S09-G02-V04",
+        "size": "50 ml",
+        "price": 3,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S09-G02"
+      },
+      {
+        "key": "S09-G02-V05",
+        "size": "100 ml",
+        "price": 3.8,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S09-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-adf152a0256caa9c",
+    "priceSource": {
+      "group": "S09-G02",
+      "sheet": 9,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S09-G05",
+    "name": {
+      "ar": "قوارير قطارة ذهبية",
+      "en": "Gold dropper bottles"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S09-G05-V01",
+        "size": "10 ml",
+        "price": 2.2,
+        "cartonQuantity": 768,
+        "supplierReference": null,
+        "sourceGroup": "S09-G05"
+      },
+      {
+        "key": "S09-G05-V02",
+        "size": "15 ml",
+        "price": 2.8,
+        "cartonQuantity": 468,
+        "supplierReference": null,
+        "sourceGroup": "S09-G05"
+      },
+      {
+        "key": "S09-G05-V03",
+        "size": "30 ml",
+        "price": 3.2,
+        "cartonQuantity": 330,
+        "supplierReference": null,
+        "sourceGroup": "S09-G05"
+      },
+      {
+        "key": "S09-G05-V04",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": 264,
+        "supplierReference": null,
+        "sourceGroup": "S09-G05"
+      },
+      {
+        "key": "S09-G05-V05",
+        "size": "100 ml",
+        "price": 4,
+        "cartonQuantity": 140,
+        "supplierReference": null,
+        "sourceGroup": "S09-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-9a463cf730b389f8",
+    "priceSource": {
+      "group": "S09-G05",
+      "sheet": 9,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G02",
+    "name": {
+      "ar": "قارورة قرنفل",
+      "en": "Clove bottle"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G02-V01",
+        "size": "10 ml",
+        "price": 0.85,
+        "cartonQuantity": 1872,
+        "supplierReference": null,
+        "sourceGroup": "S10-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-3ca3e1319b9b048b",
+    "priceSource": {
+      "group": "S10-G02",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G05",
+    "name": {
+      "ar": "مرطبانات شهدة مع البرغي",
+      "en": "Honeycomb jars with screw lids"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G05-V01",
+        "size": "720 ml / carton",
+        "price": 3.7,
+        "cartonQuantity": 48,
+        "supplierReference": null,
+        "sourceGroup": "S10-G05"
+      },
+      {
+        "key": "S10-G05-V02",
+        "size": "720 ml / palette",
+        "price": 3.6,
+        "cartonQuantity": 1016,
+        "supplierReference": null,
+        "sourceGroup": "S10-G05"
+      },
+      {
+        "key": "S10-G05-V03",
+        "size": "380 ml / carton",
+        "price": 2.8,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S10-G05"
+      },
+      {
+        "key": "S10-G05-V04",
+        "size": "380 ml / palette A",
+        "price": 2.6,
+        "cartonQuantity": 2097,
+        "supplierReference": null,
+        "sourceGroup": "S10-G05"
+      },
+      {
+        "key": "S10-G05-V05",
+        "size": "380 ml / palette B",
+        "price": 2.6,
+        "cartonQuantity": 4427,
+        "supplierReference": null,
+        "sourceGroup": "S10-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-b46e72c26bcb67f8",
+    "priceSource": {
+      "group": "S10-G05",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G06",
+    "name": {
+      "ar": "مرطبان كروي",
+      "en": "Round jar"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G06-V01",
+        "size": "40 ml",
+        "price": 1.5,
+        "cartonQuantity": 240,
+        "supplierReference": null,
+        "sourceGroup": "S10-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-afd545bfdc2e8f3f",
+    "priceSource": {
+      "group": "S10-G06",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G08",
+    "name": {
+      "ar": "عبوة زوارق",
+      "en": "Zawareq container"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G08-V01",
+        "size": "50 ml",
+        "price": 3.5,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S10-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-130741a4f557402c",
+    "priceSource": {
+      "group": "S10-G08",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G09",
+    "name": {
+      "ar": "قارورة قرعة",
+      "en": "Qaraa bottle"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G09-V01",
+        "size": "100 ml",
+        "price": 1.8,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S10-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-be08c929672a663a",
+    "priceSource": {
+      "group": "S10-G09",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G10",
+    "name": {
+      "ar": "مرطبانات سداسية",
+      "en": "Hexagonal jars"
+    },
+    "category": "jars",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G10-V01",
+        "size": "730 ml",
+        "price": 5.75,
+        "cartonQuantity": 45,
+        "supplierReference": null,
+        "sourceGroup": "S10-G10"
+      },
+      {
+        "key": "S10-G10-V02",
+        "size": "380 ml",
+        "price": 4.25,
+        "cartonQuantity": 72,
+        "supplierReference": null,
+        "sourceGroup": "S10-G10"
+      },
+      {
+        "key": "S10-G10-V03",
+        "size": "180 ml",
+        "price": 3.25,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S10-G10"
+      },
+      {
+        "key": "S10-G10-V04",
+        "size": "100 ml",
+        "price": 2.3,
+        "cartonQuantity": 120,
+        "supplierReference": null,
+        "sourceGroup": "S10-G10"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-f4d16792322f5fa5",
+    "priceSource": {
+      "group": "S10-G10",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G11",
+    "name": {
+      "ar": "رؤوس بخاخ من الألمنيوم",
+      "en": "Aluminium sprayer heads"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G11-V01",
+        "size": "ذهبي / gold",
+        "price": 2.15,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S10-G11"
+      },
+      {
+        "key": "S10-G11-V02",
+        "size": "فضي / silver",
+        "price": 2.15,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S10-G11"
+      },
+      {
+        "key": "S10-G11-V03",
+        "size": "أسود / black",
+        "price": 2.15,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S10-G11"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-d4d53ff18f1c5c5b",
+    "priceSource": {
+      "group": "S10-G11",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G12",
+    "name": {
+      "ar": "رؤوس مضخة من الألمنيوم",
+      "en": "Aluminium lotion pumps"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G12-V01",
+        "size": "ذهبي / gold",
+        "price": 2.15,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S10-G12"
+      },
+      {
+        "key": "S10-G12-V02",
+        "size": "فضي / silver",
+        "price": 2.15,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S10-G12"
+      },
+      {
+        "key": "S10-G12-V03",
+        "size": "أسود / black",
+        "price": 2.15,
+        "cartonQuantity": 1000,
+        "supplierReference": null,
+        "sourceGroup": "S10-G12"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-964aca08a4a61388",
+    "priceSource": {
+      "group": "S10-G12",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G13",
+    "name": {
+      "ar": "إيرلس شفاف بغطاء ذهبي",
+      "en": "Clear airless + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G13-V01",
+        "size": "30 ml",
+        "price": 3,
+        "cartonQuantity": 476,
+        "supplierReference": null,
+        "sourceGroup": "S10-G13"
+      },
+      {
+        "key": "S10-G13-V02",
+        "size": "50 ml",
+        "price": 4,
+        "cartonQuantity": 358,
+        "supplierReference": null,
+        "sourceGroup": "S10-G13"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-5c6c34754a601019",
+    "priceSource": {
+      "group": "S10-G13",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G14",
+    "name": {
+      "ar": "إيرلس شفاف وفضي",
+      "en": "Airless clear + silver"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G14-V01",
+        "size": "50 ml",
+        "price": 6.5,
+        "cartonQuantity": 320,
+        "supplierReference": null,
+        "sourceGroup": "S10-G14"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-223e84857f799cf7",
+    "priceSource": {
+      "group": "S10-G14",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G15",
+    "name": {
+      "ar": "إيرلس معتّم وذهبي",
+      "en": "Airless opaque + gold"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G15-V01",
+        "size": "50 ml",
+        "price": 6.5,
+        "cartonQuantity": 320,
+        "supplierReference": null,
+        "sourceGroup": "S10-G15"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-f6f1d8254947e24d",
+    "priceSource": {
+      "group": "S10-G15",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G16",
+    "name": {
+      "ar": "إيرلس معتّم وفضي",
+      "en": "Airless opaque + silver"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G16-V01",
+        "size": "50 ml",
+        "price": 6.5,
+        "cartonQuantity": 320,
+        "supplierReference": null,
+        "sourceGroup": "S10-G16"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-bcf898a58a92c79d",
+    "priceSource": {
+      "group": "S10-G16",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S10-G17",
+    "name": {
+      "ar": "عبوات سيليك",
+      "en": "Silik containers"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S10-G17-V01",
+        "size": "غطاء ذهبي / gold cap",
+        "price": 3.5,
+        "cartonQuantity": 108,
+        "supplierReference": null,
+        "sourceGroup": "S10-G17"
+      },
+      {
+        "key": "S10-G17-V02",
+        "size": "غطاء أسود / black cap",
+        "price": 3,
+        "cartonQuantity": 108,
+        "supplierReference": null,
+        "sourceGroup": "S10-G17"
+      },
+      {
+        "key": "S10-G17-V03",
+        "size": "غطاء أبيض / white cap",
+        "price": 3,
+        "cartonQuantity": 108,
+        "supplierReference": null,
+        "sourceGroup": "S10-G17"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c91f8b04598d41bc",
+    "priceSource": {
+      "group": "S10-G17",
+      "sheet": 10,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G02",
+    "name": {
+      "ar": "قارورة Pharma شفافة · 30 مل",
+      "en": "Clear Pharma bottle · 30 ml"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G02-V01",
+        "size": "30 ml",
+        "price": 0.8,
+        "cartonQuantity": 312,
+        "supplierReference": null,
+        "sourceGroup": "S11-G02"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0a6cd4c69ec9599b",
+    "priceSource": {
+      "group": "S11-G02",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G04",
+    "name": {
+      "ar": "قارورة Pharma شفافة · 60 مل",
+      "en": "Clear Pharma bottle · 60 ml"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G04-V01",
+        "size": "60 ml",
+        "price": 0.9,
+        "cartonQuantity": "240/176",
+        "supplierReference": null,
+        "sourceGroup": "S11-G04"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6b93306e4d8c660b",
+    "priceSource": {
+      "group": "S11-G04",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G05",
+    "name": {
+      "ar": "قارورة Pharma بنية · 125 مل · تعبئة منصة",
+      "en": "Amber Pharma bottle · pallet pack"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G05-V01",
+        "size": "125 ml",
+        "price": 1.1,
+        "cartonQuantity": null,
+        "supplierReference": null,
+        "sourceGroup": "S11-G05"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-48e506704abd185f",
+    "priceSource": {
+      "group": "S11-G05",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G06",
+    "name": {
+      "ar": "قارورة Pharma بنية · 125 مل · كرتون 220",
+      "en": "Amber Pharma bottle · carton 220"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G06-V01",
+        "size": "125 ml",
+        "price": 1.1,
+        "cartonQuantity": 220,
+        "supplierReference": null,
+        "sourceGroup": "S11-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-6d368f911560fdce",
+    "priceSource": {
+      "group": "S11-G06",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G07",
+    "name": {
+      "ar": "قارورة Pharma شفافة · 125 مل",
+      "en": "Clear Pharma bottle · 125 ml"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G07-V01",
+        "size": "125 ml",
+        "price": 1.3,
+        "cartonQuantity": 180,
+        "supplierReference": null,
+        "sourceGroup": "S11-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-44b64dc9c7a1da5a",
+    "priceSource": {
+      "group": "S11-G07",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G09",
+    "name": {
+      "ar": "مضخات مستحضرات العناية",
+      "en": "Lotion pumps"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G09-V02",
+        "size": "40 ml",
+        "price": 3.3,
+        "cartonQuantity": 224,
+        "supplierReference": null,
+        "sourceGroup": "S11-G09"
+      },
+      {
+        "key": "S11-G09-V03",
+        "size": "50 ml",
+        "price": 3.65,
+        "cartonQuantity": 160,
+        "supplierReference": null,
+        "sourceGroup": "S11-G09"
+      },
+      {
+        "key": "S11-G09-V04",
+        "size": "60 ml",
+        "price": 3.8,
+        "cartonQuantity": 130,
+        "supplierReference": null,
+        "sourceGroup": "S11-G09"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-343bfe12a12c02d6",
+    "priceSource": {
+      "group": "S11-G09",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G11",
+    "name": {
+      "ar": "غطاء Marasca بلاستيكي أسود · كرتون 3000",
+      "en": "Black plastic Marasca cap · carton 3000"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G11-V01",
+        "size": "قطعة / piece",
+        "price": 0.5,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S11-G11"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-cfcd9ac4b446261c",
+    "priceSource": {
+      "group": "S11-G11",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G12",
+    "name": {
+      "ar": "غطاء Marasca بلاستيكي أسود · كرتون 2500",
+      "en": "Black plastic Marasca cap · carton 2500"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G12-V01",
+        "size": "قطعة / piece",
+        "price": 0.5,
+        "cartonQuantity": 2500,
+        "supplierReference": null,
+        "sourceGroup": "S11-G12"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-c6e2ed7b8c8d98bd",
+    "priceSource": {
+      "group": "S11-G12",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G13",
+    "name": {
+      "ar": "غطاء Marasca من الألمنيوم",
+      "en": "Aluminium Marasca cap"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G13-V01",
+        "size": "قطعة / piece",
+        "price": 0.45,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S11-G13"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-804726b5c13351cc",
+    "priceSource": {
+      "group": "S11-G13",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G14",
+    "name": {
+      "ar": "غطاء ضمان بلاستيكي مصري",
+      "en": "Egyptian plastic guarantee cap"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G14-V01",
+        "size": "قطعة / piece",
+        "price": 0.23,
+        "cartonQuantity": 5000,
+        "supplierReference": null,
+        "sourceGroup": "S11-G14"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-387a2b4d9303ce68",
+    "priceSource": {
+      "group": "S11-G14",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G15",
+    "name": {
+      "ar": "غطاء ضمان بلاستيكي هندي",
+      "en": "Indian plastic guarantee cap"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G15-V01",
+        "size": "قطعة / piece",
+        "price": 0.23,
+        "cartonQuantity": 3600,
+        "supplierReference": null,
+        "sourceGroup": "S11-G15"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-ed86a3c8bbed42c9",
+    "priceSource": {
+      "group": "S11-G15",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G16",
+    "name": {
+      "ar": "غطاء خارجي PVC · كرتون 16575",
+      "en": "PVC overcap · carton 16575"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G16-V01",
+        "size": "قطعة / piece",
+        "price": 0.25,
+        "cartonQuantity": 16575,
+        "supplierReference": null,
+        "sourceGroup": "S11-G16"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-3467e04371b1a4ee",
+    "priceSource": {
+      "group": "S11-G16",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G17",
+    "name": {
+      "ar": "غطاء خارجي PVC · كرتون 16320",
+      "en": "PVC overcap · carton 16320"
+    },
+    "category": "accessories",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G17-V01",
+        "size": "قطعة / piece",
+        "price": 0.25,
+        "cartonQuantity": 16320,
+        "supplierReference": null,
+        "sourceGroup": "S11-G17"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-71bed0cff82745c2",
+    "priceSource": {
+      "group": "S11-G17",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S12-G01",
+    "name": {
+      "ar": "أكياس كرافت",
+      "en": "Kraft pouches"
+    },
+    "category": "pouches",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S12-G01-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G01"
+      },
+      {
+        "key": "S12-G01-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G01"
+      },
+      {
+        "key": "S12-G01-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.55,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G01"
+      },
+      {
+        "key": "S12-G01-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G01"
+      },
+      {
+        "key": "S12-G01-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.95,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-0431226b5fabe763",
+    "priceSource": {
+      "group": "S12-G01",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S12-G03",
+    "name": {
+      "ar": "أكياس ألمنيوم فضي",
+      "en": "Silver aluminium pouches"
+    },
+    "category": "pouches",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S12-G03-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G03"
+      },
+      {
+        "key": "S12-G03-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G03"
+      },
+      {
+        "key": "S12-G03-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G03"
+      },
+      {
+        "key": "S12-G03-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G03"
+      },
+      {
+        "key": "S12-G03-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S12-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-08a7c5f27615a80a",
+    "priceSource": {
+      "group": "S12-G03",
+      "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S13-G01",
+    "name": {
+      "ar": "أكياس بلاستيك مطبوع",
+      "en": "Printed plastic pouches"
+    },
+    "category": "pouches",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S13-G01-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G01"
+      },
+      {
+        "key": "S13-G01-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G01"
+      },
+      {
+        "key": "S13-G01-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.5,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G01"
+      },
+      {
+        "key": "S13-G01-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.7,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G01"
+      },
+      {
+        "key": "S13-G01-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.9,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-034c74c247112d74",
+    "priceSource": {
+      "group": "S13-G01",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S13-G06",
+    "name": {
+      "ar": "أكياس بلاستيك بيج",
+      "en": "Beige plastic pouches"
+    },
+    "category": "pouches",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S13-G06-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G06"
+      },
+      {
+        "key": "S13-G06-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G06"
+      },
+      {
+        "key": "S13-G06-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.6,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G06"
+      },
+      {
+        "key": "S13-G06-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.68,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G06"
+      },
+      {
+        "key": "S13-G06-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.9,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G06"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-35f409b6057cd6f0",
+    "priceSource": {
+      "group": "S13-G06",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S13-G07",
+    "name": {
+      "ar": "أكياس بلاستيك بنفسجي",
+      "en": "Purple plastic pouches"
+    },
+    "category": "pouches",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S13-G07-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G07"
+      },
+      {
+        "key": "S13-G07-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G07"
+      },
+      {
+        "key": "S13-G07-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.6,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G07"
+      },
+      {
+        "key": "S13-G07-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.68,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G07"
+      },
+      {
+        "key": "S13-G07-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.9,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G07"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-2371d7c72f54c7e2",
+    "priceSource": {
+      "group": "S13-G07",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S13-G08",
+    "name": {
+      "ar": "أكياس بلاستيك بلون الفستق",
+      "en": "Pistachio plastic pouches"
+    },
+    "category": "pouches",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S13-G08-V01",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G08"
+      },
+      {
+        "key": "S13-G08-V02",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "cartonQuantity": 4000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G08"
+      },
+      {
+        "key": "S13-G08-V03",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.6,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G08"
+      },
+      {
+        "key": "S13-G08-V04",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.68,
+        "cartonQuantity": 3000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G08"
+      },
+      {
+        "key": "S13-G08-V05",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.9,
+        "cartonQuantity": 2000,
+        "supplierReference": null,
+        "sourceGroup": "S13-G08"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-cdae09374c4f23df",
+    "priceSource": {
+      "group": "S13-G08",
+      "sheet": 13,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G01",
+    "name": {
+      "ar": "قوارير Marasca",
+      "en": "Marasca bottles"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G01-V03",
+        "size": "100 ml / carton B",
+        "price": 3.2,
+        "cartonQuantity": 270,
+        "supplierReference": null,
+        "sourceGroup": "S11-G01"
+      },
+      {
+        "key": "S11-G01-V04",
+        "size": "100 ml / palette",
+        "price": 3,
+        "cartonQuantity": 4872,
+        "supplierReference": null,
+        "sourceGroup": "S11-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-5efb4c0bbf424195",
+    "priceSource": {
+      "group": "S11-G01",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S11-G03",
+    "name": {
+      "ar": "قوارير Pharma بنية",
+      "en": "Amber Pharma bottles"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S11-G03-V02",
+        "size": "60 ml",
+        "price": 0.85,
+        "cartonQuantity": 200,
+        "supplierReference": null,
+        "sourceGroup": "S11-G03"
+      }
+    ],
+    "pricingRevision": "2026-10-22-supplier-sheet-v1-d06c16411425c538",
+    "priceSource": {
+      "group": "S11-G03",
+      "sheet": 11,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
   }
 ]

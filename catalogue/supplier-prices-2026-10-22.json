@@ -1,0 +1,5442 @@
+{
+  "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip",
+  "sourceSha256": "18021509e3ce73f3381982d7c7ccf4292fb7b5934717d1933a31515d2552c23a",
+  "currency": "MAD",
+  "revision": "2026-10-22-supplier-sheet-v1",
+  "notes": [
+    "All prices are literal transcriptions; no markup, percentage or currency conversion is applied.",
+    "Sheet 14 duplicates sheet 13.",
+    "Red stock quantities are not published; carton quantities are packaging information only.",
+    "Unpriced source rows remain null, not zero.",
+    "Duplicate Laura designations remain pending; owner clarified Pharma prices as 0.80 and 0.90 MAD on 2026-10-22."
+  ],
+  "groups": [
+    {
+      "id": "S01-G01",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الثانية",
+        "en": "Laura white shining + gold · second designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G01-V01",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": true
+    },
+    {
+      "id": "S01-G02",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء فضي",
+        "en": "Laura white shining + silver"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G02-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": "1-90"
+        },
+        {
+          "key": "S01-G02-V02",
+          "size": "50 ml",
+          "priceCents": 460,
+          "cartonQuantity": 160,
+          "supplierReference": "1-91"
+        },
+        {
+          "key": "S01-G02-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": "1-92"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-148"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G03",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء أبيض",
+        "en": "Laura white shining + white"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G03-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": "1-93"
+        },
+        {
+          "key": "S01-G03-V02",
+          "size": "50 ml",
+          "priceCents": 460,
+          "cartonQuantity": 160,
+          "supplierReference": "1-94"
+        },
+        {
+          "key": "S01-G03-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": "1-95"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G04",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا بنفسجي بغطاء ذهبي",
+        "en": "Laura purple + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G04-V01",
+          "size": "30 ml",
+          "priceCents": 430,
+          "cartonQuantity": 180,
+          "supplierReference": "1-96"
+        },
+        {
+          "key": "S01-G04-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": "1-97"
+        },
+        {
+          "key": "S01-G04-V03",
+          "size": "100 ml",
+          "priceCents": 630,
+          "cartonQuantity": 120,
+          "supplierReference": "1-98"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-153"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G05",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا وردي بغطاء ذهبي",
+        "en": "Laura pink + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G05-V01",
+          "size": "30 ml",
+          "priceCents": 430,
+          "cartonQuantity": 180,
+          "supplierReference": "1-99"
+        },
+        {
+          "key": "S01-G05-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": "1-100"
+        },
+        {
+          "key": "S01-G05-V03",
+          "size": "100 ml",
+          "priceCents": 630,
+          "cartonQuantity": 120,
+          "supplierReference": "1-101"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-071"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G06",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا أصفر بغطاء ذهبي",
+        "en": "Laura yellow + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G06-V01",
+          "size": "30 ml",
+          "priceCents": 430,
+          "cartonQuantity": 180,
+          "supplierReference": "1-102"
+        },
+        {
+          "key": "S01-G06-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": "1-103"
+        },
+        {
+          "key": "S01-G06-V03",
+          "size": "100 ml",
+          "priceCents": 630,
+          "cartonQuantity": 120,
+          "supplierReference": "1-104"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-152"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G07",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا فيروزي بغطاء ذهبي",
+        "en": "Laura aqua + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G07-V01",
+          "size": "30 ml",
+          "priceCents": 430,
+          "cartonQuantity": 180,
+          "supplierReference": "1-105"
+        },
+        {
+          "key": "S01-G07-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": "1-106"
+        },
+        {
+          "key": "S01-G07-V03",
+          "size": "100 ml",
+          "priceCents": 630,
+          "cartonQuantity": 120,
+          "supplierReference": "1-107"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-154"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G08",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا أزرق بغطاء ذهبي",
+        "en": "Laura blue + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G08-V01",
+          "size": "30 ml",
+          "priceCents": 430,
+          "cartonQuantity": 180,
+          "supplierReference": "1-108"
+        },
+        {
+          "key": "S01-G08-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": "1-109"
+        },
+        {
+          "key": "S01-G08-V03",
+          "size": "100 ml",
+          "priceCents": 630,
+          "cartonQuantity": 120,
+          "supplierReference": "1-110"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-151"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G09",
+      "sheet": 1,
+      "name": {
+        "ar": "كوبرا شفاف بغطاء ذهبي",
+        "en": "Kobra clear + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G09-V01",
+          "size": "30 ml",
+          "priceCents": 475,
+          "cartonQuantity": 180,
+          "supplierReference": "1-111"
+        },
+        {
+          "key": "S01-G09-V02",
+          "size": "50 ml",
+          "priceCents": 530,
+          "cartonQuantity": 160,
+          "supplierReference": "1-112"
+        },
+        {
+          "key": "S01-G09-V03",
+          "size": "100 ml",
+          "priceCents": 630,
+          "cartonQuantity": 120,
+          "supplierReference": "1-113"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G10",
+      "sheet": 1,
+      "name": {
+        "ar": "كوبرا شفاف غير لامع بغطاء ذهبي",
+        "en": "Kobra clear frosted + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G10-V01",
+          "size": "30 ml",
+          "priceCents": 500,
+          "cartonQuantity": 180,
+          "supplierReference": "1-114"
+        },
+        {
+          "key": "S01-G10-V02",
+          "size": "50 ml",
+          "priceCents": 550,
+          "cartonQuantity": 160,
+          "supplierReference": "1-115"
+        },
+        {
+          "key": "S01-G10-V03",
+          "size": "100 ml",
+          "priceCents": 650,
+          "cartonQuantity": 120,
+          "supplierReference": "1-116"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G11",
+      "sheet": 1,
+      "name": {
+        "ar": "كوبرا شفاف غير لامع بغطاء فضي",
+        "en": "Kobra clear frosted + silver"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G11-V01",
+          "size": "30 ml",
+          "priceCents": 500,
+          "cartonQuantity": 180,
+          "supplierReference": "1-117"
+        },
+        {
+          "key": "S01-G11-V02",
+          "size": "50 ml",
+          "priceCents": 550,
+          "cartonQuantity": 160,
+          "supplierReference": "1-118"
+        },
+        {
+          "key": "S01-G11-V03",
+          "size": "100 ml",
+          "priceCents": 650,
+          "cartonQuantity": 120,
+          "supplierReference": "1-119"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G12",
+      "sheet": 1,
+      "name": {
+        "ar": "كوبرا أسود غير لامع بغطاء ذهبي",
+        "en": "Kobra black frosted + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G12-V01",
+          "size": "30 ml",
+          "priceCents": 500,
+          "cartonQuantity": 180,
+          "supplierReference": "1-120"
+        },
+        {
+          "key": "S01-G12-V02",
+          "size": "50 ml",
+          "priceCents": 550,
+          "cartonQuantity": 160,
+          "supplierReference": "1-121"
+        },
+        {
+          "key": "S01-G12-V03",
+          "size": "100 ml",
+          "priceCents": 650,
+          "cartonQuantity": 120,
+          "supplierReference": "1-122"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G13",
+      "sheet": 1,
+      "name": {
+        "ar": "كوبرا أبيض لامع بغطاء ذهبي",
+        "en": "Kobra glossy white + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G13-V01",
+          "size": "30 ml",
+          "priceCents": 500,
+          "cartonQuantity": 180,
+          "supplierReference": "1-123"
+        },
+        {
+          "key": "S01-G13-V02",
+          "size": "50 ml",
+          "priceCents": 550,
+          "cartonQuantity": 160,
+          "supplierReference": "1-124"
+        },
+        {
+          "key": "S01-G13-V03",
+          "size": "100 ml",
+          "priceCents": 650,
+          "cartonQuantity": 120,
+          "supplierReference": "1-125"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G14",
+      "sheet": 1,
+      "name": {
+        "ar": "بخاخ لورا بغطاء ذهبي",
+        "en": "Laura sprayer + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G14-V01",
+          "size": "30 ml",
+          "priceCents": 430,
+          "cartonQuantity": 180,
+          "supplierReference": "1-137"
+        },
+        {
+          "key": "S01-G14-V02",
+          "size": "50 ml",
+          "priceCents": 500,
+          "cartonQuantity": 160,
+          "supplierReference": "1-138"
+        },
+        {
+          "key": "S01-G14-V03",
+          "size": "100 ml",
+          "priceCents": 580,
+          "cartonQuantity": 120,
+          "supplierReference": "1-139"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S01-G15",
+      "sheet": 1,
+      "name": {
+        "ar": "لورا كوبرا بلاستيكي",
+        "en": "Laura Kobra plastic"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S01-G15-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 192,
+          "supplierReference": "0394-22"
+        },
+        {
+          "key": "S01-G15-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 140,
+          "supplierReference": "0394-23"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G01",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف بغطاء ذهبي",
+        "en": "Laura clear + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G01-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G01-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G01-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-078",
+        "SMR-129"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G02",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف بغطاء ذهبي وأبيض",
+        "en": "Laura clear + gold + white"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G02-V01",
+          "size": "30 ml",
+          "priceCents": 380,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G02-V02",
+          "size": "50 ml",
+          "priceCents": 410,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G02-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G03",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف بغطاء بلاستيكي",
+        "en": "Laura clear + plastic"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G03-V01",
+          "size": "30 ml",
+          "priceCents": 380,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G03-V02",
+          "size": "50 ml",
+          "priceCents": 410,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G03-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G04",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف غير لامع بغطاء ذهبي",
+        "en": "Laura clear frosted + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G04-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G04-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G04-V03",
+          "size": "100 ml",
+          "priceCents": 570,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-068"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G05",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف غير لامع بغطاء ذهبي وأبيض",
+        "en": "Laura clear frosted + gold + white"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G05-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G05-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G05-V03",
+          "size": "100 ml",
+          "priceCents": 570,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G06",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف غير لامع بغطاء فضي",
+        "en": "Laura clear frosted + silver"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G06-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G06-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G06-V03",
+          "size": "100 ml",
+          "priceCents": 570,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-069"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G07",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا شفاف غير لامع بغطاء شفاف",
+        "en": "Laura clear frosted + transparent"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G07-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G07-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G07-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G08",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا بني بغطاء ذهبي",
+        "en": "Laura amber + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G08-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G08-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G08-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-149"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G09",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا بني بغطاء ذهبي وأبيض",
+        "en": "Laura amber + gold + white"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G09-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G09-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G09-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G10",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أسود غير لامع بغطاء ذهبي · التسمية الأولى",
+        "en": "Laura black mat + gold · first designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G10-V01",
+          "size": "30 ml",
+          "priceCents": 420,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G10-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G10-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-064",
+        "SMR-150"
+      ],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G11",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أسود غير لامع بغطاء ذهبي · التسمية الثانية",
+        "en": "Laura black mat + gold · second designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G11-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G11-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G11-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G12",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أسود غير لامع بغطاء أسود",
+        "en": "Laura black mat + black"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G12-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G12-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G12-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-155"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S02-G13",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الأولى",
+        "en": "Laura white shining + gold · first designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G13-V01",
+          "size": "30 ml",
+          "priceCents": 420,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G13-V02",
+          "size": "50 ml",
+          "priceCents": 470,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G13-V03",
+          "size": "100 ml",
+          "priceCents": 600,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-065",
+        "SMR-070",
+        "SMR-089"
+      ],
+      "requiresReview": true
+    },
+    {
+      "id": "S02-G14",
+      "sheet": 2,
+      "name": {
+        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الثانية",
+        "en": "Laura white shining + gold · second designation"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S02-G14-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S02-G14-V02",
+          "size": "50 ml",
+          "priceCents": 460,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": true
+    },
+    {
+      "id": "S03-G01",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات المنارة الشفافة",
+        "en": "Clear Manara bottles"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G01-V01",
+          "size": "20 ml",
+          "priceCents": 240,
+          "cartonQuantity": 240,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G01-V02",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-031"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G02",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات المنارة الملونة",
+        "en": "Coloured Manara bottles"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G02-V01",
+          "size": "20 ml",
+          "priceCents": 250,
+          "cartonQuantity": 240,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G02-V02",
+          "size": "30 ml",
+          "priceCents": 290,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-034",
+        "SMR-036"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G03",
+      "sheet": 3,
+      "name": {
+        "ar": "قوارير عطر فارغة",
+        "en": "Empty perfume bottles"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G03-V01",
+          "size": "3 ml",
+          "priceCents": 65,
+          "cartonQuantity": 960,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G03-V02",
+          "size": "6 ml",
+          "priceCents": null,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G03-V03",
+          "size": "8 ml",
+          "priceCents": 85,
+          "cartonQuantity": 600,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G04",
+      "sheet": 3,
+      "name": {
+        "ar": "قارورة عطر رحاب",
+        "en": "Rehab perfume bottle"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G04-V01",
+          "size": "50 ml",
+          "priceCents": 325,
+          "cartonQuantity": 359,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-028"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G05",
+      "sheet": 3,
+      "name": {
+        "ar": "قارورة عطر عروسة",
+        "en": "Aroussa perfume bottle"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G05-V01",
+          "size": "16 ml",
+          "priceCents": 200,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-035"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G06",
+      "sheet": 3,
+      "name": {
+        "ar": "Granada بعود زجاجي",
+        "en": "Granada with glass stick"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G06-V01",
+          "size": "12 ml",
+          "priceCents": 300,
+          "cartonQuantity": 480,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G07",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات عطر من الألمنيوم",
+        "en": "Aluminium perfume containers"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G07-V01",
+          "size": "1 kg",
+          "priceCents": 2000,
+          "cartonQuantity": 40,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G07-V02",
+          "size": "500 g",
+          "priceCents": 1700,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-033"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G08",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات مسك الطهارة القصيرة",
+        "en": "Short musk containers"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G08-V01",
+          "size": "3 ml",
+          "priceCents": 85,
+          "cartonQuantity": 960,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G08-V02",
+          "size": "6 ml",
+          "priceCents": 105,
+          "cartonQuantity": 678,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G08-V03",
+          "size": "12 ml",
+          "priceCents": 150,
+          "cartonQuantity": 480,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G09",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات مسك الطهارة الطويلة",
+        "en": "Tall musk containers"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G09-V01",
+          "size": "3 ml",
+          "priceCents": 90,
+          "cartonQuantity": 960,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G09-V02",
+          "size": "6 ml",
+          "priceCents": 110,
+          "cartonQuantity": 678,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G10",
+      "sheet": 3,
+      "name": {
+        "ar": "مضخة عطر",
+        "en": "Perfume atomiser pump"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S03-G10-V01",
+          "size": "قطعة / piece",
+          "priceCents": 350,
+          "cartonQuantity": 2,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-038"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G11",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات سداسية بعود زجاجي",
+        "en": "Hexagonal glass-stick containers"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G11-V01",
+          "size": "3 ml",
+          "priceCents": 220,
+          "cartonQuantity": 720,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G11-V02",
+          "size": "6 ml",
+          "priceCents": 250,
+          "cartonQuantity": 600,
+          "supplierReference": null
+        },
+        {
+          "key": "S03-G11-V03",
+          "size": "12 ml",
+          "priceCents": 280,
+          "cartonQuantity": 480,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-048"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G12",
+      "sheet": 3,
+      "name": {
+        "ar": "قارورة عطر مربعة",
+        "en": "Square perfume bottle"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G12-V01",
+          "size": "3 ml",
+          "priceCents": 65,
+          "cartonQuantity": 864,
+          "supplierReference": "0393-11"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G13",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات عطر ذهبية",
+        "en": "Gold perfume containers"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G13-V01",
+          "size": "3 ml",
+          "priceCents": 230,
+          "cartonQuantity": 960,
+          "supplierReference": "0394-19"
+        },
+        {
+          "key": "S03-G13-V02",
+          "size": "6 ml",
+          "priceCents": 250,
+          "cartonQuantity": 600,
+          "supplierReference": "0394-20"
+        },
+        {
+          "key": "S03-G13-V03",
+          "size": "12 ml",
+          "priceCents": 300,
+          "cartonQuantity": 480,
+          "supplierReference": "0394-21"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-052"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G14",
+      "sheet": 3,
+      "name": {
+        "ar": "قارورة عطر ذهبية أبراج",
+        "en": "Gold tower perfume bottle"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G14-V01",
+          "size": "6 ml",
+          "priceCents": 300,
+          "cartonQuantity": 600,
+          "supplierReference": "0396-13"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-041"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S03-G15",
+      "sheet": 3,
+      "name": {
+        "ar": "عبوات عطر ذهبية · طراز ثانٍ",
+        "en": "Gold perfume containers · second model"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S03-G15-V01",
+          "size": "3 ml",
+          "priceCents": 230,
+          "cartonQuantity": 720,
+          "supplierReference": "2-6"
+        },
+        {
+          "key": "S03-G15-V02",
+          "size": "6 ml",
+          "priceCents": 250,
+          "cartonQuantity": 600,
+          "supplierReference": "2-7"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G01",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوات بمضخة دون هواء ملونة",
+        "en": "Coloured airless bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G01-V01",
+          "size": "30 ml",
+          "priceCents": 350,
+          "cartonQuantity": 416,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G01-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 308,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G01-V03",
+          "size": "100 ml",
+          "priceCents": 550,
+          "cartonQuantity": 220,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-001",
+        "SMR-002",
+        "SMR-003",
+        "SMR-043",
+        "SMR-082",
+        "SMR-083",
+        "SMR-094",
+        "SMR-114",
+        "SMR-115",
+        "SMR-116"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G02",
+      "sheet": 4,
+      "name": {
+        "ar": "رؤوس بخاخ",
+        "en": "Sprayer heads"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S04-G02-V01",
+          "size": "20/410 pink",
+          "priceCents": 40,
+          "cartonQuantity": "3000/2000",
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G02-V02",
+          "size": "24/410 pink",
+          "priceCents": 53,
+          "cartonQuantity": "2000/3000",
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G02-V03",
+          "size": "24/410 white · carton 3000",
+          "priceCents": 53,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G02-V04",
+          "size": "28/410 pink",
+          "priceCents": 56,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G02-V05",
+          "size": "24/410 white · carton 2000",
+          "priceCents": 53,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G02-V06",
+          "size": "20/410 white",
+          "priceCents": 40,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G02-V07",
+          "size": "28/410 white",
+          "priceCents": 56,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-042"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G03",
+      "sheet": 4,
+      "name": {
+        "ar": "علب كريم بيضاء",
+        "en": "White cream containers"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S04-G03-V01",
+          "size": "20 ml",
+          "priceCents": 120,
+          "cartonQuantity": 625,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G03-V02",
+          "size": "30 ml",
+          "priceCents": 150,
+          "cartonQuantity": 625,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G03-V03",
+          "size": "50 ml",
+          "priceCents": 230,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G03-V04",
+          "size": "100 ml",
+          "priceCents": 340,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G03-V05",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G04",
+      "sheet": 4,
+      "name": {
+        "ar": "علب كريم سوداء",
+        "en": "Black cream containers"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S04-G04-V01",
+          "size": "20 ml",
+          "priceCents": 120,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G04-V02",
+          "size": "30 ml",
+          "priceCents": 150,
+          "cartonQuantity": 232,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G04-V03",
+          "size": "50 ml",
+          "priceCents": 200,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G04-V04",
+          "size": "100 ml",
+          "priceCents": 300,
+          "cartonQuantity": 232,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G04-V05",
+          "size": "150 ml",
+          "priceCents": 320,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G04-V06",
+          "size": "200 ml",
+          "priceCents": 375,
+          "cartonQuantity": 232,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G04-V07",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G05",
+      "sheet": 4,
+      "name": {
+        "ar": "علب كريم شفافة غير لامعة",
+        "en": "Frosted clear cream containers"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S04-G05-V01",
+          "size": "20 ml",
+          "priceCents": 120,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G05-V02",
+          "size": "30 ml",
+          "priceCents": 150,
+          "cartonQuantity": 232,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G05-V03",
+          "size": "50 ml",
+          "priceCents": 200,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G05-V04",
+          "size": "100 ml",
+          "priceCents": 300,
+          "cartonQuantity": 232,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G05-V05",
+          "size": "150 ml",
+          "priceCents": 320,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G05-V06",
+          "size": "200 ml",
+          "priceCents": 375,
+          "cartonQuantity": 232,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G05-V07",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G06",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوة شينوية · 0394-9",
+        "en": "Chinouia container · 0394-9"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G06-V01",
+          "size": "100 ml",
+          "priceCents": 3000,
+          "cartonQuantity": 1224,
+          "supplierReference": "0394-9"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G07",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوة شينوية · 0394-10",
+        "en": "Chinouia container · 0394-10"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G07-V01",
+          "size": "100 ml",
+          "priceCents": 3000,
+          "cartonQuantity": 1008,
+          "supplierReference": "0394-10"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G08",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوات قطرة عين",
+        "en": "Eye-drop containers"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G08-V01",
+          "size": "5 ml",
+          "priceCents": 40,
+          "cartonQuantity": 10000,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G08-V02",
+          "size": "10 ml",
+          "priceCents": 45,
+          "cartonQuantity": 5000,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G08-V03",
+          "size": "15 ml",
+          "priceCents": 50,
+          "cartonQuantity": 5000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-026"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G09",
+      "sheet": 4,
+      "name": {
+        "ar": "علب كريم · 50 غرامًا",
+        "en": "Cream containers · 50 g"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S04-G09-V01",
+          "size": "أبيض / white",
+          "priceCents": 200,
+          "cartonQuantity": 544,
+          "supplierReference": "0391-6"
+        },
+        {
+          "key": "S04-G09-V02",
+          "size": "أسود / black",
+          "priceCents": 200,
+          "cartonQuantity": 544,
+          "supplierReference": "0391-7"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-037"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G10",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوات رغوة",
+        "en": "Foam pump bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G10-V01",
+          "size": "100 ml",
+          "priceCents": 350,
+          "cartonQuantity": 350,
+          "supplierReference": "0395-11"
+        },
+        {
+          "key": "S04-G10-V02",
+          "size": "150 ml",
+          "priceCents": 400,
+          "cartonQuantity": 350,
+          "supplierReference": "0395-10"
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-111"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G11",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوة رغوة بيضاء",
+        "en": "White foam pump bottle"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G11-V01",
+          "size": "50 ml",
+          "priceCents": 400,
+          "cartonQuantity": 600,
+          "supplierReference": "0396-16"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G12",
+      "sheet": 4,
+      "name": {
+        "ar": "بخاخ تريسور",
+        "en": "Tresor sprayer"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S04-G12-V01",
+          "size": "10 ml",
+          "priceCents": 500,
+          "cartonQuantity": 290,
+          "supplierReference": "0395-13"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G13",
+      "sheet": 4,
+      "name": {
+        "ar": "قارورة بيضاء · المسمى سيليك",
+        "en": "White bottle · source designation Silik"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S04-G13-V01",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 600,
+          "supplierReference": "0395-16"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G14",
+      "sheet": 4,
+      "name": {
+        "ar": "بخاخ عطر للعروس",
+        "en": "Bridal perfume sprayer"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S04-G14-V01",
+          "size": "30 ml",
+          "priceCents": 1200,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G14-V02",
+          "size": "60 ml",
+          "priceCents": 1200,
+          "cartonQuantity": 142,
+          "supplierReference": null
+        },
+        {
+          "key": "S04-G14-V03",
+          "size": "100 ml",
+          "priceCents": 1400,
+          "cartonQuantity": 85,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G15",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوات كريستال",
+        "en": "Crystal containers"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S04-G15-V01",
+          "size": "5 g",
+          "priceCents": 475,
+          "cartonQuantity": 200,
+          "supplierReference": "1,4"
+        },
+        {
+          "key": "S04-G15-V02",
+          "size": "10 g",
+          "priceCents": 675,
+          "cartonQuantity": 100,
+          "supplierReference": "1,5"
+        },
+        {
+          "key": "S04-G15-V03",
+          "size": "20 g",
+          "priceCents": 1000,
+          "cartonQuantity": 100,
+          "supplierReference": "1,6"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S04-G16",
+      "sheet": 4,
+      "name": {
+        "ar": "عبوة كريستال مربعة",
+        "en": "Square crystal container"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S04-G16-V01",
+          "size": "10 g",
+          "priceCents": 1000,
+          "cartonQuantity": 100,
+          "supplierReference": "1,7"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G01",
+      "sheet": 5,
+      "name": {
+        "ar": "علب بلاستيكية بغطاء ذهبي",
+        "en": "Plastic jars with gold lids"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S05-G01-V01",
+          "size": "30 ml",
+          "priceCents": 170,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G01-V02",
+          "size": "50 ml",
+          "priceCents": 200,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G01-V03",
+          "size": "100 ml",
+          "priceCents": 250,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G01-V04",
+          "size": "150 ml",
+          "priceCents": 300,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G01-V05",
+          "size": "200 ml",
+          "priceCents": 340,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G01-V06",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G01-V07",
+          "size": "500 ml",
+          "priceCents": 500,
+          "cartonQuantity": null,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G02",
+      "sheet": 5,
+      "name": {
+        "ar": "علب بلاستيكية بغطاء فضي",
+        "en": "Plastic jars with silver lids"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S05-G02-V01",
+          "size": "30 ml",
+          "priceCents": 170,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G02-V02",
+          "size": "50 ml",
+          "priceCents": 200,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G02-V03",
+          "size": "100 ml",
+          "priceCents": 250,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G02-V04",
+          "size": "150 ml",
+          "priceCents": 300,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G02-V05",
+          "size": "200 ml",
+          "priceCents": 350,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G02-V06",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G02-V07",
+          "size": "500 ml",
+          "priceCents": 500,
+          "cartonQuantity": null,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G03",
+      "sheet": 5,
+      "name": {
+        "ar": "علب بلاستيكية بغطاء وردي",
+        "en": "Plastic jars with pink lids"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S05-G03-V01",
+          "size": "30 ml",
+          "priceCents": 170,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G03-V02",
+          "size": "50 ml",
+          "priceCents": 200,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G03-V03",
+          "size": "100 ml",
+          "priceCents": 250,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G03-V04",
+          "size": "150 ml",
+          "priceCents": 300,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G03-V05",
+          "size": "200 ml",
+          "priceCents": 350,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G03-V06",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G03-V07",
+          "size": "500 ml",
+          "priceCents": 500,
+          "cartonQuantity": null,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G04",
+      "sheet": 5,
+      "name": {
+        "ar": "علب بلاستيكية بغطاء أسود",
+        "en": "Plastic jars with black lids"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S05-G04-V01",
+          "size": "30 ml",
+          "priceCents": 170,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G04-V02",
+          "size": "50 ml",
+          "priceCents": 200,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G04-V03",
+          "size": "100 ml",
+          "priceCents": 250,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G04-V04",
+          "size": "150 ml",
+          "priceCents": 300,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G04-V05",
+          "size": "200 ml",
+          "priceCents": 350,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G04-V06",
+          "size": "250 ml",
+          "priceCents": 400,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G04-V07",
+          "size": "500 ml",
+          "priceCents": 500,
+          "cartonQuantity": null,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G05",
+      "sheet": 5,
+      "name": {
+        "ar": "عبوات بخاخ ملونة",
+        "en": "Coloured spray bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S05-G05-V01",
+          "size": "100 ml",
+          "priceCents": 180,
+          "cartonQuantity": 1008,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G05-V02",
+          "size": "125 ml",
+          "priceCents": 200,
+          "cartonQuantity": 1128,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G05-V03",
+          "size": "200 ml",
+          "priceCents": 230,
+          "cartonQuantity": 296,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G05-V04",
+          "size": "250 ml",
+          "priceCents": 250,
+          "cartonQuantity": 234,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-053"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G06",
+      "sheet": 5,
+      "name": {
+        "ar": "أنبوب صغير للمسك",
+        "en": "Small musk tube"
+      },
+      "category": "perfume",
+      "variants": [
+        {
+          "key": "S05-G06-V01",
+          "size": "5 g",
+          "priceCents": 30,
+          "cartonQuantity": 5000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G07",
+      "sheet": 5,
+      "name": {
+        "ar": "بخاخات بلاستيكية",
+        "en": "Plastic sprayers"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S05-G07-V01",
+          "size": "30 ml",
+          "priceCents": 1175,
+          "cartonQuantity": 100,
+          "supplierReference": "0391-11"
+        },
+        {
+          "key": "S05-G07-V02",
+          "size": "50 ml",
+          "priceCents": 1175,
+          "cartonQuantity": 60,
+          "supplierReference": "0391-12"
+        },
+        {
+          "key": "S05-G07-V03",
+          "size": "60 ml",
+          "priceCents": 1175,
+          "cartonQuantity": 60,
+          "supplierReference": "0391-13"
+        },
+        {
+          "key": "S05-G07-V04",
+          "size": "100 ml",
+          "priceCents": 1375,
+          "cartonQuantity": 84,
+          "supplierReference": "0391-14"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S05-G08",
+      "sheet": 5,
+      "name": {
+        "ar": "بخاخ ذهبي",
+        "en": "Gold sprayer"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S05-G08-V01",
+          "size": "30 ml",
+          "priceCents": null,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G08-V02",
+          "size": "50 ml",
+          "priceCents": null,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S05-G08-V03",
+          "size": "60 ml",
+          "priceCents": 1800,
+          "cartonQuantity": 102,
+          "supplierReference": "0395-8"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G01",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات أسود غير لامع بغطاء ذهبي",
+        "en": "Black frosted + gold jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G01-V01",
+          "size": "20 ml",
+          "priceCents": 250,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G01-V02",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G01-V03",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G01-V04",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-146"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G02",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات أسود غير لامع بغطاء بامبو",
+        "en": "Black frosted + bamboo jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G02-V01",
+          "size": "20 ml",
+          "priceCents": 330,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G02-V02",
+          "size": "30 ml",
+          "priceCents": 380,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G02-V03",
+          "size": "50 ml",
+          "priceCents": 440,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G02-V04",
+          "size": "100 ml",
+          "priceCents": 520,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G03",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات أسود غير لامع بغطاء أسود",
+        "en": "Black frosted + black jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G03-V01",
+          "size": "20 ml",
+          "priceCents": 260,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G03-V02",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G03-V03",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G03-V04",
+          "size": "100 ml",
+          "priceCents": 430,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-049"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G04",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات شفاف غير لامع بغطاء بامبو",
+        "en": "Clear frosted + bamboo jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G04-V01",
+          "size": "20 ml",
+          "priceCents": 330,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G04-V02",
+          "size": "30 ml",
+          "priceCents": 380,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G04-V03",
+          "size": "50 ml",
+          "priceCents": 440,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G04-V04",
+          "size": "100 ml",
+          "priceCents": 500,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G05",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات أسود لامع بغطاء ذهبي",
+        "en": "Black glossy + gold jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G05-V01",
+          "size": "20 ml",
+          "priceCents": 260,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G05-V02",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G05-V03",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G05-V04",
+          "size": "100 ml",
+          "priceCents": 430,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-145"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G06",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات أسود لامع بغطاء أسود",
+        "en": "Black glossy + black jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G06-V01",
+          "size": "20 ml",
+          "priceCents": 250,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G06-V02",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G06-V03",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G06-V04",
+          "size": "100 ml",
+          "priceCents": 430,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G07",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات شفاف غير لامع بغطاء ذهبي",
+        "en": "Clear frosted + gold jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G07-V01",
+          "size": "20 ml",
+          "priceCents": 230,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G07-V02",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G07-V03",
+          "size": "50 ml",
+          "priceCents": 325,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G07-V04",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S06-G08",
+      "sheet": 6,
+      "name": {
+        "ar": "مرطبانات شفاف غير لامع بغطاء فضي",
+        "en": "Clear frosted + silver jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S06-G08-V01",
+          "size": "20 ml",
+          "priceCents": 230,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G08-V02",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G08-V03",
+          "size": "50 ml",
+          "priceCents": 325,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S06-G08-V04",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G01",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات شفافة بغطاء ذهبي",
+        "en": "Clear + gold jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G01-V01",
+          "size": "20 ml",
+          "priceCents": 220,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G01-V02",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G01-V03",
+          "size": "50 ml",
+          "priceCents": 320,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G01-V04",
+          "size": "100 ml",
+          "priceCents": 375,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-139"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G02",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات شفافة بغطاء فضي",
+        "en": "Clear + silver jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G02-V01",
+          "size": "20 ml",
+          "priceCents": 220,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G02-V02",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G02-V03",
+          "size": "50 ml",
+          "priceCents": 320,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G02-V04",
+          "size": "100 ml",
+          "priceCents": 375,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-140",
+        "SMR-144"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G03",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات شفافة بغطاء بامبو",
+        "en": "Clear + bamboo jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G03-V01",
+          "size": "20 ml",
+          "priceCents": 300,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G03-V02",
+          "size": "30 ml",
+          "priceCents": 330,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G03-V03",
+          "size": "50 ml",
+          "priceCents": 380,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G03-V04",
+          "size": "100 ml",
+          "priceCents": 475,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G04",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات بنية بغطاء ذهبي",
+        "en": "Amber + gold jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G04-V01",
+          "size": "20 ml",
+          "priceCents": 220,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G04-V02",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G04-V03",
+          "size": "50 ml",
+          "priceCents": 320,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G04-V04",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-046",
+        "SMR-060",
+        "SMR-143"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G05",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات بيضاء بغطاء ذهبي",
+        "en": "White + gold jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G05-V01",
+          "size": "20 ml",
+          "priceCents": 230,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G05-V02",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G05-V03",
+          "size": "50 ml",
+          "priceCents": 340,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G05-V04",
+          "size": "100 ml",
+          "priceCents": 420,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-141"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G06",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات بيضاء بغطاء فضي",
+        "en": "White + silver jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G06-V01",
+          "size": "20 ml",
+          "priceCents": 240,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G06-V02",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G06-V03",
+          "size": "50 ml",
+          "priceCents": 340,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G06-V04",
+          "size": "100 ml",
+          "priceCents": 420,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-058",
+        "SMR-142"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G07",
+      "sheet": 7,
+      "name": {
+        "ar": "مرطبانات بيضاء بغطاء بامبو",
+        "en": "White + bamboo jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G07-V01",
+          "size": "20 ml",
+          "priceCents": 330,
+          "cartonQuantity": 280,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G07-V02",
+          "size": "30 ml",
+          "priceCents": 380,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G07-V03",
+          "size": "50 ml",
+          "priceCents": 440,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        },
+        {
+          "key": "S07-G07-V04",
+          "size": "100 ml",
+          "priceCents": 520,
+          "cartonQuantity": 105,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G08",
+      "sheet": 7,
+      "name": {
+        "ar": "علب كريم بمضخة ذهبية",
+        "en": "Cream containers with gold lotion pumps"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G08-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 200,
+          "supplierReference": "0394-12"
+        },
+        {
+          "key": "S07-G08-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 140,
+          "supplierReference": "0394-13"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S07-G09",
+      "sheet": 7,
+      "name": {
+        "ar": "علب كريم بمضخة فضية",
+        "en": "Cream containers with silver lotion pumps"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S07-G09-V01",
+          "size": "30 ml",
+          "priceCents": 400,
+          "cartonQuantity": 200,
+          "supplierReference": "0394-14"
+        },
+        {
+          "key": "S07-G09-V02",
+          "size": "50 ml",
+          "priceCents": 450,
+          "cartonQuantity": 140,
+          "supplierReference": "0394-15"
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G01",
+      "sheet": 8,
+      "name": {
+        "ar": "قوارير قطارة خضراء",
+        "en": "Green dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G01-V01",
+          "size": "10 ml",
+          "priceCents": 180,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G01-V02",
+          "size": "15 ml",
+          "priceCents": 220,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G01-V03",
+          "size": "30 ml",
+          "priceCents": 270,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G01-V04",
+          "size": "50 ml",
+          "priceCents": 300,
+          "cartonQuantity": 264,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G01-V05",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-009",
+        "SMR-061"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G02",
+      "sheet": 8,
+      "name": {
+        "ar": "قوارير قطارة زرقاء",
+        "en": "Blue dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G02-V01",
+          "size": "10 ml",
+          "priceCents": 180,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G02-V02",
+          "size": "15 ml",
+          "priceCents": 220,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G02-V03",
+          "size": "30 ml",
+          "priceCents": 270,
+          "cartonQuantity": 350,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G02-V04",
+          "size": "50 ml",
+          "priceCents": 300,
+          "cartonQuantity": 264,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G02-V05",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-012",
+        "SMR-066"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G03",
+      "sheet": 8,
+      "name": {
+        "ar": "قوارير قطارة شفافة",
+        "en": "Clear dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G03-V01",
+          "size": "10 ml",
+          "priceCents": 135,
+          "cartonQuantity": 640,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G03-V02",
+          "size": "15 ml",
+          "priceCents": 150,
+          "cartonQuantity": 495,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G03-V03",
+          "size": "30 ml",
+          "priceCents": 200,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G03-V04",
+          "size": "50 ml",
+          "priceCents": 220,
+          "cartonQuantity": 260,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G03-V05",
+          "size": "100 ml",
+          "priceCents": 290,
+          "cartonQuantity": 168,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-007",
+        "SMR-067"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G04",
+      "sheet": 8,
+      "name": {
+        "ar": "قوارير قطارة شفافة غير لامعة",
+        "en": "Frosted clear dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G04-V01",
+          "size": "10 ml",
+          "priceCents": 180,
+          "cartonQuantity": 640,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G04-V02",
+          "size": "15 ml",
+          "priceCents": 220,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G04-V03",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G04-V04",
+          "size": "50 ml",
+          "priceCents": 300,
+          "cartonQuantity": "260/264",
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G04-V05",
+          "size": "100 ml",
+          "priceCents": 380,
+          "cartonQuantity": 168,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-014"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G05",
+      "sheet": 8,
+      "name": {
+        "ar": "قوارير قطارة وردية",
+        "en": "Pink dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G05-V01",
+          "size": "10 ml",
+          "priceCents": 230,
+          "cartonQuantity": 640,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G05-V02",
+          "size": "15 ml",
+          "priceCents": 240,
+          "cartonQuantity": 405,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G05-V03",
+          "size": "30 ml",
+          "priceCents": 300,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G05-V04",
+          "size": "50 ml",
+          "priceCents": 330,
+          "cartonQuantity": 260,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G05-V05",
+          "size": "100 ml",
+          "priceCents": 450,
+          "cartonQuantity": 168,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-127"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G06",
+      "sheet": 8,
+      "name": {
+        "ar": "قوارير قطارة بيضاء",
+        "en": "White dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G06-V01",
+          "size": "10 ml",
+          "priceCents": 200,
+          "cartonQuantity": 640,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G06-V02",
+          "size": "15 ml",
+          "priceCents": 230,
+          "cartonQuantity": 405,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G06-V03",
+          "size": "30 ml",
+          "priceCents": 280,
+          "cartonQuantity": "297/330",
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G06-V04",
+          "size": "50 ml",
+          "priceCents": 330,
+          "cartonQuantity": "288/260",
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G06-V05",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": "140/168",
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-015"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G07",
+      "sheet": 8,
+      "name": {
+        "ar": "قارورة شيبة",
+        "en": "Chiba bottle"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G07-V01",
+          "size": "10 ml",
+          "priceCents": 135,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G07-V02",
+          "size": "15 ml",
+          "priceCents": 150,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G08",
+      "sheet": 8,
+      "name": {
+        "ar": "قارورة كونت كوت",
+        "en": "Cont-cout bottle"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S08-G08-V01",
+          "size": "5 ml",
+          "priceCents": 80,
+          "cartonQuantity": 765,
+          "supplierReference": null
+        },
+        {
+          "key": "S08-G08-V02",
+          "size": "10 ml",
+          "priceCents": 85,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S08-G09",
+      "sheet": 8,
+      "name": {
+        "ar": "قطارات ملونة",
+        "en": "Coloured dropper closures"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S08-G09-V01",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 240,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-056",
+        "SMR-137"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S09-G01",
+      "sheet": 9,
+      "name": {
+        "ar": "قوارير قطارة بنية",
+        "en": "Amber dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S09-G01-V01",
+          "size": "10 ml",
+          "priceCents": 135,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G01-V02",
+          "size": "15 ml",
+          "priceCents": 150,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G01-V03",
+          "size": "30 ml",
+          "priceCents": 200,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G01-V04",
+          "size": "50 ml",
+          "priceCents": 220,
+          "cartonQuantity": 264,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G01-V05",
+          "size": "100 ml",
+          "priceCents": 290,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-008"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S09-G02",
+      "sheet": 9,
+      "name": {
+        "ar": "قوارير قطارة بنية غير لامعة",
+        "en": "Frosted amber dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S09-G02-V01",
+          "size": "10 ml",
+          "priceCents": 180,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G02-V02",
+          "size": "15 ml",
+          "priceCents": 220,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G02-V03",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G02-V04",
+          "size": "50 ml",
+          "priceCents": 300,
+          "cartonQuantity": 264,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G02-V05",
+          "size": "100 ml",
+          "priceCents": 380,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S09-G03",
+      "sheet": 9,
+      "name": {
+        "ar": "قوارير قطارة سوداء لامعة",
+        "en": "Glossy black dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S09-G03-V01",
+          "size": "10 ml",
+          "priceCents": 180,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G03-V02",
+          "size": "15 ml",
+          "priceCents": 200,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G03-V03",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G03-V04",
+          "size": "50 ml",
+          "priceCents": 300,
+          "cartonQuantity": 264,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G03-V05",
+          "size": "100 ml",
+          "priceCents": 350,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-011"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S09-G04",
+      "sheet": 9,
+      "name": {
+        "ar": "قوارير قطارة سوداء غير لامعة",
+        "en": "Frosted black dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S09-G04-V01",
+          "size": "10 ml",
+          "priceCents": 180,
+          "cartonQuantity": 640,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G04-V02",
+          "size": "15 ml",
+          "priceCents": 200,
+          "cartonQuantity": "468/405",
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G04-V03",
+          "size": "30 ml",
+          "priceCents": 250,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G04-V04",
+          "size": "50 ml",
+          "priceCents": 300,
+          "cartonQuantity": 260,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G04-V05",
+          "size": "100 ml",
+          "priceCents": 350,
+          "cartonQuantity": 168,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-010"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S09-G05",
+      "sheet": 9,
+      "name": {
+        "ar": "قوارير قطارة ذهبية",
+        "en": "Gold dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S09-G05-V01",
+          "size": "10 ml",
+          "priceCents": 220,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G05-V02",
+          "size": "15 ml",
+          "priceCents": 280,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G05-V03",
+          "size": "30 ml",
+          "priceCents": 320,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G05-V04",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 264,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G05-V05",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S09-G06",
+      "sheet": 9,
+      "name": {
+        "ar": "قوارير قطارة فضية",
+        "en": "Silver dropper bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S09-G06-V01",
+          "size": "10 ml",
+          "priceCents": 220,
+          "cartonQuantity": 768,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G06-V02",
+          "size": "15 ml",
+          "priceCents": 280,
+          "cartonQuantity": 468,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G06-V03",
+          "size": "30 ml",
+          "priceCents": 320,
+          "cartonQuantity": 330,
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G06-V04",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": "256/264/156/195",
+          "supplierReference": null
+        },
+        {
+          "key": "S09-G06-V05",
+          "size": "100 ml",
+          "priceCents": 400,
+          "cartonQuantity": "140/126/100",
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-029"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G01",
+      "sheet": 10,
+      "name": {
+        "ar": "مرطبانات كلسي",
+        "en": "Klassi jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S10-G01-V01",
+          "size": "25 ml",
+          "priceCents": 120,
+          "cartonQuantity": 304,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G01-V02",
+          "size": "35 ml",
+          "priceCents": 130,
+          "cartonQuantity": 240,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-095"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G02",
+      "sheet": 10,
+      "name": {
+        "ar": "قارورة قرنفل",
+        "en": "Clove bottle"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G02-V01",
+          "size": "10 ml",
+          "priceCents": 85,
+          "cartonQuantity": 1872,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G03",
+      "sheet": 10,
+      "name": {
+        "ar": "قارورة بينسيلين",
+        "en": "Penicillin vial"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G03-V01",
+          "size": "5 ml",
+          "priceCents": null,
+          "cartonQuantity": 1330,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-039"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G04",
+      "sheet": 10,
+      "name": {
+        "ar": "مرطبان قرعة",
+        "en": "Qaraa jar"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S10-G04-V01",
+          "size": "212 ml / palette",
+          "priceCents": null,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G04-V02",
+          "size": "212 ml / carton",
+          "priceCents": 200,
+          "cartonQuantity": 33,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-077"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G05",
+      "sheet": 10,
+      "name": {
+        "ar": "مرطبانات شهدة مع البرغي",
+        "en": "Honeycomb jars with screw lids"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S10-G05-V01",
+          "size": "720 ml / carton",
+          "priceCents": 370,
+          "cartonQuantity": 48,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G05-V02",
+          "size": "720 ml / palette",
+          "priceCents": 360,
+          "cartonQuantity": 1016,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G05-V03",
+          "size": "380 ml / carton",
+          "priceCents": 280,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G05-V04",
+          "size": "380 ml / palette A",
+          "priceCents": 260,
+          "cartonQuantity": 2097,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G05-V05",
+          "size": "380 ml / palette B",
+          "priceCents": 260,
+          "cartonQuantity": 4427,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G06",
+      "sheet": 10,
+      "name": {
+        "ar": "مرطبان كروي",
+        "en": "Round jar"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S10-G06-V01",
+          "size": "40 ml",
+          "priceCents": 150,
+          "cartonQuantity": 240,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G07",
+      "sheet": 10,
+      "name": {
+        "ar": "علبة هك بير",
+        "en": "Hak-bir container"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S10-G07-V01",
+          "size": "100 g",
+          "priceCents": 350,
+          "cartonQuantity": 140,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-107"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G08",
+      "sheet": 10,
+      "name": {
+        "ar": "عبوة زوارق",
+        "en": "Zawareq container"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G08-V01",
+          "size": "50 ml",
+          "priceCents": 350,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G09",
+      "sheet": 10,
+      "name": {
+        "ar": "قارورة قرعة",
+        "en": "Qaraa bottle"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G09-V01",
+          "size": "100 ml",
+          "priceCents": 180,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G10",
+      "sheet": 10,
+      "name": {
+        "ar": "مرطبانات سداسية",
+        "en": "Hexagonal jars"
+      },
+      "category": "jars",
+      "variants": [
+        {
+          "key": "S10-G10-V01",
+          "size": "730 ml",
+          "priceCents": 575,
+          "cartonQuantity": 45,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G10-V02",
+          "size": "380 ml",
+          "priceCents": 425,
+          "cartonQuantity": 72,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G10-V03",
+          "size": "180 ml",
+          "priceCents": 325,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G10-V04",
+          "size": "100 ml",
+          "priceCents": 230,
+          "cartonQuantity": 120,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G11",
+      "sheet": 10,
+      "name": {
+        "ar": "رؤوس بخاخ من الألمنيوم",
+        "en": "Aluminium sprayer heads"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S10-G11-V01",
+          "size": "ذهبي / gold",
+          "priceCents": 215,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G11-V02",
+          "size": "فضي / silver",
+          "priceCents": 215,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G11-V03",
+          "size": "أسود / black",
+          "priceCents": 215,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G12",
+      "sheet": 10,
+      "name": {
+        "ar": "رؤوس مضخة من الألمنيوم",
+        "en": "Aluminium lotion pumps"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S10-G12-V01",
+          "size": "ذهبي / gold",
+          "priceCents": 215,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G12-V02",
+          "size": "فضي / silver",
+          "priceCents": 215,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G12-V03",
+          "size": "أسود / black",
+          "priceCents": 215,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G13",
+      "sheet": 10,
+      "name": {
+        "ar": "إيرلس شفاف بغطاء ذهبي",
+        "en": "Clear airless + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G13-V01",
+          "size": "30 ml",
+          "priceCents": 300,
+          "cartonQuantity": 476,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G13-V02",
+          "size": "50 ml",
+          "priceCents": 400,
+          "cartonQuantity": 358,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G14",
+      "sheet": 10,
+      "name": {
+        "ar": "إيرلس شفاف وفضي",
+        "en": "Airless clear + silver"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G14-V01",
+          "size": "50 ml",
+          "priceCents": 650,
+          "cartonQuantity": 320,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G15",
+      "sheet": 10,
+      "name": {
+        "ar": "إيرلس معتّم وذهبي",
+        "en": "Airless opaque + gold"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G15-V01",
+          "size": "50 ml",
+          "priceCents": 650,
+          "cartonQuantity": 320,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G16",
+      "sheet": 10,
+      "name": {
+        "ar": "إيرلس معتّم وفضي",
+        "en": "Airless opaque + silver"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G16-V01",
+          "size": "50 ml",
+          "priceCents": 650,
+          "cartonQuantity": 320,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S10-G17",
+      "sheet": 10,
+      "name": {
+        "ar": "عبوات سيليك",
+        "en": "Silik containers"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S10-G17-V01",
+          "size": "غطاء ذهبي / gold cap",
+          "priceCents": 350,
+          "cartonQuantity": 108,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G17-V02",
+          "size": "غطاء أسود / black cap",
+          "priceCents": 300,
+          "cartonQuantity": 108,
+          "supplierReference": null
+        },
+        {
+          "key": "S10-G17-V03",
+          "size": "غطاء أبيض / white cap",
+          "priceCents": 300,
+          "cartonQuantity": 108,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G01",
+      "sheet": 11,
+      "name": {
+        "ar": "قوارير Marasca",
+        "en": "Marasca bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G01-V01",
+          "size": "250 ml / carton",
+          "priceCents": 350,
+          "cartonQuantity": 96,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G01-V02",
+          "size": "100 ml / carton A",
+          "priceCents": 320,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G01-V03",
+          "size": "100 ml / carton B",
+          "priceCents": 320,
+          "cartonQuantity": 270,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G01-V04",
+          "size": "100 ml / palette",
+          "priceCents": 300,
+          "cartonQuantity": 4872,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G01-V05",
+          "size": "50 ml",
+          "priceCents": 250,
+          "cartonQuantity": 210,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-020",
+        "SMR-102",
+        "SMR-130"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G02",
+      "sheet": 11,
+      "name": {
+        "ar": "قارورة Pharma شفافة · 30 مل",
+        "en": "Clear Pharma bottle · 30 ml"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G02-V01",
+          "size": "30 ml",
+          "priceCents": 80,
+          "cartonQuantity": 312,
+          "supplierReference": null,
+          "originalPrintedPriceCents": 8000
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false,
+      "ownerClarification": "Owner confirmed on 2026-10-22: intended unit price is 0.80 / 0.90 MAD, not the printed 80.00 / 90.00."
+    },
+    {
+      "id": "S11-G03",
+      "sheet": 11,
+      "name": {
+        "ar": "قوارير Pharma بنية",
+        "en": "Amber Pharma bottles"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G03-V01",
+          "size": "30 ml",
+          "priceCents": 75,
+          "cartonQuantity": 324,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G03-V02",
+          "size": "60 ml",
+          "priceCents": 85,
+          "cartonQuantity": 200,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G03-V03",
+          "size": "125 ml",
+          "priceCents": 110,
+          "cartonQuantity": 210,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-059",
+        "SMR-106"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G04",
+      "sheet": 11,
+      "name": {
+        "ar": "قارورة Pharma شفافة · 60 مل",
+        "en": "Clear Pharma bottle · 60 ml"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G04-V01",
+          "size": "60 ml",
+          "priceCents": 90,
+          "cartonQuantity": "240/176",
+          "supplierReference": null,
+          "originalPrintedPriceCents": 9000
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false,
+      "ownerClarification": "Owner confirmed on 2026-10-22: intended unit price is 0.80 / 0.90 MAD, not the printed 80.00 / 90.00."
+    },
+    {
+      "id": "S11-G05",
+      "sheet": 11,
+      "name": {
+        "ar": "قارورة Pharma بنية · 125 مل · تعبئة منصة",
+        "en": "Amber Pharma bottle · pallet pack"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G05-V01",
+          "size": "125 ml",
+          "priceCents": 110,
+          "cartonQuantity": null,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G06",
+      "sheet": 11,
+      "name": {
+        "ar": "قارورة Pharma بنية · 125 مل · كرتون 220",
+        "en": "Amber Pharma bottle · carton 220"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G06-V01",
+          "size": "125 ml",
+          "priceCents": 110,
+          "cartonQuantity": 220,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G07",
+      "sheet": 11,
+      "name": {
+        "ar": "قارورة Pharma شفافة · 125 مل",
+        "en": "Clear Pharma bottle · 125 ml"
+      },
+      "category": "bottles",
+      "variants": [
+        {
+          "key": "S11-G07-V01",
+          "size": "125 ml",
+          "priceCents": 130,
+          "cartonQuantity": 180,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G08",
+      "sheet": 11,
+      "name": {
+        "ar": "أغطية المرطبانات",
+        "en": "Jar lids"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G08-V01",
+          "size": "43 mm",
+          "priceCents": 36,
+          "cartonQuantity": 2400,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G08-V02",
+          "size": "53 mm",
+          "priceCents": null,
+          "cartonQuantity": 1500,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G08-V03",
+          "size": "58 mm",
+          "priceCents": 57,
+          "cartonQuantity": 1250,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G08-V04",
+          "size": "63 mm",
+          "priceCents": 63,
+          "cartonQuantity": 900,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G08-V05",
+          "size": "66 mm",
+          "priceCents": 70,
+          "cartonQuantity": 1100,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G08-V06",
+          "size": "70 mm",
+          "priceCents": 72,
+          "cartonQuantity": 1000,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G08-V07",
+          "size": "82 mm",
+          "priceCents": 83,
+          "cartonQuantity": 600,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-019"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G09",
+      "sheet": 11,
+      "name": {
+        "ar": "مضخات مستحضرات العناية",
+        "en": "Lotion pumps"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G09-V01",
+          "size": "30 ml",
+          "priceCents": null,
+          "cartonQuantity": null,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G09-V02",
+          "size": "40 ml",
+          "priceCents": 330,
+          "cartonQuantity": 224,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G09-V03",
+          "size": "50 ml",
+          "priceCents": 365,
+          "cartonQuantity": 160,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G09-V04",
+          "size": "60 ml",
+          "priceCents": 380,
+          "cartonQuantity": 130,
+          "supplierReference": null
+        },
+        {
+          "key": "S11-G09-V05",
+          "size": "100 ml",
+          "priceCents": null,
+          "cartonQuantity": null,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G10",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء Gotmar",
+        "en": "Gotmar closure"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G10-V01",
+          "size": "قطعة / piece",
+          "priceCents": 17,
+          "cartonQuantity": 4300,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-125"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G11",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء Marasca بلاستيكي أسود · كرتون 3000",
+        "en": "Black plastic Marasca cap · carton 3000"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G11-V01",
+          "size": "قطعة / piece",
+          "priceCents": 50,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G12",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء Marasca بلاستيكي أسود · كرتون 2500",
+        "en": "Black plastic Marasca cap · carton 2500"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G12-V01",
+          "size": "قطعة / piece",
+          "priceCents": 50,
+          "cartonQuantity": 2500,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G13",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء Marasca من الألمنيوم",
+        "en": "Aluminium Marasca cap"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G13-V01",
+          "size": "قطعة / piece",
+          "priceCents": 45,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G14",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء ضمان بلاستيكي مصري",
+        "en": "Egyptian plastic guarantee cap"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G14-V01",
+          "size": "قطعة / piece",
+          "priceCents": 23,
+          "cartonQuantity": 5000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G15",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء ضمان بلاستيكي هندي",
+        "en": "Indian plastic guarantee cap"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G15-V01",
+          "size": "قطعة / piece",
+          "priceCents": 23,
+          "cartonQuantity": 3600,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G16",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء خارجي PVC · كرتون 16575",
+        "en": "PVC overcap · carton 16575"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G16-V01",
+          "size": "قطعة / piece",
+          "priceCents": 25,
+          "cartonQuantity": 16575,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S11-G17",
+      "sheet": 11,
+      "name": {
+        "ar": "غطاء خارجي PVC · كرتون 16320",
+        "en": "PVC overcap · carton 16320"
+      },
+      "category": "accessories",
+      "variants": [
+        {
+          "key": "S11-G17-V01",
+          "size": "قطعة / piece",
+          "priceCents": 25,
+          "cartonQuantity": 16320,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G01",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس كرافت",
+        "en": "Kraft pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G01-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G01-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G01-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 55,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G01-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G01-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 95,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G02",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس كرافت أسود",
+        "en": "Black kraft pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G02-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G02-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G02-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 55,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G02-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G02-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 95,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-158"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G03",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس ألمنيوم فضي",
+        "en": "Silver aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G03-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G03-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G03-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G03-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G03-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G04",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس ألمنيوم ذهبي",
+        "en": "Gold aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G04-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G04-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G04-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G04-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G04-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-159"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G05",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس ألمنيوم أخضر",
+        "en": "Green aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G05-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G05-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G05-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G05-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G05-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-123"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G06",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس ألمنيوم أزرق فاتح",
+        "en": "Light blue aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G06-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G06-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G06-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G06-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G06-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-120"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G07",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس ألمنيوم أحمر",
+        "en": "Red aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G07-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G07-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G07-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G07-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G07-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-119"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S12-G08",
+      "sheet": 12,
+      "name": {
+        "ar": "أكياس بلاستيك شفاف",
+        "en": "Clear plastic pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S12-G08-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G08-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G08-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 60,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G08-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 68,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S12-G08-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 90,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-161"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G01",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس بلاستيك مطبوع",
+        "en": "Printed plastic pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G01-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G01-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G01-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 50,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G01-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 70,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G01-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 90,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G02",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس كرافت أبيض حليبي",
+        "en": "Milky white kraft pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G02-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 40,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G02-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G02-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 60,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G02-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 75,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G02-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 110,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-157"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G03",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس ألمنيوم أزرق",
+        "en": "Blue aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G03-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G03-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G03-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G03-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G03-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-124"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G04",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس ألمنيوم وردي",
+        "en": "Pink aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G04-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G04-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G04-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G04-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G04-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-118"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G05",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس ألمنيوم فيروزي",
+        "en": "Turquoise aluminium pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G05-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G05-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G05-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G05-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G05-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [
+        "SMR-122"
+      ],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G06",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس بلاستيك بيج",
+        "en": "Beige plastic pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G06-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G06-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G06-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 60,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G06-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 68,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G06-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 90,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G07",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس بلاستيك بنفسجي",
+        "en": "Purple plastic pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G07-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G07-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G07-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 60,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G07-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 68,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G07-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 90,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    },
+    {
+      "id": "S13-G08",
+      "sheet": 13,
+      "name": {
+        "ar": "أكياس بلاستيك بلون الفستق",
+        "en": "Pistachio plastic pouches"
+      },
+      "category": "pouches",
+      "variants": [
+        {
+          "key": "S13-G08-V01",
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G08-V02",
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "cartonQuantity": 4000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G08-V03",
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 60,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G08-V04",
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 68,
+          "cartonQuantity": 3000,
+          "supplierReference": null
+        },
+        {
+          "key": "S13-G08-V05",
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 90,
+          "cartonQuantity": 2000,
+          "supplierReference": null
+        }
+      ],
+      "matchedProductIds": [],
+      "requiresReview": false
+    }
+  ]
+}

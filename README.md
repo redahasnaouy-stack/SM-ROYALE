@@ -67,7 +67,7 @@ Order states: `new`, `pricing_pending`, `confirmed`, `processing`, `shipped`, `d
 
 ## Content and design
 
-The bilingual catalogue contains 161 supplied product visuals, 121 priced variants for 31 matched entries, plus a separate 13-line hijama price guide. The original uploaded imagery and pricing provenance are retained locally in `docs/catalogue-sources.json` (not published). Unmatched prices remain for review. Product photos are not altered by the decorative frames.
+The bilingual catalogue contains 245 entries: 161 supplied product visuals and 84 price-list entries whose product photographs are not yet available. The current supplier import covers 454 unambiguous source price rows, represented by 519 selectable variants across 169 priced entries. Five source groups require clarification and eight source price cells are blank; they are not assigned invented values. The separate 13-line hijama price guide is unchanged. The original uploaded imagery and pricing provenance are retained locally in `docs/catalogue-sources.json` (not published). Unmatched prices remain for review. Product photos are not altered by the decorative frames.
 
 The transparent crown/SM logo was extracted from the supplied brand image. The cinematic hero is a generated brand illustration, not a guarantee of exact catalogue models. Cairo, Manrope and Cormorant Garamond fonts are served locally with their license notices.
 
@@ -88,3 +88,15 @@ Key files:
 Real Chromium checks cover cart quantities and variants, persisted baskets, bilingual checkout, server order creation, admin login, dashboard visibility, shipping/status changes, catalogue price changes, customer summaries, unknown-price handling, mobile layouts and logout. Only synthetic customer data and temporary test administrator credentials are used; no demo orders or accounts are shipped.
 
 Administration uses the canonical `/admin/` directory route (`dist/admin/index.html`). Its assets and API URLs resolve from the site root. Do not add a redirect from `/admin/` back to `/admin`: that can conflict with Netlify pretty-URL canonicalisation.
+
+## Supplier price import, 22 October 2026
+
+`catalogue/supplier-prices-2026-10-22.json` is the transcription of the uploaded 14-page price archive. The final page duplicates the previous one. It contains 150 product groups and 474 source variants, with prices stored as integer centimes. Source carton quantities describe packaging; red stock counts are not imported or published. No markup or 15% adjustment is applied to these tables.
+
+Run `npm run catalogue:import` after an approved change to the transcription. The importer is repeatable, preserves the 161 original catalogue references and creates stable `SUP-` references for additional list items. `docs/price-import-report.json` records coverage and outstanding clarifications. Capacity-specific photos are not automatically assigned every packaging variant in the same table. Items without a verified photograph use the company logo and an explicit photo-unavailable label.
+
+A `pricingRevision` invalidates stale stored price overrides once when a new supplier revision is deployed, while preserving the administrator's availability switch. Edits explicitly made by the administrator after that import remain effective until a subsequent supplier revision. Previous orders retain their price snapshots.
+
+Imported variants have stable keys. Checkout validates the chosen key as well as its index, preventing an old browser basket from silently becoming a different size after a price-list update. Older baskets with unverifiable selections ask the customer to remove and reselect the model.
+
+The owner confirmed Pharma clear 30 ml at 0.80 DH and 60 ml at 0.90 DH; both corrections are applied. Pending clarification: duplicate Laura black-matte/gold and white-shining/gold designations have different prices in the source. These Laura rows are retained for review, not attached to a guessed photograph.

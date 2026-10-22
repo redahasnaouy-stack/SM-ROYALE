@@ -8,7 +8,8 @@
     "build": "node build.mjs",
     "test": "node --test test/*.test.mjs",
     "admin:create": "node scripts/create-admin.mjs",
-    "admin:hash": "node scripts/admin-hash.mjs"
+    "admin:hash": "node scripts/admin-hash.mjs",
+    "catalogue:import": "node scripts/import-supplier-prices.mjs"
   },
   "engines": {
     "node": ">=24"

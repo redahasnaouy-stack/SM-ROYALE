@@ -10,7 +10,8 @@ import {createApp} from '../server.mjs';
 import {createAdmin,openStore,saveOrder} from '../lib/store.mjs';
 import {blobRepository} from '../lib/repository.mjs';
 const customer={name:'عميل الاختبار',phone:'0600000000',city:'الدار البيضاء',address:'عنوان تجريبي لا يخص أي عميل حقيقي',email:'',note:''};
-const payload=(items=[{productId:'SMR-151',variantIndex:0,quantity:2,specification:''}])=>({customer:{...customer},items,consent:true});
+const baseProducts=JSON.parse(await readFile(new URL('../public/products.json',import.meta.url),'utf8'));
+const payload=(items=[{productId:'SMR-151',variantIndex:0,variantKey:baseProducts.find(p=>p.id==='SMR-151').variants[0].key,quantity:2,specification:''}])=>({customer:{...customer},items,consent:true});
 async function fixture(t,repo=null){
   const app=await createApp({databasePath:':memory:',repository:repo,secureCookies:false});
   await new Promise(resolve=>app.server.listen(0,'127.0.0.1',resolve));
@@ -31,7 +32,7 @@ test('orders persist authoritative prices, reject tampering and duplicate retrie
   const list=await f.call('/api/admin/orders',{headers:f.auth});assert.equal(list.data.orders.length,1);assert.equal(list.data.orders[0].items[0].unitPriceCents,430);
 });
 test('quotes are pending pricing; delivery and item prices are required before confirmation',async t=>{
-  const f=await fixture(t);assert.equal((await f.post('/api/orders',payload([{productId:'SMR-001',variantIndex:null,quantity:3,specification:'اللون البنفسجي'}]),{'Idempotency-Key':randomUUID()})).data.order.status,'pricing_pending');
+  const f=await fixture(t);assert.equal((await f.post('/api/orders',payload([{productId:'SMR-063',variantIndex:null,quantity:3,specification:'اللون البنفسجي'}]),{'Idempotency-Key':randomUUID()})).data.order.status,'pricing_pending');
   let order=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];
   const patch=data=>f.call('/api/admin/orders/'+order.id,{method:'PATCH',headers:f.auth,body:JSON.stringify({version:order.version,...data})});
   assert.equal((await patch({status:'confirmed'})).status,400);assert.equal((await patch({status:'confirmed',unitPrices:[500],shippingCents:3000})).status,200);
