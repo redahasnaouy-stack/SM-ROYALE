@@ -22,7 +22,10 @@ test('representative prices from every source table retain exact decimals, capac
  assert.equal(value('SUP-S11-G02','30 ml'),0.80);assert.equal(value('SUP-S11-G04','60 ml'),0.90);
  assert.equal(value('SUP-S10-G13','30 ml'),3.00);assert.equal(value('SMR-019','43 mm'),0.36);
  assert.equal(value('SMR-161','500 g · 17×24+4 cm'),0.68);assert.equal(value('SUP-S13-G01','250 g · 14×22+4 cm'),0.50);
- assert(products.find(p=>p.id==='SMR-150').variants.length===0); // unresolved duplicate Laura label
+ assert.equal(value('SMR-152','100 ml'),6.38);
+ assert(products.find(p=>p.id==='SUP-S02-G10').variants.every(v=>v.supplierReference));
+ assert(!products.flatMap(p=>p.variants).some(v=>v.key==='S06-G07-V03'));
+ assert(products.find(p=>p.id==='SMR-150').variants.length===0); // photo cannot be assigned to either supplier reference safely
 });
 test('a new supplier revision replaces stale stored prices while preserving availability and prior order snapshots',async t=>{
  const app=await createApp({databasePath:':memory:'});t.after(()=>app.db.close());

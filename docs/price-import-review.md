@@ -1,26 +1,9 @@
-# Price import review
+# Transcription import review
 
-Source groups: 150; source rows: 474; unambiguous priced rows applied: 454.
+Authoritative details: `catalogue/Infos_Produits_Transcription.txt`, supplied by the owner. All 474 rows were matched to the source registry; quantities and original field text are retained there. Stock counts in the document are historical and are not advertised as live inventory.
 
-## Rows requiring clarification
+465 clear source prices are published. Eight blank price cells and one uncertain price (S06-G07-V03, printed reading 3.26) remain withheld.
 
-- S01-G01 (sheet 1): لورا أبيض لامع بغطاء ذهبي · التسمية الثانية — 100 ml: 6.00 DH
-- S02-G10 (sheet 2): لورا أسود غير لامع بغطاء ذهبي · التسمية الأولى — 30 ml: 4.20 DH; 50 ml: 4.70 DH; 100 ml: 6.00 DH
-- S02-G11 (sheet 2): لورا أسود غير لامع بغطاء ذهبي · التسمية الثانية — 30 ml: 4.00 DH; 50 ml: 4.50 DH; 100 ml: 6.00 DH
-- S02-G13 (sheet 2): لورا أبيض لامع بغطاء ذهبي · التسمية الأولى — 30 ml: 4.20 DH; 50 ml: 4.70 DH; 100 ml: 6.00 DH
-- S02-G14 (sheet 2): لورا أبيض لامع بغطاء ذهبي · التسمية الثانية — 30 ml: 4.00 DH; 50 ml: 4.60 DH
+Laura duplicate designations are separately available by supplier reference with photo placeholders. Original product photos are not assigned to a reference without evidence.
 
-## Blank price cells
-
-- S03-G03: 6 ml — no price is printed.
-- S05-G08: 30 ml — no price is printed.
-- S05-G08: 50 ml — no price is printed.
-- S10-G03: 5 ml — no price is printed.
-- S10-G04: 212 ml / palette — no price is printed.
-- S11-G08: 53 mm — no price is printed.
-- S11-G09: 30 ml — no price is printed.
-- S11-G09: 100 ml — no price is printed.
-
-## Owner clarification
-
-Pharma clear 30 ml: 0.80 DH; Pharma clear 60 ml: 0.90 DH. Applied as confirmed by the owner.
+Owner correction preserved: Pharma clear 30 ml = 0.80 DH; 60 ml = 0.90 DH. Yellow Laura 100 ml corrected to 6.38 DH.

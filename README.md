@@ -67,7 +67,7 @@ Order states: `new`, `pricing_pending`, `confirmed`, `processing`, `shipped`, `d
 
 ## Content and design
 
-The bilingual catalogue contains 245 entries: 161 supplied product visuals and 84 price-list entries whose product photographs are not yet available. The current supplier import covers 454 unambiguous source price rows, represented by 519 selectable variants across 169 priced entries. Five source groups require clarification and eight source price cells are blank; they are not assigned invented values. The separate 13-line hijama price guide is unchanged. The original uploaded imagery and pricing provenance are retained locally in `docs/catalogue-sources.json` (not published). Unmatched prices remain for review. Product photos are not altered by the decorative frames.
+The bilingual catalogue contains 250 entries: 161 supplied product visuals and 89 price-list entries whose product photographs are not yet available. The current supplier import covers 465 unambiguous source price rows, represented by 530 selectable variants across 174 priced entries. Eight source price cells are blank and one additional price reading is uncertain; they are not assigned invented values. The separate 13-line hijama price guide is unchanged. The original uploaded imagery and pricing provenance are retained locally in `docs/catalogue-sources.json` (not published). Unmatched prices remain for review. Product photos are not altered by the decorative frames.
 
 The transparent crown/SM logo was extracted from the supplied brand image. The cinematic hero is a generated brand illustration, not a guarantee of exact catalogue models. Cairo, Manrope and Cormorant Garamond fonts are served locally with their license notices.
 
@@ -99,4 +99,4 @@ A `pricingRevision` invalidates stale stored price overrides once when a new sup
 
 Imported variants have stable keys. Checkout validates the chosen key as well as its index, preventing an old browser basket from silently becoming a different size after a price-list update. Older baskets with unverifiable selections ask the customer to remove and reselect the model.
 
-The owner confirmed Pharma clear 30 ml at 0.80 DH and 60 ml at 0.90 DH; both corrections are applied. Pending clarification: duplicate Laura black-matte/gold and white-shining/gold designations have different prices in the source. These Laura rows are retained for review, not attached to a guessed photograph.
+The owner confirmed Pharma clear 30 ml at 0.80 DH and 60 ml at 0.90 DH; both corrections are applied. The owner-supplied `catalogue/Infos_Produits_Transcription.txt` now provides detailed provenance for all 474 rows. Duplicate Laura designations are published separately by supplier reference using photo placeholders. Their association with original photos remains unconfirmed. Yellow Laura 100 ml is 6.38 DH; the uncertain frosted 50 ml reading is withheld.

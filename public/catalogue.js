@@ -48,7 +48,7 @@
     if(!selected)return;
     const v=selected.variants[Number($('detail-variant').value)];
     $('detail-price').textContent=v?money(v.price):tr('Price on request','السعر عند الطلب');
-    const packaging=document.getElementById('detail-packaging');if(packaging)packaging.textContent=v?.cartonQuantity?tr('Pieces per carton: ','عدد القطع في الكرتون: ')+v.cartonQuantity:'';
+    const packaging=document.getElementById('detail-packaging');if(packaging)packaging.textContent=[v?.cartonQuantity?tr('Pieces per carton: ','عدد القطع في الكرتون: ')+v.cartonQuantity:'',v?.supplierReference?tr('Supplier reference: ','مرجع المورّد: ')+v.supplierReference:''].filter(Boolean).join(' · ');
 
   }
   function populateDetails(){

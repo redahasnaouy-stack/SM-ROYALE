@@ -33,7 +33,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -74,7 +74,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -115,7 +115,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -202,7 +202,7 @@
         "sourceGroup": "S08-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-beb3b87e4381c122",
+    "pricingRevision": "2026-10-22-transcription-v2-beb3b87e4381c122",
     "priceSource": {
       "group": "S08-G03",
       "sheet": 8,
@@ -259,7 +259,7 @@
         "sourceGroup": "S09-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-a394bb77ee07e1c5",
+    "pricingRevision": "2026-10-22-transcription-v2-a394bb77ee07e1c5",
     "priceSource": {
       "group": "S09-G01",
       "sheet": 9,
@@ -316,7 +316,7 @@
         "sourceGroup": "S08-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-485202bd3d9ada8b",
+    "pricingRevision": "2026-10-22-transcription-v2-485202bd3d9ada8b",
     "priceSource": {
       "group": "S08-G01",
       "sheet": 8,
@@ -373,7 +373,7 @@
         "sourceGroup": "S09-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6a5c80961cb904e2",
+    "pricingRevision": "2026-10-22-transcription-v2-6a5c80961cb904e2",
     "priceSource": {
       "group": "S09-G04",
       "sheet": 9,
@@ -430,7 +430,7 @@
         "sourceGroup": "S09-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-f070ddba006508ff",
+    "pricingRevision": "2026-10-22-transcription-v2-f070ddba006508ff",
     "priceSource": {
       "group": "S09-G03",
       "sheet": 9,
@@ -466,7 +466,7 @@
         "key": "S08-G02-V03",
         "size": "30 ml",
         "price": 2.7,
-        "cartonQuantity": 350,
+        "cartonQuantity": 330,
         "supplierReference": null,
         "sourceGroup": "S08-G02"
       },
@@ -487,7 +487,7 @@
         "sourceGroup": "S08-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-1f4e6f76d6848fee",
+    "pricingRevision": "2026-10-22-transcription-v2-f9e08381a03b8944",
     "priceSource": {
       "group": "S08-G02",
       "sheet": 8,
@@ -554,7 +554,7 @@
         "sourceGroup": "S08-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-b9601347623a82d0",
+    "pricingRevision": "2026-10-22-transcription-v2-b9601347623a82d0",
     "priceSource": {
       "group": "S08-G04",
       "sheet": 8,
@@ -611,7 +611,7 @@
         "sourceGroup": "S08-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-700e6b68e9fa4e6d",
+    "pricingRevision": "2026-10-22-transcription-v2-700e6b68e9fa4e6d",
     "priceSource": {
       "group": "S08-G06",
       "sheet": 8,
@@ -706,7 +706,7 @@
         "sourceGroup": "S11-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-d64d0782d94ac0db",
+    "pricingRevision": "2026-10-22-transcription-v2-d64d0782d94ac0db",
     "priceSource": {
       "group": "S11-G08",
       "sheet": 11,
@@ -731,7 +731,7 @@
         "sourceGroup": "S11-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-bbc4d2aa1dcc77e6",
+    "pricingRevision": "2026-10-22-transcription-v2-bbc4d2aa1dcc77e6",
     "priceSource": {
       "group": "S11-G01",
       "sheet": 11,
@@ -822,7 +822,7 @@
         "sourceGroup": "S04-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-24d89300b2b4ac93",
+    "pricingRevision": "2026-10-22-transcription-v2-24d89300b2b4ac93",
     "priceSource": {
       "group": "S04-G08",
       "sheet": 4,
@@ -857,7 +857,7 @@
         "sourceGroup": "S03-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-63511ee0251087b6",
+    "pricingRevision": "2026-10-22-transcription-v2-63511ee0251087b6",
     "priceSource": {
       "group": "S03-G04",
       "sheet": 3,
@@ -914,7 +914,7 @@
         "sourceGroup": "S09-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-cd7e7fae6ad23b33",
+    "pricingRevision": "2026-10-22-transcription-v2-cd7e7fae6ad23b33",
     "priceSource": {
       "group": "S09-G06",
       "sheet": 9,
@@ -957,7 +957,7 @@
         "sourceGroup": "S03-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0a70872d36f2666a",
+    "pricingRevision": "2026-10-22-transcription-v2-0a70872d36f2666a",
     "priceSource": {
       "group": "S03-G01",
       "sheet": 3,
@@ -1000,7 +1000,7 @@
         "sourceGroup": "S03-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-fb54b8df604e5dd7",
+    "pricingRevision": "2026-10-22-transcription-v2-fb54b8df604e5dd7",
     "priceSource": {
       "group": "S03-G07",
       "sheet": 3,
@@ -1033,7 +1033,7 @@
         "sourceGroup": "S03-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-82c614684b99209c",
+    "pricingRevision": "2026-10-22-transcription-v2-82c614684b99209c",
     "priceSource": {
       "group": "S03-G02",
       "sheet": 3,
@@ -1058,7 +1058,7 @@
         "sourceGroup": "S03-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-a2d42bb3c5209d10",
+    "pricingRevision": "2026-10-22-transcription-v2-a2d42bb3c5209d10",
     "priceSource": {
       "group": "S03-G05",
       "sheet": 3,
@@ -1091,7 +1091,7 @@
         "sourceGroup": "S03-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-82c614684b99209c",
+    "pricingRevision": "2026-10-22-transcription-v2-82c614684b99209c",
     "priceSource": {
       "group": "S03-G02",
       "sheet": 3,
@@ -1124,7 +1124,7 @@
         "sourceGroup": "S04-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-7fdd65bf982b5d79",
+    "pricingRevision": "2026-10-22-transcription-v2-7fdd65bf982b5d79",
     "priceSource": {
       "group": "S04-G09",
       "sheet": 4,
@@ -1149,7 +1149,7 @@
         "sourceGroup": "S03-G10"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-fd1d28a2b83bfa5a",
+    "pricingRevision": "2026-10-22-transcription-v2-fd1d28a2b83bfa5a",
     "priceSource": {
       "group": "S03-G10",
       "sheet": 3,
@@ -1165,7 +1165,7 @@
     },
     "category": "perfume",
     "variants": [],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
+    "pricingRevision": "2026-10-22-transcription-v2-4f53cda18c2baa0c",
     "priceSource": {
       "group": "S10-G03",
       "sheet": 10,
@@ -1200,7 +1200,7 @@
         "sourceGroup": "S03-G14"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4c3db513703bdc86",
+    "pricingRevision": "2026-10-22-transcription-v2-4c3db513703bdc86",
     "priceSource": {
       "group": "S03-G14",
       "sheet": 3,
@@ -1273,7 +1273,7 @@
         "sourceGroup": "S04-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-2013b875915cb6ae",
+    "pricingRevision": "2026-10-22-transcription-v2-2013b875915cb6ae",
     "priceSource": {
       "group": "S04-G02",
       "sheet": 4,
@@ -1314,7 +1314,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -1355,15 +1355,15 @@
         "size": "20 ml",
         "price": 2.2,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-13",
         "sourceGroup": "S07-G04"
       },
       {
         "key": "S07-G04-V02",
         "size": "30 ml",
         "price": 2.5,
-        "cartonQuantity": 180,
-        "supplierReference": null,
+        "cartonQuantity": 288,
+        "supplierReference": "1,14",
         "sourceGroup": "S07-G04"
       },
       {
@@ -1371,7 +1371,7 @@
         "size": "50 ml",
         "price": 3.2,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1--15",
         "sourceGroup": "S07-G04"
       },
       {
@@ -1379,11 +1379,11 @@
         "size": "100 ml",
         "price": 4,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1--16",
         "sourceGroup": "S07-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-8e434397b02c9767",
+    "pricingRevision": "2026-10-22-transcription-v2-523180870f304deb",
     "priceSource": {
       "group": "S07-G04",
       "sheet": 7,
@@ -1408,7 +1408,7 @@
         "sourceGroup": "S03-G13"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-a9b2e3e0239ceee6",
+    "pricingRevision": "2026-10-22-transcription-v2-a9b2e3e0239ceee6",
     "priceSource": {
       "group": "S03-G13",
       "sheet": 3,
@@ -1449,7 +1449,7 @@
         "sourceGroup": "S03-G11"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-85c70c213fc182fa",
+    "pricingRevision": "2026-10-22-transcription-v2-85c70c213fc182fa",
     "priceSource": {
       "group": "S03-G11",
       "sheet": 3,
@@ -1470,7 +1470,7 @@
         "size": "20 ml",
         "price": 2.6,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "2-15",
         "sourceGroup": "S06-G03"
       },
       {
@@ -1478,7 +1478,7 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "2-16",
         "sourceGroup": "S06-G03"
       },
       {
@@ -1486,7 +1486,7 @@
         "size": "50 ml",
         "price": 3.5,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "2-17",
         "sourceGroup": "S06-G03"
       },
       {
@@ -1494,11 +1494,11 @@
         "size": "100 ml",
         "price": 4.3,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "2-18",
         "sourceGroup": "S06-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-77a59842a39628b4",
+    "pricingRevision": "2026-10-22-transcription-v2-217c070ce7aff8ea",
     "priceSource": {
       "group": "S06-G03",
       "sheet": 6,
@@ -1559,7 +1559,7 @@
         "sourceGroup": "S03-G13"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-136a2942673ed0b5",
+    "pricingRevision": "2026-10-22-transcription-v2-136a2942673ed0b5",
     "priceSource": {
       "group": "S03-G13",
       "sheet": 3,
@@ -1580,7 +1580,7 @@
         "size": "100 ml",
         "price": 1.8,
         "cartonQuantity": 1008,
-        "supplierReference": null,
+        "supplierReference": "0394-7",
         "sourceGroup": "S05-G05"
       },
       {
@@ -1588,7 +1588,7 @@
         "size": "125 ml",
         "price": 2,
         "cartonQuantity": 1128,
-        "supplierReference": null,
+        "supplierReference": "0394-8",
         "sourceGroup": "S05-G05"
       },
       {
@@ -1596,7 +1596,7 @@
         "size": "200 ml",
         "price": 2.3,
         "cartonQuantity": 296,
-        "supplierReference": null,
+        "supplierReference": "0393-2",
         "sourceGroup": "S05-G05"
       },
       {
@@ -1604,11 +1604,11 @@
         "size": "250 ml",
         "price": 2.5,
         "cartonQuantity": 234,
-        "supplierReference": null,
+        "supplierReference": "0393-3",
         "sourceGroup": "S05-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c7bd419f16a72636",
+    "pricingRevision": "2026-10-22-transcription-v2-85542b5ba20b90c8",
     "priceSource": {
       "group": "S05-G05",
       "sheet": 5,
@@ -1653,7 +1653,7 @@
         "sourceGroup": "S08-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-83ecbe506ddcd79b",
+    "pricingRevision": "2026-10-22-transcription-v2-83ecbe506ddcd79b",
     "priceSource": {
       "group": "S08-G09",
       "sheet": 8,
@@ -1684,7 +1684,7 @@
         "size": "20 ml",
         "price": 2.4,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-21",
         "sourceGroup": "S07-G06"
       },
       {
@@ -1692,7 +1692,7 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-22",
         "sourceGroup": "S07-G06"
       },
       {
@@ -1700,7 +1700,7 @@
         "size": "50 ml",
         "price": 3.4,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-23",
         "sourceGroup": "S07-G06"
       },
       {
@@ -1708,11 +1708,11 @@
         "size": "100 ml",
         "price": 4.2,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-24",
         "sourceGroup": "S07-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-92a074ce712d1232",
+    "pricingRevision": "2026-10-22-transcription-v2-b2c7e0297dd17d9f",
     "priceSource": {
       "group": "S07-G06",
       "sheet": 7,
@@ -1737,7 +1737,7 @@
         "sourceGroup": "S11-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4df070d6880697c4",
+    "pricingRevision": "2026-10-22-transcription-v2-4df070d6880697c4",
     "priceSource": {
       "group": "S11-G03",
       "sheet": 11,
@@ -1758,15 +1758,15 @@
         "size": "20 ml",
         "price": 2.2,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-13",
         "sourceGroup": "S07-G04"
       },
       {
         "key": "S07-G04-V02",
         "size": "30 ml",
         "price": 2.5,
-        "cartonQuantity": 180,
-        "supplierReference": null,
+        "cartonQuantity": 288,
+        "supplierReference": "1,14",
         "sourceGroup": "S07-G04"
       },
       {
@@ -1774,7 +1774,7 @@
         "size": "50 ml",
         "price": 3.2,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1--15",
         "sourceGroup": "S07-G04"
       },
       {
@@ -1782,11 +1782,11 @@
         "size": "100 ml",
         "price": 4,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1--16",
         "sourceGroup": "S07-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-8e434397b02c9767",
+    "pricingRevision": "2026-10-22-transcription-v2-523180870f304deb",
     "priceSource": {
       "group": "S07-G04",
       "sheet": 7,
@@ -1843,7 +1843,7 @@
         "sourceGroup": "S08-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-485202bd3d9ada8b",
+    "pricingRevision": "2026-10-22-transcription-v2-485202bd3d9ada8b",
     "priceSource": {
       "group": "S08-G01",
       "sheet": 8,
@@ -1933,7 +1933,7 @@
         "key": "S08-G02-V03",
         "size": "30 ml",
         "price": 2.7,
-        "cartonQuantity": 350,
+        "cartonQuantity": 330,
         "supplierReference": null,
         "sourceGroup": "S08-G02"
       },
@@ -1954,7 +1954,7 @@
         "sourceGroup": "S08-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-1f4e6f76d6848fee",
+    "pricingRevision": "2026-10-22-transcription-v2-f9e08381a03b8944",
     "priceSource": {
       "group": "S08-G02",
       "sheet": 8,
@@ -2011,7 +2011,7 @@
         "sourceGroup": "S08-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-beb3b87e4381c122",
+    "pricingRevision": "2026-10-22-transcription-v2-beb3b87e4381c122",
     "priceSource": {
       "group": "S08-G03",
       "sheet": 8,
@@ -2032,7 +2032,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-57",
         "sourceGroup": "S02-G04"
       },
       {
@@ -2040,7 +2040,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-58",
         "sourceGroup": "S02-G04"
       },
       {
@@ -2048,11 +2048,11 @@
         "size": "100 ml",
         "price": 5.7,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-59",
         "sourceGroup": "S02-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-914615bc4ace680e",
+    "pricingRevision": "2026-10-22-transcription-v2-d459244cd7595d26",
     "priceSource": {
       "group": "S02-G04",
       "sheet": 2,
@@ -2073,7 +2073,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-63",
         "sourceGroup": "S02-G06"
       },
       {
@@ -2081,7 +2081,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-64",
         "sourceGroup": "S02-G06"
       },
       {
@@ -2089,11 +2089,11 @@
         "size": "100 ml",
         "price": 5.7,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-65",
         "sourceGroup": "S02-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-58c9713c1bcb1dfc",
+    "pricingRevision": "2026-10-22-transcription-v2-551060357f2437c3",
     "priceSource": {
       "group": "S02-G06",
       "sheet": 2,
@@ -2151,7 +2151,7 @@
         "sourceGroup": "S01-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-34ea5ebe845399fc",
+    "pricingRevision": "2026-10-22-transcription-v2-34ea5ebe845399fc",
     "priceSource": {
       "group": "S01-G05",
       "sheet": 1,
@@ -2226,7 +2226,7 @@
         "sourceGroup": "S10-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-744d7c344070cdae",
+    "pricingRevision": "2026-10-22-transcription-v2-744d7c344070cdae",
     "priceSource": {
       "group": "S10-G04",
       "sheet": 10,
@@ -2247,7 +2247,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-48",
         "sourceGroup": "S02-G01"
       },
       {
@@ -2255,7 +2255,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-49",
         "sourceGroup": "S02-G01"
       },
       {
@@ -2263,11 +2263,11 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-50",
         "sourceGroup": "S02-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-e4aa1a54550c9c1d",
+    "pricingRevision": "2026-10-22-transcription-v2-c509f30cae2f4dc1",
     "priceSource": {
       "group": "S02-G01",
       "sheet": 2,
@@ -2338,7 +2338,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -2379,7 +2379,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -2527,7 +2527,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -2560,7 +2560,7 @@
         "sourceGroup": "S10-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0e1695ff379934e2",
+    "pricingRevision": "2026-10-22-transcription-v2-0e1695ff379934e2",
     "priceSource": {
       "group": "S10-G01",
       "sheet": 10,
@@ -2645,7 +2645,7 @@
         "sourceGroup": "S11-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0f82ee81785b8d6c",
+    "pricingRevision": "2026-10-22-transcription-v2-0f82ee81785b8d6c",
     "priceSource": {
       "group": "S11-G01",
       "sheet": 11,
@@ -2700,7 +2700,7 @@
         "sourceGroup": "S11-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-76c9b5556ed3e6c4",
+    "pricingRevision": "2026-10-22-transcription-v2-76c9b5556ed3e6c4",
     "priceSource": {
       "group": "S11-G03",
       "sheet": 11,
@@ -2725,7 +2725,7 @@
         "sourceGroup": "S10-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0dce4232e4f86fb8",
+    "pricingRevision": "2026-10-22-transcription-v2-0dce4232e4f86fb8",
     "priceSource": {
       "group": "S10-G07",
       "sheet": 10,
@@ -2788,7 +2788,7 @@
         "sourceGroup": "S04-G10"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-dc70a480c21744b5",
+    "pricingRevision": "2026-10-22-transcription-v2-dc70a480c21744b5",
     "priceSource": {
       "group": "S04-G10",
       "sheet": 4,
@@ -2849,7 +2849,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -2890,7 +2890,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -2931,7 +2931,7 @@
         "sourceGroup": "S04-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0063a46ce6ca7902",
+    "pricingRevision": "2026-10-22-transcription-v2-0063a46ce6ca7902",
     "priceSource": {
       "group": "S04-G01",
       "sheet": 4,
@@ -2998,7 +2998,7 @@
         "sourceGroup": "S13-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c1a9a9233701358d",
+    "pricingRevision": "2026-10-22-transcription-v2-c1a9a9233701358d",
     "priceSource": {
       "group": "S13-G04",
       "sheet": 13,
@@ -3055,7 +3055,7 @@
         "sourceGroup": "S12-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-af607159a854037b",
+    "pricingRevision": "2026-10-22-transcription-v2-af607159a854037b",
     "priceSource": {
       "group": "S12-G07",
       "sheet": 12,
@@ -3112,7 +3112,7 @@
         "sourceGroup": "S12-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-2719ad8879f329eb",
+    "pricingRevision": "2026-10-22-transcription-v2-2719ad8879f329eb",
     "priceSource": {
       "group": "S12-G06",
       "sheet": 12,
@@ -3179,7 +3179,7 @@
         "sourceGroup": "S13-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-35af5738febda429",
+    "pricingRevision": "2026-10-22-transcription-v2-35af5738febda429",
     "priceSource": {
       "group": "S13-G05",
       "sheet": 13,
@@ -3236,7 +3236,7 @@
         "sourceGroup": "S12-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-a14100328ec2f97a",
+    "pricingRevision": "2026-10-22-transcription-v2-a14100328ec2f97a",
     "priceSource": {
       "group": "S12-G05",
       "sheet": 12,
@@ -3293,7 +3293,7 @@
         "sourceGroup": "S13-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-ac7299198d9d35d9",
+    "pricingRevision": "2026-10-22-transcription-v2-ac7299198d9d35d9",
     "priceSource": {
       "group": "S13-G03",
       "sheet": 13,
@@ -3318,7 +3318,7 @@
         "sourceGroup": "S11-G10"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-e7fdc1e10308431b",
+    "pricingRevision": "2026-10-22-transcription-v2-e7fdc1e10308431b",
     "priceSource": {
       "group": "S11-G10",
       "sheet": 11,
@@ -3385,7 +3385,7 @@
         "sourceGroup": "S08-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-327ab2ff35b60591",
+    "pricingRevision": "2026-10-22-transcription-v2-327ab2ff35b60591",
     "priceSource": {
       "group": "S08-G05",
       "sheet": 8,
@@ -3416,7 +3416,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-48",
         "sourceGroup": "S02-G01"
       },
       {
@@ -3424,7 +3424,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-49",
         "sourceGroup": "S02-G01"
       },
       {
@@ -3432,11 +3432,11 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-50",
         "sourceGroup": "S02-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-e4aa1a54550c9c1d",
+    "pricingRevision": "2026-10-22-transcription-v2-c509f30cae2f4dc1",
     "priceSource": {
       "group": "S02-G01",
       "sheet": 2,
@@ -3461,7 +3461,7 @@
         "sourceGroup": "S11-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-926ed34a3deff896",
+    "pricingRevision": "2026-10-22-transcription-v2-926ed34a3deff896",
     "priceSource": {
       "group": "S11-G01",
       "sheet": 11,
@@ -3546,7 +3546,7 @@
         "sourceGroup": "S08-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-83ecbe506ddcd79b",
+    "pricingRevision": "2026-10-22-transcription-v2-83ecbe506ddcd79b",
     "priceSource": {
       "group": "S08-G09",
       "sheet": 8,
@@ -3577,7 +3577,7 @@
         "size": "20 ml",
         "price": 2.2,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-1/2-1",
         "sourceGroup": "S07-G01"
       },
       {
@@ -3585,7 +3585,7 @@
         "size": "30 ml",
         "price": 2.5,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-2/2-2",
         "sourceGroup": "S07-G01"
       },
       {
@@ -3593,7 +3593,7 @@
         "size": "50 ml",
         "price": 3.2,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-3",
         "sourceGroup": "S07-G01"
       },
       {
@@ -3601,11 +3601,11 @@
         "size": "100 ml",
         "price": 3.75,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-4",
         "sourceGroup": "S07-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-a116f630fcab3d7d",
+    "pricingRevision": "2026-10-22-transcription-v2-b42d8718179dc983",
     "priceSource": {
       "group": "S07-G01",
       "sheet": 7,
@@ -3626,7 +3626,7 @@
         "size": "20 ml",
         "price": 2.2,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-5",
         "sourceGroup": "S07-G02"
       },
       {
@@ -3634,7 +3634,7 @@
         "size": "30 ml",
         "price": 2.5,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1,6",
         "sourceGroup": "S07-G02"
       },
       {
@@ -3642,7 +3642,7 @@
         "size": "50 ml",
         "price": 3.2,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-7",
         "sourceGroup": "S07-G02"
       },
       {
@@ -3650,11 +3650,11 @@
         "size": "100 ml",
         "price": 3.75,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-8",
         "sourceGroup": "S07-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-dec34c7426fb9722",
+    "pricingRevision": "2026-10-22-transcription-v2-0a60029855e56783",
     "priceSource": {
       "group": "S07-G02",
       "sheet": 7,
@@ -3675,7 +3675,7 @@
         "size": "20 ml",
         "price": 2.3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-17/2-3",
         "sourceGroup": "S07-G05"
       },
       {
@@ -3683,7 +3683,7 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-18",
         "sourceGroup": "S07-G05"
       },
       {
@@ -3691,7 +3691,7 @@
         "size": "50 ml",
         "price": 3.4,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-19",
         "sourceGroup": "S07-G05"
       },
       {
@@ -3699,11 +3699,11 @@
         "size": "100 ml",
         "price": 4.2,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1,20",
         "sourceGroup": "S07-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0a93802146aa5007",
+    "pricingRevision": "2026-10-22-transcription-v2-a3df6236dd67badf",
     "priceSource": {
       "group": "S07-G05",
       "sheet": 7,
@@ -3724,7 +3724,7 @@
         "size": "20 ml",
         "price": 2.4,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-21",
         "sourceGroup": "S07-G06"
       },
       {
@@ -3732,7 +3732,7 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-22",
         "sourceGroup": "S07-G06"
       },
       {
@@ -3740,7 +3740,7 @@
         "size": "50 ml",
         "price": 3.4,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-23",
         "sourceGroup": "S07-G06"
       },
       {
@@ -3748,11 +3748,11 @@
         "size": "100 ml",
         "price": 4.2,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-24",
         "sourceGroup": "S07-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-92a074ce712d1232",
+    "pricingRevision": "2026-10-22-transcription-v2-b2c7e0297dd17d9f",
     "priceSource": {
       "group": "S07-G06",
       "sheet": 7,
@@ -3773,15 +3773,15 @@
         "size": "20 ml",
         "price": 2.2,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-13",
         "sourceGroup": "S07-G04"
       },
       {
         "key": "S07-G04-V02",
         "size": "30 ml",
         "price": 2.5,
-        "cartonQuantity": 180,
-        "supplierReference": null,
+        "cartonQuantity": 288,
+        "supplierReference": "1,14",
         "sourceGroup": "S07-G04"
       },
       {
@@ -3789,7 +3789,7 @@
         "size": "50 ml",
         "price": 3.2,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1--15",
         "sourceGroup": "S07-G04"
       },
       {
@@ -3797,11 +3797,11 @@
         "size": "100 ml",
         "price": 4,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1--16",
         "sourceGroup": "S07-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-8e434397b02c9767",
+    "pricingRevision": "2026-10-22-transcription-v2-523180870f304deb",
     "priceSource": {
       "group": "S07-G04",
       "sheet": 7,
@@ -3822,7 +3822,7 @@
         "size": "20 ml",
         "price": 2.2,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-5",
         "sourceGroup": "S07-G02"
       },
       {
@@ -3830,7 +3830,7 @@
         "size": "30 ml",
         "price": 2.5,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1,6",
         "sourceGroup": "S07-G02"
       },
       {
@@ -3838,7 +3838,7 @@
         "size": "50 ml",
         "price": 3.2,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-7",
         "sourceGroup": "S07-G02"
       },
       {
@@ -3846,11 +3846,11 @@
         "size": "100 ml",
         "price": 3.75,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-8",
         "sourceGroup": "S07-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-dec34c7426fb9722",
+    "pricingRevision": "2026-10-22-transcription-v2-0a60029855e56783",
     "priceSource": {
       "group": "S07-G02",
       "sheet": 7,
@@ -3871,7 +3871,7 @@
         "size": "20 ml",
         "price": 2.6,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "2-23",
         "sourceGroup": "S06-G05"
       },
       {
@@ -3879,7 +3879,7 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "2-24",
         "sourceGroup": "S06-G05"
       },
       {
@@ -3887,7 +3887,7 @@
         "size": "50 ml",
         "price": 3.5,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "2,25",
         "sourceGroup": "S06-G05"
       },
       {
@@ -3895,11 +3895,11 @@
         "size": "100 ml",
         "price": 4.3,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "2,26",
         "sourceGroup": "S06-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-3056847cb3fd7183",
+    "pricingRevision": "2026-10-22-transcription-v2-07ac7f5ea8e3d351",
     "priceSource": {
       "group": "S06-G05",
       "sheet": 6,
@@ -3920,7 +3920,7 @@
         "size": "20 ml",
         "price": 2.5,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-37",
         "sourceGroup": "S06-G01"
       },
       {
@@ -3928,7 +3928,7 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-38",
         "sourceGroup": "S06-G01"
       },
       {
@@ -3936,7 +3936,7 @@
         "size": "50 ml",
         "price": 3.5,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-39",
         "sourceGroup": "S06-G01"
       },
       {
@@ -3944,11 +3944,11 @@
         "size": "100 ml",
         "price": 4,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-40",
         "sourceGroup": "S06-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-97bf39f7efa675d7",
+    "pricingRevision": "2026-10-22-transcription-v2-5a4947ea1ef65f7c",
     "priceSource": {
       "group": "S06-G01",
       "sheet": 6,
@@ -3999,7 +3999,7 @@
         "sourceGroup": "S01-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-34ac7964de3cca55",
+    "pricingRevision": "2026-10-22-transcription-v2-34ac7964de3cca55",
     "priceSource": {
       "group": "S01-G02",
       "sheet": 1,
@@ -4020,7 +4020,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-69",
         "sourceGroup": "S02-G08"
       },
       {
@@ -4028,7 +4028,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-70",
         "sourceGroup": "S02-G08"
       },
       {
@@ -4036,11 +4036,11 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-71",
         "sourceGroup": "S02-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-9e041d6f8ca83c0a",
+    "pricingRevision": "2026-10-22-transcription-v2-cbf13aadae778ca1",
     "priceSource": {
       "group": "S02-G08",
       "sheet": 2,
@@ -4098,7 +4098,7 @@
         "sourceGroup": "S01-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-ac861436fa0f5957",
+    "pricingRevision": "2026-10-22-transcription-v2-ac861436fa0f5957",
     "priceSource": {
       "group": "S01-G08",
       "sheet": 1,
@@ -4118,7 +4118,7 @@
         "key": "S01-G06-V01",
         "size": "30 ml",
         "price": 4.3,
-        "cartonQuantity": 180,
+        "cartonQuantity": null,
         "supplierReference": "1-102",
         "sourceGroup": "S01-G06"
       },
@@ -4133,13 +4133,13 @@
       {
         "key": "S01-G06-V03",
         "size": "100 ml",
-        "price": 6.3,
-        "cartonQuantity": 120,
+        "price": 6.38,
+        "cartonQuantity": null,
         "supplierReference": "1-104",
         "sourceGroup": "S01-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-19c1c4a7c949f743",
+    "pricingRevision": "2026-10-22-transcription-v2-4ea11a49018b8444",
     "priceSource": {
       "group": "S01-G06",
       "sheet": 1,
@@ -4180,7 +4180,7 @@
         "sourceGroup": "S01-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-5f167f44d2ec1f15",
+    "pricingRevision": "2026-10-22-transcription-v2-5f167f44d2ec1f15",
     "priceSource": {
       "group": "S01-G04",
       "sheet": 1,
@@ -4221,7 +4221,7 @@
         "sourceGroup": "S01-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-fe30173283c3c31b",
+    "pricingRevision": "2026-10-22-transcription-v2-fe30173283c3c31b",
     "priceSource": {
       "group": "S01-G07",
       "sheet": 1,
@@ -4242,7 +4242,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-81",
         "sourceGroup": "S02-G12"
       },
       {
@@ -4250,7 +4250,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-82",
         "sourceGroup": "S02-G12"
       },
       {
@@ -4258,11 +4258,11 @@
         "size": "100 ml",
         "price": 6,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-83",
         "sourceGroup": "S02-G12"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6bc9b869f8f18b6f",
+    "pricingRevision": "2026-10-22-transcription-v2-dbcc3ccbc4d6b5b9",
     "priceSource": {
       "group": "S02-G12",
       "sheet": 2,
@@ -4329,7 +4329,7 @@
         "sourceGroup": "S13-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-a3bb74740ac4b56d",
+    "pricingRevision": "2026-10-22-transcription-v2-a3bb74740ac4b56d",
     "priceSource": {
       "group": "S13-G02",
       "sheet": 13,
@@ -4386,7 +4386,7 @@
         "sourceGroup": "S12-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-ce805a7a4a99bbf8",
+    "pricingRevision": "2026-10-22-transcription-v2-ce805a7a4a99bbf8",
     "priceSource": {
       "group": "S12-G02",
       "sheet": 12,
@@ -4443,7 +4443,7 @@
         "sourceGroup": "S12-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-7820aaa0b241a949",
+    "pricingRevision": "2026-10-22-transcription-v2-7820aaa0b241a949",
     "priceSource": {
       "group": "S12-G04",
       "sheet": 12,
@@ -4510,10 +4510,36 @@
         "sourceGroup": "S12-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-e65a2afad3436c38",
+    "pricingRevision": "2026-10-22-transcription-v2-e65a2afad3436c38",
     "priceSource": {
       "group": "S12-G08",
       "sheet": 12,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S01-G01",
+    "name": {
+      "ar": "لورا أبيض لامع بغطاء ذهبي · مرجع 1-89",
+      "en": "Laura white shining + gold · ref 1-89"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S01-G01-V01",
+        "size": "100 ml",
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": "1-89",
+        "sourceGroup": "S01-G01"
+      }
+    ],
+    "pricingRevision": "2026-10-22-transcription-v2-b4c0269d0c49fdba",
+    "priceSource": {
+      "group": "S01-G01",
+      "sheet": 1,
       "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
     }
   },
@@ -4552,7 +4578,7 @@
         "sourceGroup": "S01-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-762cc2767cbe2361",
+    "pricingRevision": "2026-10-22-transcription-v2-762cc2767cbe2361",
     "priceSource": {
       "group": "S01-G03",
       "sheet": 1,
@@ -4574,7 +4600,7 @@
         "size": "30 ml",
         "price": 4.75,
         "cartonQuantity": 180,
-        "supplierReference": "1-111",
+        "supplierReference": "1.111",
         "sourceGroup": "S01-G09"
       },
       {
@@ -4594,7 +4620,7 @@
         "sourceGroup": "S01-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-3639960ec8dbc6b7",
+    "pricingRevision": "2026-10-22-transcription-v2-ee68f7f90059f17e",
     "priceSource": {
       "group": "S01-G09",
       "sheet": 1,
@@ -4616,7 +4642,7 @@
         "size": "30 ml",
         "price": 5,
         "cartonQuantity": 180,
-        "supplierReference": "1-114",
+        "supplierReference": "1.114",
         "sourceGroup": "S01-G10"
       },
       {
@@ -4624,7 +4650,7 @@
         "size": "50 ml",
         "price": 5.5,
         "cartonQuantity": 160,
-        "supplierReference": "1-115",
+        "supplierReference": "1.115",
         "sourceGroup": "S01-G10"
       },
       {
@@ -4632,11 +4658,11 @@
         "size": "100 ml",
         "price": 6.5,
         "cartonQuantity": 120,
-        "supplierReference": "1-116",
+        "supplierReference": "1.116",
         "sourceGroup": "S01-G10"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-dc013b821538d675",
+    "pricingRevision": "2026-10-22-transcription-v2-0d30e2413d902984",
     "priceSource": {
       "group": "S01-G10",
       "sheet": 1,
@@ -4678,7 +4704,7 @@
         "sourceGroup": "S01-G11"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-9dd2376fd02fb67d",
+    "pricingRevision": "2026-10-22-transcription-v2-9dd2376fd02fb67d",
     "priceSource": {
       "group": "S01-G11",
       "sheet": 1,
@@ -4720,7 +4746,7 @@
         "sourceGroup": "S01-G12"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0c9ebb747ee9eba9",
+    "pricingRevision": "2026-10-22-transcription-v2-0c9ebb747ee9eba9",
     "priceSource": {
       "group": "S01-G12",
       "sheet": 1,
@@ -4762,7 +4788,7 @@
         "sourceGroup": "S01-G13"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-966683bd5b05f35f",
+    "pricingRevision": "2026-10-22-transcription-v2-966683bd5b05f35f",
     "priceSource": {
       "group": "S01-G13",
       "sheet": 1,
@@ -4804,7 +4830,7 @@
         "sourceGroup": "S01-G14"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c59339c8c40ef0df",
+    "pricingRevision": "2026-10-22-transcription-v2-c59339c8c40ef0df",
     "priceSource": {
       "group": "S01-G14",
       "sheet": 1,
@@ -4838,7 +4864,7 @@
         "sourceGroup": "S01-G15"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-57448ab49a30cdec",
+    "pricingRevision": "2026-10-22-transcription-v2-57448ab49a30cdec",
     "priceSource": {
       "group": "S01-G15",
       "sheet": 1,
@@ -4860,7 +4886,7 @@
         "size": "30 ml",
         "price": 3.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-51",
         "sourceGroup": "S02-G02"
       },
       {
@@ -4868,7 +4894,7 @@
         "size": "50 ml",
         "price": 4.1,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-52",
         "sourceGroup": "S02-G02"
       },
       {
@@ -4876,11 +4902,11 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-53",
         "sourceGroup": "S02-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-b94669de4e5a8030",
+    "pricingRevision": "2026-10-22-transcription-v2-d843cda92e8b0151",
     "priceSource": {
       "group": "S02-G02",
       "sheet": 2,
@@ -4902,7 +4928,7 @@
         "size": "30 ml",
         "price": 3.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-54",
         "sourceGroup": "S02-G03"
       },
       {
@@ -4910,7 +4936,7 @@
         "size": "50 ml",
         "price": 4.1,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-55",
         "sourceGroup": "S02-G03"
       },
       {
@@ -4918,11 +4944,11 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-56",
         "sourceGroup": "S02-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-fc239a238f43d493",
+    "pricingRevision": "2026-10-22-transcription-v2-c155b1bc0d9520ae",
     "priceSource": {
       "group": "S02-G03",
       "sheet": 2,
@@ -4944,7 +4970,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-60",
         "sourceGroup": "S02-G05"
       },
       {
@@ -4952,7 +4978,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-61",
         "sourceGroup": "S02-G05"
       },
       {
@@ -4960,11 +4986,11 @@
         "size": "100 ml",
         "price": 5.7,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-62",
         "sourceGroup": "S02-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-7974db706d4d7ba8",
+    "pricingRevision": "2026-10-22-transcription-v2-67a7433346114eee",
     "priceSource": {
       "group": "S02-G05",
       "sheet": 2,
@@ -4986,7 +5012,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-66",
         "sourceGroup": "S02-G07"
       },
       {
@@ -4994,7 +5020,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-67",
         "sourceGroup": "S02-G07"
       },
       {
@@ -5002,11 +5028,11 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-68",
         "sourceGroup": "S02-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-855387bf3102da61",
+    "pricingRevision": "2026-10-22-transcription-v2-4d153da245b5cc5b",
     "priceSource": {
       "group": "S02-G07",
       "sheet": 2,
@@ -5028,7 +5054,7 @@
         "size": "30 ml",
         "price": 4,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-72",
         "sourceGroup": "S02-G09"
       },
       {
@@ -5036,7 +5062,7 @@
         "size": "50 ml",
         "price": 4.5,
         "cartonQuantity": 160,
-        "supplierReference": null,
+        "supplierReference": "1-73",
         "sourceGroup": "S02-G09"
       },
       {
@@ -5044,13 +5070,173 @@
         "size": "100 ml",
         "price": 5.5,
         "cartonQuantity": 120,
-        "supplierReference": null,
+        "supplierReference": "1-74",
         "sourceGroup": "S02-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-8d4486cbc78cf770",
+    "pricingRevision": "2026-10-22-transcription-v2-b7a67201346fa7b8",
     "priceSource": {
       "group": "S02-G09",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G10",
+    "name": {
+      "ar": "لورا أسود غير لامع بغطاء ذهبي · مرجع 1-75",
+      "en": "Laura black mat + gold · ref 1-75"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G10-V01",
+        "size": "30 ml",
+        "price": 4.2,
+        "cartonQuantity": 180,
+        "supplierReference": "1-75",
+        "sourceGroup": "S02-G10"
+      },
+      {
+        "key": "S02-G10-V02",
+        "size": "50 ml",
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-76",
+        "sourceGroup": "S02-G10"
+      },
+      {
+        "key": "S02-G10-V03",
+        "size": "100 ml",
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": "1-77",
+        "sourceGroup": "S02-G10"
+      }
+    ],
+    "pricingRevision": "2026-10-22-transcription-v2-5d5120fff64105a1",
+    "priceSource": {
+      "group": "S02-G10",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G11",
+    "name": {
+      "ar": "لورا أسود غير لامع بغطاء ذهبي · مرجع 1-78",
+      "en": "Laura black mat + gold · ref 1-78"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G11-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": "1-78",
+        "sourceGroup": "S02-G11"
+      },
+      {
+        "key": "S02-G11-V02",
+        "size": "50 ml",
+        "price": 4.5,
+        "cartonQuantity": 160,
+        "supplierReference": "1-79",
+        "sourceGroup": "S02-G11"
+      },
+      {
+        "key": "S02-G11-V03",
+        "size": "100 ml",
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": "1-80",
+        "sourceGroup": "S02-G11"
+      }
+    ],
+    "pricingRevision": "2026-10-22-transcription-v2-8bfd92367c18fbab",
+    "priceSource": {
+      "group": "S02-G11",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G13",
+    "name": {
+      "ar": "لورا أبيض لامع بغطاء ذهبي · مرجع 1-84",
+      "en": "Laura white shining + gold · ref 1-84"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G13-V01",
+        "size": "30 ml",
+        "price": 4.2,
+        "cartonQuantity": 180,
+        "supplierReference": "1-84",
+        "sourceGroup": "S02-G13"
+      },
+      {
+        "key": "S02-G13-V02",
+        "size": "50 ml",
+        "price": 4.7,
+        "cartonQuantity": 160,
+        "supplierReference": "1-85",
+        "sourceGroup": "S02-G13"
+      },
+      {
+        "key": "S02-G13-V03",
+        "size": "100 ml",
+        "price": 6,
+        "cartonQuantity": 120,
+        "supplierReference": "1-86",
+        "sourceGroup": "S02-G13"
+      }
+    ],
+    "pricingRevision": "2026-10-22-transcription-v2-7251447faa67c7ec",
+    "priceSource": {
+      "group": "S02-G13",
+      "sheet": 2,
+      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    }
+  },
+  {
+    "id": "SUP-S02-G14",
+    "name": {
+      "ar": "لورا أبيض لامع بغطاء ذهبي · مرجع 1-87",
+      "en": "Laura white shining + gold · ref 1-87"
+    },
+    "category": "bottles",
+    "image": "./images/logo-transparent.png",
+    "photoPlaceholder": true,
+    "variants": [
+      {
+        "key": "S02-G14-V01",
+        "size": "30 ml",
+        "price": 4,
+        "cartonQuantity": 180,
+        "supplierReference": "1-87",
+        "sourceGroup": "S02-G14"
+      },
+      {
+        "key": "S02-G14-V02",
+        "size": "50 ml",
+        "price": 4.6,
+        "cartonQuantity": 160,
+        "supplierReference": "1-88",
+        "sourceGroup": "S02-G14"
+      }
+    ],
+    "pricingRevision": "2026-10-22-transcription-v2-1121cc0c2e342ad1",
+    "priceSource": {
+      "group": "S02-G14",
       "sheet": 2,
       "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
     }
@@ -5082,7 +5268,7 @@
         "sourceGroup": "S03-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-99bef12f60b59c4c",
+    "pricingRevision": "2026-10-22-transcription-v2-99bef12f60b59c4c",
     "priceSource": {
       "group": "S03-G03",
       "sheet": 3,
@@ -5108,7 +5294,7 @@
         "sourceGroup": "S03-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-f3ecbee201687e7b",
+    "pricingRevision": "2026-10-22-transcription-v2-f3ecbee201687e7b",
     "priceSource": {
       "group": "S03-G06",
       "sheet": 3,
@@ -5150,7 +5336,7 @@
         "sourceGroup": "S03-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-2716b531627119da",
+    "pricingRevision": "2026-10-22-transcription-v2-2716b531627119da",
     "priceSource": {
       "group": "S03-G08",
       "sheet": 3,
@@ -5184,7 +5370,7 @@
         "sourceGroup": "S03-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-e16a0b0bd9145bbc",
+    "pricingRevision": "2026-10-22-transcription-v2-e16a0b0bd9145bbc",
     "priceSource": {
       "group": "S03-G09",
       "sheet": 3,
@@ -5210,7 +5396,7 @@
         "sourceGroup": "S03-G12"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-744a1a5b412fd49b",
+    "pricingRevision": "2026-10-22-transcription-v2-744a1a5b412fd49b",
     "priceSource": {
       "group": "S03-G12",
       "sheet": 3,
@@ -5244,7 +5430,7 @@
         "sourceGroup": "S03-G15"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c550c75180de6bca",
+    "pricingRevision": "2026-10-22-transcription-v2-c550c75180de6bca",
     "priceSource": {
       "group": "S03-G15",
       "sheet": 3,
@@ -5302,7 +5488,7 @@
         "sourceGroup": "S04-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-fa4721aa6b8b55ab",
+    "pricingRevision": "2026-10-22-transcription-v2-fa4721aa6b8b55ab",
     "priceSource": {
       "group": "S04-G03",
       "sheet": 4,
@@ -5376,7 +5562,7 @@
         "sourceGroup": "S04-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-9fca6bc91d4a0db3",
+    "pricingRevision": "2026-10-22-transcription-v2-9fca6bc91d4a0db3",
     "priceSource": {
       "group": "S04-G04",
       "sheet": 4,
@@ -5450,7 +5636,7 @@
         "sourceGroup": "S04-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-aecec8632df137f1",
+    "pricingRevision": "2026-10-22-transcription-v2-aecec8632df137f1",
     "priceSource": {
       "group": "S04-G05",
       "sheet": 4,
@@ -5476,7 +5662,7 @@
         "sourceGroup": "S04-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6ce2737d90059ab9",
+    "pricingRevision": "2026-10-22-transcription-v2-6ce2737d90059ab9",
     "priceSource": {
       "group": "S04-G06",
       "sheet": 4,
@@ -5502,7 +5688,7 @@
         "sourceGroup": "S04-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-de3ecbfb1dee63a0",
+    "pricingRevision": "2026-10-22-transcription-v2-de3ecbfb1dee63a0",
     "priceSource": {
       "group": "S04-G07",
       "sheet": 4,
@@ -5528,7 +5714,7 @@
         "sourceGroup": "S04-G11"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c99a80e5ea7a1cf7",
+    "pricingRevision": "2026-10-22-transcription-v2-c99a80e5ea7a1cf7",
     "priceSource": {
       "group": "S04-G11",
       "sheet": 4,
@@ -5549,12 +5735,12 @@
         "key": "S04-G12-V01",
         "size": "10 ml",
         "price": 5,
-        "cartonQuantity": 290,
+        "cartonQuantity": "290/6pc",
         "supplierReference": "0395-13",
         "sourceGroup": "S04-G12"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-802ff8d94d469844",
+    "pricingRevision": "2026-10-22-transcription-v2-841c3dbd4c6f4835",
     "priceSource": {
       "group": "S04-G12",
       "sheet": 4,
@@ -5580,7 +5766,7 @@
         "sourceGroup": "S04-G13"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6dc129bdda375534",
+    "pricingRevision": "2026-10-22-transcription-v2-6dc129bdda375534",
     "priceSource": {
       "group": "S04-G13",
       "sheet": 4,
@@ -5622,7 +5808,7 @@
         "sourceGroup": "S04-G14"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6afef6dfe9469893",
+    "pricingRevision": "2026-10-22-transcription-v2-6afef6dfe9469893",
     "priceSource": {
       "group": "S04-G14",
       "sheet": 4,
@@ -5664,7 +5850,7 @@
         "sourceGroup": "S04-G15"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-68d9df9467e6a393",
+    "pricingRevision": "2026-10-22-transcription-v2-68d9df9467e6a393",
     "priceSource": {
       "group": "S04-G15",
       "sheet": 4,
@@ -5690,7 +5876,7 @@
         "sourceGroup": "S04-G16"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-1e4f42591d967a8e",
+    "pricingRevision": "2026-10-22-transcription-v2-1e4f42591d967a8e",
     "priceSource": {
       "group": "S04-G16",
       "sheet": 4,
@@ -5712,7 +5898,7 @@
         "size": "30 ml",
         "price": 1.7,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       },
       {
@@ -5720,7 +5906,7 @@
         "size": "50 ml",
         "price": 2,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       },
       {
@@ -5728,7 +5914,7 @@
         "size": "100 ml",
         "price": 2.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       },
       {
@@ -5736,7 +5922,7 @@
         "size": "150 ml",
         "price": 3,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       },
       {
@@ -5744,7 +5930,7 @@
         "size": "200 ml",
         "price": 3.4,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       },
       {
@@ -5752,19 +5938,19 @@
         "size": "250 ml",
         "price": 4,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       },
       {
         "key": "S05-G01-V07",
         "size": "500 ml",
         "price": 5,
-        "cartonQuantity": null,
-        "supplierReference": null,
+        "cartonQuantity": 160,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-714748526436eeaf",
+    "pricingRevision": "2026-10-22-transcription-v2-cc757a8cf9d077ba",
     "priceSource": {
       "group": "S05-G01",
       "sheet": 5,
@@ -5786,7 +5972,7 @@
         "size": "30 ml",
         "price": 1.7,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       },
       {
@@ -5794,7 +5980,7 @@
         "size": "50 ml",
         "price": 2,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       },
       {
@@ -5802,7 +5988,7 @@
         "size": "100 ml",
         "price": 2.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       },
       {
@@ -5810,7 +5996,7 @@
         "size": "150 ml",
         "price": 3,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       },
       {
@@ -5818,7 +6004,7 @@
         "size": "200 ml",
         "price": 3.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       },
       {
@@ -5826,7 +6012,7 @@
         "size": "250 ml",
         "price": 4,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       },
       {
@@ -5834,11 +6020,11 @@
         "size": "500 ml",
         "price": 5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر المراجع أسفله",
         "sourceGroup": "S05-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-3285c11ed2844bbf",
+    "pricingRevision": "2026-10-22-transcription-v2-c0d85173c59f9403",
     "priceSource": {
       "group": "S05-G02",
       "sheet": 5,
@@ -5860,7 +6046,7 @@
         "size": "30 ml",
         "price": 1.7,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       },
       {
@@ -5868,7 +6054,7 @@
         "size": "50 ml",
         "price": 2,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       },
       {
@@ -5876,7 +6062,7 @@
         "size": "100 ml",
         "price": 2.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       },
       {
@@ -5884,7 +6070,7 @@
         "size": "150 ml",
         "price": 3,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       },
       {
@@ -5892,7 +6078,7 @@
         "size": "200 ml",
         "price": 3.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       },
       {
@@ -5900,7 +6086,7 @@
         "size": "250 ml",
         "price": 4,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       },
       {
@@ -5908,11 +6094,11 @@
         "size": "500 ml",
         "price": 5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-32464e9337ee2727",
+    "pricingRevision": "2026-10-22-transcription-v2-ade388c5f4295079",
     "priceSource": {
       "group": "S05-G03",
       "sheet": 5,
@@ -5934,7 +6120,7 @@
         "size": "30 ml",
         "price": 1.7,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       },
       {
@@ -5942,7 +6128,7 @@
         "size": "50 ml",
         "price": 2,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       },
       {
@@ -5950,7 +6136,7 @@
         "size": "100 ml",
         "price": 2.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       },
       {
@@ -5958,7 +6144,7 @@
         "size": "150 ml",
         "price": 3,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       },
       {
@@ -5966,7 +6152,7 @@
         "size": "200 ml",
         "price": 3.5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       },
       {
@@ -5974,7 +6160,7 @@
         "size": "250 ml",
         "price": 4,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       },
       {
@@ -5982,11 +6168,11 @@
         "size": "500 ml",
         "price": 5,
         "cartonQuantity": null,
-        "supplierReference": null,
+        "supplierReference": "انظر الملاحظات أسفله",
         "sourceGroup": "S05-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-36fa9a6a4b288255",
+    "pricingRevision": "2026-10-22-transcription-v2-90a9415fa826e279",
     "priceSource": {
       "group": "S05-G04",
       "sheet": 5,
@@ -6012,7 +6198,7 @@
         "sourceGroup": "S05-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-ff7965de5dcb6ed9",
+    "pricingRevision": "2026-10-22-transcription-v2-ff7965de5dcb6ed9",
     "priceSource": {
       "group": "S05-G06",
       "sheet": 5,
@@ -6062,7 +6248,7 @@
         "sourceGroup": "S05-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-23f57644e0354ef8",
+    "pricingRevision": "2026-10-22-transcription-v2-23f57644e0354ef8",
     "priceSource": {
       "group": "S05-G07",
       "sheet": 5,
@@ -6084,11 +6270,11 @@
         "size": "60 ml",
         "price": 18,
         "cartonQuantity": 102,
-        "supplierReference": "0395-8",
+        "supplierReference": "0393-9",
         "sourceGroup": "S05-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-9cdde3978fa94a65",
+    "pricingRevision": "2026-10-22-transcription-v2-052e2407840e4af1",
     "priceSource": {
       "group": "S05-G08",
       "sheet": 5,
@@ -6110,7 +6296,7 @@
         "size": "20 ml",
         "price": 3.3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-41",
         "sourceGroup": "S06-G02"
       },
       {
@@ -6118,7 +6304,7 @@
         "size": "30 ml",
         "price": 3.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-42",
         "sourceGroup": "S06-G02"
       },
       {
@@ -6126,7 +6312,7 @@
         "size": "50 ml",
         "price": 4.4,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-43",
         "sourceGroup": "S06-G02"
       },
       {
@@ -6134,11 +6320,11 @@
         "size": "100 ml",
         "price": 5.2,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1,44/",
         "sourceGroup": "S06-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-72662ae50e0f36d3",
+    "pricingRevision": "2026-10-22-transcription-v2-375943add53b213b",
     "priceSource": {
       "group": "S06-G02",
       "sheet": 6,
@@ -6160,7 +6346,7 @@
         "size": "20 ml",
         "price": 3.3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "2,19",
         "sourceGroup": "S06-G04"
       },
       {
@@ -6168,7 +6354,7 @@
         "size": "30 ml",
         "price": 3.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "2,2",
         "sourceGroup": "S06-G04"
       },
       {
@@ -6176,7 +6362,7 @@
         "size": "50 ml",
         "price": 4.4,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "2,21",
         "sourceGroup": "S06-G04"
       },
       {
@@ -6184,11 +6370,11 @@
         "size": "100 ml",
         "price": 5,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "2,22",
         "sourceGroup": "S06-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6437ac543b9eabfa",
+    "pricingRevision": "2026-10-22-transcription-v2-0deff72e5d44bb62",
     "priceSource": {
       "group": "S06-G04",
       "sheet": 6,
@@ -6210,7 +6396,7 @@
         "size": "20 ml",
         "price": 2.5,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "2-41",
         "sourceGroup": "S06-G06"
       },
       {
@@ -6218,15 +6404,15 @@
         "size": "30 ml",
         "price": 2.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "2-42",
         "sourceGroup": "S06-G06"
       },
       {
         "key": "S06-G06-V03",
         "size": "50 ml",
         "price": 3.5,
-        "cartonQuantity": 140,
-        "supplierReference": null,
+        "cartonQuantity": "140/252",
+        "supplierReference": "2,43",
         "sourceGroup": "S06-G06"
       },
       {
@@ -6234,11 +6420,11 @@
         "size": "100 ml",
         "price": 4.3,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "2,44",
         "sourceGroup": "S06-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-23a5793be99a732f",
+    "pricingRevision": "2026-10-22-transcription-v2-60427bddb1d85bdc",
     "priceSource": {
       "group": "S06-G06",
       "sheet": 6,
@@ -6260,7 +6446,7 @@
         "size": "20 ml",
         "price": 2.3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-29",
         "sourceGroup": "S06-G07"
       },
       {
@@ -6268,15 +6454,7 @@
         "size": "30 ml",
         "price": 2.5,
         "cartonQuantity": 180,
-        "supplierReference": null,
-        "sourceGroup": "S06-G07"
-      },
-      {
-        "key": "S06-G07-V03",
-        "size": "50 ml",
-        "price": 3.25,
-        "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-30/2-4",
         "sourceGroup": "S06-G07"
       },
       {
@@ -6284,11 +6462,11 @@
         "size": "100 ml",
         "price": 4,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-32",
         "sourceGroup": "S06-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-289aa63582883377",
+    "pricingRevision": "2026-10-22-transcription-v2-999adb7dc296d5a5",
     "priceSource": {
       "group": "S06-G07",
       "sheet": 6,
@@ -6310,7 +6488,7 @@
         "size": "20 ml",
         "price": 2.3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-33",
         "sourceGroup": "S06-G08"
       },
       {
@@ -6318,7 +6496,7 @@
         "size": "30 ml",
         "price": 2.5,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-34/2-5",
         "sourceGroup": "S06-G08"
       },
       {
@@ -6326,7 +6504,7 @@
         "size": "50 ml",
         "price": 3.25,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-35",
         "sourceGroup": "S06-G08"
       },
       {
@@ -6334,11 +6512,11 @@
         "size": "100 ml",
         "price": 4,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-36",
         "sourceGroup": "S06-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6222f0465bf4d538",
+    "pricingRevision": "2026-10-22-transcription-v2-8e3ac1ba7d0264b6",
     "priceSource": {
       "group": "S06-G08",
       "sheet": 6,
@@ -6360,7 +6538,7 @@
         "size": "20 ml",
         "price": 3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-9",
         "sourceGroup": "S07-G03"
       },
       {
@@ -6368,7 +6546,7 @@
         "size": "30 ml",
         "price": 3.3,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-10",
         "sourceGroup": "S07-G03"
       },
       {
@@ -6376,7 +6554,7 @@
         "size": "50 ml",
         "price": 3.8,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-11",
         "sourceGroup": "S07-G03"
       },
       {
@@ -6384,11 +6562,11 @@
         "size": "100 ml",
         "price": 4.75,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-12",
         "sourceGroup": "S07-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-91a433b135d72cb2",
+    "pricingRevision": "2026-10-22-transcription-v2-ebb820b22713c26a",
     "priceSource": {
       "group": "S07-G03",
       "sheet": 7,
@@ -6410,7 +6588,7 @@
         "size": "20 ml",
         "price": 3.3,
         "cartonQuantity": 280,
-        "supplierReference": null,
+        "supplierReference": "1-25",
         "sourceGroup": "S07-G07"
       },
       {
@@ -6418,7 +6596,7 @@
         "size": "30 ml",
         "price": 3.8,
         "cartonQuantity": 180,
-        "supplierReference": null,
+        "supplierReference": "1-26",
         "sourceGroup": "S07-G07"
       },
       {
@@ -6426,7 +6604,7 @@
         "size": "50 ml",
         "price": 4.4,
         "cartonQuantity": 140,
-        "supplierReference": null,
+        "supplierReference": "1-27",
         "sourceGroup": "S07-G07"
       },
       {
@@ -6434,11 +6612,11 @@
         "size": "100 ml",
         "price": 5.2,
         "cartonQuantity": 105,
-        "supplierReference": null,
+        "supplierReference": "1-28",
         "sourceGroup": "S07-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-b902b6cfd12f9272",
+    "pricingRevision": "2026-10-22-transcription-v2-38ba196c2e6092b7",
     "priceSource": {
       "group": "S07-G07",
       "sheet": 7,
@@ -6472,7 +6650,7 @@
         "sourceGroup": "S07-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-1e339447919efd5e",
+    "pricingRevision": "2026-10-22-transcription-v2-1e339447919efd5e",
     "priceSource": {
       "group": "S07-G08",
       "sheet": 7,
@@ -6506,7 +6684,7 @@
         "sourceGroup": "S07-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-fd964b64f13aef69",
+    "pricingRevision": "2026-10-22-transcription-v2-fd964b64f13aef69",
     "priceSource": {
       "group": "S07-G09",
       "sheet": 7,
@@ -6540,7 +6718,7 @@
         "sourceGroup": "S08-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-bda1caaa21ae86f7",
+    "pricingRevision": "2026-10-22-transcription-v2-bda1caaa21ae86f7",
     "priceSource": {
       "group": "S08-G07",
       "sheet": 8,
@@ -6574,7 +6752,7 @@
         "sourceGroup": "S08-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0f145577ef732aa6",
+    "pricingRevision": "2026-10-22-transcription-v2-0f145577ef732aa6",
     "priceSource": {
       "group": "S08-G08",
       "sheet": 8,
@@ -6611,7 +6789,7 @@
         "key": "S09-G02-V03",
         "size": "30 ml",
         "price": 2.5,
-        "cartonQuantity": 330,
+        "cartonQuantity": 264,
         "supplierReference": null,
         "sourceGroup": "S09-G02"
       },
@@ -6632,7 +6810,7 @@
         "sourceGroup": "S09-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-adf152a0256caa9c",
+    "pricingRevision": "2026-10-22-transcription-v2-912106babb433e70",
     "priceSource": {
       "group": "S09-G02",
       "sheet": 9,
@@ -6690,7 +6868,7 @@
         "sourceGroup": "S09-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-9a463cf730b389f8",
+    "pricingRevision": "2026-10-22-transcription-v2-9a463cf730b389f8",
     "priceSource": {
       "group": "S09-G05",
       "sheet": 9,
@@ -6716,7 +6894,7 @@
         "sourceGroup": "S10-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-3ca3e1319b9b048b",
+    "pricingRevision": "2026-10-22-transcription-v2-3ca3e1319b9b048b",
     "priceSource": {
       "group": "S10-G02",
       "sheet": 10,
@@ -6774,7 +6952,7 @@
         "sourceGroup": "S10-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-b46e72c26bcb67f8",
+    "pricingRevision": "2026-10-22-transcription-v2-b46e72c26bcb67f8",
     "priceSource": {
       "group": "S10-G05",
       "sheet": 10,
@@ -6800,7 +6978,7 @@
         "sourceGroup": "S10-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-afd545bfdc2e8f3f",
+    "pricingRevision": "2026-10-22-transcription-v2-afd545bfdc2e8f3f",
     "priceSource": {
       "group": "S10-G06",
       "sheet": 10,
@@ -6826,7 +7004,7 @@
         "sourceGroup": "S10-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-130741a4f557402c",
+    "pricingRevision": "2026-10-22-transcription-v2-130741a4f557402c",
     "priceSource": {
       "group": "S10-G08",
       "sheet": 10,
@@ -6852,7 +7030,7 @@
         "sourceGroup": "S10-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-be08c929672a663a",
+    "pricingRevision": "2026-10-22-transcription-v2-be08c929672a663a",
     "priceSource": {
       "group": "S10-G09",
       "sheet": 10,
@@ -6902,7 +7080,7 @@
         "sourceGroup": "S10-G10"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-f4d16792322f5fa5",
+    "pricingRevision": "2026-10-22-transcription-v2-f4d16792322f5fa5",
     "priceSource": {
       "group": "S10-G10",
       "sheet": 10,
@@ -6944,7 +7122,7 @@
         "sourceGroup": "S10-G11"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-d4d53ff18f1c5c5b",
+    "pricingRevision": "2026-10-22-transcription-v2-d4d53ff18f1c5c5b",
     "priceSource": {
       "group": "S10-G11",
       "sheet": 10,
@@ -6965,7 +7143,7 @@
         "key": "S10-G12-V01",
         "size": "ذهبي / gold",
         "price": 2.15,
-        "cartonQuantity": 1000,
+        "cartonQuantity": null,
         "supplierReference": null,
         "sourceGroup": "S10-G12"
       },
@@ -6981,12 +7159,12 @@
         "key": "S10-G12-V03",
         "size": "أسود / black",
         "price": 2.15,
-        "cartonQuantity": 1000,
+        "cartonQuantity": null,
         "supplierReference": null,
         "sourceGroup": "S10-G12"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-964aca08a4a61388",
+    "pricingRevision": "2026-10-22-transcription-v2-83b20f82638b2ea4",
     "priceSource": {
       "group": "S10-G12",
       "sheet": 10,
@@ -7020,7 +7198,7 @@
         "sourceGroup": "S10-G13"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-5c6c34754a601019",
+    "pricingRevision": "2026-10-22-transcription-v2-5c6c34754a601019",
     "priceSource": {
       "group": "S10-G13",
       "sheet": 10,
@@ -7046,7 +7224,7 @@
         "sourceGroup": "S10-G14"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-223e84857f799cf7",
+    "pricingRevision": "2026-10-22-transcription-v2-223e84857f799cf7",
     "priceSource": {
       "group": "S10-G14",
       "sheet": 10,
@@ -7067,12 +7245,12 @@
         "key": "S10-G15-V01",
         "size": "50 ml",
         "price": 6.5,
-        "cartonQuantity": 320,
+        "cartonQuantity": 120,
         "supplierReference": null,
         "sourceGroup": "S10-G15"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-f6f1d8254947e24d",
+    "pricingRevision": "2026-10-22-transcription-v2-2b3d299d9b97b97d",
     "priceSource": {
       "group": "S10-G15",
       "sheet": 10,
@@ -7093,12 +7271,12 @@
         "key": "S10-G16-V01",
         "size": "50 ml",
         "price": 6.5,
-        "cartonQuantity": 320,
+        "cartonQuantity": 120,
         "supplierReference": null,
         "sourceGroup": "S10-G16"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-bcf898a58a92c79d",
+    "pricingRevision": "2026-10-22-transcription-v2-383c55f36db9e182",
     "priceSource": {
       "group": "S10-G16",
       "sheet": 10,
@@ -7140,7 +7318,7 @@
         "sourceGroup": "S10-G17"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c91f8b04598d41bc",
+    "pricingRevision": "2026-10-22-transcription-v2-c91f8b04598d41bc",
     "priceSource": {
       "group": "S10-G17",
       "sheet": 10,
@@ -7166,7 +7344,7 @@
         "sourceGroup": "S11-G02"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0a6cd4c69ec9599b",
+    "pricingRevision": "2026-10-22-transcription-v2-0a6cd4c69ec9599b",
     "priceSource": {
       "group": "S11-G02",
       "sheet": 11,
@@ -7192,7 +7370,7 @@
         "sourceGroup": "S11-G04"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6b93306e4d8c660b",
+    "pricingRevision": "2026-10-22-transcription-v2-6b93306e4d8c660b",
     "priceSource": {
       "group": "S11-G04",
       "sheet": 11,
@@ -7218,7 +7396,7 @@
         "sourceGroup": "S11-G05"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-48e506704abd185f",
+    "pricingRevision": "2026-10-22-transcription-v2-48e506704abd185f",
     "priceSource": {
       "group": "S11-G05",
       "sheet": 11,
@@ -7244,7 +7422,7 @@
         "sourceGroup": "S11-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-6d368f911560fdce",
+    "pricingRevision": "2026-10-22-transcription-v2-6d368f911560fdce",
     "priceSource": {
       "group": "S11-G06",
       "sheet": 11,
@@ -7270,7 +7448,7 @@
         "sourceGroup": "S11-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-44b64dc9c7a1da5a",
+    "pricingRevision": "2026-10-22-transcription-v2-44b64dc9c7a1da5a",
     "priceSource": {
       "group": "S11-G07",
       "sheet": 11,
@@ -7312,7 +7490,7 @@
         "sourceGroup": "S11-G09"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-343bfe12a12c02d6",
+    "pricingRevision": "2026-10-22-transcription-v2-343bfe12a12c02d6",
     "priceSource": {
       "group": "S11-G09",
       "sheet": 11,
@@ -7338,7 +7516,7 @@
         "sourceGroup": "S11-G11"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-cfcd9ac4b446261c",
+    "pricingRevision": "2026-10-22-transcription-v2-cfcd9ac4b446261c",
     "priceSource": {
       "group": "S11-G11",
       "sheet": 11,
@@ -7364,7 +7542,7 @@
         "sourceGroup": "S11-G12"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-c6e2ed7b8c8d98bd",
+    "pricingRevision": "2026-10-22-transcription-v2-c6e2ed7b8c8d98bd",
     "priceSource": {
       "group": "S11-G12",
       "sheet": 11,
@@ -7390,7 +7568,7 @@
         "sourceGroup": "S11-G13"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-804726b5c13351cc",
+    "pricingRevision": "2026-10-22-transcription-v2-804726b5c13351cc",
     "priceSource": {
       "group": "S11-G13",
       "sheet": 11,
@@ -7416,7 +7594,7 @@
         "sourceGroup": "S11-G14"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-387a2b4d9303ce68",
+    "pricingRevision": "2026-10-22-transcription-v2-387a2b4d9303ce68",
     "priceSource": {
       "group": "S11-G14",
       "sheet": 11,
@@ -7442,7 +7620,7 @@
         "sourceGroup": "S11-G15"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-ed86a3c8bbed42c9",
+    "pricingRevision": "2026-10-22-transcription-v2-ed86a3c8bbed42c9",
     "priceSource": {
       "group": "S11-G15",
       "sheet": 11,
@@ -7468,7 +7646,7 @@
         "sourceGroup": "S11-G16"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-3467e04371b1a4ee",
+    "pricingRevision": "2026-10-22-transcription-v2-3467e04371b1a4ee",
     "priceSource": {
       "group": "S11-G16",
       "sheet": 11,
@@ -7494,7 +7672,7 @@
         "sourceGroup": "S11-G17"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-71bed0cff82745c2",
+    "pricingRevision": "2026-10-22-transcription-v2-71bed0cff82745c2",
     "priceSource": {
       "group": "S11-G17",
       "sheet": 11,
@@ -7552,7 +7730,7 @@
         "sourceGroup": "S12-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-0431226b5fabe763",
+    "pricingRevision": "2026-10-22-transcription-v2-0431226b5fabe763",
     "priceSource": {
       "group": "S12-G01",
       "sheet": 12,
@@ -7610,7 +7788,7 @@
         "sourceGroup": "S12-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-08a7c5f27615a80a",
+    "pricingRevision": "2026-10-22-transcription-v2-08a7c5f27615a80a",
     "priceSource": {
       "group": "S12-G03",
       "sheet": 12,
@@ -7668,7 +7846,7 @@
         "sourceGroup": "S13-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-034c74c247112d74",
+    "pricingRevision": "2026-10-22-transcription-v2-034c74c247112d74",
     "priceSource": {
       "group": "S13-G01",
       "sheet": 13,
@@ -7726,7 +7904,7 @@
         "sourceGroup": "S13-G06"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-35f409b6057cd6f0",
+    "pricingRevision": "2026-10-22-transcription-v2-35f409b6057cd6f0",
     "priceSource": {
       "group": "S13-G06",
       "sheet": 13,
@@ -7784,7 +7962,7 @@
         "sourceGroup": "S13-G07"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-2371d7c72f54c7e2",
+    "pricingRevision": "2026-10-22-transcription-v2-2371d7c72f54c7e2",
     "priceSource": {
       "group": "S13-G07",
       "sheet": 13,
@@ -7842,7 +8020,7 @@
         "sourceGroup": "S13-G08"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-cdae09374c4f23df",
+    "pricingRevision": "2026-10-22-transcription-v2-cdae09374c4f23df",
     "priceSource": {
       "group": "S13-G08",
       "sheet": 13,
@@ -7876,7 +8054,7 @@
         "sourceGroup": "S11-G01"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-5efb4c0bbf424195",
+    "pricingRevision": "2026-10-22-transcription-v2-5efb4c0bbf424195",
     "priceSource": {
       "group": "S11-G01",
       "sheet": 11,
@@ -7902,7 +8080,7 @@
         "sourceGroup": "S11-G03"
       }
     ],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-d06c16411425c538",
+    "pricingRevision": "2026-10-22-transcription-v2-d06c16411425c538",
     "priceSource": {
       "group": "S11-G03",
       "sheet": 11,

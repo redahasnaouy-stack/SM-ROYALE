@@ -1,9 +1,9 @@
 {
-  "revision": "2026-10-22-supplier-sheet-v1",
+  "revision": "2026-10-22-transcription-v2",
   "sourceSha256": "18021509e3ce73f3381982d7c7ccf4292fb7b5934717d1933a31515d2552c23a",
   "sourceGroups": 150,
   "sourceVariants": 474,
-  "pricedSourceRows": 454,
+  "pricedSourceRows": 465,
   "blankSourceRows": [
     {
       "group": "S03-G03",
@@ -11,7 +11,14 @@
       "size": "6 ml",
       "priceCents": null,
       "cartonQuantity": null,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "Ref": "—",
+        "المنتج": "خاوي عطر",
+        "السعة": "6ml",
+        "Qty/Ctn": "—",
+        "الثمن": "—"
+      }
     },
     {
       "group": "S05-G08",
@@ -19,7 +26,15 @@
       "size": "30 ml",
       "priceCents": null,
       "cartonQuantity": null,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "Ref": "—",
+        "المنتج": "رشاش ذهبي",
+        "السعة": "30ml",
+        "الكمية": "—",
+        "Qty/Ctn": "—",
+        "الثمن": "—"
+      }
     },
     {
       "group": "S05-G08",
@@ -27,7 +42,31 @@
       "size": "50 ml",
       "priceCents": null,
       "cartonQuantity": null,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "Ref": "—",
+        "المنتج": "رشاش ذهبي",
+        "السعة": "50ml",
+        "الكمية": "—",
+        "Qty/Ctn": "—",
+        "الثمن": "—"
+      }
+    },
+    {
+      "group": "S06-G07",
+      "key": "S06-G07-V03",
+      "size": "50 ml",
+      "priceCents": null,
+      "cartonQuantity": 140,
+      "supplierReference": "1-31",
+      "transcriptionDetails": {
+        "Ref": "1-31",
+        "Couleur": "Clear Frosted + Gold",
+        "Dimensions": "50ml",
+        "Qty/Ctn": "140",
+        "Prix": "3,26 [قراءة غير مؤكدة]"
+      },
+      "priceReviewNote": "3,26 [قراءة غير مؤكدة]"
     },
     {
       "group": "S10-G03",
@@ -35,7 +74,14 @@
       "size": "5 ml",
       "priceCents": null,
       "cartonQuantity": 1330,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "المنتج": "[اسم غير واضح: بنيسلين؟]",
+        "السعة / التفاصيل": "5ml",
+        "الكمية": "—",
+        "Qty/Ctn": "1330",
+        "الثمن": "—"
+      }
     },
     {
       "group": "S10-G04",
@@ -43,7 +89,14 @@
       "size": "212 ml / palette",
       "priceCents": null,
       "cartonQuantity": null,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "المنتج": "قرعة",
+        "السعة / التفاصيل": "212 PALETTE",
+        "الكمية": "—",
+        "Qty/Ctn": "—",
+        "الثمن": "—"
+      }
     },
     {
       "group": "S11-G08",
@@ -51,7 +104,14 @@
       "size": "53 mm",
       "priceCents": null,
       "cartonQuantity": 1500,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "Désignation": "Caps",
+        "Dimensions / Détails": "53mm",
+        "Quantité": "3",
+        "Qty/Ctn": "1500",
+        "Prix": "—"
+      }
     },
     {
       "group": "S11-G09",
@@ -59,7 +119,14 @@
       "size": "30 ml",
       "priceCents": null,
       "cartonQuantity": null,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "Désignation": "Lotions",
+        "Dimensions / Détails": "30ml",
+        "Quantité": "—",
+        "Qty/Ctn": "—",
+        "Prix": "—"
+      }
     },
     {
       "group": "S11-G09",
@@ -67,167 +134,17 @@
       "size": "100 ml",
       "priceCents": null,
       "cartonQuantity": null,
-      "supplierReference": null
+      "supplierReference": null,
+      "transcriptionDetails": {
+        "Désignation": "Lotions",
+        "Dimensions / Détails": "100ml",
+        "Quantité": "—",
+        "Qty/Ctn": "—",
+        "Prix": "—"
+      }
     }
   ],
-  "pendingGroups": [
-    {
-      "id": "S01-G01",
-      "sheet": 1,
-      "name": {
-        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الثانية",
-        "en": "Laura white shining + gold · second designation"
-      },
-      "category": "bottles",
-      "variants": [
-        {
-          "key": "S01-G01-V01",
-          "size": "100 ml",
-          "priceCents": 600,
-          "cartonQuantity": 120,
-          "supplierReference": null
-        }
-      ],
-      "matchedProductIds": [],
-      "requiresReview": true
-    },
-    {
-      "id": "S02-G10",
-      "sheet": 2,
-      "name": {
-        "ar": "لورا أسود غير لامع بغطاء ذهبي · التسمية الأولى",
-        "en": "Laura black mat + gold · first designation"
-      },
-      "category": "bottles",
-      "variants": [
-        {
-          "key": "S02-G10-V01",
-          "size": "30 ml",
-          "priceCents": 420,
-          "cartonQuantity": 180,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G10-V02",
-          "size": "50 ml",
-          "priceCents": 470,
-          "cartonQuantity": 160,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G10-V03",
-          "size": "100 ml",
-          "priceCents": 600,
-          "cartonQuantity": 120,
-          "supplierReference": null
-        }
-      ],
-      "matchedProductIds": [
-        "SMR-064",
-        "SMR-150"
-      ],
-      "requiresReview": true
-    },
-    {
-      "id": "S02-G11",
-      "sheet": 2,
-      "name": {
-        "ar": "لورا أسود غير لامع بغطاء ذهبي · التسمية الثانية",
-        "en": "Laura black mat + gold · second designation"
-      },
-      "category": "bottles",
-      "variants": [
-        {
-          "key": "S02-G11-V01",
-          "size": "30 ml",
-          "priceCents": 400,
-          "cartonQuantity": 180,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G11-V02",
-          "size": "50 ml",
-          "priceCents": 450,
-          "cartonQuantity": 160,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G11-V03",
-          "size": "100 ml",
-          "priceCents": 600,
-          "cartonQuantity": 120,
-          "supplierReference": null
-        }
-      ],
-      "matchedProductIds": [],
-      "requiresReview": true
-    },
-    {
-      "id": "S02-G13",
-      "sheet": 2,
-      "name": {
-        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الأولى",
-        "en": "Laura white shining + gold · first designation"
-      },
-      "category": "bottles",
-      "variants": [
-        {
-          "key": "S02-G13-V01",
-          "size": "30 ml",
-          "priceCents": 420,
-          "cartonQuantity": 180,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G13-V02",
-          "size": "50 ml",
-          "priceCents": 470,
-          "cartonQuantity": 160,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G13-V03",
-          "size": "100 ml",
-          "priceCents": 600,
-          "cartonQuantity": 120,
-          "supplierReference": null
-        }
-      ],
-      "matchedProductIds": [
-        "SMR-065",
-        "SMR-070",
-        "SMR-089"
-      ],
-      "requiresReview": true
-    },
-    {
-      "id": "S02-G14",
-      "sheet": 2,
-      "name": {
-        "ar": "لورا أبيض لامع بغطاء ذهبي · التسمية الثانية",
-        "en": "Laura white shining + gold · second designation"
-      },
-      "category": "bottles",
-      "variants": [
-        {
-          "key": "S02-G14-V01",
-          "size": "30 ml",
-          "priceCents": 400,
-          "cartonQuantity": 180,
-          "supplierReference": null
-        },
-        {
-          "key": "S02-G14-V02",
-          "size": "50 ml",
-          "priceCents": 460,
-          "cartonQuantity": 160,
-          "supplierReference": null
-        }
-      ],
-      "matchedProductIds": [],
-      "requiresReview": true
-    }
-  ],
+  "pendingGroups": [],
   "mappedImageProducts": [
     {
       "id": "SMR-148",
@@ -570,7 +487,7 @@
       "group": "S13-G05"
     }
   ],
-  "totalProducts": 245,
-  "pricedProducts": 169,
-  "pricedVariants": 519
+  "totalProducts": 250,
+  "pricedProducts": 174,
+  "pricedVariants": 530
 }
