@@ -156,7 +156,7 @@ document.addEventListener('sm-language-change',()=>queueMicrotask(renderDirectio
 // Localise accessibility descriptions together with the visible interface.
 const labelTranslations = [
   ['nav', 'aria-label', 'التنقل الرئيسي'],
-  ['.hero-categories', 'aria-label', 'فئات المنتجات'],
+  ['.showcase-categories', 'aria-label', 'فئات المنتجات'],
   ['.floating-whatsapp', 'aria-label', 'تواصل مع SM Royale عبر واتساب'],
   ['.filters', 'aria-label', 'تصفية المجموعات'],
   ['.brand', 'aria-label', 'SM Royale — الصفحة الرئيسية'],
