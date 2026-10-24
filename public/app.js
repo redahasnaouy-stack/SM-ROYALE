@@ -1,4 +1,12 @@
 const translations = {
+"heroBottles":"قوارير ومضخات",
+"heroJars":"علب ومرطبانات",
+"heroPerfume":"عبوات العطر",
+"heroPouches":"أكياس التغليف",
+"heroAccessories":"أغطية وإكسسوارات",
+"heroWellness":"الحجامة والتدليك",
+"whatsappContact":"تواصل معنا عبر واتساب",
+
   "reviewsLink": "تقييمات العملاء",
   "reviewsEyebrow": "تجربتكم تهمّنا",
   "reviewsTitle": "بأقلام <em>عملائنا.</em>",
@@ -147,6 +155,8 @@ document.addEventListener('sm-language-change',()=>queueMicrotask(renderDirectio
 // Localise accessibility descriptions together with the visible interface.
 const labelTranslations = [
   ['nav', 'aria-label', 'التنقل الرئيسي'],
+  ['.hero-categories', 'aria-label', 'فئات المنتجات'],
+  ['.floating-whatsapp', 'aria-label', 'تواصل مع SM Royale عبر واتساب'],
   ['.filters', 'aria-label', 'تصفية المجموعات'],
   ['.brand', 'aria-label', 'SM Royale — الصفحة الرئيسية'],
   ['.brand-logo', 'alt', 'شعار SM Royale: تاج ذهبي وحرفا SM'],
