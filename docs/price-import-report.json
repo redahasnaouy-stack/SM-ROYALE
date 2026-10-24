@@ -488,6 +488,7 @@
     }
   ],
   "totalProducts": 250,
-  "pricedProducts": 174,
-  "pricedVariants": 530
+  "estimatedProducts": 76,
+  "pricedProducts": 250,
+  "pricedVariants": 701
 }

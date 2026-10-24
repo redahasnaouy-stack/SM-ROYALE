@@ -32,7 +32,7 @@ test('orders persist authoritative prices, reject tampering and duplicate retrie
   const list=await f.call('/api/admin/orders',{headers:f.auth});assert.equal(list.data.orders.length,1);assert.equal(list.data.orders[0].items[0].unitPriceCents,430);
 });
 test('quotes are pending pricing; delivery and item prices are required before confirmation',async t=>{
-  const f=await fixture(t);assert.equal((await f.post('/api/orders',payload([{productId:'SMR-063',variantIndex:null,quantity:3,specification:'اللون البنفسجي'}]),{'Idempotency-Key':randomUUID()})).data.order.status,'pricing_pending');
+  const f=await fixture(t);f.db.products.find(p=>p.id==='SMR-063').variants=[];assert.equal((await f.post('/api/orders',payload([{productId:'SMR-063',variantIndex:null,quantity:3,specification:'اللون البنفسجي'}]),{'Idempotency-Key':randomUUID()})).data.order.status,'pricing_pending');
   let order=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];
   const patch=data=>f.call('/api/admin/orders/'+order.id,{method:'PATCH',headers:f.auth,body:JSON.stringify({version:order.version,...data})});
   assert.equal((await patch({status:'confirmed'})).status,400);assert.equal((await patch({status:'confirmed',unitPrices:[500],shippingCents:3000})).status,200);

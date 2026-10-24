@@ -67,7 +67,7 @@ Order states: `new`, `pricing_pending`, `confirmed`, `processing`, `shipped`, `d
 
 ## Content and design
 
-The bilingual catalogue contains 250 entries: 161 supplied product visuals and 89 price-list entries whose product photographs are not yet available. The current supplier import covers 465 unambiguous source price rows, represented by 530 selectable variants across 174 priced entries. Eight source price cells are blank and one additional price reading is uncertain; they are not assigned invented values. The separate 13-line hijama price guide is unchanged. The original uploaded imagery and pricing provenance are retained locally in `docs/catalogue-sources.json` (not published). Unmatched prices remain for review. Product photos are not altered by the decorative frames.
+The bilingual catalogue contains 250 entries: 161 supplied product visuals and 89 price-list entries whose product photographs are not yet available. The current supplier import covers 465 unambiguous source price rows, represented by 530 selectable variants across 174 source-priced entries. Eight source price cells are blank and one additional price reading is uncertain; they are not assigned invented values. The separate 13-line hijama price guide is unchanged. The original uploaded imagery and pricing provenance are retained locally in `docs/catalogue-sources.json` (not published). Unmatched prices remain for review. Product photos are not altered by the decorative frames.
 
 The transparent crown/SM logo was extracted from the supplied brand image. The cinematic hero is a generated brand illustration, not a guarantee of exact catalogue models. Cairo, Manrope and Cormorant Garamond fonts are served locally with their license notices.
 
@@ -104,3 +104,7 @@ The owner confirmed Pharma clear 30 ml at 80.00 DH and 60 ml at 90.00 DH; both c
 ## Customer reviews
 
 The homepage uses the original company artwork as a complete, uncropped hero. Visitors can submit a display name, 1–5 rating and review after consenting to publication. New reviews are stored privately as `pending` in the same persistent repository as orders. In **تقييمات العملاء**, an authenticated administrator can publish or hide each review. Public averages and counts include approved reviews only; no sample testimonials or ratings are shipped. These are moderated visitor reviews and are not labelled as verified purchases. Public submissions are validated, origin checked and rate limited; moderation requires CSRF protection and a matching record version.
+
+## Owner-requested provisional prices
+
+All 250 catalogue entries now have numeric prices. Confirmed supplier prices for 174 entries are retained. The remaining 76 use separately recorded estimates in `catalogue/estimated-prices-2026-10-24.json`: comparable references where available, otherwise explicitly provisional baselines. These are not supplier quotes or researched market prices. Cards, detail tables, baskets, WhatsApp summaries and administration identify estimates. Orders containing estimates start in `pricing_pending` with their numeric provisional subtotal, for owner confirmation before dispatch. `npm run catalogue:import` reapplies estimates only where no confirmed supplier price exists.

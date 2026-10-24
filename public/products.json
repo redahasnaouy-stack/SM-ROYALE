@@ -130,7 +130,44 @@
       "ar": "قوارير قطارة زرقاء غير لامعة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-004-0",
+        "size": "10 ml",
+        "price": 1.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-004-1",
+        "size": "15 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-004-2",
+        "size": "30 ml",
+        "price": 2.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-004-3",
+        "size": "50 ml",
+        "price": 3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-004-4",
+        "size": "100 ml",
+        "price": 4,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-776cd98bfe596151",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-012",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-005",
@@ -140,7 +177,20 @@
       "ar": "قوارير معطر الأعواد"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-005-0",
+        "size": "100 ml",
+        "price": 4.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-6a36e56ace30fc1c",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-006",
@@ -150,7 +200,32 @@
       "ar": "قوارير بخاخ شفافة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-006-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-006-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-006-2",
+        "size": "100 ml",
+        "price": 5.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-f9e59d2ca0b67c1f",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-129",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-007",
@@ -502,7 +577,38 @@
       "ar": "مرطبانات شفافة بغطاء ذهبي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-013-0",
+        "size": "20 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-013-1",
+        "size": "30 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-013-2",
+        "size": "50 ml",
+        "price": 3.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-013-3",
+        "size": "100 ml",
+        "price": 3.75,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-8bc9f01bc4c318a2",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-139",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-014",
@@ -626,7 +732,20 @@
       "ar": "أغطية معدنية · 24 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-016-0",
+        "size": "24 mm",
+        "price": 0.35,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e7d1a8bf27235688",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-017",
@@ -636,7 +755,20 @@
       "ar": "أغطية مفصلية · 28 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-017-0",
+        "size": "28 mm",
+        "price": 0.25,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-80b353fe4bbfba8a",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-018",
@@ -646,7 +778,20 @@
       "ar": "بخاخات زناد · 28 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-018-0",
+        "size": "28 mm",
+        "price": 1.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-dbdca2cd8a75e9ff",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-019",
@@ -746,7 +891,38 @@
       "ar": "مرطبانات شفافة بأغطية ملونة"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-021-0",
+        "size": "20 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-021-1",
+        "size": "30 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-021-2",
+        "size": "50 ml",
+        "price": 3.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-021-3",
+        "size": "100 ml",
+        "price": 3.75,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-b2419a3a6362d076",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-140",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-022",
@@ -756,7 +932,20 @@
       "ar": "قوارير شفافة بغطاء لولبي"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-022-0",
+        "size": "50 ml",
+        "price": 2.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-7d3f74ea41b65998",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-020",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-023",
@@ -766,7 +955,44 @@
       "ar": "قوارير بنية صغيرة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-023-0",
+        "size": "10 ml",
+        "price": 1.35,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-023-1",
+        "size": "15 ml",
+        "price": 1.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-023-2",
+        "size": "30 ml",
+        "price": 2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-023-3",
+        "size": "50 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-023-4",
+        "size": "100 ml",
+        "price": 2.9,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-aee36a5d0510daa7",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-008",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-024",
@@ -776,7 +1002,26 @@
       "ar": "قوارير بخاخ معدنية"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-024-0",
+        "size": "20 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-024-1",
+        "size": "30 ml",
+        "price": 2.9,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-2d3ee4fd24d95dee",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-034",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-025",
@@ -786,7 +1031,20 @@
       "ar": "قارورة عطر صغيرة · 6 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-025-0",
+        "size": "6 ml",
+        "price": 2.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-652c502f325eba61",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-048",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-026",
@@ -837,7 +1095,32 @@
       "ar": "قوارير بمضخة ذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-027-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-027-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-027-2",
+        "size": "100 ml",
+        "price": 5.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e20ad61d39baa6c8",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-078",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-028",
@@ -929,7 +1212,20 @@
       "ar": "مرطبانات شفافة · 100–200 مل"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-030-0",
+        "size": "100 ml",
+        "price": 3.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-d1a7293bcd45318e",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-107",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-031",
@@ -972,7 +1268,38 @@
       "ar": "قوارير بخاخ شفافة · 60–100 مل"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-032-0",
+        "size": "100 ml",
+        "price": 1.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-032-1",
+        "size": "125 ml",
+        "price": 2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-032-2",
+        "size": "200 ml",
+        "price": 2.3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-032-3",
+        "size": "250 ml",
+        "price": 2.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-8237320380c1b5ec",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-053",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-033",
@@ -1164,12 +1491,19 @@
       "ar": "قوارير زجاجية صغيرة · 5 مل"
     },
     "category": "perfume",
-    "variants": [],
-    "pricingRevision": "2026-10-22-transcription-v2-4f53cda18c2baa0c",
-    "priceSource": {
-      "group": "S10-G03",
-      "sheet": 10,
-      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
+    "variants": [
+      {
+        "key": "EST-SMR-039-0",
+        "size": "5 ml",
+        "price": 0.65,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-f8429c8b72392d73",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
     }
   },
   {
@@ -1180,7 +1514,32 @@
       "ar": "قوارير بمضخة · 60–100 مل"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-040-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-040-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-040-2",
+        "size": "100 ml",
+        "price": 5.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-04697993535f889e",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-129",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-041",
@@ -1329,7 +1688,32 @@
       "ar": "قوارير بمضخة سوداء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-044-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-044-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-044-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-33de2f7af6a68b93",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-155",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-045",
@@ -1339,7 +1723,32 @@
       "ar": "قوارير بمضخة بيضاء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-045-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-045-1",
+        "size": "50 ml",
+        "price": 4.6,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-045-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-fda52d2ff9491e2e",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-148",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-046",
@@ -1513,7 +1922,20 @@
       "ar": "أغطية قطارة · 10–15 مل"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-050-0",
+        "size": "30 ml",
+        "price": 2.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-84828b1020f08592",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-137",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-051",
@@ -1523,7 +1945,20 @@
       "ar": "قوارير عطر مموجة"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-051-0",
+        "size": "50 ml",
+        "price": 3.25,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e1bf16d6fc7db10f",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-028",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-052",
@@ -1623,7 +2058,44 @@
       "ar": "قوارير قطارة ملونة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-054-0",
+        "size": "10 ml",
+        "price": 1.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-054-1",
+        "size": "15 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-054-2",
+        "size": "30 ml",
+        "price": 2.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-054-3",
+        "size": "50 ml",
+        "price": 3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-054-4",
+        "size": "100 ml",
+        "price": 4,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-efb63d7d9a0f1038",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-009",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-055",
@@ -1633,7 +2105,44 @@
       "ar": "مجموعة قطارات زرقاء غير لامعة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-055-0",
+        "size": "10 ml",
+        "price": 1.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-055-1",
+        "size": "15 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-055-2",
+        "size": "30 ml",
+        "price": 2.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-055-3",
+        "size": "50 ml",
+        "price": 3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-055-4",
+        "size": "100 ml",
+        "price": 4,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-94a6c77f6cf5804c",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-012",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-056",
@@ -1668,7 +2177,20 @@
       "ar": "مرطبانات تخزين زجاجية"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-057-0",
+        "size": "212 ml / carton",
+        "price": 2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-8790231276dffc36",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-077",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-058",
@@ -1858,7 +2380,20 @@
       "ar": "أدوات الحجامة"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-062-0",
+        "size": "طقم / set",
+        "price": 60,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-318d924154d4f264",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-063",
@@ -1868,7 +2403,20 @@
       "ar": "كرسي التدليك"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-063-0",
+        "size": "قطعة / piece",
+        "price": 1200,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-5706b82b0972e0d4",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-064",
@@ -1878,14 +2426,32 @@
       "ar": "قوارير لورا سوداء وذهبية"
     },
     "category": "bottles",
-    "variants": [],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
-    "priceSource": {
-      "group": "S02-G10",
-      "sheet": 2,
-      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
-    },
-    "priceReviewRequired": true
+    "variants": [
+      {
+        "key": "EST-SMR-064-0",
+        "size": "30 ml",
+        "price": 4.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-064-1",
+        "size": "50 ml",
+        "price": 4.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-064-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-c077b3d910687e95",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SUP-S02-G10",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-065",
@@ -1895,14 +2461,32 @@
       "ar": "قوارير لورا بيضاء وذهبية"
     },
     "category": "bottles",
-    "variants": [],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
-    "priceSource": {
-      "group": "S02-G13",
-      "sheet": 2,
-      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
-    },
-    "priceReviewRequired": true
+    "variants": [
+      {
+        "key": "EST-SMR-065-0",
+        "size": "30 ml",
+        "price": 4.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-065-1",
+        "size": "50 ml",
+        "price": 4.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-065-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-48075c08e201c6d9",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SUP-S02-G13",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-066",
@@ -2108,14 +2692,32 @@
       "ar": "قوارير بيضاء بمضخة ذهبية"
     },
     "category": "bottles",
-    "variants": [],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
-    "priceSource": {
-      "group": "S02-G13",
-      "sheet": 2,
-      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
-    },
-    "priceReviewRequired": true
+    "variants": [
+      {
+        "key": "EST-SMR-070-0",
+        "size": "30 ml",
+        "price": 4.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-070-1",
+        "size": "50 ml",
+        "price": 4.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-070-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-5cc4aa1b39317a4d",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SUP-S02-G13",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-071",
@@ -2166,7 +2768,20 @@
       "ar": "أنابيب مستحضرات تجميل بيضاء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-072-0",
+        "size": "قطعة / piece",
+        "price": 1.8,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-2fc9b5126c3c279f",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-073",
@@ -2176,7 +2791,32 @@
       "ar": "قوارير بيضاء بمضخة فضية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-073-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-073-1",
+        "size": "50 ml",
+        "price": 4.6,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-073-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-309ab5297d4512c0",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-148",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-074",
@@ -2186,7 +2826,20 @@
       "ar": "عبوات بمضخة دون هواء شفافة · 50 مل"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-074-0",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-3bfc7fcab1507600",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-003",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-075",
@@ -2196,7 +2849,26 @@
       "ar": "قوارير بخاخ عطر صغيرة"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-075-0",
+        "size": "20 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-075-1",
+        "size": "30 ml",
+        "price": 2.9,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-f01a58e07e715836",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-034",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-076",
@@ -2206,7 +2878,26 @@
       "ar": "قوارير زجاجية شفافة · 30–60 مل"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-076-0",
+        "size": "30 ml",
+        "price": 2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-076-1",
+        "size": "50 ml",
+        "price": 2.2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-fb7a8bc21463f644",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-007",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-077",
@@ -2282,7 +2973,20 @@
       "ar": "مرطبانات زجاجية مستديرة"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-079-0",
+        "size": "212 ml / carton",
+        "price": 2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-47ef394b97e2e44d",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-077",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-080",
@@ -2292,7 +2996,20 @@
       "ar": "أغطية لولبية · 31 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-080-0",
+        "size": "31 mm",
+        "price": 0.3,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-9f35f3c9cda46017",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-081",
@@ -2302,7 +3019,32 @@
       "ar": "قوارير عطر صغيرة ذهبية"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-081-0",
+        "size": "3 ml",
+        "price": 2.3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-081-1",
+        "size": "6 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-081-2",
+        "size": "12 ml",
+        "price": 3,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e48294265a48b50b",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-052",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-082",
@@ -2394,7 +3136,20 @@
       "ar": "مضخات مستحضرات العناية · 28 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-084-0",
+        "size": "28 mm",
+        "price": 0.85,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-ed943a56597a2db8",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-085",
@@ -2404,7 +3159,38 @@
       "ar": "علب تجميل بيضاء بحافة فضية"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-085-0",
+        "size": "20 ml",
+        "price": 2.4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-085-1",
+        "size": "30 ml",
+        "price": 2.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-085-2",
+        "size": "50 ml",
+        "price": 3.4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-085-3",
+        "size": "100 ml",
+        "price": 4.2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-ef1667a5bbce55c9",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-058",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-086",
@@ -2414,7 +3200,32 @@
       "ar": "قوارير بخاخ زجاجية مزخرفة"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-086-0",
+        "size": "3 ml",
+        "price": 2.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-086-1",
+        "size": "6 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-086-2",
+        "size": "12 ml",
+        "price": 2.8,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-11cfccb8a5d7c89e",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-048",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-087",
@@ -2424,7 +3235,38 @@
       "ar": "علب تجميل بيضاء بحافة ذهبية"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-087-0",
+        "size": "20 ml",
+        "price": 2.3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-087-1",
+        "size": "30 ml",
+        "price": 2.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-087-2",
+        "size": "50 ml",
+        "price": 3.4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-087-3",
+        "size": "100 ml",
+        "price": 4.2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e56e58699e6ae989",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-141",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-088",
@@ -2434,7 +3276,26 @@
       "ar": "مجموعة قوارير بخاخ رفيعة"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-088-0",
+        "size": "20 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-088-1",
+        "size": "30 ml",
+        "price": 2.9,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-9d7d37eb62f0fbe4",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-034",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-089",
@@ -2444,14 +3305,32 @@
       "ar": "مجموعة قوارير بيضاء وذهبية"
     },
     "category": "bottles",
-    "variants": [],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
-    "priceSource": {
-      "group": "S02-G13",
-      "sheet": 2,
-      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
-    },
-    "priceReviewRequired": true
+    "variants": [
+      {
+        "key": "EST-SMR-089-0",
+        "size": "30 ml",
+        "price": 4.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-089-1",
+        "size": "50 ml",
+        "price": 4.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-089-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-6b8d7c5d3a1dd1fe",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SUP-S02-G13",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-090",
@@ -2461,7 +3340,20 @@
       "ar": "مرطبان زجاجي · 100 مل"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-090-0",
+        "size": "100 ml",
+        "price": 3.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-1ede2ab46a6364c5",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-107",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-091",
@@ -2471,7 +3363,20 @@
       "ar": "عبوات ماسكارا · 10 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-091-0",
+        "size": "10 ml",
+        "price": 2.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-2705bed5ae0b45f5",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-092",
@@ -2481,7 +3386,20 @@
       "ar": "قوارير زجاجية بمقبض"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-092-0",
+        "size": "قطعة / piece",
+        "price": 4.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-856d3c15692c60fd",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-093",
@@ -2491,7 +3409,26 @@
       "ar": "قوارير قطارة مربعة · 30–50 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-093-0",
+        "size": "30 ml",
+        "price": 2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-093-1",
+        "size": "50 ml",
+        "price": 2.2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-7cfd3e4a470a10d1",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-007",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-094",
@@ -2575,7 +3512,38 @@
       "ar": "علب مستحضرات تجميل غير لامعة"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-096-0",
+        "size": "20 ml",
+        "price": 2.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-096-1",
+        "size": "30 ml",
+        "price": 2.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-096-2",
+        "size": "50 ml",
+        "price": 3.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-096-3",
+        "size": "100 ml",
+        "price": 4,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-b710c4650e4cc11f",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-146",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-097",
@@ -2585,7 +3553,38 @@
       "ar": "علب تجميل سوداء بحافة فضية"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-097-0",
+        "size": "20 ml",
+        "price": 2.6,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-097-1",
+        "size": "30 ml",
+        "price": 2.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-097-2",
+        "size": "50 ml",
+        "price": 3.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-097-3",
+        "size": "100 ml",
+        "price": 4.3,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-516e1482234b1e08",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-049",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-098",
@@ -2595,7 +3594,20 @@
       "ar": "كأس حجامة سيليكون"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-098-0",
+        "size": "قطعة / piece",
+        "price": 15,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-3d94268b6ca5bb97",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-099",
@@ -2605,7 +3617,32 @@
       "ar": "مجموعة قوارير بمضخة ذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-099-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-099-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-099-2",
+        "size": "100 ml",
+        "price": 5.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e2a69014e19e0f62",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-078",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-100",
@@ -2615,7 +3652,32 @@
       "ar": "مجموعة قوارير بمضخة فضية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-100-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-100-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-100-2",
+        "size": "100 ml",
+        "price": 5.7,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-bd9a18c922b5a104",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-069",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-101",
@@ -2625,7 +3687,20 @@
       "ar": "علب معدنية مزخرفة"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-101-0",
+        "size": "قطعة / piece",
+        "price": 6.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-a4ce60de0061a971",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-102",
@@ -2660,7 +3735,20 @@
       "ar": "طقم الحجامة"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-103-0",
+        "size": "طقم / set",
+        "price": 45,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-1491f88f989cbad1",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-104",
@@ -2670,7 +3758,20 @@
       "ar": "كؤوس حجامة سيليكون ملونة"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-104-0",
+        "size": "قطعة / piece",
+        "price": 15,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-553beb49af35e82f",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-105",
@@ -2680,7 +3781,20 @@
       "ar": "أدوات تدليك خشبية"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-105-0",
+        "size": "قطعة / piece",
+        "price": 25,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-8fb86c359cb28141",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-106",
@@ -2740,7 +3854,20 @@
       "ar": "كرات التدليك"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-108-0",
+        "size": "قطعة / piece",
+        "price": 15,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-add502b854bb3329",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-109",
@@ -2750,7 +3877,32 @@
       "ar": "قوارير بخاخ غير لامعة"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-109-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-109-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-109-2",
+        "size": "100 ml",
+        "price": 5.7,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-398df04c99bd49cc",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-068",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-110",
@@ -2760,7 +3912,32 @@
       "ar": "قوارير بخاخ شفافة وذهبية"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-110-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-110-1",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-110-2",
+        "size": "100 ml",
+        "price": 5.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-2f3cde9cfb9fa3df",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-078",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-111",
@@ -2803,7 +3980,26 @@
       "ar": "علب مستحضرات تجميل بيضاء · 30–50 غ"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-112-0",
+        "size": "30 g",
+        "price": 1.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-112-1",
+        "size": "50 g",
+        "price": 2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-07d17f014c17714c",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-037",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-113",
@@ -2813,7 +4009,20 @@
       "ar": "مرطبانات تخزين زجاجية مزخرفة"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-113-0",
+        "size": "212 ml / carton",
+        "price": 2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-f034474244bb9915",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-077",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-114",
@@ -2946,7 +4155,44 @@
       "ar": "أكياس تغليف قائمة"
     },
     "category": "pouches",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-117-0",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.35,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-117-1",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.45,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-117-2",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.6,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-117-3",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.68,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-117-4",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 0.9,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-9b77db89fb70cf40",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-161",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-118",
@@ -3127,7 +4373,44 @@
       "ar": "أكياس تغليف صفراء"
     },
     "category": "pouches",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-121-0",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-121-1",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-121-2",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-121-3",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-121-4",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-a251c49c18ad5921",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-118",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-122",
@@ -3333,7 +4616,20 @@
       "ar": "قارورة بخاخ شفافة · 50 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-126-0",
+        "size": "50 ml",
+        "price": 4.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-52de56cd9a5404a3",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-129",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-127",
@@ -3400,7 +4696,20 @@
       "ar": "أغطية لولبية ذهبية · 31 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-128-0",
+        "size": "قطعة / piece",
+        "price": 0.17,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-0b4589115b71d463",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-125",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-129",
@@ -3476,7 +4785,20 @@
       "ar": "مضخة حجامة يدوية"
     },
     "category": "wellness",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-131-0",
+        "size": "قطعة / piece",
+        "price": 5.75,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-f5f31585c7b54375",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-132",
@@ -3486,7 +4808,20 @@
       "ar": "قارورة ذات كرة دوارة · 50 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-132-0",
+        "size": "50 ml",
+        "price": 3.25,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-c8ff66e5524039b5",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-028",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-133",
@@ -3496,7 +4831,20 @@
       "ar": "أغطية أسطوانية مزخرفة"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-133-0",
+        "size": "قطعة / piece",
+        "price": 1.5,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-e8e0133f1bb3b001",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-134",
@@ -3506,7 +4854,20 @@
       "ar": "أغطية مزخرفة ذهبية وسوداء"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-134-0",
+        "size": "قطعة / piece",
+        "price": 1.8,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-c1d8e0a9029caca5",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item."
+    }
   },
   {
     "id": "SMR-135",
@@ -3516,7 +4877,20 @@
       "ar": "قوارير قطارة بيضاوية · 50 مل"
     },
     "category": "perfume",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-135-0",
+        "size": "50 ml",
+        "price": 2.2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-cf11e7ab4eccfdd8",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-007",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-136",
@@ -3526,7 +4900,26 @@
       "ar": "مرطبانات تجميل زجاجية صغيرة"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-136-0",
+        "size": "25 ml",
+        "price": 1.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-136-1",
+        "size": "35 ml",
+        "price": 1.3,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-d4b42772c411a3c1",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-095",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-137",
@@ -3561,7 +4954,20 @@
       "ar": "أغطية لولبية ذهبية · 24 مم"
     },
     "category": "accessories",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-138-0",
+        "size": "قطعة / piece",
+        "price": 0.17,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-9cd4bf78edfcbcf6",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-125",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-139",
@@ -3963,7 +5369,38 @@
       "ar": "علب بيضاء لامعة بغطاء ذهبي"
     },
     "category": "jars",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-147-0",
+        "size": "20 ml",
+        "price": 2.3,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-147-1",
+        "size": "30 ml",
+        "price": 2.8,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-147-2",
+        "size": "50 ml",
+        "price": 3.4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-147-3",
+        "size": "100 ml",
+        "price": 4.2,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-afb0ac99abb3ff41",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-141",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-148",
@@ -4055,14 +5492,32 @@
       "ar": "مجموعة لورا سوداء غير لامعة وذهبية"
     },
     "category": "bottles",
-    "variants": [],
-    "pricingRevision": "2026-10-22-supplier-sheet-v1-4f53cda18c2baa0c",
-    "priceSource": {
-      "group": "S02-G10",
-      "sheet": 2,
-      "sourceFile": "WhatsApp Unknown 2026-10-22 at 16.05.34.zip"
-    },
-    "priceReviewRequired": true
+    "variants": [
+      {
+        "key": "EST-SMR-150-0",
+        "size": "30 ml",
+        "price": 4.2,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-150-1",
+        "size": "50 ml",
+        "price": 4.7,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-150-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-3eea2a7dbe370980",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SUP-S02-G10",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-151",
@@ -4277,7 +5732,32 @@
       "ar": "مجموعة قوارير بخاخ بيضاء"
     },
     "category": "bottles",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-156-0",
+        "size": "30 ml",
+        "price": 4,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-156-1",
+        "size": "50 ml",
+        "price": 4.6,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-156-2",
+        "size": "100 ml",
+        "price": 6,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-ef48f2dd20721033",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-148",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-157",
@@ -4458,7 +5938,44 @@
       "ar": "أكياس تغليف ذهبية لامعة"
     },
     "category": "pouches",
-    "variants": []
+    "variants": [
+      {
+        "key": "EST-SMR-160-0",
+        "size": "100 g · 10×15+3 cm",
+        "price": 0.38,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-160-1",
+        "size": "125 g · 12×20+3 cm",
+        "price": 0.5,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-160-2",
+        "size": "250 g · 14×22+4 cm",
+        "price": 0.65,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-160-3",
+        "size": "500 g · 17×24+4 cm",
+        "price": 0.78,
+        "estimated": true
+      },
+      {
+        "key": "EST-SMR-160-4",
+        "size": "1 kg · 20×30+4 cm",
+        "price": 1.05,
+        "estimated": true
+      }
+    ],
+    "pricingRevision": "2026-10-24-owner-requested-estimates-v1-99fdf384ee19564f",
+    "priceEstimate": true,
+    "estimateBasis": {
+      "referenceProductId": "SMR-159",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified."
+    }
   },
   {
     "id": "SMR-161",

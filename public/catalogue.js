@@ -20,8 +20,8 @@
   const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let products=[],active='all',limit=12,selected=null,previousFocus=null;
   const priceOf = p => p.variants.length ? Math.min(...p.variants.map(v=>v.price)) : null;
-  function priceCatalogue(p){return p.variants.length?`<div class="product-prices-scroll"><table class="product-prices-table"><thead><tr><th scope="col">${tr('Size / option','المقاس / الخيار')}</th><th scope="col">${tr('Unit price','ثمن القطعة')}</th></tr></thead><tbody>${p.variants.map(v=>`<tr><th scope="row">${escape(sizeLabel(v.size))}</th><td><bdi>${money(v.price)}</bdi></td></tr>`).join('')}</tbody></table></div>`:`<p class="price-catalogue-pending">${tr('No confirmed price list is available for this model. Our team will confirm the price before shipping.','لا تتوفر قائمة أثمنة مؤكدة لهذا الطراز. يؤكد فريقنا الثمن قبل الشحن.')}</p>`;}
-  function priceText(p){const min=priceOf(p);return min===null?tr('Ask for a price','استفسر عن السعر'): (p.variants.length>1?tr('From ','ابتداءً من '):'')+money(min);}
+  function priceCatalogue(p){return p.variants.length?`${p.priceEstimate?`<p class="estimate-notice">${tr('Estimated prices — confirm with our team on WhatsApp before shipping.','أثمنة تقديرية — تُؤكَّد مع فريقنا عبر واتساب قبل الشحن.')}</p>`:''}<div class="product-prices-scroll"><table class="product-prices-table"><thead><tr><th scope="col">${tr('Size / option','المقاس / الخيار')}</th><th scope="col">${tr('Unit price','ثمن القطعة')}</th></tr></thead><tbody>${p.variants.map(v=>`<tr><th scope="row">${escape(sizeLabel(v.size))}</th><td><bdi>${money(v.price)}</bdi></td></tr>`).join('')}</tbody></table></div>`:`<p class="price-catalogue-pending">${tr('No confirmed price list is available for this model. Our team will confirm the price before shipping.','لا تتوفر قائمة أثمنة مؤكدة لهذا الطراز. يؤكد فريقنا الثمن قبل الشحن.')}</p>`;}
+  function priceText(p){const min=priceOf(p);if(p.priceEstimate)return tr('Approx. from ','تقديري ابتداءً من ')+money(min);return min===null?tr('Ask for a price','استفسر عن السعر'): (p.variants.length>1?tr('From ','ابتداءً من '):'')+money(min);}
   function filterProducts(){
     const query=$('product-search').value.trim().toLocaleLowerCase().normalize('NFKC');
     const result=products.filter(p=>(active==='all'||p.category===active)&&[p.name.ar,p.name.en,p.id,...p.variants.map(v=>v.size)].join(' ').toLocaleLowerCase().normalize('NFKC').includes(query));
@@ -49,7 +49,7 @@
   function updateDetailPrice(){
     if(!selected)return;
     const v=selected.variants[Number($('detail-variant').value)];
-    $('detail-price').textContent=v?tr('Unit price: ','ثمن القطعة: ')+money(v.price):tr('Price on request','السعر عند الطلب');
+    $('detail-price').textContent=v?(selected.priceEstimate?tr('Estimated unit price: ','ثمن القطعة التقديري: '):tr('Unit price: ','ثمن القطعة: '))+money(v.price):tr('Price on request','السعر عند الطلب');
     const packaging=document.getElementById('detail-packaging');if(packaging)packaging.textContent=[v?.cartonQuantity?tr('Pieces per carton: ','عدد القطع في الكرتون: ')+v.cartonQuantity:'',v?.supplierReference?tr('Supplier reference: ','مرجع المورّد: ')+v.supplierReference:''].filter(Boolean).join(' · ');
 
   }

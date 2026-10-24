@@ -1,0 +1,1367 @@
+{
+  "revision": "2026-10-24-owner-requested-estimates-v1",
+  "notice": "Provisional prices explicitly requested by owner. Not supplier quotes; confirm on WhatsApp before dispatch.",
+  "products": [
+    {
+      "productId": "SMR-004",
+      "referenceProductId": "SMR-012",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "10 ml",
+          "priceCents": 180,
+          "referenceVariantKey": "S08-G02-V01"
+        },
+        {
+          "size": "15 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S08-G02-V02"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 270,
+          "referenceVariantKey": "S08-G02-V03"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 300,
+          "referenceVariantKey": "S08-G02-V04"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S08-G02-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-005",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "100 ml",
+          "priceCents": 450
+        }
+      ]
+    },
+    {
+      "productId": "SMR-006",
+      "referenceProductId": "SMR-129",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G01-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G01-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 550,
+          "referenceVariantKey": "S02-G01-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-013",
+      "referenceProductId": "SMR-139",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S07-G01-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S07-G01-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 320,
+          "referenceVariantKey": "S07-G01-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 375,
+          "referenceVariantKey": "S07-G01-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-016",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "24 mm",
+          "priceCents": 35
+        }
+      ]
+    },
+    {
+      "productId": "SMR-017",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "28 mm",
+          "priceCents": 25
+        }
+      ]
+    },
+    {
+      "productId": "SMR-018",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "28 mm",
+          "priceCents": 150
+        }
+      ]
+    },
+    {
+      "productId": "SMR-021",
+      "referenceProductId": "SMR-140",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S07-G02-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S07-G02-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 320,
+          "referenceVariantKey": "S07-G02-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 375,
+          "referenceVariantKey": "S07-G02-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-022",
+      "referenceProductId": "SMR-020",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "50 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S11-G01-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-023",
+      "referenceProductId": "SMR-008",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "10 ml",
+          "priceCents": 135,
+          "referenceVariantKey": "S09-G01-V01"
+        },
+        {
+          "size": "15 ml",
+          "priceCents": 150,
+          "referenceVariantKey": "S09-G01-V02"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 200,
+          "referenceVariantKey": "S09-G01-V03"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S09-G01-V04"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 290,
+          "referenceVariantKey": "S09-G01-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-024",
+      "referenceProductId": "SMR-034",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S03-G02-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 290,
+          "referenceVariantKey": "S03-G02-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-025",
+      "referenceProductId": "SMR-048",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "6 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S03-G11-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-027",
+      "referenceProductId": "SMR-078",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G01-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G01-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 550,
+          "referenceVariantKey": "S02-G01-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-030",
+      "referenceProductId": "SMR-107",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "100 ml",
+          "priceCents": 350
+        }
+      ]
+    },
+    {
+      "productId": "SMR-032",
+      "referenceProductId": "SMR-053",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "100 ml",
+          "priceCents": 180,
+          "referenceVariantKey": "S05-G05-V01"
+        },
+        {
+          "size": "125 ml",
+          "priceCents": 200,
+          "referenceVariantKey": "S05-G05-V02"
+        },
+        {
+          "size": "200 ml",
+          "priceCents": 230,
+          "referenceVariantKey": "S05-G05-V03"
+        },
+        {
+          "size": "250 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S05-G05-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-039",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "5 ml",
+          "priceCents": 65
+        }
+      ]
+    },
+    {
+      "productId": "SMR-040",
+      "referenceProductId": "SMR-129",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G01-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G01-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 550,
+          "referenceVariantKey": "S02-G01-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-044",
+      "referenceProductId": "SMR-155",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G12-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G12-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S02-G12-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-045",
+      "referenceProductId": "SMR-148",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S01-G02-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 460,
+          "referenceVariantKey": "S01-G02-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S01-G02-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-050",
+      "referenceProductId": "SMR-137",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S08-G09-V01"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-051",
+      "referenceProductId": "SMR-028",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "50 ml",
+          "priceCents": 325,
+          "referenceVariantKey": "S03-G04-V01"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-054",
+      "referenceProductId": "SMR-009",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "10 ml",
+          "priceCents": 180,
+          "referenceVariantKey": "S08-G01-V01"
+        },
+        {
+          "size": "15 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S08-G01-V02"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 270,
+          "referenceVariantKey": "S08-G01-V03"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 300,
+          "referenceVariantKey": "S08-G01-V04"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S08-G01-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-055",
+      "referenceProductId": "SMR-012",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "10 ml",
+          "priceCents": 180,
+          "referenceVariantKey": "S08-G02-V01"
+        },
+        {
+          "size": "15 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S08-G02-V02"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 270,
+          "referenceVariantKey": "S08-G02-V03"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 300,
+          "referenceVariantKey": "S08-G02-V04"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S08-G02-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-057",
+      "referenceProductId": "SMR-077",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "212 ml / carton",
+          "priceCents": 200,
+          "referenceVariantKey": "S10-G04-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-062",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "طقم / set",
+          "priceCents": 6000
+        }
+      ]
+    },
+    {
+      "productId": "SMR-063",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 120000
+        }
+      ]
+    },
+    {
+      "productId": "SMR-064",
+      "referenceProductId": "SUP-S02-G10",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S02-G10-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 470,
+          "referenceVariantKey": "S02-G10-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S02-G10-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-065",
+      "referenceProductId": "SUP-S02-G13",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S02-G13-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 470,
+          "referenceVariantKey": "S02-G13-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S02-G13-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-070",
+      "referenceProductId": "SUP-S02-G13",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S02-G13-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 470,
+          "referenceVariantKey": "S02-G13-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S02-G13-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-072",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 180
+        }
+      ]
+    },
+    {
+      "productId": "SMR-073",
+      "referenceProductId": "SMR-148",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S01-G02-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 460,
+          "referenceVariantKey": "S01-G02-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S01-G02-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-074",
+      "referenceProductId": "SMR-003",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S04-G01-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-075",
+      "referenceProductId": "SMR-034",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S03-G02-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 290,
+          "referenceVariantKey": "S03-G02-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-076",
+      "referenceProductId": "SMR-007",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 200,
+          "referenceVariantKey": "S08-G03-V03"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S08-G03-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-079",
+      "referenceProductId": "SMR-077",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "212 ml / carton",
+          "priceCents": 200,
+          "referenceVariantKey": "S10-G04-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-080",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "31 mm",
+          "priceCents": 30
+        }
+      ]
+    },
+    {
+      "productId": "SMR-081",
+      "referenceProductId": "SMR-052",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "3 ml",
+          "priceCents": 230,
+          "referenceVariantKey": "S03-G13-V01"
+        },
+        {
+          "size": "6 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S03-G13-V02"
+        },
+        {
+          "size": "12 ml",
+          "priceCents": 300,
+          "referenceVariantKey": "S03-G13-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-084",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "28 mm",
+          "priceCents": 85
+        }
+      ]
+    },
+    {
+      "productId": "SMR-085",
+      "referenceProductId": "SMR-058",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 240,
+          "referenceVariantKey": "S07-G06-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 280,
+          "referenceVariantKey": "S07-G06-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 340,
+          "referenceVariantKey": "S07-G06-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S07-G06-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-086",
+      "referenceProductId": "SMR-048",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "3 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S03-G11-V01"
+        },
+        {
+          "size": "6 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S03-G11-V02"
+        },
+        {
+          "size": "12 ml",
+          "priceCents": 280,
+          "referenceVariantKey": "S03-G11-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-087",
+      "referenceProductId": "SMR-141",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 230,
+          "referenceVariantKey": "S07-G05-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 280,
+          "referenceVariantKey": "S07-G05-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 340,
+          "referenceVariantKey": "S07-G05-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S07-G05-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-088",
+      "referenceProductId": "SMR-034",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S03-G02-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 290,
+          "referenceVariantKey": "S03-G02-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-089",
+      "referenceProductId": "SUP-S02-G13",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S02-G13-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 470,
+          "referenceVariantKey": "S02-G13-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S02-G13-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-090",
+      "referenceProductId": "SMR-107",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "100 ml",
+          "priceCents": 350
+        }
+      ]
+    },
+    {
+      "productId": "SMR-091",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "10 ml",
+          "priceCents": 250
+        }
+      ]
+    },
+    {
+      "productId": "SMR-092",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 450
+        }
+      ]
+    },
+    {
+      "productId": "SMR-093",
+      "referenceProductId": "SMR-007",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 200,
+          "referenceVariantKey": "S08-G03-V03"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S08-G03-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-096",
+      "referenceProductId": "SMR-146",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 250,
+          "referenceVariantKey": "S06-G01-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 280,
+          "referenceVariantKey": "S06-G01-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 350,
+          "referenceVariantKey": "S06-G01-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S06-G01-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-097",
+      "referenceProductId": "SMR-049",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 260,
+          "referenceVariantKey": "S06-G03-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 280,
+          "referenceVariantKey": "S06-G03-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 350,
+          "referenceVariantKey": "S06-G03-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 430,
+          "referenceVariantKey": "S06-G03-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-098",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 1500
+        }
+      ]
+    },
+    {
+      "productId": "SMR-099",
+      "referenceProductId": "SMR-078",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G01-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G01-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 550,
+          "referenceVariantKey": "S02-G01-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-100",
+      "referenceProductId": "SMR-069",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G06-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G06-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 570,
+          "referenceVariantKey": "S02-G06-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-101",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 650
+        }
+      ]
+    },
+    {
+      "productId": "SMR-103",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "طقم / set",
+          "priceCents": 4500
+        }
+      ]
+    },
+    {
+      "productId": "SMR-104",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 1500
+        }
+      ]
+    },
+    {
+      "productId": "SMR-105",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 2500
+        }
+      ]
+    },
+    {
+      "productId": "SMR-108",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 1500
+        }
+      ]
+    },
+    {
+      "productId": "SMR-109",
+      "referenceProductId": "SMR-068",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G04-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G04-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 570,
+          "referenceVariantKey": "S02-G04-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-110",
+      "referenceProductId": "SMR-078",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S02-G01-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G01-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 550,
+          "referenceVariantKey": "S02-G01-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-112",
+      "referenceProductId": "SMR-037",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 g",
+          "priceCents": 180
+        },
+        {
+          "size": "50 g",
+          "priceCents": 200
+        }
+      ]
+    },
+    {
+      "productId": "SMR-113",
+      "referenceProductId": "SMR-077",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "212 ml / carton",
+          "priceCents": 200,
+          "referenceVariantKey": "S10-G04-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-117",
+      "referenceProductId": "SMR-161",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 35,
+          "referenceVariantKey": "S12-G08-V01"
+        },
+        {
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 45,
+          "referenceVariantKey": "S12-G08-V02"
+        },
+        {
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 60,
+          "referenceVariantKey": "S12-G08-V03"
+        },
+        {
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 68,
+          "referenceVariantKey": "S12-G08-V04"
+        },
+        {
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 90,
+          "referenceVariantKey": "S12-G08-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-121",
+      "referenceProductId": "SMR-118",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "referenceVariantKey": "S13-G04-V01"
+        },
+        {
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "referenceVariantKey": "S13-G04-V02"
+        },
+        {
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "referenceVariantKey": "S13-G04-V03"
+        },
+        {
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "referenceVariantKey": "S13-G04-V04"
+        },
+        {
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "referenceVariantKey": "S13-G04-V05"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-126",
+      "referenceProductId": "SMR-129",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "50 ml",
+          "priceCents": 450,
+          "referenceVariantKey": "S02-G01-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-128",
+      "referenceProductId": "SMR-125",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 17,
+          "referenceVariantKey": "S11-G10-V01"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-131",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 575
+        }
+      ]
+    },
+    {
+      "productId": "SMR-132",
+      "referenceProductId": "SMR-028",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "50 ml",
+          "priceCents": 325
+        }
+      ]
+    },
+    {
+      "productId": "SMR-133",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 150
+        }
+      ]
+    },
+    {
+      "productId": "SMR-134",
+      "referenceProductId": null,
+      "basis": "Provisional owner-authorized baseline; no directly comparable supplier item.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 180
+        }
+      ]
+    },
+    {
+      "productId": "SMR-135",
+      "referenceProductId": "SMR-007",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "50 ml",
+          "priceCents": 220,
+          "referenceVariantKey": "S08-G03-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-136",
+      "referenceProductId": "SMR-095",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "25 ml",
+          "priceCents": 120,
+          "referenceVariantKey": "S10-G01-V01"
+        },
+        {
+          "size": "35 ml",
+          "priceCents": 130,
+          "referenceVariantKey": "S10-G01-V02"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-138",
+      "referenceProductId": "SMR-125",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "قطعة / piece",
+          "priceCents": 17,
+          "referenceVariantKey": "S11-G10-V01"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-147",
+      "referenceProductId": "SMR-141",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "20 ml",
+          "priceCents": 230,
+          "referenceVariantKey": "S07-G05-V01"
+        },
+        {
+          "size": "30 ml",
+          "priceCents": 280,
+          "referenceVariantKey": "S07-G05-V02"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 340,
+          "referenceVariantKey": "S07-G05-V03"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S07-G05-V04"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-150",
+      "referenceProductId": "SUP-S02-G10",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 420,
+          "referenceVariantKey": "S02-G10-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 470,
+          "referenceVariantKey": "S02-G10-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S02-G10-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-156",
+      "referenceProductId": "SMR-148",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "30 ml",
+          "priceCents": 400,
+          "referenceVariantKey": "S01-G02-V01"
+        },
+        {
+          "size": "50 ml",
+          "priceCents": 460,
+          "referenceVariantKey": "S01-G02-V02"
+        },
+        {
+          "size": "100 ml",
+          "priceCents": 600,
+          "referenceVariantKey": "S01-G02-V03"
+        }
+      ]
+    },
+    {
+      "productId": "SMR-160",
+      "referenceProductId": "SMR-159",
+      "basis": "Approximation from a similar product; capacity, finish or packaging match is not verified.",
+      "variants": [
+        {
+          "size": "100 g · 10×15+3 cm",
+          "priceCents": 38,
+          "referenceVariantKey": "S12-G04-V01"
+        },
+        {
+          "size": "125 g · 12×20+3 cm",
+          "priceCents": 50,
+          "referenceVariantKey": "S12-G04-V02"
+        },
+        {
+          "size": "250 g · 14×22+4 cm",
+          "priceCents": 65,
+          "referenceVariantKey": "S12-G04-V03"
+        },
+        {
+          "size": "500 g · 17×24+4 cm",
+          "priceCents": 78,
+          "referenceVariantKey": "S12-G04-V04"
+        },
+        {
+          "size": "1 kg · 20×30+4 cm",
+          "priceCents": 105,
+          "referenceVariantKey": "S12-G04-V05"
+        }
+      ]
+    }
+  ]
+}

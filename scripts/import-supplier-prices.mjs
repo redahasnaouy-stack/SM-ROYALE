@@ -2,6 +2,7 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 const source=JSON.parse(await readFile('catalogue/supplier-prices-2026-10-22.json','utf8'));
 const products=JSON.parse(await readFile('public/products.json','utf8')).filter(p=>!(p.id.startsWith('SUP-')&&p.priceSource?.sourceFile===source.sourceFile));
+for(const p of products)if(p.priceEstimate){p.variants=[];delete p.priceEstimate;delete p.estimateBasis;}
 const map=new Map(products.map(p=>[p.id,p]));
 const reviewed=source.groups.filter(g=>!g.requiresReview),pending=source.groups.filter(g=>g.requiresReview);
 const variants=g=>g.variants.filter(v=>v.priceCents!==null).map(v=>({key:v.key,size:v.size,price:v.priceCents/100,cartonQuantity:v.cartonQuantity,supplierReference:v.supplierReference,sourceGroup:g.id}));
@@ -36,7 +37,15 @@ for(const group of reviewed){
  if(!product){product={id,name:group.name,category:group.category,image:'./images/logo-transparent.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
  apply(product,group,missing);missing.forEach(v=>usedKeys.add(v.key));
 }
-const report={revision:source.revision,sourceSha256:source.sourceSha256,sourceGroups:source.groups.length,sourceVariants:source.groups.reduce((n,g)=>n+g.variants.length,0),pricedSourceRows:reviewed.reduce((n,g)=>n+variants(g).length,0),blankSourceRows:source.groups.flatMap(g=>g.variants.filter(v=>v.priceCents===null).map(v=>({group:g.id,...v}))),pendingGroups:pending,mappedImageProducts:mapped,totalProducts:products.length,pricedProducts:products.filter(p=>p.variants.length).length,pricedVariants:products.reduce((n,p)=>n+p.variants.length,0)};
+const estimates=JSON.parse(await readFile('catalogue/estimated-prices-2026-10-24.json','utf8'));
+for(const entry of estimates.products){
+ const product=map.get(entry.productId);if(!product)throw new Error('Unknown estimate product '+entry.productId);
+ if(product.variants.length)continue; // A confirmed source price always wins.
+ product.variants=entry.variants.map((v,i)=>({key:'EST-'+entry.productId+'-'+i,size:v.size,price:v.priceCents/100,estimated:true}));
+ product.priceEstimate=true;product.estimateBasis={referenceProductId:entry.referenceProductId,basis:entry.basis};delete product.priceReviewRequired;delete product.priceSource;
+ product.pricingRevision=estimates.revision+'-'+createHash('sha256').update(JSON.stringify(product.variants)).digest('hex').slice(0,16);
+}
+const report={revision:source.revision,sourceSha256:source.sourceSha256,sourceGroups:source.groups.length,sourceVariants:source.groups.reduce((n,g)=>n+g.variants.length,0),pricedSourceRows:reviewed.reduce((n,g)=>n+variants(g).length,0),blankSourceRows:source.groups.flatMap(g=>g.variants.filter(v=>v.priceCents===null).map(v=>({group:g.id,...v}))),pendingGroups:pending,mappedImageProducts:mapped,totalProducts:products.length,estimatedProducts:products.filter(p=>p.priceEstimate).length,pricedProducts:products.filter(p=>p.variants.length).length,pricedVariants:products.reduce((n,p)=>n+p.variants.length,0)};
 await writeFile('public/products.json',JSON.stringify(products,null,2)+'\n');
 await mkdir('docs',{recursive:true});await writeFile('docs/price-import-report.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({products:report.totalProducts,pricedProducts:report.pricedProducts,pricedVariants:report.pricedVariants,transcribedGroups:report.sourceGroups,transcribedRows:report.sourceVariants,unambiguousSourceRows:report.pricedSourceRows,pendingGroups:pending.length,blankSourceRows:report.blankSourceRows.length}));
