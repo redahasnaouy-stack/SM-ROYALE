@@ -48,9 +48,13 @@
     try{
       const response=await fetch('./api/orders',{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':attempt},body:JSON.stringify(payload)});
       const result=await response.json();if(!response.ok)throw new Error(result.error||tr('Unable to submit the order.','تعذّر إرسال الطلب.'));
-      $('confirmed-reference').textContent=result.order.reference;basket=[];save();event.target.reset();setStep('confirmation');
+      const summaryLines=lines().map(i=>`${i.product?.name[lang()]||i.productId} · ${i.variant?.size||i.specification||tr('Model to confirm','الطراز بعد المراجعة')} × ${i.quantity}`);
+      const text=[tr('Hello SM Royale, I would like to confirm my website order.','مرحبًا SM Royale، أود تأكيد طلبي المسجّل عبر الموقع.'),result.order.reference,...summaryLines,tr('Products subtotal: ','المجموع الفرعي للمنتجات: ')+(result.order.subtotalCents===null?tr('To be confirmed','بعد المراجعة'):money(result.order.subtotalCents)),tr('Delivery and final total to be confirmed by your team.','يُرجى تأكيد رسوم التوصيل والمبلغ النهائي.')].join('\n');
+      const whatsappUrl='https://wa.me/212600326082?text='+encodeURIComponent(text);
+      $('confirm-whatsapp').href=whatsappUrl;$('confirmed-reference').textContent=result.order.reference;basket=[];save();event.target.reset();setStep('confirmation');
+      window.location.assign(whatsappUrl);
     }catch(error){$('checkout-error').textContent=error.message||tr('Connection error. Please retry.','تعذّر الاتصال. يُرجى إعادة المحاولة.');}
-    finally{submitting=false;render();$('submit-order').textContent=tr('Submit my order','إرسال الطلب');}
+    finally{submitting=false;render();$('submit-order').textContent=tr('Save order & continue on WhatsApp','تسجيل الطلب والمتابعة عبر واتساب');}
   });
   document.addEventListener('sm-language-change',render);render();
 })();

@@ -50,7 +50,7 @@ npm run build
 
 - Customers select a product, size, quantity and optional colour/model, then enter name, phone, city and delivery address. Email and notes are optional.
 - The basket survives reloads in the same browser. Customer addresses and phone numbers are sent to the server and are not saved in browser storage.
-- Checkout sends an idempotent request to `/api/orders`, receives an order reference and stays on the website. There are no WhatsApp contact or checkout redirects.
+- Checkout sends an idempotent request to `/api/orders` and saves the order before opening WhatsApp for confirmation. The prefilled message includes the order reference, product summary and server subtotal; it omits the delivery address and customer contact details. The customer must send the message in WhatsApp. A confirmation link remains available if the automatic navigation does not open. Failed order submissions do not redirect or clear the basket.
 - Payment is **cash on delivery**. No card payment or online money collection is implemented.
 - The server obtains authoritative prices from its catalogue. Client-supplied prices are ignored. Unknown product prices remain `null`; they are never treated as zero or free.
 - Shipping is initially unspecified, not free. The final amount is confirmed by phone before dispatch. Orders containing unpriced products start in “pricing pending”.
