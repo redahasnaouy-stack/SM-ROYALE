@@ -1,4 +1,7 @@
 const translations = {
+ "locationEyebrow":"زوروا SM Royale",
+ "locationTitle":"موقع الشركة",
+ "openMaps":"عرض الطريق على خرائط Google",
  "confirmWhatsApp":"متابعة تأكيد الطلب عبر واتساب",
 "heroBottles":"قوارير ومضخات",
 "heroJars":"علب ومرطبانات",
