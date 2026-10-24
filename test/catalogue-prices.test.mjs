@@ -45,11 +45,11 @@ test('checkout rejects a stale or mismatched variant key instead of silently swi
  await assert.rejects(()=>saveOrder(app.db,data,randomUUID()),{status:409});delete data.items[0].variantKey;await assert.rejects(()=>saveOrder(app.db,data,randomUUID()),{status:409});
 });
 
-test('all products have prices and provisional estimates retain their distinct provenance and order state',async t=>{
+test('all products have prices and owner-adopted prices retain provenance and create regular orders',async t=>{
  const estimates=JSON.parse(await readFile(new URL('../catalogue/estimated-prices-2026-10-24.json',import.meta.url),'utf8'));
  assert.equal(products.filter(p=>p.priceEstimate).length,76);assert(products.every(p=>p.variants.length));
  for(const entry of estimates.products){const p=products.find(p=>p.id===entry.productId);assert(p.priceEstimate);assert.deepEqual(p.variants.map(v=>({size:v.size,priceCents:Math.round(v.price*100)})),entry.variants.map(({size,priceCents})=>({size,priceCents})));assert(p.variants.every(v=>v.estimated&&v.key.startsWith('EST-')));assert(!p.priceSource);}
  const app=await createApp({databasePath:':memory:'});t.after(()=>app.db.close());const p=products.find(p=>p.id==='SMR-004');
  const result=await saveOrder(app.db,{customer:{name:'عميل الاختبار',phone:'0600000000',city:'الدار البيضاء',address:'عنوان اختبار غير حقيقي',email:'',note:''},items:[{productId:p.id,variantIndex:0,variantKey:p.variants[0].key,quantity:2,specification:''}],consent:true},randomUUID());
- assert.equal(result.row.status,'pricing_pending');assert.equal(JSON.parse(result.row.items)[0].estimated,true);assert.equal(result.row.subtotal_cents,Math.round(p.variants[0].price*200));
+ assert.equal(result.row.status,'new');assert.equal(JSON.parse(result.row.items)[0].estimated,true);assert.equal(result.row.subtotal_cents,Math.round(p.variants[0].price*200));
 });
