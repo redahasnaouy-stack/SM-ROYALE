@@ -96,7 +96,12 @@ test('Netlify request adapter accepts checkout and protects administration acros
   let response=await handler(new Request('https://store.example/api/orders',{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':randomUUID(),Origin:'https://store.example'},body:JSON.stringify(payload())}),context);assert.equal(response.status,201);
   response=await handler(new Request('https://store.example/api/admin/orders'),context);assert.equal(response.status,401);
   response=await handler(new Request('https://store.example/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:'owner@example.test',password})}),context);assert.equal(response.status,200);assert.match(response.headers.get('set-cookie'),/HttpOnly.*SameSite=Strict.*Secure/);
+  const csrf=(await response.json()).csrf;
   const cookie=response.headers.get('set-cookie').split(';')[0];const anotherInvocation=createNetlifyHandler(()=>repo);
+  const imageBytes=await readFile(new URL('../public/images/products/007.webp',import.meta.url));assert(imageBytes.length>65536);
+  const upload=await anotherInvocation(new Request('https://store.example/api/admin/product-images',{method:'POST',headers:{'Content-Type':'application/json',Cookie:cookie,'X-CSRF-Token':csrf,Origin:'https://store.example'},body:JSON.stringify({base64:imageBytes.toString('base64')})}),context);assert.equal(upload.status,201);
+  const uploadedPath=(await upload.json()).image;const imageResponse=await createNetlifyHandler(()=>repo)(new Request('https://store.example'+uploadedPath),context);assert.equal(imageResponse.headers.get('content-type'),'image/webp');assert.deepEqual(Buffer.from(await imageResponse.arrayBuffer()),imageBytes);
+
   response=await anotherInvocation(new Request('https://store.example/api/admin/orders',{headers:{Cookie:cookie}}),context);assert.equal(response.status,200);assert.equal((await response.json()).orders.length,1);
 });
 test('Netlify owner signs in with a private environment password; password rotation invalidates previous sessions',async t=>{
@@ -116,4 +121,24 @@ test('missing or short Netlify owner credentials report configuration failure wi
   const app=await createApp({databasePath:':memory:',secureCookies:false});await new Promise(r=>app.server.listen(0,'127.0.0.1',r));t.after(async()=>{await new Promise(r=>app.server.close(r));app.db.close();});
   const response=await fetch('http://127.0.0.1:'+app.server.address().port+'/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:'owner@example.test',password:'not-the-owner-password'})});
   assert.equal(response.status,503);const text=await response.text();assert.match(text,/إعداد حساب الإدارة غير مكتمل/);assert(!text.includes(process.env.SM_ADMIN_PASSWORD));assert(!text.includes(process.env.SM_ADMIN_EMAIL));
+});
+
+test('full product edits and uploaded images persist; source price revisions preserve edited content and prior orders',async t=>{
+ const f=await fixture(t);await f.post('/api/orders',payload(),{'Idempotency-Key':randomUUID()});
+ const imageBytes=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a9WQAAAAASUVORK5CYII=','base64');
+ assert.equal((await f.post('/api/admin/product-images',{base64:imageBytes.toString('base64')})).status,401);
+ const uploaded=await f.post('/api/admin/product-images',{base64:imageBytes.toString('base64')},f.auth);assert.equal(uploaded.status,201);
+ const image=await fetch(f.base+uploaded.data.image);assert.equal(image.headers.get('content-type'),'image/png');assert.deepEqual(Buffer.from(await image.arrayBuffer()),imageBytes);
+ assert.equal((await f.post('/api/admin/product-images',{base64:Buffer.from('<svg onload="alert(1)"></svg>').toString('base64')},f.auth)).status,400);
+ const p=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(p=>p.id==='SMR-151');
+ const data={version:p.version,available:true,name:{ar:'منتج معدّل',en:'Edited product'},description:{ar:'وصف عربي جديد',en:'New English description'},category:'perfume',image:uploaded.data.image,photoPlaceholder:false,variants:[{size:'30 ml',price:8.5,cartonQuantity:'180 / 160',supplierReference:'NEW-REF'}]};
+ const patch=(value,headers=f.auth)=>f.call('/api/admin/products/'+p.id,{method:'PATCH',headers,body:JSON.stringify(value)});
+ assert.equal((await patch(data,{Cookie:f.auth.Cookie})).status,403);assert.equal((await patch(data)).status,200);
+ const updated=(await f.call('/api/products')).data.find(item=>item.id===p.id);assert.equal(updated.name.ar,data.name.ar);assert.equal(updated.description.en,data.description.en);assert.equal(updated.category,'perfume');assert.equal(updated.image,uploaded.data.image);assert.equal(updated.variants[0].cartonQuantity,'180 / 160');assert.equal(updated.variants[0].supplierReference,'NEW-REF');assert.equal(updated.variants[0].key,p.variants[0].key);
+ assert.equal((await patch(data)).status,409);
+ const before=f.db.products.find(item=>item.id===p.id);before.pricingRevision='new-source-revision';before.variants[0].price=10;
+ const refreshed=(await f.call('/api/products')).data.find(item=>item.id===p.id);assert.equal(refreshed.name.en,'Edited product');assert.equal(refreshed.image,uploaded.data.image);assert.equal(refreshed.variants[0].price,10);
+ const old=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];assert.notEqual(old.items[0].name.ar,data.name.ar);assert.equal(old.items[0].unitPriceCents,430);
+ const current=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(item=>item.id===p.id);
+ for(const value of [{...data,name:{ar:'',en:'valid'}},{...data,category:'bad'},{...data,image:'https://example.com/a.png'},{...data,image:'./images/../secret.png'},{...data,variants:[{size:'30 ml',price:1},{size:'30 ml',price:2}]}])assert.equal((await patch({...value,version:current.version})).status,400);
 });

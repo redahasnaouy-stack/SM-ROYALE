@@ -57,7 +57,7 @@
     const p=selected;if(!p)return;
     $('detail-image').src=p.image;$('detail-image').alt=p.photoPlaceholder?tr('SM Royale — product photo unavailable','SM Royale — صورة المنتج غير متاحة'):p.name[lang()];$('detail-name').textContent=p.name[lang()];
     $('detail-category').textContent=categories[p.category][lang()];$('detail-reference').textContent=tr('Reference: ','المرجع: ')+p.id;
-    $('detail-description').textContent=p.photoPlaceholder?tr('Product specifications and prices are taken from our price list. A product photograph is not available yet.','مواصفات المنتج وأسعاره من قائمة الأسعار المعتمدة. صورة المنتج غير متاحة حاليًا.'):tr('Product visual supplied by SM Royale. Tell us which model, colour and quantity you need.','صورة المنتج مقدمة من SM Royale. يُرجى تحديد الطراز واللون والكمية المطلوبة.');
+    $('detail-description').textContent=p.description?.[lang()]||(p.photoPlaceholder?tr('Product specifications and prices are taken from our price list. A product photograph is not available yet.','مواصفات المنتج وأسعاره من قائمة الأسعار المعتمدة. صورة المنتج غير متاحة حاليًا.'):tr('Product visual supplied by SM Royale. Tell us which model, colour and quantity you need.','صورة المنتج مقدمة من SM Royale. يُرجى تحديد الطراز واللون والكمية المطلوبة.'));
     const selectedIndex=$('detail-variant').value;
     $('detail-variant').innerHTML=p.variants.map((v,i)=>`<option value="${i}">${escape(sizeLabel(v.size))}</option>`).join('');
     if(selectedIndex&&p.variants[Number(selectedIndex)])$('detail-variant').value=selectedIndex;

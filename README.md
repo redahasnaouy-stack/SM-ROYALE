@@ -108,3 +108,7 @@ The homepage uses the original company artwork as a complete, uncropped hero. Vi
 ## Owner-requested provisional prices
 
 All 250 catalogue entries now have numeric prices. Confirmed supplier prices for 174 entries are retained. The remaining 76 use separately recorded estimates in `catalogue/estimated-prices-2026-10-24.json`: comparable references where available, otherwise explicitly provisional baselines. The owner subsequently adopted these values as selling prices and requested normal presentation without estimate labels. Cards, detail tables, baskets, WhatsApp summaries and administration show regular prices; fully priced orders start as `new`. The original derivation is retained internally for traceability. `npm run catalogue:import` reapplies estimates only where no confirmed supplier price exists.
+
+## Editing product content
+
+Open **المنتجات والأسعار → تعديل المنتج** to edit Arabic/English names and descriptions, category, availability, photo, sizes, prices, carton counts and supplier references. The product ID is retained so previous orders keep their references. Save after uploading a photo. JPEG/PNG/WebP uploads are resized in the browser and stored persistently in Netlify Blobs (SQLite locally), served from the same origin. Only authenticated, CSRF-protected uploads are accepted. Content edits persist across supplier price revisions; order item snapshots remain unchanged. New descriptions appear in the bilingual product details. Concurrent edits are rejected until the operator refreshes the record.

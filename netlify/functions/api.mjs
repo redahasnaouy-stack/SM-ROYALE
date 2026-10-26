@@ -9,7 +9,7 @@ let app;
 return async function handler(request,context){
   try{
     const body=request.method==='GET'||request.method==='HEAD'?null:Buffer.from(await request.arrayBuffer());
-    if(body?.length>65536)return Response.json({error:'حجم البيانات أكبر من المسموح.'},{status:413});
+    if(body?.length>(new URL(request.url).pathname==='/api/admin/product-images'?2100000:65536))return Response.json({error:'حجم البيانات أكبر من المسموح.'},{status:413});
     app ||= createApp({repository:repositoryFactory(),secureCookies:true,products});
     const {server}=await app;
     const url=new URL(request.url),req=Readable.from(body?[body]:[]);req.url=url.pathname+url.search;req.method=request.method;req.headers=Object.fromEntries(request.headers);req.headers.host=url.host;req.socket={remoteAddress:context.ip||'unknown'};

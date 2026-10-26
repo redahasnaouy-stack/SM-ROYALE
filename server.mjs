@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {editProduct,decodeProductImage} from './lib/product-editor.mjs';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -21,7 +22,7 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
     }
     throw Object.assign(new Error('يُرجى إعادة المحاولة بعد قليل.'),{status:429});
   }
-  async function body(req){if(!req.headers['content-type']?.startsWith('application/json'))throw Object.assign(new Error('يلزم إرسال بيانات بصيغة JSON.'),{status:415});let content='',length=0;for await(const chunk of req){length+=chunk.length;if(length>65536)throw Object.assign(new Error('حجم البيانات أكبر من المسموح.'),{status:413});content+=chunk;}try{const value=JSON.parse(content);if(!value||typeof value!=='object'||Array.isArray(value))throw new Error();return value;}catch{throw Object.assign(new Error('البيانات غير صالحة.'),{status:400});}}
+  async function body(req,maxBytes=65536){if(!req.headers['content-type']?.startsWith('application/json'))throw Object.assign(new Error('يلزم إرسال بيانات بصيغة JSON.'),{status:415});let content='',length=0;for await(const chunk of req){length+=chunk.length;if(length>maxBytes)throw Object.assign(new Error('حجم البيانات أكبر من المسموح.'),{status:413});content+=chunk;}try{const value=JSON.parse(content);if(!value||typeof value!=='object'||Array.isArray(value))throw new Error();return value;}catch{throw Object.assign(new Error('البيانات غير صالحة.'),{status:400});}}
   async function session(req){const match=(req.headers.cookie||'').match(/(?:^|;\s*)sm_session=([a-f0-9]{64})(?:;|$)/);if(!match)return null;const value=await db.get('sessions',digest(match[1]));if(!value||value.expires_at<=Date.now())return null;if(value.admin_id==='owner'&&value.credential!==digest(environmentOwner()?.password_hash||''))return null;return value;}
   async function authenticated(req,mutation=false){const user=await session(req);if(!user)throw Object.assign(new Error('يُرجى تسجيل الدخول.'),{status:401});if(mutation&&req.headers['x-csrf-token']!==user.csrf)throw Object.assign(new Error('انتهت صلاحية الطلب. حدّث الصفحة.'),{status:403});return user;}
   async function audit(user,action,target){await db.put('audit',randomBytes(16).toString('hex'),{created_at:new Date().toISOString(),admin_id:user.admin_id,action,target});}
@@ -56,6 +57,13 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
         if(data.version!==row._version||!await db.put('reviews',id,{...row,status:data.status},{version:row._version}))throw Object.assign(new Error('عُدّل التقييم. حدّث الصفحة.'),{status:409});
         await audit(user,'moderate_review',id);return json(res,200,{ok:true});
       }
+      if(/^\/api\/product-images\/[a-f0-9]{32}$/.test(route)&&['GET','HEAD'].includes(method)){
+        const image=await db.get('product-images',route.split('/').at(-1));if(!image)return json(res,404,{error:'الصورة غير موجودة.'});res.writeHead(200,{'Content-Type':image.type,'Cache-Control':'public, max-age=31536000, immutable'});return res.end(method==='HEAD'?undefined:Buffer.from(image.base64,'base64'));
+      }
+      if(route==='/api/admin/product-images'&&method==='POST'){
+        const user=await authenticated(req,true);await throttle('image:'+user.admin_id,50,60*60*1000);const image=decodeProductImage(await body(req,2100000)),id=digest(image.bytes).slice(0,32);
+        await db.put('product-images',id,{type:image.type,base64:image.bytes.toString('base64')},{ifNew:true});await audit(user,'upload_product_image',id);return json(res,201,{image:'/api/product-images/'+id});
+      }
       if(route==='/api/admin/login'&&method==='POST'){
         await throttle('login:'+req.socket.remoteAddress,10,15*60*1000);const data=await body(req);
         if(typeof data.email!=='string'||data.email.length>150||typeof data.password!=='string'||data.password.length>200)throw Object.assign(new Error('بيانات الدخول غير صحيحة.'),{status:400});
@@ -86,8 +94,8 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
       }
       if(route.startsWith('/api/admin/products/')&&method==='PATCH'){
         const user=await authenticated(req,true),id=route.split('/').at(-1),data=await body(req),record=await getProduct(db,id);if(!record)throw Object.assign(new Error('المنتج غير موجود.'),{status:404});
-        const product={...record};if(typeof data.available!=='boolean'||!Array.isArray(data.variants)||data.variants.length>30)throw Object.assign(new Error('بيانات المنتج غير صالحة.'),{status:400});
-        product.available=data.available;product.variants=data.variants.map(v=>{if(typeof v.size!=='string'||!v.size.trim()||v.size.length>60||typeof v.price!=='number'||!Number.isFinite(v.price)||v.price<0||v.price>1000000||Math.abs(v.price*100-Math.round(v.price*100))>0.00001)throw Object.assign(new Error('المقاس أو السعر غير صالح.'),{status:400});const existing=record.variants.find(item=>item.size===v.size.trim());return {size:v.size.trim(),price:v.price,key:existing?.key||digest(id+':'+v.size.trim()).slice(0,24),...(existing?.cartonQuantity!==undefined?{cartonQuantity:existing.cartonQuantity}:{}),...(existing?.supplierReference?{supplierReference:existing.supplierReference}:{})};});
+        const product=editProduct(record,data);
+        if(product.image.startsWith('/api/product-images/')&&!await db.get('product-images',product.image.split('/').at(-1)))throw Object.assign(new Error('الصورة المرفوعة غير موجودة. أعد رفعها.'),{status:400});
         if(data.version!==(record._version||null))throw Object.assign(new Error('عُدّل المنتج. حدّث الصفحة.'),{status:409});
         if(!await db.put('products',id,product,record._version?{version:record._version}:{ifNew:true}))throw Object.assign(new Error('عُدّل المنتج. حدّث الصفحة.'),{status:409});
         await audit(user,'update_product',id);return json(res,200,{product});
