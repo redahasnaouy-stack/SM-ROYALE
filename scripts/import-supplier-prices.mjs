@@ -16,7 +16,7 @@ for(const group of reviewed){
     for(const id of group.matchedProductIds){const product=map.get(id);if(!product)throw new Error('Unknown image reference '+id);apply(product,group,values);mapped.push({id,group:group.id});}
   }else if(values.length){
     const id='SUP-'+group.id;let product=map.get(id);
-    if(!product){product={id,name:group.name,category:group.category,image:'./images/logo-transparent.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
+    if(!product){product={id,name:group.name,category:group.category,image:'/images/velora-logo.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
     product.name=group.name;apply(product,group,values);
   }
 }
@@ -34,7 +34,7 @@ const usedKeys=new Set(products.flatMap(p=>p.variants.map(v=>v.key)));
 for(const group of reviewed){
  const missing=variants(group).filter(v=>!usedKeys.has(v.key));if(!missing.length)continue;
  const id='SUP-'+group.id;let product=map.get(id);
- if(!product){product={id,name:group.name,category:group.category,image:'./images/logo-transparent.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
+ if(!product){product={id,name:group.name,category:group.category,image:'/images/velora-logo.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
  apply(product,group,missing);missing.forEach(v=>usedKeys.add(v.key));
 }
 const estimates=JSON.parse(await readFile('catalogue/estimated-prices-2026-10-24.json','utf8'));

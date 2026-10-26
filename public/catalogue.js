@@ -1,5 +1,6 @@
 (() => {
   const $ = id => document.getElementById(id);
+  if(!$('product-grid'))return;
   const categories = {
     all: {en:'All products', ar:'جميع المنتجات'}, bottles:{en:'Bottles & pumps',ar:'قوارير ومضخات'},
     jars:{en:'Jars & containers',ar:'علب ومرطبانات'}, perfume:{en:'Perfume & roll-ons',ar:'عبوات عطر ذات كرة دوارة'},
@@ -18,7 +19,7 @@
   const money = value => Number(value).toFixed(2) + tr(' DH',' درهم');
   const sizeLabel = size => lang()==='en'?size:String(size).replace(/\bml\b/gi,'مل').replace(/\bkg\b/gi,'كغ').replace(/\bg\b/g,'غ').replace(/\bcm\b/gi,'سم').replace(/\bmm\b/gi,'مم').replace(/\bcarton A\b/gi,'الكرتون أ').replace(/\bcarton B\b/gi,'الكرتون ب').replace(/\bcarton\b/gi,'كرتون').replace(/\bpalette\b/gi,'منصة');
   const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  let products=[],active='all',limit=12,selected=null,previousFocus=null;
+  let products=[],active=new URLSearchParams(location.search).get('category')||'all',limit=12,selected=null,previousFocus=null;
   const priceOf = p => p.variants.length ? Math.min(...p.variants.map(v=>v.price)) : null;
   function priceCatalogue(p){return p.variants.length?`<div class="product-prices-scroll"><table class="product-prices-table"><thead><tr><th scope="col">${tr('Size / option','المقاس / الخيار')}</th><th scope="col">${tr('Unit price','ثمن القطعة')}</th></tr></thead><tbody>${p.variants.map(v=>`<tr><th scope="row">${escape(sizeLabel(v.size))}</th><td><bdi>${money(v.price)}</bdi></td></tr>`).join('')}</tbody></table></div>`:`<p class="price-catalogue-pending">${tr('No confirmed price list is available for this model. Our team will confirm the price before shipping.','لا تتوفر قائمة أثمنة مؤكدة لهذا الطراز. يؤكد فريقنا الثمن قبل الشحن.')}</p>`;}
   function priceText(p){const min=priceOf(p);return min===null?tr('Ask for a price','استفسر عن السعر'): (p.variants.length>1?tr('From ','ابتداءً من '):'')+money(min);}
@@ -37,7 +38,7 @@
   }
   function render(){
     const filtered=filterProducts(),visible=filtered.slice(0,limit);
-    $('product-grid').innerHTML=visible.map(p=>`<article class="product-card"><div class="product-card-top"><span class="product-category">${escape(categories[p.category][lang()])}</span><span class="product-ref" dir="ltr">${p.id}</span></div><button type="button" class="product-image-button" data-product="${p.id}" aria-label="${escape(tr('View ','عرض ')+p.name[lang()])}"><span class="product-photo-shell ${p.photoPlaceholder?'photo-placeholder':''}"><img src="${p.image}" alt="${escape(p.name[lang()])}" loading="lazy" decoding="async" width="800" height="800"></span>${p.photoPlaceholder?`<span class="photo-placeholder-label">${tr('Photo coming soon','الصورة غير متاحة حاليًا')}</span>`:''}<span class="product-image-action">${tr('Discover the details','اكتشف التفاصيل')}</span><span class="product-zoom" aria-hidden="true">+</span></button><div class="product-info"><span class="product-signature" aria-hidden="true"><i></i> SM ROYALE <i></i></span><h3><button type="button" data-product="${p.id}">${escape(p.name[lang()])}</button></h3><details class="card-price-list"><summary>${tr('Price catalogue','قائمة الأثمنة')}</summary>${priceCatalogue(p)}</details><div class="product-size-preview">${p.variants.length?escape(p.variants.map(v=>v.size).join(' · ')):tr('Ask us about available models','استفسر عن الطرازات المتاحة')}</div><div class="product-bottom"><div class="product-price-wrap"><span class="product-price-label">${p.variants.length?tr('LISTED PRICE','السعر المدرج'):tr('PERSONALISED ENQUIRY','استفسار عن المنتج')}</span><span class="product-price ${p.variants.length?'has-price':''}">${priceText(p)}</span></div><button type="button" class="product-arrow" data-product="${p.id}" aria-label="${escape(tr('Enquire about ','استفسر عن ')+p.name[lang()])}"><span class="sr-only">${tr('View product','تفاصيل المنتج')}</span></button></div></div></article>`).join('');
+    $('product-grid').innerHTML=visible.map(p=>`<article class="product-card"><div class="product-card-top"><span class="product-category">${escape(categories[p.category][lang()])}</span><span class="product-ref" dir="ltr">${p.id}</span></div><button type="button" class="product-image-button" data-product="${p.id}" aria-label="${escape(tr('View ','عرض ')+p.name[lang()])}"><span class="product-photo-shell ${p.photoPlaceholder?'photo-placeholder':''}"><img src="${p.image}" alt="${escape(p.name[lang()])}" loading="lazy" decoding="async" width="800" height="800"></span>${p.photoPlaceholder?`<span class="photo-placeholder-label">${tr('Photo coming soon','الصورة غير متاحة حاليًا')}</span>`:''}<span class="product-image-action">${tr('Discover the details','اكتشف التفاصيل')}</span><span class="product-zoom" aria-hidden="true">+</span></button><div class="product-info"><span class="product-signature" aria-hidden="true"><i></i> VELORA <i></i></span><h3><button type="button" data-product="${p.id}">${escape(p.name[lang()])}</button></h3><details class="card-price-list"><summary>${tr('Price catalogue','قائمة الأثمنة')}</summary>${priceCatalogue(p)}</details><div class="product-size-preview">${p.variants.length?escape(p.variants.map(v=>v.size).join(' · ')):tr('Ask us about available models','استفسر عن الطرازات المتاحة')}</div><div class="product-bottom"><div class="product-price-wrap"><span class="product-price-label">${p.variants.length?tr('LISTED PRICE','السعر المدرج'):tr('PERSONALISED ENQUIRY','استفسار عن المنتج')}</span><span class="product-price ${p.variants.length?'has-price':''}">${priceText(p)}</span></div><button type="button" class="product-arrow" data-product="${p.id}" aria-label="${escape(tr('Enquire about ','استفسر عن ')+p.name[lang()])}"><span class="sr-only">${tr('View product','تفاصيل المنتج')}</span></button></div></div></article>`).join('');
     $('product-count').textContent=tr(`${filtered.length} products · showing ${visible.length}`,`${filtered.length} منتجًا · المعروض: ${visible.length}`);
     $('load-more').hidden=visible.length>=filtered.length;$('catalogue-empty').hidden=filtered.length!==0;
     $('product-search').placeholder=tr('Search products, sizes, references…','ابحث بالاسم أو المقاس أو الرقم المرجعي…');
@@ -55,9 +56,10 @@
   }
   function populateDetails(){
     const p=selected;if(!p)return;
-    $('detail-image').src=p.image;$('detail-image').alt=p.photoPlaceholder?tr('SM Royale — product photo unavailable','SM Royale — صورة المنتج غير متاحة'):p.name[lang()];$('detail-name').textContent=p.name[lang()];
+    $('detail-gallery').innerHTML=(p.images?.length?p.images:[p.image]).map((image,i)=>`<button type="button" data-gallery-index="${i}" aria-label="${tr('View image ','عرض الصورة ')+(i+1)}" aria-pressed="${i===0}"><img src="${escape(image)}" alt="" loading="lazy"></button>`).join('');
+    $('detail-image').src=p.image;$('detail-image').alt=p.photoPlaceholder?tr('VELORA — product photo unavailable','VELORA — صورة المنتج غير متاحة'):p.name[lang()];$('detail-name').textContent=p.name[lang()];
     $('detail-category').textContent=categories[p.category][lang()];$('detail-reference').textContent=tr('Reference: ','المرجع: ')+p.id;
-    $('detail-description').textContent=p.description?.[lang()]||(p.photoPlaceholder?tr('Product specifications and prices are taken from our price list. A product photograph is not available yet.','مواصفات المنتج وأسعاره من قائمة الأسعار المعتمدة. صورة المنتج غير متاحة حاليًا.'):tr('Product visual supplied by SM Royale. Tell us which model, colour and quantity you need.','صورة المنتج مقدمة من SM Royale. يُرجى تحديد الطراز واللون والكمية المطلوبة.'));
+    $('detail-description').textContent=p.description?.[lang()]||(p.photoPlaceholder?tr('Product specifications and prices are taken from our price list. A product photograph is not available yet.','مواصفات المنتج وأسعاره من قائمة الأسعار المعتمدة. صورة المنتج غير متاحة حاليًا.'):tr('Product visual supplied by VELORA. Tell us which model, colour and quantity you need.','صورة المنتج مقدمة من VELORA. يُرجى تحديد الطراز واللون والكمية المطلوبة.'));
     const selectedIndex=$('detail-variant').value;
     $('detail-variant').innerHTML=p.variants.map((v,i)=>`<option value="${i}">${escape(sizeLabel(v.size))}</option>`).join('');
     if(selectedIndex&&p.variants[Number(selectedIndex)])$('detail-variant').value=selectedIndex;
@@ -74,6 +76,7 @@
   $('product-dialog').addEventListener('click',event=>{if(event.target===$('product-dialog')){const r=event.target.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)event.target.close();}});
   $('product-grid').addEventListener('click',event=>{const button=event.target.closest('[data-product]');if(button)openProduct(button.dataset.product);});
   $('detail-view-basket').addEventListener('click',()=>{$('product-dialog').close();window.SMShop?.open();});
+  $('detail-gallery').addEventListener('click',event=>{const button=event.target.closest('[data-gallery-index]');if(!button||!selected)return;const images=selected.images?.length?selected.images:[selected.image];$('detail-image').src=images[Number(button.dataset.galleryIndex)];$('detail-full-image').href=$('detail-image').src;for(const b of $('detail-gallery').querySelectorAll('button'))b.setAttribute('aria-pressed',String(b===button));});
   $('detail-variant').addEventListener('change',updateDetailPrice);
   $('detail-add-to-cart').addEventListener('click',()=>{
     const quantity=Number($('detail-quantity').value);if(!Number.isInteger(quantity)||quantity<1||quantity>10000){$('detail-quantity').reportValidity();return;}
@@ -87,8 +90,8 @@
   document.addEventListener('sm-language-change',()=>{renderCategories();render();renderWellness();populateDetails();});
   async function load(){
     $('catalogue-error').hidden=true;$('product-grid').setAttribute('aria-busy','true');
-    try{let online=true,response;try{response=await fetch('./api/products');if(!response.ok||!response.headers.get('content-type')?.includes('application/json'))throw new Error('offline');products=await response.json();}catch{online=false;response=await fetch('./products.json');if(!response.ok)throw new Error('catalogue');products=await response.json();}window.SMShop?.setProducts(products,online);renderCategories();render();}
-    catch{$('catalogue-error').hidden=false;$('product-grid').setAttribute('aria-busy','false');$('product-count').textContent='';$('catalogue-empty').hidden=true;$('load-more').hidden=true;}
+    try{const online=true,response=await fetch('/api/products');if(!response.ok||!response.headers.get('content-type')?.includes('application/json'))throw new Error('catalogue');products=await response.json();products=products.map(p=>({...p,image:new URL(p.image,location.origin+'/').pathname,images:p.images?.map(image=>new URL(image,location.origin+'/').pathname)}));window.SMShop?.setProducts(products,online);renderCategories();render();}
+    catch{window.SMShop?.setProducts([],false);$('product-grid').replaceChildren();$('catalogue-error').hidden=false;$('product-grid').setAttribute('aria-busy','false');$('product-count').textContent='';$('catalogue-empty').hidden=true;$('load-more').hidden=true;}
   }
   $('retry-products').addEventListener('click',load);renderCategories();renderWellness();load();
 })();

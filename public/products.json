@@ -6041,7 +6041,7 @@
       "en": "Laura white shining + gold · ref 1-89"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6067,7 +6067,7 @@
       "en": "Laura white shining + white"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6109,7 +6109,7 @@
       "en": "Kobra clear + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6151,7 +6151,7 @@
       "en": "Kobra clear frosted + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6193,7 +6193,7 @@
       "en": "Kobra clear frosted + silver"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6235,7 +6235,7 @@
       "en": "Kobra black frosted + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6277,7 +6277,7 @@
       "en": "Kobra glossy white + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6319,7 +6319,7 @@
       "en": "Laura sprayer + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6361,7 +6361,7 @@
       "en": "Laura Kobra plastic"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6395,7 +6395,7 @@
       "en": "Laura clear + gold + white"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6437,7 +6437,7 @@
       "en": "Laura clear + plastic"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6479,7 +6479,7 @@
       "en": "Laura clear frosted + gold + white"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6521,7 +6521,7 @@
       "en": "Laura clear frosted + transparent"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6563,7 +6563,7 @@
       "en": "Laura amber + gold + white"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6605,7 +6605,7 @@
       "en": "Laura black mat + gold · ref 1-75"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6647,7 +6647,7 @@
       "en": "Laura black mat + gold · ref 1-78"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6689,7 +6689,7 @@
       "en": "Laura white shining + gold · ref 1-84"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6731,7 +6731,7 @@
       "en": "Laura white shining + gold · ref 1-87"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6765,7 +6765,7 @@
       "en": "Empty perfume bottles"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6799,7 +6799,7 @@
       "en": "Granada with glass stick"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6825,7 +6825,7 @@
       "en": "Short musk containers"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6867,7 +6867,7 @@
       "en": "Tall musk containers"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6901,7 +6901,7 @@
       "en": "Square perfume bottle"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6927,7 +6927,7 @@
       "en": "Gold perfume containers · second model"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -6961,7 +6961,7 @@
       "en": "White cream containers"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7019,7 +7019,7 @@
       "en": "Black cream containers"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7093,7 +7093,7 @@
       "en": "Frosted clear cream containers"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7167,7 +7167,7 @@
       "en": "Chinouia container · 0394-9"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7193,7 +7193,7 @@
       "en": "Chinouia container · 0394-10"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7219,7 +7219,7 @@
       "en": "White foam pump bottle"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7245,7 +7245,7 @@
       "en": "Tresor sprayer"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7271,7 +7271,7 @@
       "en": "White bottle · source designation Silik"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7297,7 +7297,7 @@
       "en": "Bridal perfume sprayer"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7339,7 +7339,7 @@
       "en": "Crystal containers"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7381,7 +7381,7 @@
       "en": "Square crystal container"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7407,7 +7407,7 @@
       "en": "Plastic jars with gold lids"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7481,7 +7481,7 @@
       "en": "Plastic jars with silver lids"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7555,7 +7555,7 @@
       "en": "Plastic jars with pink lids"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7629,7 +7629,7 @@
       "en": "Plastic jars with black lids"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7703,7 +7703,7 @@
       "en": "Small musk tube"
     },
     "category": "perfume",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7729,7 +7729,7 @@
       "en": "Plastic sprayers"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7779,7 +7779,7 @@
       "en": "Gold sprayer"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7805,7 +7805,7 @@
       "en": "Black frosted + bamboo jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7855,7 +7855,7 @@
       "en": "Clear frosted + bamboo jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7905,7 +7905,7 @@
       "en": "Black glossy + black jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7955,7 +7955,7 @@
       "en": "Clear frosted + gold jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -7997,7 +7997,7 @@
       "en": "Clear frosted + silver jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8047,7 +8047,7 @@
       "en": "Clear + bamboo jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8097,7 +8097,7 @@
       "en": "White + bamboo jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8147,7 +8147,7 @@
       "en": "Cream containers with gold lotion pumps"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8181,7 +8181,7 @@
       "en": "Cream containers with silver lotion pumps"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8215,7 +8215,7 @@
       "en": "Chiba bottle"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8249,7 +8249,7 @@
       "en": "Cont-cout bottle"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8283,7 +8283,7 @@
       "en": "Frosted amber dropper bottles"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8341,7 +8341,7 @@
       "en": "Gold dropper bottles"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8399,7 +8399,7 @@
       "en": "Clove bottle"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8425,7 +8425,7 @@
       "en": "Honeycomb jars with screw lids"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8483,7 +8483,7 @@
       "en": "Round jar"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8509,7 +8509,7 @@
       "en": "Zawareq container"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8535,7 +8535,7 @@
       "en": "Qaraa bottle"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8561,7 +8561,7 @@
       "en": "Hexagonal jars"
     },
     "category": "jars",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8611,7 +8611,7 @@
       "en": "Aluminium sprayer heads"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8653,7 +8653,7 @@
       "en": "Aluminium lotion pumps"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8695,7 +8695,7 @@
       "en": "Clear airless + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8729,7 +8729,7 @@
       "en": "Airless clear + silver"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8755,7 +8755,7 @@
       "en": "Airless opaque + gold"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8781,7 +8781,7 @@
       "en": "Airless opaque + silver"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8807,7 +8807,7 @@
       "en": "Silik containers"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8849,7 +8849,7 @@
       "en": "Clear Pharma bottle · 30 ml"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8875,7 +8875,7 @@
       "en": "Clear Pharma bottle · 60 ml"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8901,7 +8901,7 @@
       "en": "Amber Pharma bottle · pallet pack"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8927,7 +8927,7 @@
       "en": "Amber Pharma bottle · carton 220"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8953,7 +8953,7 @@
       "en": "Clear Pharma bottle · 125 ml"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -8979,7 +8979,7 @@
       "en": "Lotion pumps"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9021,7 +9021,7 @@
       "en": "Black plastic Marasca cap · carton 3000"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9047,7 +9047,7 @@
       "en": "Black plastic Marasca cap · carton 2500"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9073,7 +9073,7 @@
       "en": "Aluminium Marasca cap"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9099,7 +9099,7 @@
       "en": "Egyptian plastic guarantee cap"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9125,7 +9125,7 @@
       "en": "Indian plastic guarantee cap"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9151,7 +9151,7 @@
       "en": "PVC overcap · carton 16575"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9177,7 +9177,7 @@
       "en": "PVC overcap · carton 16320"
     },
     "category": "accessories",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9203,7 +9203,7 @@
       "en": "Kraft pouches"
     },
     "category": "pouches",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9261,7 +9261,7 @@
       "en": "Silver aluminium pouches"
     },
     "category": "pouches",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9319,7 +9319,7 @@
       "en": "Printed plastic pouches"
     },
     "category": "pouches",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9377,7 +9377,7 @@
       "en": "Beige plastic pouches"
     },
     "category": "pouches",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9435,7 +9435,7 @@
       "en": "Purple plastic pouches"
     },
     "category": "pouches",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9493,7 +9493,7 @@
       "en": "Pistachio plastic pouches"
     },
     "category": "pouches",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9551,7 +9551,7 @@
       "en": "Marasca bottles"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {
@@ -9585,7 +9585,7 @@
       "en": "Amber Pharma bottles"
     },
     "category": "bottles",
-    "image": "./images/logo-transparent.png",
+    "image": "/images/velora-logo.png",
     "photoPlaceholder": true,
     "variants": [
       {

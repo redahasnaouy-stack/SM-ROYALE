@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {pageForPath,renderStorePage} from './lib/pages.mjs';
 import {editProduct,decodeProductImage} from './lib/product-editor.mjs';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
@@ -61,7 +62,7 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
         const image=await db.get('product-images',route.split('/').at(-1));if(!image)return json(res,404,{error:'الصورة غير موجودة.'});res.writeHead(200,{'Content-Type':image.type,'Cache-Control':'public, max-age=31536000, immutable'});return res.end(method==='HEAD'?undefined:Buffer.from(image.base64,'base64'));
       }
       if(route==='/api/admin/product-images'&&method==='POST'){
-        const user=await authenticated(req,true);await throttle('image:'+user.admin_id,50,60*60*1000);const image=decodeProductImage(await body(req,2100000)),id=digest(image.bytes).slice(0,32);
+        const user=await authenticated(req,true);await throttle('image:'+user.admin_id,200,60*60*1000);const image=decodeProductImage(await body(req,2100000)),id=digest(image.bytes).slice(0,32);
         await db.put('product-images',id,{type:image.type,base64:image.bytes.toString('base64')},{ifNew:true});await audit(user,'upload_product_image',id);return json(res,201,{image:'/api/product-images/'+id});
       }
       if(route==='/api/admin/login'&&method==='POST'){
@@ -74,7 +75,7 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
       if(route==='/api/admin/session'&&method==='GET'){const user=await authenticated(req);return json(res,200,{email:user.email,csrf:user.csrf});}
       if(route==='/api/admin/logout'&&method==='POST'){const user=await authenticated(req,true);await db.delete('sessions',user.token_hash);res.setHeader('Set-Cookie',cookie('',0));return json(res,200,{ok:true});}
       if(route==='/api/admin/orders'&&method==='GET'){await authenticated(req);return json(res,200,{orders:(await db.list('orders')).sort((a,b)=>b.created_at.localeCompare(a.created_at)).map(orderView)});}
-      if(route==='/api/admin/products'&&method==='GET'){await authenticated(req);return json(res,200,{products:(await publicProducts(db)).map(p=>({...p,version:p._version||null}))});}
+      if(route==='/api/admin/products'&&method==='GET'){await authenticated(req);return json(res,200,{products:(await publicProducts(db,{includeDeleted:true})).map(p=>({...p,version:p._version||null}))});}
       if(route.startsWith('/api/admin/orders/')&&method==='PATCH'){
         const user=await authenticated(req,true),id=route.split('/').at(-1),data=await body(req),row=await db.get('orders',id);
         if(!row)throw Object.assign(new Error('الطلب غير موجود.'),{status:404});
@@ -92,10 +93,22 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
         if(!await db.put('orders',id,updated,{version:row._version}))throw Object.assign(new Error('عُدّل الطلب. حدّث الصفحة.'),{status:409});
         await audit(user,'update_order',id);return json(res,200,{order:orderView(await db.get('orders',id))});
       }
+      if(route==='/api/admin/products'&&method==='POST'){
+        const user=await authenticated(req,true),data=await body(req),id='VEL-'+randomBytes(6).toString('hex');
+        if(!data.name||!data.category)throw Object.assign(new Error('أدخل اسم المنتج وفئته.'),{status:400});
+        const product=editProduct({id,custom:true,createdAt:new Date().toISOString(),name:{ar:'',en:''},description:{ar:'',en:''},category:'bottles',image:'/images/velora-logo.png',variants:[],available:true},data);
+        for(const image of product.images||[product.image])if(image.startsWith('/api/product-images/')&&!await db.get('product-images',image.split('/').at(-1)))throw Object.assign(new Error('الصورة غير موجودة.'),{status:400});
+        await db.put('products',id,product,{ifNew:true});await audit(user,'create_product',id);return json(res,201,{product:{...product,version:(await db.get('products',id))._version}});
+      }
+      if(/^\/api\/admin\/products\/[A-Za-z0-9-]+$/.test(route)&&method==='DELETE'){
+        const user=await authenticated(req,true),id=route.split('/').at(-1),data=await body(req),record=await getProduct(db,id);if(!record)throw Object.assign(new Error('المنتج غير موجود.'),{status:404});
+        if(data.version!==(record._version||null)||!await db.put('products',id,{...record,deleted:true,available:false},record._version?{version:record._version}:{ifNew:true}))throw Object.assign(new Error('عُدّل المنتج. حدّث الصفحة.'),{status:409});
+        await audit(user,'delete_product',id);return json(res,200,{ok:true});
+      }
       if(route.startsWith('/api/admin/products/')&&method==='PATCH'){
         const user=await authenticated(req,true),id=route.split('/').at(-1),data=await body(req),record=await getProduct(db,id);if(!record)throw Object.assign(new Error('المنتج غير موجود.'),{status:404});
         const product=editProduct(record,data);
-        if(product.image.startsWith('/api/product-images/')&&!await db.get('product-images',product.image.split('/').at(-1)))throw Object.assign(new Error('الصورة المرفوعة غير موجودة. أعد رفعها.'),{status:400});
+        for(const image of product.images||[product.image])if(image.startsWith('/api/product-images/')&&!await db.get('product-images',image.split('/').at(-1)))throw Object.assign(new Error('الصورة المرفوعة غير موجودة. أعد رفعها.'),{status:400});
         if(data.version!==(record._version||null))throw Object.assign(new Error('عُدّل المنتج. حدّث الصفحة.'),{status:409});
         if(!await db.put('products',id,product,record._version?{version:record._version}:{ifNew:true}))throw Object.assign(new Error('عُدّل المنتج. حدّث الصفحة.'),{status:409});
         await audit(user,'update_product',id);return json(res,200,{product});
@@ -103,6 +116,9 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
       if(route.startsWith('/api/'))return json(res,404,{error:'المسار غير موجود.'});
       if(!['GET','HEAD'].includes(method))return json(res,405,{error:'طريقة الطلب غير مسموح بها.'});
       if(route==='/admin'){res.writeHead(301,{Location:'/admin/'});return res.end();}
+      const pageKey=pageForPath(route);
+      if(pageKey){const html=renderStorePage(await readFile(path.join(moduleRoot,'public/index.html'),'utf8'),pageKey);res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store'});return res.end(method==='HEAD'?undefined:html);}
+      if(['/catalogue','/about','/reviews','/contact'].includes(route)){res.writeHead(301,{Location:route+'/'});return res.end();}
       const resource=route==='/'?'/index.html':route==='/admin'||route==='/admin/'?'/admin.html':route;
       const root=path.join(moduleRoot,'public'),file=path.resolve(root,'.'+resource);if(!file.startsWith(root+path.sep)||resource.includes('/.'))return json(res,403,{error:'غير مسموح.'});
       const data=await readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':resource.endsWith('.html')?'no-store':'public, max-age=300'});res.end(method==='HEAD'?undefined:data);

@@ -1,5 +1,6 @@
 (() => {
  const $=id=>document.getElementById(id),tr=(en,ar)=>document.documentElement.lang==='ar'?ar:en,esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ if(!$('review-form'))return;
  let data=null,failed=false,sent=false,sending=false;
  function render(){
   if(failed){$('reviews-summary').textContent=tr('Reviews are temporarily unavailable.','التقييمات غير متاحة مؤقتًا.');return;}

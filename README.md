@@ -1,4 +1,4 @@
-# SM Royale
+# VELORA
 
 A royal black-and-gold storefront in Modern Standard Arabic and English, with a persistent shopping basket, on-site cash-on-delivery checkout and a private administration dashboard.
 
@@ -112,3 +112,11 @@ All 250 catalogue entries now have numeric prices. Confirmed supplier prices for
 ## Editing product content
 
 Open **المنتجات والأسعار → تعديل المنتج** to edit Arabic/English names and descriptions, category, availability, photo, sizes, prices, carton counts and supplier references. The product ID is retained so previous orders keep their references. Save after uploading a photo. JPEG/PNG/WebP uploads are resized in the browser and stored persistently in Netlify Blobs (SQLite locally), served from the same origin. Only authenticated, CSRF-protected uploads are accepted. Content edits persist across supplier price revisions; order item snapshots remain unchanged. New descriptions appear in the bilingual product details. Concurrent edits are rejected until the operator refreshes the record.
+
+## VELORA storefront and mobile product management
+
+The public brand is VELORA, with a beige/bronze palette and its new logo. The build emits five separate pages: `/`, `/catalogue/`, `/about/`, `/reviews/` and `/contact/`. Local serving uses the same page renderer. Navigation, category links and basket contents work across pages in Arabic and English. The published catalogue uses the live API so unavailable service cannot silently display stale prices or deleted inventory from a static fallback.
+
+In administration, choose **المنتجات والأسعار → إضافة منتج جديد**. Products support up to 20 photos, batch uploads, changing the main photo, removing photos, bilingual descriptions and editable prices. Save after making changes. **حذف المنتج** removes it from the public store; **المنتجات المحذوفة → استرجاع المنتج** restores it. Existing order snapshots and image assets are retained. Source catalogue products and new `VEL-` products use the same persistent store. New products appear first in administration.
+
+Existing `SM_ADMIN_*` environment variable names, order references, basket storage keys and the Netlify Blobs store name are intentionally unchanged so the brand update preserves existing access and customer/order data. No credentials or customer records are included in source control.

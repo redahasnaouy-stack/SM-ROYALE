@@ -142,3 +142,17 @@ test('full product edits and uploaded images persist; source price revisions pre
  const current=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(item=>item.id===p.id);
  for(const value of [{...data,name:{ar:'',en:'valid'}},{...data,category:'bad'},{...data,image:'https://example.com/a.png'},{...data,image:'./images/../secret.png'},{...data,variants:[{size:'30 ml',price:1},{size:'30 ml',price:2}]}])assert.equal((await patch({...value,version:current.version})).status,400);
 });
+
+test('custom products support galleries, ordering, deletion and restore without losing historical orders',async t=>{
+ const f=await fixture(t),data={name:{ar:'منتج جديد للاختبار',en:'Custom test product'},description:{ar:'وصف الاختبار',en:'Test description'},category:'jars',available:true,images:['/images/products/007.webp','/images/products/139.webp'],variants:[{size:'50 ml',price:12.5}]};
+ assert.equal((await f.post('/api/admin/products',data)).status,401);
+ const created=await f.post('/api/admin/products',data,f.auth);assert.equal(created.status,201);const p=created.data.product;assert.match(p.id,/^VEL-[a-f0-9]{12}$/);assert.equal(p.image,data.images[0]);assert.deepEqual((await f.call('/api/products')).data.find(x=>x.id===p.id).images,data.images);
+ const order=await f.post('/api/orders',payload([{productId:p.id,variantIndex:0,variantKey:p.variants[0].key,quantity:2,specification:''}]),{'Idempotency-Key':randomUUID()});assert.equal(order.status,201);assert.equal(order.data.order.subtotalCents,2500);
+ const patch=(body,method='PATCH')=>f.call('/api/admin/products/'+p.id,{method,headers:f.auth,body:JSON.stringify(body)});
+ assert.equal((await patch({version:p.version,available:true,variants:p.variants,images:[data.images[1]]})).status,200);let current=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(x=>x.id===p.id);assert.equal(current.image,data.images[1]);assert.equal(current.images.length,1);
+ assert.equal((await patch({version:p.version},'DELETE')).status,409);assert.equal((await patch({version:current.version},'DELETE')).status,200);assert(!(await f.call('/api/products')).data.some(x=>x.id===p.id));
+ const retry=await f.post('/api/orders',payload([{productId:p.id,variantIndex:0,variantKey:p.variants[0].key,quantity:1,specification:''}]),{'Idempotency-Key':randomUUID()});assert.equal(retry.status,409);
+ current=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(x=>x.id===p.id);assert(current.deleted);assert.equal((await patch({version:current.version,available:true,deleted:false,variants:current.variants})).status,200);assert((await f.call('/api/products')).data.some(x=>x.id===p.id));
+ const historic=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders.find(x=>x.reference===order.data.order.reference);assert.equal(historic.items[0].image,data.images[0]);assert.equal(historic.items[0].unitPriceCents,1250);
+ current=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(x=>x.id===p.id);assert.equal((await patch({version:current.version,available:true,variants:current.variants,images:['https://bad.example/test.png']})).status,400);
+});
