@@ -2,6 +2,10 @@
 
 A royal black-and-gold storefront in Modern Standard Arabic and English, with a persistent shopping basket, on-site cash-on-delivery checkout and a private administration dashboard.
 
+## Cloudflare deployment (direct from GitHub)
+
+The same repository now runs on Cloudflare Workers + Static Assets with D1 persistence. Follow [the dashboard setup instructions](docs/cloudflare-setup.md). No Netlify account access is required for a fresh installation. Live Netlify-only data is not automatically copied.
+
 ## Deploy to Netlify
 
 **Import this GitHub repository and select `main`. Do not upload only `dist/` using Netlify Drop:** checkout needs the serverless function and durable storage as well as the frontend. `netlify.toml` configures the build, function routing and security headers.

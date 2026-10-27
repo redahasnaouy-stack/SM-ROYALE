@@ -9,12 +9,20 @@
     "test": "node --test test/*.test.mjs",
     "admin:create": "node scripts/create-admin.mjs",
     "admin:hash": "node scripts/admin-hash.mjs",
-    "catalogue:import": "node scripts/import-supplier-prices.mjs"
+    "catalogue:import": "node scripts/import-supplier-prices.mjs",
+    "cf:dev": "npm run build && wrangler dev",
+    "cf:check": "npm run build && wrangler deploy --dry-run",
+    "cf:deploy": "npm run build && wrangler deploy",
+    "test:cloudflare": "npm run build && wrangler deploy --dry-run --outdir .wrangler/test-bundle && node --test cloudflare/runtime.test.mjs"
   },
   "engines": {
     "node": ">=24"
   },
   "dependencies": {
     "@netlify/blobs": "^11.1.6"
+  },
+  "devDependencies": {
+    "miniflare": "^5.20261023.0-beta",
+    "wrangler": "^4.153.0"
   }
 }

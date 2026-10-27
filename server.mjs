@@ -6,7 +6,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {randomBytes} from 'node:crypto';
 import {openStore,publicProducts,verifyAdmin,digest,saveOrder,receipt,orderView,totals,getProduct,environmentOwner} from './lib/store.mjs';
-const moduleRoot=path.dirname(fileURLToPath(import.meta.url));
+const moduleRoot=import.meta.url?.startsWith('file:')?path.dirname(fileURLToPath(import.meta.url)):'/';
 const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.jpeg':'image/jpeg','.png':'image/png','.woff2':'font/woff2','.svg':'image/svg+xml','.webp':'image/webp','.json':'application/json; charset=utf-8','.txt':'text/plain; charset=utf-8'};
 const statuses=['new','pricing_pending','confirmed','processing','shipped','delivered','cancelled'];
 export async function createApp({databasePath=process.env.DATABASE_PATH||path.join(moduleRoot,'data/store.sqlite'),secureCookies=process.env.NODE_ENV==='production',repository=null,products=null}={}){
