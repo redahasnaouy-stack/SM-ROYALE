@@ -162,6 +162,7 @@ const labelTranslations = [
   ['nav', 'aria-label', 'التنقل الرئيسي'],
   ['.showcase-categories', 'aria-label', 'فئات المنتجات'],
   ['.floating-whatsapp', 'aria-label', 'تواصل مع VELORA عبر واتساب'],
+  ['.social-whatsapp', 'aria-label', 'قناة VELORA على واتساب'],
   ['.filters', 'aria-label', 'تصفية المجموعات'],
   ['.brand', 'aria-label', 'VELORA — الصفحة الرئيسية'],
   ['.brand-logo', 'alt', 'شعار VELORA البرونزي'],

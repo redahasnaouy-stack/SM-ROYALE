@@ -22,3 +22,17 @@ footer{background:#ece2d1;color:#80674a;border-color:#b49a744d}footer .brand{col
  .showcase-description{max-width:215px;margin-left:0;margin-right:0}
  body[dir=rtl] .showcase-copy h1{font-size:27px;line-height:1.6}
 }
+/* Match the left-hand composition on desktop and mobile. */
+.showcase-banner{direction:ltr}
+.showcase-copy,.showcase-copy h1,.showcase-description{text-align:left}
+.showcase-copy .eyebrow{display:block;text-align:left}
+.showcase-description{width:100%;margin-left:0;margin-right:auto}
+/* Unframed brand marks, with quiet captions and generous touch targets. */
+.footer-social-links{display:flex;flex-wrap:wrap;align-items:flex-start;gap:22px;padding:6px 0 4px}
+.footer-social-links a,.footer-social-links .social-whatsapp{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;gap:9px;min-width:60px;min-height:65px;padding:5px 4px;border:0;border-radius:0;background:transparent;box-shadow:none;text-decoration:none;transition:transform .2s}
+.footer-social-links a:hover,.footer-social-links .social-whatsapp:hover{background:transparent;border:0;transform:translateY(-3px)}
+.footer-social-links .social-brand-icon{width:32px;height:32px;object-fit:contain}
+.footer-social-links .social-network-label{margin:0!important;color:#826a4b;font-size:10px;line-height:1.4;letter-spacing:.2px}
+.footer-social-links a:focus-visible{outline:2px solid #96713f;outline-offset:5px}
+@media(max-width:500px){.footer-social-links{display:flex;gap:12px;justify-content:space-between;flex-wrap:nowrap}.footer-social-links a,.footer-social-links .social-whatsapp{min-width:40px;padding:5px 0;min-height:62px;gap:8px}.footer-social-links .social-brand-icon{width:28px;height:28px}.footer-social-links .social-network-label{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.footer-social-links a{transition:none}.footer-social-links a:hover{transform:none}}
