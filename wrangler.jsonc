@@ -20,5 +20,6 @@
       "database_name": "velora-db",
       "migrations_dir": "cloudflare/migrations"
     }
-  ]
+  ],
+  "keep_vars": true
 }
