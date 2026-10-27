@@ -13,3 +13,12 @@ footer{background:#ece2d1;color:#80674a;border-color:#b49a744d}footer .brand{col
 @media(max-width:600px){header{padding:12px 4% 43px;min-height:120px}.brand span{font-size:24px}.brand-logo{width:48px;height:48px}.brand small{font-size:7px}header nav{bottom:8px;gap:17px;font-size:10px}body[dir=rtl] header nav{font-size:10px}.showcase-hero{padding:12px 12px 24px}.showcase-banner{min-height:390px}.showcase-scene{object-position:61% center}.showcase-banner:before{background:linear-gradient(90deg,#ebdcc4fa,#ebdcc4c7 45%,#ebdcc433 83%)}.showcase-copy{width:70%;margin-left:6%;margin-right:auto;padding:30px 0}.showcase-copy h1{font-size:43px;line-height:1.08}body[dir=rtl] .showcase-copy h1{font-size:30px;line-height:1.65}.showcase-description{font-size:11px;max-width:240px}.showcase-signature{display:none}.showcase-categories{gap:8px}.showcase-category-title{font-size:10px}.section h1{font-size:40px}body[dir=rtl] .section h1{font-size:28px}.about-image{padding:20px}.contact .contact-logo{width:83px;height:83px}.detail-image-wrap{min-height:0}.detail-gallery{gap:7px;padding:12px}.detail-gallery button{width:53px;height:55px}.product-gallery-editor{grid-template-columns:repeat(2,minmax(0,1fr))}.product-admin-actions{gap:14px}.product-admin-actions>.button{width:100%}.product-admin-actions label{width:100%;justify-content:space-between}.product-save-bar{bottom:-22px;gap:8px}.danger-button{font-size:11px;padding:12px}.admin-body dialog{padding:20px}.gallery-editor-item>img{height:100px}.admin-topbar h1{font-size:22px}.product-image-editor input[type=file]{font-size:12px}.floating-whatsapp{bottom:18px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 .collections{background:#f7f2e9}.collections:before,.catalogue:before{display:none}.section .section-heading p{color:#897157}.section .section-heading h2{color:#533a23}.filters{border-color:#bca37c55}.catalogue-loading,.catalogue-error{background:#eee1cb;color:#84633d}.status-distribution{color:#8c6b43}
+/* Keep mobile hero copy on the left, leaving the product composition visible. */
+@media(max-width:600px){
+ .showcase-banner{direction:ltr}
+ .showcase-copy{width:62%;margin-left:5%;margin-right:auto;text-align:left}
+ .showcase-copy .eyebrow{display:block;text-align:left}
+ .showcase-copy h1,.showcase-description{text-align:left}
+ .showcase-description{max-width:215px;margin-left:0;margin-right:0}
+ body[dir=rtl] .showcase-copy h1{font-size:27px;line-height:1.6}
+}
