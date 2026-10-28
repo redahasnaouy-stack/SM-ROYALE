@@ -79,13 +79,13 @@ export async function createApp({databasePath=process.env.DATABASE_PATH||path.jo
       if(route.startsWith('/api/admin/orders/')&&method==='PATCH'){
         const user=await authenticated(req,true),id=route.split('/').at(-1),data=await body(req),row=await db.get('orders',id);
         if(!row)throw Object.assign(new Error('الطلب غير موجود.'),{status:404});
-        const status=data.status??row.status,payment=data.paymentStatus??row.payment_status,shipping=data.shippingCents===undefined?row.shipping_cents:data.shippingCents;
+        const status=data.status??row.status,payment=data.paymentStatus??row.payment_status,shipping=0;
         if(!statuses.includes(status)||!['unpaid','paid','refunded'].includes(payment))throw Object.assign(new Error('حالة الطلب غير صالحة.'),{status:400});
         if(shipping!==null&&(!Number.isInteger(shipping)||shipping<0||shipping>10000000))throw Object.assign(new Error('رسوم التوصيل غير صالحة.'),{status:400});
         let items=JSON.parse(row.items);
         if(data.unitPrices!==undefined){if(!Array.isArray(data.unitPrices)||data.unitPrices.length!==items.length)throw Object.assign(new Error('أسعار المنتجات غير صالحة.'),{status:400});items=items.map((item,index)=>{const price=data.unitPrices[index];if(price!==null&&(!Number.isInteger(price)||price<0||price>100000000))throw Object.assign(new Error('سعر المنتج غير صالح.'),{status:400});return {...item,unitPriceCents:price};});}
         const result=totals(items,shipping);
-        if(['confirmed','processing','shipped','delivered'].includes(status)&&result.total===null)throw Object.assign(new Error('حدّد أسعار المنتجات ورسوم التوصيل قبل تأكيد الطلب.'),{status:400});
+        if(['confirmed','processing','shipped','delivered'].includes(status)&&result.total===null)throw Object.assign(new Error('حدّد أسعار المنتجات قبل تأكيد الطلب.'),{status:400});
         if(payment==='paid'&&result.total===null)throw Object.assign(new Error('حدّد المبلغ النهائي قبل تسجيل السداد.'),{status:400});
         const notes=data.notes===undefined?row.notes:data.notes;if(typeof notes!=='string'||notes.length>2000)throw Object.assign(new Error('الملاحظات غير صالحة.'),{status:400});
         if(data.version!==row._version)throw Object.assign(new Error('عُدّل الطلب من جلسة أخرى. حدّث الصفحة.'),{status:409});

@@ -26,18 +26,18 @@ async function fixture(t,repo=null){
 }
 test('orders persist authoritative prices, reject tampering and duplicate retries',async t=>{
   const f=await fixture(t),key=randomUUID(),data=payload();data.items[0].unitPriceCents=1;
-  const a=await f.post('/api/orders',data,{'Idempotency-Key':key});assert.equal(a.status,201);assert.equal(a.data.order.subtotalCents,860);assert.equal(a.data.order.totalCents,null);assert.equal(a.data.order.shippingCents,null);assert.equal(a.data.order.status,'new');assert(!('customer' in a.data.order));
+  const a=await f.post('/api/orders',data,{'Idempotency-Key':key});assert.equal(a.status,201);assert.equal(a.data.order.subtotalCents,860);assert.equal(a.data.order.totalCents,860);assert.equal(a.data.order.shippingCents,0);assert.equal(a.data.order.status,'new');assert(!('customer' in a.data.order));
   const b=await f.post('/api/orders',data,{'Idempotency-Key':key});assert.equal(b.status,200);assert.equal(b.data.order.reference,a.data.order.reference);
   data.customer.name='عميل مختلف';assert.equal((await f.post('/api/orders',data,{'Idempotency-Key':key})).status,409);
   const list=await f.call('/api/admin/orders',{headers:f.auth});assert.equal(list.data.orders.length,1);assert.equal(list.data.orders[0].items[0].unitPriceCents,430);
 });
-test('quotes are pending pricing; delivery and item prices are required before confirmation',async t=>{
+test('quotes are pending pricing; item prices are required before confirmation with free delivery',async t=>{
   const f=await fixture(t);f.db.products.find(p=>p.id==='SMR-063').variants=[];assert.equal((await f.post('/api/orders',payload([{productId:'SMR-063',variantIndex:null,quantity:3,specification:'اللون البنفسجي'}]),{'Idempotency-Key':randomUUID()})).data.order.status,'pricing_pending');
   let order=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];
   const patch=data=>f.call('/api/admin/orders/'+order.id,{method:'PATCH',headers:f.auth,body:JSON.stringify({version:order.version,...data})});
   assert.equal((await patch({status:'confirmed'})).status,400);assert.equal((await patch({status:'confirmed',unitPrices:[500],shippingCents:3000})).status,200);
   const stale=await patch({status:'cancelled'});assert.equal(stale.status,409);
-  order=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];assert.equal(order.totalCents,4500);assert.equal(order.status,'confirmed');
+  order=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];assert.equal(order.totalCents,1500);assert.equal(order.status,'confirmed');
 });
 test('admin data requires authentication; writes enforce CSRF and origin; logout revokes session',async t=>{
   const f=await fixture(t);assert.equal((await f.call('/api/admin/orders')).status,401);assert.equal((await f.call('/api/admin/products')).status,401);
@@ -84,7 +84,7 @@ test('Netlify Blobs adapter persists orders, sessions and conditional admin upda
   const store=getStore(options),repo=blobRepository(store);const f=await fixture(t,repo);
   const response=await f.post('/api/orders',payload(),{'Idempotency-Key':randomUUID()});assert.equal(response.status,201);
   const rows=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders;assert.equal(rows.length,1);
-  const updated=await f.call('/api/admin/orders/'+rows[0].id,{method:'PATCH',headers:f.auth,body:JSON.stringify({version:rows[0].version,status:'confirmed',shippingCents:2000})});assert.equal(updated.status,200);assert.equal(updated.data.order.totalCents,2860);
+  const updated=await f.call('/api/admin/orders/'+rows[0].id,{method:'PATCH',headers:f.auth,body:JSON.stringify({version:rows[0].version,status:'confirmed',shippingCents:2000})});assert.equal(updated.status,200);assert.equal(updated.data.order.totalCents,860);
   const stale=await f.call('/api/admin/orders/'+rows[0].id,{method:'PATCH',headers:f.auth,body:JSON.stringify({version:rows[0].version,status:'cancelled'})});assert.equal(stale.status,409);
   const fresh=blobRepository(getStore(options));assert.equal((await fresh.list('orders'))[0].status,'confirmed');
 });
