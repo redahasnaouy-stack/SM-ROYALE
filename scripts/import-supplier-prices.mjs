@@ -16,7 +16,7 @@ for(const group of reviewed){
     for(const id of group.matchedProductIds){const product=map.get(id);if(!product)throw new Error('Unknown image reference '+id);apply(product,group,values);mapped.push({id,group:group.id});}
   }else if(values.length){
     const id='SUP-'+group.id;let product=map.get(id);
-    if(!product){product={id,name:group.name,category:group.category,image:'/images/velora-logo.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
+    if(!product){product={id,name:group.name,category:group.category,image:'/images/logo-transparent.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
     product.name=group.name;apply(product,group,values);
   }
 }
@@ -34,7 +34,7 @@ const usedKeys=new Set(products.flatMap(p=>p.variants.map(v=>v.key)));
 for(const group of reviewed){
  const missing=variants(group).filter(v=>!usedKeys.has(v.key));if(!missing.length)continue;
  const id='SUP-'+group.id;let product=map.get(id);
- if(!product){product={id,name:group.name,category:group.category,image:'/images/velora-logo.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
+ if(!product){product={id,name:group.name,category:group.category,image:'/images/logo-transparent.png',photoPlaceholder:true,variants:[]};products.push(product);map.set(id,product);}
  apply(product,group,missing);missing.forEach(v=>usedKeys.add(v.key));
 }
 const estimates=JSON.parse(await readFile('catalogue/estimated-prices-2026-10-24.json','utf8'));
@@ -46,6 +46,6 @@ for(const entry of estimates.products){
  product.pricingRevision=estimates.revision+'-'+createHash('sha256').update(JSON.stringify(product.variants)).digest('hex').slice(0,16);
 }
 const report={revision:source.revision,sourceSha256:source.sourceSha256,sourceGroups:source.groups.length,sourceVariants:source.groups.reduce((n,g)=>n+g.variants.length,0),pricedSourceRows:reviewed.reduce((n,g)=>n+variants(g).length,0),blankSourceRows:source.groups.flatMap(g=>g.variants.filter(v=>v.priceCents===null).map(v=>({group:g.id,...v}))),pendingGroups:pending,mappedImageProducts:mapped,totalProducts:products.length,estimatedProducts:products.filter(p=>p.priceEstimate).length,pricedProducts:products.filter(p=>p.variants.length).length,pricedVariants:products.reduce((n,p)=>n+p.variants.length,0)};
-await writeFile('public/products.json',JSON.stringify(products,null,2)+'\n');
+await writeFile('public/products.json',JSON.stringify(products.map(p=>({...p,variants:p.variants.map(v=>({...v,price:null}))})),null,2)+'\n');
 await mkdir('docs',{recursive:true});await writeFile('docs/price-import-report.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({products:report.totalProducts,pricedProducts:report.pricedProducts,pricedVariants:report.pricedVariants,transcribedGroups:report.sourceGroups,transcribedRows:report.sourceVariants,unambiguousSourceRows:report.pricedSourceRows,pendingGroups:pending.length,blankSourceRows:report.blankSourceRows.length}));

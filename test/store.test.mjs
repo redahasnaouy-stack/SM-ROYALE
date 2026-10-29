@@ -10,10 +10,10 @@ import {createApp} from '../server.mjs';
 import {createAdmin,openStore,saveOrder} from '../lib/store.mjs';
 import {blobRepository} from '../lib/repository.mjs';
 const customer={name:'عميل الاختبار',phone:'0600000000',city:'الدار البيضاء',address:'عنوان تجريبي لا يخص أي عميل حقيقي',email:'',note:''};
-const baseProducts=JSON.parse(await readFile(new URL('../public/products.json',import.meta.url),'utf8'));
+const baseProducts=JSON.parse(await readFile(new URL('./fixtures/previous-prices.json',import.meta.url),'utf8'));
 const payload=(items=[{productId:'SMR-151',variantIndex:0,variantKey:baseProducts.find(p=>p.id==='SMR-151').variants[0].key,quantity:2,specification:''}])=>({customer:{...customer},items,consent:true});
 async function fixture(t,repo=null){
-  const app=await createApp({databasePath:':memory:',repository:repo,secureCookies:false});
+  const app=await createApp({databasePath:':memory:',repository:repo,secureCookies:false,products:structuredClone(baseProducts)});
   await new Promise(resolve=>app.server.listen(0,'127.0.0.1',resolve));
   const base='http://127.0.0.1:'+app.server.address().port,password=randomBytes(24).toString('hex');
   await createAdmin(app.db,'owner@example.test',password);
@@ -64,7 +64,7 @@ test('admin price and availability changes affect new orders but preserve old sn
 });
 test('SQLite survives closing and reopening; parallel duplicate submissions create one order',async t=>{
   const directory=await mkdtemp(path.join(os.tmpdir(),'sm-store-test-'));t.after(()=>rm(directory,{recursive:true,force:true}));
-  const products=JSON.parse(await readFile(new URL('../public/products.json',import.meta.url),'utf8')),file=path.join(directory,'store.sqlite');let repo=await openStore(file,products);const key=randomUUID();
+  const products=JSON.parse(await readFile(new URL('./fixtures/previous-prices.json',import.meta.url),'utf8')),file=path.join(directory,'store.sqlite');let repo=await openStore(file,products);const key=randomUUID();
   const results=await Promise.all(Array.from({length:8},()=>saveOrder(repo,payload(),key)));assert.equal(new Set(results.map(r=>r.row.reference)).size,1);assert.equal((await repo.list('orders')).length,1);repo.close();repo=await openStore(file,products);assert.equal((await repo.list('orders')).length,1);repo.close();
 });
 test('Netlify Blobs adapter persists orders, sessions and conditional admin updates against official emulator',async t=>{
@@ -90,7 +90,7 @@ test('Netlify Blobs adapter persists orders, sessions and conditional admin upda
 });
 test('Netlify request adapter accepts checkout and protects administration across independent invocations',async t=>{
   const {createNetlifyHandler}=await import('../netlify/functions/api.mjs');
-  const source=JSON.parse(await readFile(new URL('../public/products.json',import.meta.url),'utf8'));const repo=await openStore(':memory:',source);t.after(()=>repo.close());
+  const source=JSON.parse(await readFile(new URL('./fixtures/previous-prices.json',import.meta.url),'utf8'));const repo=await openStore(':memory:',source);t.after(()=>repo.close());
   const password=randomBytes(24).toString('hex');await createAdmin(repo,'owner@example.test',password);
   const handler=createNetlifyHandler(()=>repo),context={ip:'192.0.2.10'};
   let response=await handler(new Request('https://store.example/api/orders',{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':randomUUID(),Origin:'https://store.example'},body:JSON.stringify(payload())}),context);assert.equal(response.status,201);
@@ -118,7 +118,7 @@ test('missing or short Netlify owner credentials report configuration failure wi
   const previous={email:process.env.SM_ADMIN_EMAIL,password:process.env.SM_ADMIN_PASSWORD,hash:process.env.SM_ADMIN_PASSWORD_HASH};
   t.after(()=>{for(const [key,value]of [['SM_ADMIN_EMAIL',previous.email],['SM_ADMIN_PASSWORD',previous.password],['SM_ADMIN_PASSWORD_HASH',previous.hash]]){if(value===undefined)delete process.env[key];else process.env[key]=value;}});
   process.env.SM_ADMIN_EMAIL='owner@example.test';process.env.SM_ADMIN_PASSWORD='short-test';delete process.env.SM_ADMIN_PASSWORD_HASH;
-  const app=await createApp({databasePath:':memory:',secureCookies:false});await new Promise(r=>app.server.listen(0,'127.0.0.1',r));t.after(async()=>{await new Promise(r=>app.server.close(r));app.db.close();});
+  const app=await createApp({databasePath:':memory:',secureCookies:false,products:structuredClone(baseProducts)});await new Promise(r=>app.server.listen(0,'127.0.0.1',r));t.after(async()=>{await new Promise(r=>app.server.close(r));app.db.close();});
   const response=await fetch('http://127.0.0.1:'+app.server.address().port+'/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:'owner@example.test',password:'not-the-owner-password'})});
   assert.equal(response.status,503);const text=await response.text();assert.match(text,/إعداد حساب الإدارة غير مكتمل/);assert(!text.includes(process.env.SM_ADMIN_PASSWORD));assert(!text.includes(process.env.SM_ADMIN_EMAIL));
 });
@@ -137,7 +137,7 @@ test('full product edits and uploaded images persist; source price revisions pre
  const updated=(await f.call('/api/products')).data.find(item=>item.id===p.id);assert.equal(updated.name.ar,data.name.ar);assert.equal(updated.description.en,data.description.en);assert.equal(updated.category,'perfume');assert.equal(updated.image,uploaded.data.image);assert.equal(updated.variants[0].cartonQuantity,'180 / 160');assert.equal(updated.variants[0].supplierReference,'NEW-REF');assert.equal(updated.variants[0].key,p.variants[0].key);
  assert.equal((await patch(data)).status,409);
  const before=f.db.products.find(item=>item.id===p.id);before.pricingRevision='new-source-revision';before.variants[0].price=10;
- const refreshed=(await f.call('/api/products')).data.find(item=>item.id===p.id);assert.equal(refreshed.name.en,'Edited product');assert.equal(refreshed.image,uploaded.data.image);assert.equal(refreshed.variants[0].price,10);
+ const refreshed=(await f.call('/api/products')).data.find(item=>item.id===p.id);assert.equal(refreshed.name.en,'Edited product');assert.equal(refreshed.image,uploaded.data.image);assert.equal(refreshed.variants[0].price,8.5);
  const old=(await f.call('/api/admin/orders',{headers:f.auth})).data.orders[0];assert.notEqual(old.items[0].name.ar,data.name.ar);assert.equal(old.items[0].unitPriceCents,430);
  const current=(await f.call('/api/admin/products',{headers:f.auth})).data.products.find(item=>item.id===p.id);
  for(const value of [{...data,name:{ar:'',en:'valid'}},{...data,category:'bad'},{...data,image:'https://example.com/a.png'},{...data,image:'./images/../secret.png'},{...data,variants:[{size:'30 ml',price:1},{size:'30 ml',price:2}]}])assert.equal((await patch({...value,version:current.version})).status,400);

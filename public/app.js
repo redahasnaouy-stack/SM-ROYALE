@@ -1,6 +1,6 @@
 const translations = {
  "navHome":"الرئيسية",
- "locationEyebrow":"زوروا VELORA",
+ "locationEyebrow":"زوروا SM ROYALE",
  "locationTitle":"موقع الشركة",
  "openMaps":"عرض الطريق على خرائط Google",
  "confirmWhatsApp":"متابعة تأكيد الطلب عبر واتساب",
@@ -15,7 +15,7 @@ const translations = {
   "reviewsLink": "تقييمات العملاء",
   "reviewsEyebrow": "تجربتكم تهمّنا",
   "reviewsTitle": "بأقلام <em>عملائنا.</em>",
-  "reviewsIntro": "شاركونا تجربتكم مع VELORA.<br>تُنشر التقييمات بعد المراجعة.",
+  "reviewsIntro": "شاركونا تجربتكم مع SM ROYALE.<br>تُنشر التقييمات بعد المراجعة.",
   "reviewFormTitle": "حدّثنا عن تجربتك",
   "reviewName": "الاسم الظاهر للزوار",
   "reviewRating": "تقييمك",
@@ -30,7 +30,7 @@ const translations = {
   "serviceThreeTitle": "الدفع عند الاستلام",
   "serviceThreeText": "أرسل طلبك عبر الموقع وادفع عند استلامه.",
 
-  "socialHeading": "تابعوا VELORA",
+  "socialHeading": "تابعوا SM ROYALE",
   "whatsappChannel": "قناتنا على واتساب",
   "navCollection": "المجموعات",
   "navAbout": "عن الشركة",
@@ -58,9 +58,9 @@ const translations = {
   "tools": "أدوات الحجامة والتدليك",
   "toolsDesc": "أدوات للعناية والراحة.",
   "catalogNote": "تصفح صور المنتجات في دليلنا، وتواصل معنا للتحقق من توافرها وشروط الطلب.",
-  "aboutLabel": "هوية VELORA",
+  "aboutLabel": "هوية SM ROYALE",
   "aboutTitle": "هوية ملكية.<br><em>عناية بكل تفصيل.</em>",
-  "aboutText": "من الدار البيضاء، تجمع VELORA بين عالم العبوات وأدوات العناية. قوارير ومرطبانات وبخاخات وعلب، إلى جانب أدوات الحجامة والتدليك. مجموعات متنوعة لمختلف الاستخدامات، مع تواصل مباشر لمساعدتك في الاختيار.",
+  "aboutText": "من الدار البيضاء، تجمع SM ROYALE بين عالم العبوات وأدوات العناية. قوارير ومرطبانات وبخاخات وعلب، إلى جانب أدوات الحجامة والتدليك. مجموعات متنوعة لمختلف الاستخدامات، مع تواصل مباشر لمساعدتك في الاختيار.",
   "channel": "اكتشف دليل المنتجات",
   "contactLabel": "هل لديك سؤال أو فكرة أو مشروع؟",
   "contactTitle": "لنمنح فكرتك<br><em>لمسة ملكية.</em>",
@@ -68,7 +68,7 @@ const translations = {
   "write": "اطلب مباشرة عبر الموقع",
   "photoCaption": "عبوات تعبّر عن هوية علامتك.",
   "viewCatalogue": "تصفح دليل المنتجات ↗",
-  "catalogueEyebrow": "دليل منتجات VELORA",
+  "catalogueEyebrow": "دليل منتجات SM ROYALE",
   "catalogueTitle": "تفاصيل تصنع <em>الفرق.</em>",
   "catalogueIntro": "تصفح تشكيلتنا واختر المقاس المناسب.<br>أكمل طلبك عبر الموقع.",
   "searchLabel": "البحث عن منتج",
@@ -97,9 +97,9 @@ const translations = {
   "brandPromise": "الفخامة في كل تفصيل · عبوات وأدوات للعناية",
   "announcementChannel": "تسوق مباشرة عبر الموقع ↗",
   "brandTagline": "العبوات وأدوات العناية",
-  "heroEyebrow": "عالم VELORA",
+  "heroEyebrow": "عالم SM ROYALE",
   "heroContact": "تواصل مع فريقنا",
-  "heroLocation": "الدار البيضاء، المغرب · VELORA",
+  "heroLocation": "الدار البيضاء، المغرب · SM ROYALE",
   "heroCollection": "فنّ تقديم التفاصيل",
   "scrollExplore": "اكتشف عالمنا",
   "houseSignature": "هويتنا، توقيعنا",
@@ -161,15 +161,15 @@ document.addEventListener('sm-language-change',()=>queueMicrotask(renderDirectio
 const labelTranslations = [
   ['nav', 'aria-label', 'التنقل الرئيسي'],
   ['.showcase-categories', 'aria-label', 'فئات المنتجات'],
-  ['.floating-whatsapp', 'aria-label', 'تواصل مع VELORA عبر واتساب'],
-  ['.social-whatsapp', 'aria-label', 'قناة VELORA على واتساب'],
+  ['.floating-whatsapp', 'aria-label', 'تواصل مع SM ROYALE عبر واتساب'],
+  ['.social-whatsapp', 'aria-label', 'قناة SM ROYALE على واتساب'],
   ['.filters', 'aria-label', 'تصفية المجموعات'],
-  ['.brand', 'aria-label', 'VELORA — الصفحة الرئيسية'],
-  ['.brand-logo', 'alt', 'شعار VELORA البرونزي'],
+  ['.brand', 'aria-label', 'SM ROYALE — الصفحة الرئيسية'],
+  ['.brand-logo', 'alt', 'شعار SM ROYALE'],
   ['.art-bottles img', 'alt', 'قوارير شفافة مزودة بقطارات'],
   ['.art-jars img', 'alt', 'مرطبانات تجميل شفافة بأغطية ذهبية'],
   ['.art-wellness img', 'alt', 'أدوات الحجامة'],
-  ['.about-image img', 'alt', 'بطاقة شركة VELORA للعبوات وأدوات الحجامة والتدليك في الدار البيضاء']
+  ['.about-image img', 'alt', 'بطاقة شركة SM ROYALE للعبوات وأدوات الحجامة والتدليك في الدار البيضاء']
 ].flatMap(([selector,attribute,ar])=>Array.from(document.querySelectorAll(selector),element=>({element,attribute,ar,en:element.getAttribute(attribute)})));
 const englishTitle = document.title;
 const descriptionMeta = document.querySelector('meta[name="description"]');
@@ -177,8 +177,8 @@ const englishDescription = descriptionMeta.content;
 function localiseDescriptions(){
   const isArabic=document.documentElement.lang==='ar';
   labelTranslations.forEach(({element,attribute,ar,en})=>{const value=isArabic?ar:en;if(value===null)element.removeAttribute(attribute);else element.setAttribute(attribute,value);});
-  const pageTitles={home:'VELORA — أناقة التفاصيل',catalogue:'المنتجات — VELORA',about:'عن الشركة — VELORA',reviews:'تقييمات العملاء — VELORA',contact:'تواصل معنا — VELORA'};
+  const pageTitles={home:'SM ROYALE — أناقة التفاصيل',catalogue:'المنتجات — SM ROYALE',about:'عن الشركة — SM ROYALE',reviews:'تقييمات العملاء — SM ROYALE',contact:'تواصل معنا — SM ROYALE'};
   document.title=isArabic?(pageTitles[document.body.dataset.page]||pageTitles.home):englishTitle;
-  descriptionMeta.content=isArabic?'VELORA في الدار البيضاء: عبوات وقوارير ومرطبانات وبخاخات وأدوات الحجامة والتدليك. تصفح المنتجات واطلب مباشرة عبر الموقع.':englishDescription;
+  descriptionMeta.content=isArabic?'SM ROYALE في الدار البيضاء: عبوات وقوارير ومرطبانات وبخاخات وأدوات الحجامة والتدليك. تصفح المنتجات واطلب مباشرة عبر الموقع.':englishDescription;
 }
 document.addEventListener('sm-language-change',localiseDescriptions);localiseDescriptions();

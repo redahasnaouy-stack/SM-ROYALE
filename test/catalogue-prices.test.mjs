@@ -5,9 +5,9 @@ import {createApp} from '../server.mjs';
 import {createAdmin,getProduct,publicProducts,saveOrder} from '../lib/store.mjs';
 import {randomUUID,randomBytes} from 'node:crypto';
 const source=JSON.parse(await readFile(new URL('../catalogue/supplier-prices-2026-10-22.json',import.meta.url),'utf8'));
-const products=JSON.parse(await readFile(new URL('../public/products.json',import.meta.url),'utf8'));
+const products=JSON.parse(await readFile(new URL('./fixtures/previous-prices.json',import.meta.url),'utf8'));
 const rowIndex=new Map(source.groups.flatMap(g=>g.variants.map(v=>[v.key,{...v,group:g}])));
-test('all published prices match the supplied source exactly; every unambiguous priced source row is represented',()=>{
+test('historical supplier prices match the supplied source exactly; every unambiguous priced source row is represented',()=>{
  const published=new Set();
  for(const p of products.filter(p=>!p.priceEstimate))for(const variant of p.variants){const original=rowIndex.get(variant.key);assert(original,variant.key);assert(!original.group.requiresReview,variant.key);assert.notEqual(original.priceCents,null);assert.equal(Math.round(variant.price*100),original.priceCents,variant.key);assert.equal(variant.size,original.size);published.add(variant.key);}
  for(const group of source.groups)for(const row of group.variants){if(!group.requiresReview&&row.priceCents!==null)assert(published.has(row.key),row.key);else assert(!published.has(row.key),row.key);}
@@ -28,9 +28,9 @@ test('representative prices from every source table retain exact decimals, capac
  assert(products.find(p=>p.id==='SMR-150').priceEstimate===true); // photo cannot be assigned to either supplier reference safely
 });
 test('a new supplier revision replaces stale stored prices while preserving availability and prior order snapshots',async t=>{
- const app=await createApp({databasePath:':memory:'});t.after(()=>app.db.close());
+ const app=await createApp({databasePath:':memory:',products:structuredClone(products)});t.after(()=>app.db.close());
  const base=products.find(p=>p.id==='SMR-151');
- await app.db.put('products',base.id,{...base,variants:[{size:'30 ml',price:999}],pricingRevision:'old-import',available:false});
+ await app.db.put('products',base.id,{...base,variants:[{size:'30 ml',price:999}],pricingRevision:'old-import',manualPricingRevision:null,available:false});
  let effective=await getProduct(app.db,base.id);assert.equal(effective.variants[0].price,4.30);assert.equal(effective.available,false);assert(effective._version);
  const record=await app.db.get('products',base.id);await app.db.put('products',base.id,{...record,available:true},{version:record._version});
  const order=await saveOrder(app.db,{consent:true,customer:{name:'عميل الاختبار',phone:'0600000000',city:'الدار البيضاء',address:'عنوان تجريبي لا يخص عميلًا حقيقيًا'},items:[{productId:base.id,variantIndex:0,variantKey:base.variants[0].key,quantity:2,specification:''}]},randomUUID());
@@ -40,16 +40,16 @@ test('a new supplier revision replaces stale stored prices while preserving avai
  assert.equal((await publicProducts(app.db)).find(p=>p.id===base.id).variants[0].price,8);
 });
 test('checkout rejects a stale or mismatched variant key instead of silently switching capacities',async t=>{
- const app=await createApp({databasePath:':memory:'});t.after(()=>app.db.close());
+ const app=await createApp({databasePath:':memory:',products:structuredClone(products)});t.after(()=>app.db.close());
  const data={consent:true,customer:{name:'عميل الاختبار',phone:'0600000000',city:'الدار البيضاء',address:'عنوان اختبار غير حقيقي'},items:[{productId:'SMR-151',variantIndex:0,variantKey:'obsolete-capacity',quantity:1,specification:''}]};
  await assert.rejects(()=>saveOrder(app.db,data,randomUUID()),{status:409});delete data.items[0].variantKey;await assert.rejects(()=>saveOrder(app.db,data,randomUUID()),{status:409});
 });
 
-test('all products have prices and owner-adopted prices retain provenance and create regular orders',async t=>{
+test('historical owner-adopted prices retain provenance and create regular orders',async t=>{
  const estimates=JSON.parse(await readFile(new URL('../catalogue/estimated-prices-2026-10-24.json',import.meta.url),'utf8'));
  assert.equal(products.filter(p=>p.priceEstimate).length,76);assert(products.every(p=>p.variants.length));
  for(const entry of estimates.products){const p=products.find(p=>p.id===entry.productId);assert(p.priceEstimate);assert.deepEqual(p.variants.map(v=>({size:v.size,priceCents:Math.round(v.price*100)})),entry.variants.map(({size,priceCents})=>({size,priceCents})));assert(p.variants.every(v=>v.estimated&&v.key.startsWith('EST-')));assert(!p.priceSource);}
- const app=await createApp({databasePath:':memory:'});t.after(()=>app.db.close());const p=products.find(p=>p.id==='SMR-004');
+ const app=await createApp({databasePath:':memory:',products:structuredClone(products)});t.after(()=>app.db.close());const p=products.find(p=>p.id==='SMR-004');
  const result=await saveOrder(app.db,{customer:{name:'عميل الاختبار',phone:'0600000000',city:'الدار البيضاء',address:'عنوان اختبار غير حقيقي',email:'',note:''},items:[{productId:p.id,variantIndex:0,variantKey:p.variants[0].key,quantity:2,specification:''}],consent:true},randomUUID());
  assert.equal(result.row.status,'new');assert.equal(JSON.parse(result.row.items)[0].estimated,true);assert.equal(result.row.subtotal_cents,Math.round(p.variants[0].price*200));
 });

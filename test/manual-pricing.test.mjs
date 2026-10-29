@@ -1,0 +1,24 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+import {createApp} from '../server.mjs';
+import {getProduct,publicProducts,saveOrder} from '../lib/store.mjs';
+import {editProduct} from '../lib/product-editor.mjs';
+test('legacy base and custom prices reset; manual prices and blanks persist without changing old orders',async t=>{
+ const app=await createApp({databasePath:':memory:'});t.after(()=>app.db.close());const db=app.db;
+ const all=await publicProducts(db);assert.equal(all.length,250);assert(all.every(p=>p.variants.every(v=>v.price===null)));
+ const base=all.find(p=>p.id==='SMR-151');
+ await db.put('products',base.id,{...base,variants:base.variants.map(v=>({...v,price:999}))});
+ const custom={...base,id:'VEL-012345abcdef',custom:true,variants:[{size:'50 ml',price:99}]};await db.put('products',custom.id,custom);
+ assert.equal((await getProduct(db,base.id)).variants[0].price,null);
+ assert.equal((await getProduct(db,custom.id)).variants[0].price,null);
+ assert.equal((await publicProducts(db)).find(p=>p.id===custom.id).variants[0].price,null);
+ const input={consent:true,customer:{name:'عميل تجريبي',phone:'0600000000',city:'الرباط',address:'عنوان تجريبي للاختبار فقط'},items:[{productId:base.id,variantIndex:0,variantKey:base.variants[0].key,quantity:2}]};
+ const pending=await saveOrder(db,input,randomUUID());assert.equal(pending.row.total_cents,null);assert.equal(pending.row.status,'pricing_pending');
+ const current=await getProduct(db,base.id);const edited=editProduct(current,{available:true,variants:current.variants.map((v,i)=>({...v,price:i===0?12.5:null}))});await db.put('products',base.id,edited);
+ assert.equal((await getProduct(db,base.id)).variants[0].price,12.5);assert.equal((await getProduct(db,base.id)).variants[1].price,null);
+ db.products.find(p=>p.id===base.id).pricingRevision='later-supplier-import';assert.equal((await getProduct(db,base.id)).variants[0].price,12.5);
+ const priced=await saveOrder(db,input,randomUUID());assert.equal(priced.row.total_cents,2500);assert.equal(priced.row.shipping_cents,0);
+ assert.equal((await db.get('orders',pending.row.id)).total_cents,null);
+ const clear=editProduct(await getProduct(db,base.id),{available:true,variants:edited.variants.map(v=>({...v,price:null}))});await db.put('products',base.id,clear);assert.equal((await getProduct(db,base.id)).variants[0].price,null);
+});
